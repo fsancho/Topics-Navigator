@@ -1,7 +1,7 @@
 Topics-Navigator
 ================
 
-NetLogo model to manage, query and analyze Topics Networks
+NetLogo model to manage, query and analyze Semantic Networks
 
 Topics Navigator is a prototype model to experiment with some uses of graphs and hypergraphs for storing, 
 recovering and analyzing connected information.
