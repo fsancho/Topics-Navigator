@@ -1,0 +1,121 @@
+;-------------------------------------------------------------------------------------------------------------------------
+;-------------------------------------------------------------------------------------------------------------------------
+; Module for procedures creating/deleting data in the graph
+;-------------------------------------------------------------------------------------------------------------------------
+;------------------------------------------------------------------------------------------------------------------------- 
+
+; Warning: Currently the procedures must be refined to work with different sets of attributes.
+
+to add-topic
+  let att table:keys topic_attributes
+  hatch-topics 1
+  [
+    set topic_attributes table:make
+    set ID who
+    set Ttype (user-one-of "Select Type of Node" Topic-Types)
+    foreach att
+    [
+      let input (user-input (word "Enter "?))
+      if member? "(X)" ? [ set input read-from-string input]
+      write_topic_attr ? input  
+    ]
+    setxy random-pxcor random-pycor
+    set color item 0 (item (type-index TType)  Topics-Styles)
+    set shape item 1 (item (type-index TType)  Topics-Styles)
+    set size item 2 (item (type-index TType)  Topics-Styles)
+    show-topics self
+  ]
+  refresh
+end
+
+to add-link
+  let t1 self
+  let Rtype (user-one-of "Select Type of Relation and then select the target topic" RelationTypes);(filter [not Hyper? ?] RelationTypes))
+  let att table:keys [relation_attributes] of one-of rels with [RelType = Rtype]
+  let t2 nobody
+  while [t2 = nobody]
+  [
+    set t2 get-with-mouse
+  ]
+  let style (item (Rtype-index RType) Relations-Styles)
+  let dir last style
+  ifelse dir = 0
+  [
+    create-relation-with t2 
+    [
+      set relation_attributes table:make
+      foreach att
+      [
+        let input (user-input (word "Enter "?))
+        if member? "(X)" ? [ set input read-from-string input]
+        write_relation_attr ? input
+      ]
+      set color item 0 style
+      set shape item 1 (item (Rtype-index RType) Relations-Styles)
+      set thickness item 2 style
+      set original? true
+      set RelType Rtype
+      set vrelations (link-set vrelations self)
+    ]
+  ]
+  [
+    ifelse dir = 1
+    [
+      create-drelation-to t2 
+      [
+        set relation_attributes table:make
+        foreach att
+        [
+          let input (user-input (word "Enter "?))
+          if member? "(X)" ? [ set input read-from-string input]
+          write_relation_attr ? input
+        ]
+        set color item 0 style
+        set shape item 1 (item (Rtype-index RType) Relations-Styles)
+        set thickness item 2 style
+        set original? true
+        set RelType Rtype
+        set vrelations (link-set vrelations self)
+      ]
+    ]
+    [
+      let c [color] of one-of (turtle-set t1 t2) with [Ttype = Rtype]
+      create-relation-with t2 
+      [
+        set relation_attributes table:make
+        set color c
+        set RelType Rtype
+        set original? true
+        set label-color black
+        set vrelations (link-set vrelations self)
+      ]
+    ]
+      
+  ]
+end
+
+to delete-Node
+  if user-yes-or-no? "Caution!\n You are going to delete a topic, and this action is irreversible.\n Are you sure?"
+  [
+    set Run-out (word "ask topic " who " [die]")
+  ]
+end
+
+to delete-link
+  let i 1
+  ask my-rels 
+  [
+    set label (word i)
+    set i i + 1
+  ]
+  let res user-one-of "Select the relation you want to delete \n (remember that this action is irreversible)" (fput "None" sort ([label] of my-rels))
+  if res != "None"
+  [
+    ask one-of my-rels with [label = res]
+    [
+      die
+    ]
+  ]
+  ask my-rels [set label ""]
+end
+  

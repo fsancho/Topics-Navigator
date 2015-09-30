@@ -1,0 +1,605 @@
+;----------------------------------------------------------------------------------------------------
+;----------------------------------------------------------------------------------------------------
+; This module has some of the procedures about files: load, save, exports...
+;----------------------------------------------------------------------------------------------------
+;----------------------------------------------------------------------------------------------------
+
+; Procedure to add data to the system (it will not erase the previous one)
+to add-data
+  no-display
+  cd
+  file-close-all
+  ; ask the user for the file with the new data
+  let f user-file
+  if (f = false) [stop]
+  load:nlg-file f
+
+  ; Update the "Family" chooser with the Topic Types just read
+  goo:set-chooser-items "Family" (sentence "All" "Visible" "Selected" "Fixed" Topic-Types)
+  
+  ; Update global variables
+  set Temp-Selected no-turtles
+  ask turtles [ht]
+  ask links [hide-link]
+  set vrelations no-links
+  set T-visible no-turtles  
+  
+  ask drelations [ write_relation_attr "multiplicity" 1 ]
+  ask relations  [ write_relation_attr "multiplicity" 1 ]
+
+  display
+  ; Show a summary of the current memory sate
+  let ntopics (count topics with [not hyper? ttype])
+  let nrelations (count links with [not hyper? reltype])
+  let nhyper (count topics with [hyper? ttype])
+  user-message (word "Data added succesfully (in " timer " seconds)\n Topics: " ntopics " -- Relations: " nrelations " -- HyperRelations: " nhyper)
+  set processing "No Job..."
+end
+
+to input-file [file]
+  no-display
+  cd
+  ; ask the user for the file with the new data
+  load:nlg-file file
+
+  ; Update the "Family" chooser with the Topic Types just read
+  goo:set-chooser-items "Family" (sentence "All" "Visible" "Selected" "Fixed" Topic-Types)
+  
+  ; Update global variables
+  set Temp-Selected no-turtles
+  ask turtles [ht]
+  ask links [hide-link]
+  set vrelations no-links
+  set T-visible no-turtles  
+
+  display
+  ; Show a summary of the current memory sate
+  let ntopics (count topics with [not hyper? ttype])
+  let nrelations (count links with [not hyper? reltype])
+  let nhyper (count topics with [hyper? ttype])
+  print (word file ": Data added succesfully (in " timer " seconds)\n Topics: " ntopics " -- Relations: " nrelations " -- HyperRelations: " nhyper)
+  set processing "No Job..."
+end
+; Procedure to load a NLG file
+to load:nlg-file [file]
+  reset-timer
+  ; topics-load will contain a table with the topics ID and who numbers in order to make a faster loading of the edges
+  set topics-load table:make
+  if any? topics 
+  [ask topics [ table:put topics-load ID who ]]
+  ; Process the file by blocks
+  file-open file
+  while [not file-at-end?]
+  [
+    let line file-read-line
+    if (not empty? line) and (first line != "%")
+    [
+      process-block line
+    ]
+    file-open file
+  ]
+  file-close
+end
+
+; Procedure yo process blocks in the NLG file
+to process-block [line]
+  if member? "<Nodes>" line 
+  [
+    set processing "50%"
+    process-nodes 
+  ]
+  if member? "<Edges>" line
+  [
+    set processing "75%"
+    process-edges
+  ]
+  if member? "<NodesTypes>" line
+  [
+    set processing "0%"
+    process-node-types 
+  ]
+  if member? "<EdgesTypes>" line
+  [
+    set processing "25%"
+    process-edge-types 
+  ]
+  if member? "<Input>" line
+  [
+    process-input-file
+  ]
+  set processing "100%"
+end
+
+to-report read-block
+  let block []
+  let line file-read-line
+  while [not member? "<End" line]
+  [
+    set block lput read-from-string (word "[ " line "]") block
+    set line file-read-line
+  ]
+  ;show block
+  report block
+end
+
+; Procedure to process the Node Types block
+;   It will fill the Topic-Types and Topics-Styles lists
+to process-node-types
+  let block read-block
+  ;show block
+  ;let line file-read-line
+  let attrs-val []
+  ;while [not member? "<EndNodesTypes>" line]
+  foreach block
+  [
+    ;show ?
+    set attrs-val ?
+    if not member? (first attrs-val) Topic-Types
+    [
+      set Topic-Types lput (first attrs-val) Topic-Types
+      set Topics-Styles lput (lput false (bf attrs-val)) Topics-Styles
+    ]
+    ;set line file-read-line
+  ]
+end
+
+; Procedure to process the Input File block
+;   It will load the files
+to process-input-file
+  let line file-read-line
+  let files []
+  while [not member? "<EndInput>" line]
+  [
+    set files lput line files
+    set line file-read-line
+  ]
+  foreach files
+  [
+    show ?
+    input-file ?
+  ]
+end
+
+; Procedure to process the Edges Types block
+;   It will fill the Relation-Types and Relations-Styles list
+;   (and the Topic-Types and Topics-Styles list for hyperedges)
+to process-edge-types
+  let block read-block
+  ;let line file-read-line
+  let attrs-val []
+  ;while [not member? "<EndEdgesTypes>" line]
+  foreach block
+  [
+    ;show ?
+    set attrs-val ?;read-from-string (word "[ " line "]")
+    if not member? (first attrs-val) RelationTypes
+    [
+      set RelationTypes lput (first attrs-val) RelationTypes
+      set Relations-Styles lput (bf attrs-val) Relations-Styles
+      if (last attrs-val = 2)
+      [
+        set Hyper (lput (first attrs-val) Hyper)
+        set Topic-Types lput (first attrs-val) Topic-Types
+        set Topics-Styles lput (lput true (bf attrs-val)) Topics-Styles
+      ]
+    ]
+    ;set line file-read-line
+  ]
+end
+
+; Procedure to process the Nodes
+to process-nodes
+  let line file-read-line
+  ; Read the attributes of the block of nodes from the first lines
+  let attrs bf bf read-from-string (word "[ " line "]")
+  let attrs-val []
+  let block read-block
+  ;let line file-read-line
+  ; Read the attributes of the block of nodes from the first lines
+  ;set line file-read-line
+  ;while [not member? "<EndNodes>" line]
+  foreach block
+  [
+    ;show ?
+    set attrs-val ?;read-from-string (word "[ " line "]")
+    ; If the topic just read is new, we create it
+    ; if it exists, we ignore everything
+    if not any? topics with [ID = (first attrs-val)]
+    [
+      create-topics 1
+      [
+        set topic_attributes table:make
+        set ID first attrs-val
+        set TType first (bf attrs-val)
+        (foreach attrs (bf bf attrs-val)
+          [
+            write_topic_attr ?1 ?2
+          ])
+        setxy random-pxcor random-pycor
+        set color item 0 (item (type-index TType)  Topics-Styles)
+        set shape item 1 (item (type-index TType)  Topics-Styles)
+        set size item 2 (item (type-index TType)  Topics-Styles)
+        set label-color black
+        ; Put the new node to the auxiliary table { ID -> who }
+        table:put topics-load ID who
+        set topic_measures table:make
+        set selected? false
+        set fixed? false
+      ]
+    ]
+    ;set line file-read-line
+  ]
+end
+
+; Procedure to process edges
+to process-edges
+  let block read-block
+  ;let line file-read-line
+  let attrs first block;read-from-string (word "[ " line "]")
+  let attrs-val []
+  let dir 0
+  ;set line file-read-line
+  ;while [not member? "<EndEdges>" line]
+  foreach (bf block)
+  [
+    ;show line
+    set attrs-val ?;read-from-string (word "[ " line "]")
+    let soporte item 0 attrs-val
+    ; Check that every topic in the relation exists:
+    ; We store in "problems" the topics from soporte that doesn't appear on topics-load
+    let problems filter [not table:has-key? topics-load ?] soporte
+    ifelse empty? problems
+    [
+      let RType item 1 attrs-val
+      let style (item (Rtype-index RType) Relations-Styles)
+      set dir last style
+      ; if it is an hyperedge, we create the "topic" for the connector
+      ifelse dir = 2
+      [
+        let conector nobody
+        create-topics 1
+        [
+          set topic_attributes table:make
+          set topic_measures table:make
+          set ID (word RType soporte)
+          set TType Rtype
+          (foreach (bf bf attrs) (bf bf attrs-val)
+            [
+              write_topic_attr ?1 ?2
+            ])
+          write_topic_attr "label" TType
+          setxy random-pxcor random-pycor
+          let c item 0 (item (type-index TType)  Topics-Styles)
+          set color c
+          set shape item 1 (item (type-index TType)  Topics-Styles)
+          set size item 2 (item (type-index TType)  Topics-Styles)
+          set label-color color - 2
+          set selected? false
+          set fixed? false
+          ; and connect it to all the topics related with it
+          foreach soporte
+          [
+            create-relation-with (turtle table:get topics-load ?)
+            [
+              set relation_attributes table:make
+              set relation_measures table:make
+              set RelType Rtype
+              set color c
+              set original? true
+              set label-color c - 2
+            ]
+          ]
+        ]    
+      ]
+      ;if it is a normal edge, we take both ends and connect them
+      [
+        let t1 (turtle table:get topics-load (first soporte))
+        let t2 (turtle table:get topics-load (last soporte))
+        ; Case of undirected edge
+        ifelse dir = 0
+        [
+          ask t1 [
+            create-relation-with t2 
+            [
+              set relation_attributes table:make
+              set relation_measures table:make
+              set RelType RType
+              set color item 0 style
+              set shape item 1 (item (Rtype-index RType) Relations-Styles)
+              set thickness item 2 style
+              set original? true
+              set label-color color - 2
+              (foreach (bf bf attrs) (bf bf attrs-val)
+                [
+                  write_relation_attr ?1 ?2  
+                ])
+            ]]
+        ]
+        ; Case of directed edge
+        [ 
+          ask t1 [
+            create-drelation-to t2 
+            [
+              set relation_attributes table:make
+              set relation_measures table:make
+              set RelType RType
+              set color item 0 style
+              set shape item 1 (item (Rtype-index RType) Relations-Styles)
+              set thickness item 2 style
+              set original? true
+              set label-color color; - 2
+              (foreach (bf bf attrs) (bf bf attrs-val)
+                [
+                  write_relation_attr ?1 ?2
+                  
+                ])
+            ]]
+        ]
+      ]
+    ]
+    [
+      foreach problems
+      [
+        print ?;(word "Warning!: The topic \"" ? "\" appears in a relation and is not present in topic list.")
+      ]
+    ]
+    ;set line file-read-line
+  ]
+  
+  ; Process Timeline attribute: compute Max & Min values
+  ; Warning!!: be careful with several Timelines blocks
+  if member? "Timeline(X)" attrs
+  [
+    let minT min [first (first r_att "Timeline(X)")] of rels with [table:has-key? relation_attributes "Timeline(X)"]
+    set minTimeline minT
+    if any? topics with [Hyper? Ttype] 
+    [
+      let minT2 min [first (first t_att "Timeline(X)")] of topics with [Hyper? Ttype]
+      set minTimeline min (list minT minT2)
+    ]
+    let maxT max [last (last r_att "Timeline(X)")] of rels with [table:has-key? relation_attributes "Timeline(X)"]
+    set maxTimeline MaxT
+    if any? topics with [Hyper? Ttype] 
+    [
+      let maxT2 max [last (last t_att "Timeline(X)")] of topics with [Hyper? Ttype]
+      set maxTimeline max (list maxT maxT2)
+    ]
+  ]
+end
+
+; Process to save the current memory graph on a file
+to save:nlg-file
+  let visible? user-one-of "Save only visible?" ["yes" "no"]
+  let T-save no-turtles
+  let R-Save no-links
+  ifelse visible? = "yes"
+  [ 
+    set T-save Topics with [not hidden?]
+    set R-save rels with [not hidden?]
+    
+  ]
+  [ 
+    set T-save topics
+    set R-save rels  
+  ]
+  file-close-all
+  let f user-new-file
+  if (f = false) [stop]
+  if (file-exists? f) [file-delete f]
+  file-open f
+  ; Node Types
+  file-write "% Types of Nodes of the graph. Structure: Name color shape size" file-print ""
+  file-write "<NodesTypes>" file-print ""
+  (foreach Topic-Types Topics-styles
+  [
+    if (not (last ?2)) 
+      [
+        file-write ?1 file-write (item 0 ?2) file-write (item 1 ?2) file-write (item 2 ?2) file-print ""
+      ]
+  ])
+  file-write "<EndNodesTypes>" file-print ""
+  file-print ""
+  
+  ; Edge Types
+  file-write "% Types of Edges: Name color shape thickness Type(0: Undirected, 1: Directed, 2-Hyperedge)" file-print ""
+  file-write "%   if Hyperdege: Name color shape size Type" file-print ""
+  file-write "<EdgesTypes>" file-print ""
+  (foreach RelationTypes Relations-styles
+  [
+     file-write ?1 file-write (item 0 ?2) file-write (item 1 ?2) file-write (item 2 ?2) file-write (item 3 ?2) file-print ""
+  ])
+  file-write "<EndEdgesTypes>" file-print ""
+  file-print ""
+  
+  ; Nodes: a block for every Topic Type
+  let tt Topic-Types
+  foreach hyper [set tt remove ? tt]
+  
+  foreach tt
+  [
+    file-write "% Nodes of type: " file-write ? file-print""
+    file-write "<Nodes>" file-print ""
+    let atts (sentence "ID(X)" "NodeType(S)" [table:keys topic_attributes] of one-of topics with [ttype = ?])
+    foreach atts [file-write ?] file-print""
+    foreach sort-by [[ID] of ?1 < [ID] of ?2] (T-save with [ttype = ?])
+    [
+      ask ?
+      [
+        set atts (sentence ID TType (map [last ?] table:to-list topic_attributes))
+        foreach atts [file-write ?] file-print ""
+      ]
+    ]
+    file-write "<EndNodes>" file-print ""
+    file-print""
+  ]
+
+  ; Edges: a block for every Relation Type
+  foreach RelationTypes
+  [  
+    if any? R-save with [Reltype = ?]
+    [
+      file-write "% Edges & HyperEdges of the graph. Edges of type:" file-write ? file-print ""
+      file-write "<Edges>" file-print ""
+      
+      let atts_name [table:keys relation_attributes] of one-of rels with [reltype = ?]
+      foreach (sentence "ID-List(X)" "EdgeType(S)" atts_name) [file-write ?] file-print""
+      ifelse Hyper? ?
+      [
+        ask T-save with [ttype = ?]
+        [
+          let at (map [table:get topic_attributes ?] atts_name)
+          let atts (sentence (list (sort [[id] of other-end] of my-rels)) TType at)
+          foreach atts [file-write ?] file-print ""
+        ]
+      ]
+      [
+        ask R-save with [reltype = ?]
+        [
+          let atts (sentence (list (sort [id] of both-ends)) RelType (map [last ?] table:to-list relation_attributes))
+          foreach atts [file-write ?] file-print ""
+        ]
+      ]
+      file-write "<EndEdges>" file-print ""
+      file-print ""
+    ]
+  ]
+  file-close-all
+end
+;--------------------------------------------------------------------------------------------------
+;----------------------------------------------------------------
+; Procedures for export files
+;----------------------------------------------------------------
+
+; General procedurefor exporting
+to export
+  let f user-one-of "Choose an export method..." ["Query format" "CSV Table for Excel (bipartite)" "CSV Files for Gephi"]
+  if f = "Query format"
+  [ export-query-format ]
+  if f = "CSV Table for Excel (bipartite)"
+  [ export-table-bipartite ]
+  if f = "CSV Files for Gephi"
+  [ export-gephi ]
+end
+
+; Export Query Format
+to export-query-format
+  let f user-new-file
+  file-open f
+  file-write query-set
+  file-write global-restrictions
+  file-close-all
+end
+
+; Export a query in a CSV table (bipartite)
+to export-table-bipartite
+  let f user-new-file
+  file-open f
+  ; orig is the topic type of the topics where the query starts
+  let orig map [first first ?] query-set
+  ; goal is te topic type of the topics where the query ends
+  let goal map [first last ?] query-set
+  ; Topics that will appear in the rows
+  let rows-t (sort Topics with [(member? TType orig) and not hidden?])
+  ; IDs of the topics in the rows
+  let rows map [(word ([ID] of ?) "(" ([TType] of ?) ")")] rows-t
+  ; Topics that will appear in the columns
+  let columns-t (sort Topics with [(member? TType goal) and not hidden?])
+  ; IDs of the topics in the columns
+  let columns map [(word ([ID] of ?) "(" ([TType] of ?) ")")] columns-t
+  ; list that will keep the totals vy column
+  let sum-column map [0] columns
+  
+  let line reduce [(word ?1 ";" ?2)] columns
+  file-print (word orig "/" goal ";" line ";Total") 
+  ; For every element in the row
+  foreach rows-t
+  [
+    let el ?
+    ; We compute the weight of the edge linking this element with every column
+    let row map [compute-weight el ?] columns-t
+    ; acummulate the sum for the column
+    set sum-column (map [?1 + ?2] row sum-column)
+    ; compute the sum of the row
+    let sum-row sum row
+    ; write the row
+    set line reduce [(word ?1 ";" ?2)] row
+    file-print (word (word ([ID] of ?) "(" ([TType] of ?) ")") ";" line ";" sum-row) 
+  ]
+  ;write the row of totlas
+  set line reduce [(word ?1 ";" ?2)] sum-column
+  file-print (word  "Total;" line) 
+  file-close-all
+  
+end
+
+; Procedure to compute the weight of the edge between two topics
+to-report compute-weight [a b]
+  let edge qrelation ([who] of a) ([who] of b)
+  ifelse edge = nobody
+  [
+    report 0
+  ]
+  [
+    report [r_att "multiplicity"] of edge
+  ]
+end
+
+; Procedure to import a query
+to import-query
+  file-close-all
+  let f user-file
+  file-open f
+  set query-set file-read
+  set global-restrictions file-read
+  file-close-all
+  set query-path ""
+  show query-set
+  foreach query-set
+  [
+    set query-path (word query-path "P: " (reduce [(word ?1 " -> " (format-query ?2))] ?) " <= ADDED\n")
+  ]
+end
+
+; Procedure to format the query to show it in the output
+to-report format-query [tt]
+  show tt
+  ifelse empty? last tt
+  [
+    report first tt
+  ]
+  [
+    report (word (first tt) "(" (last tt) ")")
+  ]
+end
+
+; Procedure to export the graph to Gephi
+to export-gephi
+  let f user-input "Input the file base-name (it will produce two files: file-nodes.csv, file-links.csv)"
+  export-nodes-view (word f "-nodes.csv")
+  export-links-view (word f "-links.csv")
+end
+
+; Export nodes to Gephi
+to export-nodes-view [f]
+  file-open f
+  file-print (word "Id,Type,Label")
+  show T-visible
+  ask T-visible
+  [
+    file-print (word "\""Id"\",\"" TType "\"")
+  ]
+  file-close-all
+end
+
+; Export links to Gephi
+to export-links-view [f]
+  file-open f
+  file-print (word "Source,Target,Type,Weight")
+  ask links with [not hidden?]
+  [
+    let dir "undirected"
+    if breed != "relations" [set dir "directed"]
+    file-print (word "\""[Id] of end1 "\",\"" [id] of end2 "\"," dir "," (r_att "multiplicity"))
+  ]
+  file-close-all
+end

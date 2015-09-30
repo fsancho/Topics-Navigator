@@ -1,0 +1,194 @@
+to refresh-chooser-measure
+  goo:set-chooser-items "Choose-Measure" (list "degree" "in-degree" "out-degree" "Clust.Coef" "rank" "Shimbel" "eccentricity" "closeness")
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+to compute-clust-coef
+  let TT ifelse-value measure-only-visible? [T-visible  with [not hyper? ttype]] [Topics  with [not hyper? ttype]]
+  let RR ifelse-value measure-only-visible? [rels with [not hidden?]] [rels]
+  let tp count TT
+  let cont 0
+  ask TT
+  [
+    let vec my-neighbors
+    let k count vec
+    let cc 0
+    if k > 1 
+    [
+      let gf rels with [(member? end1 vec) and (member? end2 vec)]
+      set cc (2 * count gf / (k * (k - 1)))
+    ]
+    set-measure "Clust.Coef" cc
+    set cont cont + 1
+    set Processing (word (precision (cont * 100 / tp) 2) "%")
+  ]
+  set Processing "No Job..."
+end
+
+to compute-degrees
+  ifelse measure-only-visible?
+  [
+    ask T-visible
+    [
+      set-measure "degree" count my-rels with [not hidden?]
+      set-measure "indegree" count my-in-drelations with [not hidden?] 
+      set-measure "outdegree" count my-out-drelations with [not hidden?]
+    ]
+  ]
+  [
+    ask Topics
+    [
+      set-measure "degree" count my-relations
+      set-measure "indegree" count my-in-drelations 
+      set-measure "outdegree" count my-out-drelations
+    ]
+  ]
+  refresh-chooser-measure
+end
+
+to compute-with-shortest-paths
+  if count T-visible > 200
+  [
+    if not (user-yes-or-no? "There are too many visible topics. The system could hang if these measures are launche. Do you wish to continue?") [stop]
+  ]
+  set Processing "0%"
+  let tp count T-visible
+  let cont 0
+  ask T-visible
+  [
+    let dists [ network:link-distance myself relations] of other T-visible
+    set-measure "Shimbel" (sum dists)
+    set-measure "eccentricity" (max dists)
+    set-measure "closeness" (sum (map [ 2 ^ ?] (filter is-number? dists)))
+    set cont cont + 1
+    set Processing (word (precision (100 * cont / tp) 2) "%")
+  ]
+  set Processing "No Job..."
+  
+end
+;to-report in-relation? [ hood ]
+;  report ( member? end1 hood and member? end2 hood )
+;end
+
+;to histograma-conectividad
+;  let lista filter [is-number? ?] [label] of nodos
+;  let maxi max lista
+;  set-plot-y-range 0 1
+;  set-plot-pen-interval maxi / 20
+;  set-plot-x-range 0 (maxi + .1)
+;  histogram lista  
+;end
+;
+;to maximos-conectividad
+;  let n1 nodos with [label = 1]
+;  let t1 topicos with [any? n1 with [ID-padre = myself]]
+;  ask t1
+;  [type (word (item tipo TopicsTypes) "; ")]
+;end
+
+to compute-rank
+  let TT ifelse-value measure-only-visible? [T-visible] [Topics]
+  let RR ifelse-value measure-only-visible? [rels with [not hidden?]] [rels]
+  ask TT [set-measure "rank" 0]
+  ask TT [set-measure "rank" 1 / (count TT)]
+  set Processing "0%"
+  let cont 0
+  no-display
+  repeat 50
+  [
+    ask TT [ set-measure "new-rank" 0 ]
+    ask TT
+      [
+        let RN ifelse-value measure-only-visible? [my-neighbors with [not hidden?]] [my-neighbors]
+        ifelse any? RN
+        [
+          let rank-increment (get-measure "rank") / count RN
+          ;let rank-increment rank / (sum [peso] of my-aristas with [not hidden?])
+          ask RN
+          [
+            set-measure "new-rank" (get-measure "new-rank") + rank-increment
+          ]
+        ]
+        [
+          let rank-increment (get-measure "rank") / (count TT)
+          ask TT
+          [
+            set-measure "new-rank" (get-measure "new-rank") + rank-increment
+          ]
+        ]
+      ]
+    ask TT
+    [
+      set-measure "rank" (1 - 0.85) / (count TT) + 0.85 * (get-measure "new-rank")
+    ]
+    set cont cont + 1
+    set processing (word (cont * 2) "%")
+  ]
+  let Mmax max [get-measure "rank"] of TT
+  ask TT 
+  [
+    set-measure "rank" (get-measure "rank") / Mmax 
+    table:remove topic_measures "new-rank"
+  ]
+  display
+  refresh-chooser-measure
+end
+
+to compute-measure
+  if member? Choose-Measure  ["degree" "in-degree" "out-degree"] [ compute-degrees ]
+  if member? Choose-Measure ["Shimbel" "eccentricity" "closeness"] [ compute-with-shortest-paths ]
+  if Choose-Measure = "rank" [compute-rank]
+  if Choose-Measure = "Clust.Coef" [compute-clust-coef]
+end
+
+to Plot-measure
+  if Plot-Type = "Histogram" [Plot-histogram]
+  if Plot-Type = "Resize Topics" [Plot-resize]
+  if Plot-Type = "X versus Y" [Plot-versus]
+end
+
+
+to Plot-histogram
+  let TT ifelse-value measure-only-visible? [T-visible  with [table:has-key? topic_measures Choose-Measure]] [Topics  with [table:has-key? topic_measures Choose-Measure]]
+  clear-plot
+  set-plot-pen-mode 1
+  let values-list [get-measure Choose-Measure] of TT
+  let MMax max values-list
+  let mmin min values-list
+  set-plot-x-range 0 (MMax + MMax / 50)
+  set-plot-pen-interval min (list 1 ((MMax - mmin) / 100))
+  histogram values-list
+end
+
+to Plot-resize
+  let TT ifelse-value measure-only-visible? [T-visible  with [table:has-key? topic_measures Choose-Measure]] [Topics  with [table:has-key? topic_measures Choose-Measure]]
+  let MMax max [get-measure Choose-Measure] of TT
+  ask TT [set size 0.2 + (get-measure Choose-Measure) * 2 / MMax]
+end
+
+to Plot-versus
+  let CM2 user-one-of "Choose the measure to be used as Y axis" (goo:chooser-items "Choose-Measure")
+  let TT ifelse-value measure-only-visible? 
+    [T-visible  with [(table:has-key? topic_measures Choose-Measure) and (table:has-key? topic_measures CM2)]] 
+    [Topics  with [(table:has-key? topic_measures Choose-Measure) and (table:has-key? topic_measures CM2)]]
+  clear-plot
+  set-plot-pen-mode 2
+  let values-list [get-measure Choose-Measure] of TT
+  let MMax1 max values-list
+  let mmin1 min values-list
+  set-plot-x-range 0 1
+  set values-list [get-measure CM2] of TT
+  let MMax2 max values-list
+  let mmin2 min values-list
+  set-plot-y-range 0 1
+;  set-plot-pen-interval min (list 1 ((MMax - mmin) / 100))
+  ask TT [plotxy (get-measure Choose-Measure) / MMax1 (get-measure CM2) / MMax2]
+end
+
+to Summary
+  foreach Topic-Types
+  [
+    show (word ? ": " count topics with [ttype = ?])
+  ]
+end

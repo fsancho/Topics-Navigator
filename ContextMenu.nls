@@ -1,0 +1,94 @@
+;---------------------------------------------------------------------------------------------------------
+; Module with procedures to manage context menus
+;---------------------------------------------------------------------------------------------------------
+
+; Currently there are 2 contextual menus:
+;  a) Browser Menu: to navigate (show/hide/expand...) the graph
+;  b) Data Menu: to create/delete elements in the graph
+
+; Reads and creates menu items
+to setup-brwoser-menu
+  ask menu-items [die]
+  ;[Name Icon Commands]
+  let menu
+  (list
+    (list "Expand" "expand" "browser" task [expand-topic self])
+    (list "Hide" "hide" "browser" task [hide-topics self ask menu-items [ht] ask links-menu[hide-link]])
+    (list "Leave" "leave" "browser" task [leave self])
+    (list "Select" "select" "browser" task [select-topic wait .5])
+    (list "Fix" "fix" "browser" task [Fix-topic wait .2])
+    (list "Label" "label" "browser" task [ifelse (label = "") [show-one-label] [set label ""] wait .2] )
+    (list "New Node" "NewNode" "data" task [add-topic wait .2])
+    (list "Delete Node" "DeleteNode" "data" task [delete-Node wait .2])
+    (list "Edit Node" "pencil" "data" task [])
+    ;(list "New Hyper" "NewHyper" "data" task [])
+    (list "New Link" "NewLink" "data" task [add-link wait .2])
+    (list "Delete Link" "DeleteLink" "data" task [delete-link wait .2])
+    )
+  foreach menu
+  [
+    create-menu-items 1
+    [
+      set menu-item-Name (first ?)
+      set shape (item 1 ?)
+      set MType (item 2 ?)
+      set menu-Action (last ?)
+      ht
+    ]
+  ]
+end
+
+; Procedure to manage context menus
+to Active-Menu [Menu-Type]
+  ; If Topic-information? is enabled then shows the information fo the current topic (there is no need to click it)
+  if Topic-Information? [topic-inspect]
+  if mouse-down? 
+  [
+    ; take a candidate among visible topics and menu items
+    let candidate min-one-of (turtle-set T-Visible (menu-items with [not hidden?])) [distancexy mouse-xcor mouse-ycor]
+    if candidate != nobody
+    [
+      ifelse [distancexy mouse-xcor mouse-ycor] of candidate < 1 
+      [
+        ; if the candidate is a topic, then connect it to the menu items and enphasize its relations and start the action
+        ; of moving the topic
+        if [breed] of candidate = topics
+        [
+          ask relations with [not hidden? and thickness > 0][set thickness 0]
+          ask links-menu [die]
+          ask candidate 
+          [
+            create-links-menu-with menu-items with [MType = Menu-Type] [set color 115 set thickness 0 set shape "curve"]
+            ask my-relations [set thickness .3]
+          ]
+          ask menu-items with [MType = Menu-Type] [st set Parent candidate]
+          repeat 100 [ layout-spring menu-items links-menu 1 1 1]
+          wait .1
+          move-topic candidate
+        ]
+        ; if the candidate is a menu item, then execute its action 
+        if [breed] of candidate = menu-items
+        [
+          let par [ parent       ] of candidate
+          let acc [ menu-Action  ] of candidate
+          ask par [ run acc      ]
+          if not (Run-out = "")
+          [
+            run Run-out
+            set Run-out ""
+          ]
+          ask links-menu [die]
+          ask menu-items [ht]
+        ]
+      ]
+      ; if the user clicks on an empty space, hides everything and start the action of moving the selected topics
+      [
+        ask informers [ht]
+        ask links-menu [die]
+        ask menu-items [ht]
+        ask relations with [not hidden? and thickness > 0][set thickness 0]
+        move-topics-selected
+      ]
+    ]
+  ]
+end

@@ -1,0 +1,29 @@
+to export-gs
+  gs-hide
+  ifelse any? T-visible
+  [
+    let status gs:add-singlegraph "View"
+    set status gs:start-viewer gs:current-graph-name
+    set status gs:add-all-nodes T-visible
+    set status gs:add-all-edges links with [not hidden?]
+  ]
+  [
+    user-message "There is nothing to show"
+  ]
+end
+
+to gs-hide
+  foreach gs:viewers-names
+  [ let status gs:close-viewer ?
+    
+    ifelse status
+    [ output-print (word "Viewer " ? " closed") ]
+    [ output-print (word "Problem with the viewer " ?) ] ]
+  
+  foreach gs:graphs-names
+  [ let status gs:clear-graph ?
+    
+    ifelse status
+    [ output-print (word "Graph " ? " cleared") ]
+    [ output-print (word " Problem with the graph " ?) ] ]
+end

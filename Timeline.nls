@@ -1,0 +1,126 @@
+;-------------------------------------------------------------
+; Procedures for Timeline
+;-------------------------------------------------------------
+
+; Relation Procedure: Given a temporal interval, [t1, t2], returns if the relations must be visible
+;  in it
+to-report rel-visible? [t1 t2]
+  let timeline  r_att "Timeline(X)"
+  let I2 (list t1 t2)
+  report reduce [?1 or ?2] (map [interval-intersection? ? I2] timeline)
+end
+
+; Same as previous, but for hyperdges
+to-report hrel-visible? [t1 t2]
+  let timeline  t_att "Timeline(X)"
+  let I2 (list t1 t2)
+  report reduce [?1 or ?2] (map [interval-intersection? ? I2] timeline)
+end
+
+; Shows only the topics and relations that must be visible in the current time interval
+;   Remember that only relations has temporal attributes... a topic will be shown if it
+;   belongs to a visible relation.
+to Visualize
+  ; Lets consider the relations with temporal attributes
+  let th rels with [table:has-key? relation_attributes "Timeline(X)"]
+
+  ;Hide the current visible ones that must be not visible
+  ask th with [not hidden? and not rel-visible? Start-Interval End-Interval]
+  [
+    hide-link
+  ]
+  
+  ; Lets consider the Hyper-relations with temporal attributes
+  set th topics with [table:has-key? topic_attributes "Timeline(X)"]
+  ;Hide the current visible ones that must be not visible
+  ask th with [not hrel-visible? Start-Interval End-Interval]
+  [
+    ht
+    ask my-rels [ hide-link ]
+  ]
+  ; Hide the visible topics that has no visible relations
+  ask topics with [not hidden? and not any? my-rels with [not hidden?]]
+  [ ht ]
+    
+  ;Show the relations (and topics) that must be visible
+  let timerels rels with [table:has-key? relation_attributes "Timeline(X)"]
+  ask timerels with [rel-visible? Start-Interval End-Interval]
+  [
+    show-link
+    ask both-ends [st]
+  ]
+  ;Show the hyper-relations (and topics) that must be visible
+  set timerels topics with [table:has-key? topic_attributes "Timeline(X)"]
+  ask timerels with [hrel-visible? Start-Interval End-Interval]
+  [
+    st
+    ask my-rels 
+    [
+      show-link
+      ask both-ends [st]
+    ]
+  ]
+  display
+  ; Update global visible sets
+  set T-visible topics with [not hidden?]
+  set vrelations links with [not hidden?]
+end
+
+; Two intervals have nonempty intersection if one of them contains the lower extreme of the other
+to-report interval-intersection? [I1 I2]
+  let a1 first I1
+  let b1 last I1
+  let a2 first I2
+  let b2 last I2
+  report (a1 <= a2 and a2 <= b1) or (a2 <= a1 and a1 <= b2)
+end
+
+; Moves forward and visualize the visible interval in an infinite loop
+to play
+  every 1 / (1 + speed)
+  [
+    set Start-Interval Start-Interval + 1
+    set End-Interval End-Interval + 1
+    if End-Interval > MaxTimeline
+    [
+      let length-Interval (End-Interval - Start-Interval)
+      set Start-Interval 0
+      set End-Interval length-Interval
+    ]
+    set processing (word "[" start-interval "," end-interval "]")
+    Visualize
+  ]
+end
+
+; Moves backward and visualize the visible interval in an infinite loop
+to play-back
+  every 1 / (1 + speed)
+  [
+    set Start-Interval Start-Interval - 1
+    set End-Interval End-Interval - 1
+    if Start-Interval = 0
+    [
+      let length-Interval (End-Interval - Start-Interval)
+      set End-Interval MaxTimeline
+      set Start-Interval End-Interval - length-Interval
+    ]
+    Visualize
+  ]
+end
+
+; Moves the visible interval to the end
+to end-timeline
+    let length-Interval (End-Interval - Start-Interval)
+    set End-Interval MaxTimeline
+    set Start-Interval End-Interval - length-Interval
+    Visualize
+end
+
+
+; Moves the visible interval to the start
+to start-timeline
+  let length-Interval (End-Interval - Start-Interval)
+  set Start-Interval 0
+  set End-Interval length-Interval
+  visualize
+end

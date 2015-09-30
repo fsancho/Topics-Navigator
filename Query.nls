@@ -1,0 +1,515 @@
+;----------------------------------------------------------------------------------------------------
+;----------------------------------------------------------------------------------------------------
+; This module is in charge to generate and launch the Query System by using traversals
+;----------------------------------------------------------------------------------------------------
+;----------------------------------------------------------------------------------------------------
+
+; Prepare the Query System to start with a new set of queries
+to new-query-set
+  ; reset the relations in the Schema
+  ask srelations [set thickness 0 set color grey]
+  set current-query[]
+  set Query-set []
+  set Global-restrictions []
+  set query-path "P: "
+end
+
+; Add the current query to the set of queries and prepares the system to enter a new query path
+to new-query
+  if not empty? current-query
+  [  
+    set Query-set lput (map [bf ?] current-query) query-set  
+    set Global-restrictions lput (user-input "Global restriction for this query?") Global-restrictions
+    set query-path (word query-path " <= ADDED\nP:")
+  ]
+  set current-query []
+end
+
+; Erase the relations obtained from the las launched query
+to clear-query
+  ask qrelations [die]
+  ask qrelations [set multiplicity 0]
+  ask rels with [not original? ][die]
+  show-hide-scheme
+  output-print "Clear Query Layer..."
+end
+
+; Procedimiento que construye la consulta individual de forma interactiva con el rat�n
+; Una consulta individual es de la forma [[v1 r1] [v2 r2] ... [vn rn]]
+; donde vi es un nodo del esquema 
+; y ri es una restricci�n sobre ese tipo de nodos
+
+to selectQ
+  let candidate nobody
+  if mouse-down? 
+  [
+    let resp 0
+    set candidate min-one-of nodes-schema [distancexy mouse-xcor mouse-ycor]
+    if candidate != nobody
+    [ ask candidate [if (distancexy mouse-xcor mouse-ycor) > 1 [set resp 1]] ]
+    ifelse (resp = 1) 
+    [set candidate nobody]
+    [
+      ifelse not empty? current-query
+      [
+        ask (first last current-query)
+        [
+          if out-srelation-neighbor? candidate
+          [
+            ask out-srelation-to candidate 
+            [
+              set thickness .15 
+              set color (item (1 + length query-set) base-colors) 
+            ]
+            let res (user-input "Restrictions?")
+            set query-path (word query-path " -> (&" (length current-query + 1) ") " [node-Name] of candidate (ifelse-value (empty? res) [""][(word "(" res ")")]))
+            set current-query lput (list candidate ([node-name] of candidate) res) current-query
+          ]
+        ]
+      ]
+      [
+        let res (user-input "Restrictions?")
+        set query-path (word query-path "(&1) "[node-Name] of candidate (ifelse-value (empty? res) [""][(word "(" res ")")]))
+        set current-query lput (list candidate ([node-name] of candidate) res) current-query
+      ]
+      wait .5
+    ]
+  ]  
+end  
+
+; Procedimiento que lanza la consulta 
+to query 
+  if empty? query-set
+  [
+    user-message "A path must be defined. Press on \"Add to path\" to define a new one."
+    stop
+  ]
+  show-hide-scheme
+  output-print "Launching Query..."
+  ; Para cada path de la consulta
+  (foreach query-set global-restrictions
+  [
+    ; tomamos la consulta individual
+    let qu ?1
+    let gr ?2
+    ; de �l, tomamos el path
+    let p map [first ?1] qu
+    ; y las restricciones
+    let res map [last ?1] qu
+    output-print section (word "P: " (reduce [(word ?1 " -> " ?2)] p)) 37
+    ; Lanzamos la consulta individual, mandando las restricciones globales procesadas
+    query-aux-r p res (procesa gr)
+  ])
+  set T-visible topics with [not hidden?]
+  set vrelations (link-set vrelations qrelations)
+end
+
+; Procedimiento que ejecuta una consulta individual
+; p: path de la consulta [v1...vn]
+; res: restricciones de la consulta [r1...rn]
+
+to query-aux-r [p res gr]
+  show p
+  ; Tomamos el conjunto de t�picos que ser�n origen del traversal
+  let orig topics with [ttype = (first p)]
+  ; y los filtramos por su restricci�n si es que las tiene
+  if (first res) != ""
+  [  set orig runresult (word "orig" " with [" (first res) "]") ]
+  ; Mostramos los nodos resultantes de alguna consulta que no se haya limpiado... por si 
+  ; esta consulta a�ade a la anterior
+  ask rels with [not original? ][show-topics both-ends]
+  ; Para cada nodo de origen lanzamos el traversal
+  let Total count orig
+  let parcial 1
+  ask orig
+  [
+    ;repeat 50 [layout]
+    set processing (word (round (parcial / Total * 100)) "%...")
+    set parcial parcial + 1
+    display
+    ; montamos los traversals v�idos que parten de �l (como estructra de �rbol en listas)
+    let tt traversal (list (list self 0)) (bf p) (bf res) 0
+    
+    ; extraemos los nodos finales de esos traversals (se pod�a hacer m�s f�cil, pero (extrae-listas-independientes tt)
+    ; nos proporciona los traversal completos y podemos usarlos para consultas en que el resultado sea una hiperarista
+    ; o para hacer restricciones globales
+    
+    ; Extraemos los camino de manera independiente
+    let ind (extrae-listas-independientes tt)
+    
+    ; Filtramos aquellos que no tengan la longitud requerida
+    set ind filter [length ? = length p] ind
+    
+    ; Aplicamos las restricciones
+    if gr != "  "
+    [
+      set ind filter [apply-restriction ? gr] ind
+    ]
+    
+    ; Nos quedamos con el �ltimo nodo del camino (no consideramos otras opciones, por ahora, para crear hiperaristas
+    let rep-nodo map [first last ?] ind
+    
+    ; Si hay alg�n nodo resultante
+    if length rep-nodo >= 1
+    [
+      ; mostramos el nodo origen
+      ;show-topics self
+      setxy random-pxcor random-pycor
+      ;Fix-Topic
+      st
+      ; nos quedamos con la lista de nodos resultantes (sin repeticiones)
+      let rep-nodo-aux remove-duplicates rep-nodo
+      ; y para cada uno de ellos
+      foreach rep-nodo-aux
+      [
+        let n2 ?
+        ; calculamos su peso por las veces q se repite
+        let peso-aux length filter [? = n2] rep-nodo
+        ; lo mostramos
+        ;show-topics ?
+        ;ask ? [st ]
+        ; y creamos/modificamos la arista en funci�n de su peso
+        ifelse out-qrelation-neighbor? n2
+        [
+          ask out-qrelation-to n2 
+          [
+            set multiplicity multiplicity + peso-aux
+            if thickness < .8 [  set thickness 0.005 * multiplicity ]
+            set label multiplicity
+          ]
+        ]
+        [
+          if ? != self
+          [create-qrelation-to n2 
+            [
+              set shape "query"
+              set color (list 0 0 0 70) 
+              set label-color black
+              set multiplicity peso-aux
+              if thickness < .8 [  set thickness 0.005 * multiplicity ]
+              set label multiplicity
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+end
+
+;; Report que aplica la restricci�n global a un camino concreto, devolviendo true/false
+to-report apply-restriction [el gr]
+  ; Nos quedamos solo con los t�picos que forman el camino (no los niveles que ocupan)
+  set el map [first ?] el
+  ; formamos el map de la restricci�n sobre la lista formada por ese camino
+  ;   nos hace falta hacer (list el) para poder aplicarle el map  que as� aprovechar el "?"
+  let res runresult (word "map [" gr "] (list  el)")
+  report first res
+end
+
+to show-query 
+  (foreach query-set global-restrictions
+    [
+      let vi map [first ?] ?1
+      let ci map [last ?] ?1
+      let ms (word "Connect " (first vi) " with " (last vi) " if there exists a path verifying:\n")
+      let n 1
+      (foreach vi ci
+        [
+          let mci ""
+          if ?2 != "" [set mci (word ", verifying " ?2 ", ")]
+          set ms (word ms "(&" n ") "?1 mci " -> \n")
+          set n n + 1
+        ])
+      if ?2 != "" [set ms (word ms "Where " ?2)]
+      user-message ms
+      ;show ms
+    ])
+end
+
+; La funcion traversal construye recursivamente la lista de traversals que verifican path
+; construye una estructura de arbol por niveles de la siguiente forma 
+
+; [[a 0] [b 1] [d 2] [e 2] [c 1] [g 2]] para a -> b,c; b -> d,e; c -> g
+;     a 
+;    / \
+;   b   c
+;  / \   \
+; d   e   g 
+
+; considera las restricciones
+;
+; traversal (list (list self 0)) (bf p) (bf res) 0
+; 
+; trav: lista de traversals que se va construyendo. Parte de [[orig 0]]
+; path: resto del path que se desea construir. Parte del camino completo
+; res: resto de restricciones que deben verificar los topicos del camino
+; n: nivel del �rbol que se est� construyendo
+
+to-report traversal [trav path res n]
+  ; Si hemos acabado el path, devolvemos el resultado
+  ifelse empty? path
+  [
+    report trav
+  ]
+  [ ; si no...
+    ; en l-aux construimos la continuaci�n de trav para este paso
+    let l-aux []
+    ; Para cada nodo del traversal
+    foreach trav
+    [
+      ; Si el nivel del nodo es n
+      ifelse nivel ? = n
+      [
+        ; Lo continuamos a�adiendo los vecinos que verifiquen el traversal
+        let vo [vecinos-originales with [TType = (first path)]] of (first ?)
+        ; y si hay restricciones, filtramos aquellos que las verifiquen
+        if (first res) != ""
+        [  set vo runresult (word "vo" " with [" (first res) "]") ]
+        ; Si queda algun nodo tras el filtradp
+        ifelse any? vo
+        [
+          ; ampliamos l-aux con el nodo analizado y sus vecinos
+          set l-aux (sentence l-aux (list ?) (map [list ? (n + 1)] (sort vo)))
+        ]
+        [
+          ; si no, eliminamos en cascada toda la rama (porque no acaba en un traversal v�lido)
+          set l-aux elimina-en-cascada l-aux n
+        ]
+      ]
+      [
+        ; si el nodo no tiene el nivel actual, ya ha sido analizado, asi que lo dejamos
+        set l-aux lput ? l-aux
+      ]
+    ]
+    ; llamamos recursivamente a la misma funci�n con los nuevos valores
+    report traversal l-aux (bf path) (bf res) (n + 1)
+  ]
+end
+
+; Funci�n de tortuga: Devuelve los vecinos del nodo seg�n las relaciones originales (no las a�adidas por los traversals)
+to-report vecinos-originales
+  report turtle-set [other-end] of my-rels with [original?]
+end
+
+; Elimina en cascada un nodo y todos los que le preceden en su rama y que no han proporcionado un camino v�lido
+
+to-report elimina-en-cascada [l n]
+  ifelse empty? l
+  [
+    report l
+  ]
+  [
+    let nn nivel (last l)
+    ifelse (nn = n - 1) and (nn > 0)
+    [
+      report elimina-en-cascada (bl l) (n - 1)
+    ]
+    [
+      report l
+    ]
+  ]
+end
+  
+; De un par de la forma [a n] devuelve n = nivel de a en el �rbol
+to-report nivel [el]
+  report last el
+end
+
+; de una lista del tipo [[a 0] [b 1] [d 2] [e 2] [c 1] [g 2]], saca las ramas del arbol de forma independiente:
+; [a b d]
+; [a b e]
+; [a c g]
+
+to-report extrae-listas-independientes [l]
+  let rep []
+  if not empty? l
+  [
+    let aux (list first l)
+    foreach bf l
+    [
+      let nn nivel ?
+      ifelse nn > nivel (last aux)
+      [
+        set aux lput ? aux
+      ]
+      [
+        set rep lput aux rep
+        set aux filter [nivel ? < nn] aux
+        set aux lput ? aux
+      ]
+    ]
+    set rep lput aux rep
+  ]
+  report rep
+end
+
+
+; Filtra la consulta seg�n el valor del umbral, eliminando aquellos nodos cuyo grado 
+; (en la consulta) es inferior al umbral
+
+to Filter-query [umbral]
+  let orig map [first first ?] query-set
+  let goal map [first last ?] query-set
+  let topics-to-filter T-visible with [((member? TType orig) or (member? TType goal)) and sum [multiplicity] of my-rels with [not original?] < umbral]
+  hide-topics  topics-to-filter
+  ask rels with [not original? and count both-ends with [not hidden?] < 2] [hide-link]
+  hide-topics topics with [my-rels with [not original? and not hidden?] = no-links]
+  output-print (word "Filter applied: " umbral "\n   " (count topics-to-filter) " topics hidden")
+end
+
+
+;----------------------------------------------------------------------------------------------------------
+; Funciones de esquema
+;----------------------------------------------------------------------------------------------------------
+
+;Genera el Esquema de Grafo a partir de las relaciones existentes entre los diversos tipos de nodos
+to crea-esquema
+  ; Se ocultan todos los t�picos
+  ask topics [ht]
+  ask links [hide-link]
+  set T-visible no-turtles
+  ;hide-topics topics
+  ; Eliminar esquema anterior
+  ask nodes-schema [die]
+  ; Extraer los tipos existentes en la GDB
+  let tipos Topic-Types;(remove-duplicates [TType] of topics)
+  ; Para cada tipo...
+  foreach tipos
+  [
+    ; Crear un nodo del esquema
+    create-nodes-schema 1
+    [
+      set Node-Name ?
+      ifelse member? ? Hyper
+      [set size 1 set shape "hyper-tipo"]
+      [set size 2 set shape "tipo"]
+      set color white
+      set label ?
+      set label-color black
+      setxy (random-pxcor / 2) (random-pycor / 2)
+    ]
+  ]
+  ; Extraer las posibles relaciones entre tipos
+  ;let pares remove-duplicates map [sort ?] ([(list ([TType] of end1) ([TType] of end2) (list RelType))] of rels with [original?])
+    let pares remove-duplicates ([(list ([TType] of end1) ([TType] of end2)  RelType)] of rels with [original?])
+  ; Crear las relaciones entre los nodos del esquema
+  ;show pares
+  foreach pares
+  [
+    ;show ?
+    let a first ?
+    let b first bf ?
+    let c last ?
+    let n1 one-of nodes-schema with [Node-Name = a]
+    let n2 one-of nodes-schema with [Node-Name = b]
+    let nn1 [who] of n1
+    let nn2 [who] of n2
+    if n1 != n2 
+    [ 
+      ifelse (srelation nn1 nn2) = nobody
+      [
+        ask n1 [create-srelation-to n2 [set shape "Curve" set label (word label c) set label-color grey]] 
+        ask n2 [create-srelation-to n1 [set shape "Curve"]] 
+      ]
+      [
+        ask (srelation nn1 nn2) [set label ifelse-value (member? c label) [label] [(word label "||" c)]]
+        ask (srelation nn2 nn1) [set label ifelse-value ( member? c label) [label] [(word label "||" c)]]
+      ]
+    ]
+  ]
+  ; Proceso para dar un layout adecuado al esquema de forma autom�tica
+  set Tension 30
+  set radius 2
+  repeat 100 [layoutQ]
+  set Tension 10
+  set spring-constant .7
+  set spring-length 5
+  set repulsion-constant 1.5
+  repeat 300 [layoutQ]
+end
+
+; Procedimiento que muestra/oculta el esquema
+to show-hide-scheme
+  ifelse any? nodes-schema with [not hidden?]
+  [
+    ask nodes-schema [ht]
+    ask srelations [hide-link]
+  ]
+  [
+    ;hide-topics (Topic-Set "All")
+    ask topics [ht]
+    ask links [hide-link]
+    set T-visible no-turtles
+    ask nodes-schema [st]
+    ask srelations [show-link]
+  ]
+end
+
+;----------------------------------------------------------------------------------------------------------
+; Funciones de layout para el esquema
+;----------------------------------------------------------------------------------------------------------
+
+to layoutQ
+  no-display
+  ; Calcula el centro de gravedad
+  let cx mean [xcor] of Nodes-schema 
+  let cy mean [ycor] of Nodes-schema 
+    ; Desplaza el conjunto de manera que el centro de gravedad caiga en el (0,0)
+  ask Nodes-schema
+    [ 
+      let xcor1 (xcor - (cx / 100))
+      let ycor1 (ycor - (cy / 100)) 
+      if (xcor1 >= (min-pxcor + 1) and xcor1 <= (max-pxcor - 1)) [set xcor xcor1]
+      if (ycor1 >= (min-pycor + 1) and ycor1 <= (max-pycor - 1)) [set ycor ycor1]
+    ]
+  ;run table:get Layout:Modes Layout-Mode
+  spring-layoutQ
+;  ;  if layout-mode <= 1 [hyp-layout]
+  ARF-layoutQ
+;  ;if layout-mode >= 1 [hyp-layout]
+  display
+end
+
+to spring-layoutQ
+  ; Aplica el algoritmo de reordenaci�n
+  layout-spring Nodes-schema srelations spring-constant spring-length  repulsion-constant
+end
+
+
+to ARF-layoutQ
+
+  ; Aplica el algoritmo de reordenaci�n
+  
+  let b1 radius * 10
+  let b2 b1 * 1.4 * max-pycor / max-pxcor
+  let K 0
+  ask Nodes-schema
+  [
+    let x1 xcor
+    let y1 ycor
+    let S1 0
+    let S2 0
+    ask other Nodes-schema
+    [
+      let v1 0
+      let v2 0
+      ifelse out-srelation-neighbor? myself
+      [ set K tension ]
+      [ set K 1]
+      let d distance myself
+      if (d > 0)
+      [
+        set v1 (K - b1 / d) * (xcor - x1)
+        set v2 (K - b2 / d) * (ycor - y1)
+      ]
+      set S1 S1 + v1
+      set S2 S2 + v2
+    ]
+    
+    let xcor1 xcor + S1 / 500
+    let ycor1 ycor + S2 / 500
+    if (xcor1 >= min-pxcor and xcor1 <= max-pxcor) [set xcor xcor1]
+    if (ycor1 >= min-pycor and ycor1 <= max-pycor) [set ycor ycor1]
+    ;set size .5 + (3 / (distancexy 0 0))
+  ]
+end

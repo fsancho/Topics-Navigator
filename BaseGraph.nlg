@@ -1,0 +1,19 @@
+% Types of Nodes of the graph. Structure: Name color shape size
+<NodesTypes>
+<EndNodesTypes>
+
+% Types of Edges: Name color shape thickness Type(0: Undirected, 1: Directed, 2-Hyperedge)
+%   if Hyperdege: Name color shape size Type
+<EdgesTypes>
+"NLG:Query" 	grey 		"curve1.0"	0		1
+<EndEdgesTypes>
+
+% Nodes of the graph. Structure: ID NodeType Attributes...
+<Nodes>
+<EndNodes>
+
+% Edges & HyperEdges of the graph. Structure: [ID-list] EdgeType Attributes...
+% Special Attribute "Timeline(X)"
+<Edges>
+<EndEdges>
+

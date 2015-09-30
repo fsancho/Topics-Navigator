@@ -1,0 +1,164 @@
+;----------------------------------------------------------------------------------------------------
+;----------------------------------------------------------------------------------------------------
+; This module contains auxiliar functions
+;----------------------------------------------------------------------------------------------------
+;----------------------------------------------------------------------------------------------------
+
+; Splits a string (s) in sections of length (l) in lines
+to-report section [s l]
+  ifelse length s <= l
+  [ report s ]
+  [ report (word (substring s 0 l) "\n     " (section (substring s l ((length s)) ) l))]
+end
+
+; Reports the numerical value of a string (if it is a number) or false otherwise
+to-report to-number [s]
+  carefully 
+  [ 
+    ifelse is-number? read-from-string s
+    [report read-from-string s]
+    [report false]
+  ]
+  [report false]
+end
+;to-report to-numbr [s]
+;  let temp s
+;  if (first temp = "-") [set temp bf temp]
+;  foreach (n-values 10 [?])
+;  [
+;    set temp remove (word ?) temp
+;  ]
+;  ifelse (temp = "" or temp = ".")
+;  [
+;    report read-from-string s
+;  ]
+;  [
+;    report false
+;  ]
+;end
+
+; Returns n spaces
+to-report spaces [n]
+  let rep ""
+  repeat n [set rep (word rep " ")]
+  report rep
+end
+
+; Cut a string to length l (adding ... if it is longer)
+to-report cut [s l]
+  ifelse length s <= l
+  [report s]
+  [report (word (substring s 0 (l - 1)) "...")]
+end
+
+;-------------------------------------------------------------------------------
+; Procedures for processing the string global restrictions on queries
+;-------------------------------------------------------------------------------
+
+; Utiliza la funci�n encuentra&n para procesar la cadena y sustituir los patrones &n por (item (n-1) ?)
+to-report procesa [s]
+  let s1 (word " " s " ")
+  let r find&n s1
+  while [r != -1]
+  [
+    set s1 (word (substring s1 0 (item 0 r)) " (item " ((item 2 r) - 1) " ?) " (substring s1 (item 1 r) (length s1)))
+    set r find&n s1
+  ]
+  report s1
+end
+
+; Finds the pattern &n in string s and returns [pos1 pos2 n]
+; pos1: where the pattern starts
+; pos2: where the pattern ends
+; n: numerical value for n
+
+to-report find&n [s]
+  set s change-string s
+  let pos1 position "&" s
+  ifelse pos1 != False
+  [
+    let s1 substring s pos1 (length s)
+    let pos2 pos1 + position "*" s1
+    report (list pos1 pos2 read-from-string (substring s (pos1 + 1) pos2))
+  ]
+  [
+    report -1
+  ]
+end
+
+; Changes a non numerical character (or "&") by "*"
+to-report change-string [s]
+  let res ""
+  foreach (n-values (length s) [?])
+  [
+    set res (word res (change-char (item ? s)))
+  ]
+  report res
+end
+
+to-report change-char [char]
+  ifelse (member? char "&0123456789") [report char] [report "*"]
+end
+
+; Function to test the previous functions
+to test
+  let s1 "&1 = &2"
+  let s2 "&1=&2"
+  let s3 "&15 = &22"
+  show (word s1 " -> " procesa s1)
+  show (word s2 " -> " procesa s2)
+  show (word s3 " -> " procesa s3)
+end
+
+;--------------------------------------------------------------------------------
+; Procedures to manage attributes
+;--------------------------------------------------------------------------------
+
+; Topics: Write the value val on attribute attr 
+to write_topic_attr [attr val]
+  table:put topic_attributes attr val
+end
+
+; Topics: Get attribute attr
+to-report t_att [attr]
+  report table:get topic_attributes attr
+end
+
+; Relations: Write the value val on attribute attr 
+to write_relation_attr [attr val]
+  table:put relation_attributes attr val
+end
+
+; Relations: Get attribute attr
+to-report r_att [attr]
+  report table:get relation_attributes attr
+end
+
+; Measures: Write value val on attribute attr 
+to set-measure [attr val]
+  table:put topic_measures attr val
+end
+
+; Measures: Get attribute attr
+to-report get-measure [attr]
+  report table:get topic_measures attr
+end
+
+
+to aux1
+    set Layout:Modes table:from-list (list
+    (list "Spring" task [spring-layout])
+    (list "ARF" task [ARF-layout])
+    (list "ARF Weighted" task [ARF-Weighted-layout])
+    (list "ARF QWeighted" task [ARF-QWeighted-layout])    
+    (list "Spring + ARF" task [spring-layout ARF-layout])
+    (list "Hyp" task [hyp-layout])
+    (list "Spring + Hyp" task [spring-layout hyp-layout])
+    (list "Hyp + ARF" task [hyp-layout ARF-layout])
+    (list "Circle" task [circle-layout])
+    (list "Radial" task [radial-layout])
+    (list "C. Bipartite" task [C-Bipartite])
+    )
+    goo:set-chooser-items "Layout-mode" (map [first ?] (table:to-list Layout:Modes))
+
+end
