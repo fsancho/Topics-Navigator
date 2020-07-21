@@ -1,0 +1,973 @@
+Source,Target,Type,Weight
+"Taxodiaceae","María Luisa",directed,1
+"Pinaceae","Barranco-Colón-Ayto",directed,2
+"Caesalpiniaceae","María Luisa",directed,1
+"Moraceae","Ribera del Guadaira-Ayto",directed,4
+"Rutaceae","Celestino Mutis-Ayto",directed,1
+"Bignoniaceae","Cristina-Ayto",directed,1
+"Magnoliaceae","Casino",directed,1
+"Rutaceae","Otros-Ayto",directed,5
+"Anacardiaceae","Guadalquivir-Ayto",directed,1
+"Casuarinaceae","Alcosa-Ayto",directed,1
+"Platanaceae","Otros-Ayto",directed,1
+"Fabaceae","Barranco-Colón-Ayto",directed,3
+"Nephrolepidaceae","María Luisa",directed,1
+"Lythraceae","Real Alcázar",directed,3
+"Pedaliaceae","Calles de Sevilla-Ayto",directed,1
+"Fabaceae","Buhaira-Ayto",directed,4
+"Altingiaceae","Americano-Ayto",directed,1
+"Vitaceae","Calles de Sevilla-Ayto",directed,1
+"Ulmaceae","Ribera del Guadaira-Ayto",directed,2
+"Cannabaceae","Otros-Ayto",directed,2
+"Bombacaceae","Otros-Ayto",directed,1
+"Moraceae","Murillo",directed,1
+"Euphorbiaceae","Bermejales-Ayto",directed,1
+"Cannabaceae","Catalina de Ribera-Ayto",directed,1
+"Salicaceae","Cortijo del Cuarto-Ayto",directed,2
+"Moraceae","Guadalquivir-Ayto",directed,5
+"Oleaceae","Bermejales-Ayto",directed,2
+"Ginkgoaceae","Rey JCI-Torneo-Ayto",directed,1
+"Platanaceae","María Luisa",directed,2
+"Acanthaceae","Perdigones",directed,1
+"Oleaceae","Casino",directed,3
+"Ulmaceae","Alcosa-Ayto",directed,1
+"Lamiaceae","Calles de Sevilla-Ayto",directed,2
+"Calycanthaceae","Real Alcázar",directed,1
+"Garryaceae","Casino",directed,1
+"Phytolaccaceae","CEIP Vélez de Guevara",directed,1
+"Poaceae","María Luisa",directed,5
+"Simaroubaceae","Delicias-Ayto",directed,1
+"Cactaceae","María Luisa",directed,1
+"Platanaceae","Plaza Nueva-Ayto",directed,1
+"Platanaceae","Rey JCI-Torneo-Ayto",directed,1
+"Phytolaccaceae","Otros-Ayto",directed,1
+"Acanthaceae","María Luisa",directed,2
+"Myrtaceae","Guadaira",directed,1
+"Zingiberaceae","Calles de Sevilla-Ayto",directed,1
+"Pinaceae","Vega de Triana-Ayto",directed,1
+"Asteraceae","María Luisa",directed,2
+"Platanaceae","Prado-Ayto",directed,1
+"Platanaceae","Barranco-Colón-Ayto",directed,1
+"Araucariaceae","Calles de Sevilla-Ayto",directed,1
+"Sapindaceae","Vega de Triana-Ayto",directed,1
+"Meliaceae","Buhaira-Ayto",directed,1
+"Cupressaceae","Murillo",directed,2
+"Magnoliaceae","Buhaira-Ayto",directed,1
+"Berberidaceae","Catalina de Ribera-Ayto",directed,1
+"Myrtaceae","Murillo",directed,2
+"Hippocastanaceae","María Luisa",directed,1
+"Bombacaceae","Real Alcázar",directed,1
+"Oleaceae","Los Príncipes-Ayto",directed,3
+"Malvaceae","Murillo",directed,2
+"Oleaceae","Alcosa-Ayto",directed,3
+"Araliaceae","Calles de Sevilla-Ayto",directed,2
+"Casuarinaceae","Vega de Triana-Ayto",directed,1
+"Moraceae","Real Alcázar",directed,5
+"Moraceae","San Jerónimo-Ayto",directed,2
+"Moraceae","Otros-Ayto",directed,7
+"Phytolaccaceae","Guadalquivir-Ayto",directed,1
+"Bignoniaceae","Amate-Ayto",directed,2
+"Rutaceae","Prado-Ayto",directed,1
+"Solanaceae","Perdigones",directed,1
+"Buddlejaceae","María Luisa",directed,1
+"Tamaricaceae","San Jerónimo-Ayto",directed,1
+"Araucariaceae","Celestino Mutis-Ayto",directed,1
+"Malvaceae","Calles de Sevilla-Ayto",directed,8
+"Pinaceae","Infanta Elena-Ayto",directed,2
+"Cupressaceae","Ribera del Guadaira-Ayto",directed,2
+"Arecaceae","Perdigones",directed,2
+"Casuarinaceae","Los Príncipes-Ayto",directed,1
+"Pinaceae","Cortijo del Cuarto-Ayto",directed,1
+"Lamiaceae","Real Alcázar",directed,4
+"Sapindaceae","Guadalquivir-Ayto",directed,2
+"Araceae","Casino",directed,2
+"Caesalpiniaceae","Tamarguillo-Ayto",directed,1
+"Anacardiaceae","Otros-Ayto",directed,2
+"Oleaceae","San Jerónimo-Ayto",directed,4
+"Polygalaceae","Santa Clara-Don Fadrique",directed,1
+"Araceae","Santa Clara-Don Fadrique",directed,1
+"Rosaceae","Tamarguillo-Ayto",directed,3
+"Poaceae","Calles de Sevilla-Ayto",directed,2
+"Apocynaceae","María Luisa",directed,3
+"Ginkgoaceae","Tamarguillo-Ayto",directed,1
+"Magnoliaceae","Guadalquivir-Ayto",directed,1
+"Sapindaceae","Amate",directed,1
+"Asparagaceae","Real Alcázar",directed,4
+"Caesalpiniaceae","Amate-Ayto",directed,1
+"Rutaceae","Los Príncipes-Ayto",directed,2
+"Anacardiaceae","Ribera del Guadaira-Ayto",directed,1
+"Magnoliaceae","Amate-Ayto",directed,1
+"Malvaceae","San Jerónimo-Ayto",directed,1
+"Sapindaceae","Buhaira-Ayto",directed,1
+"Sapindaceae","Los Príncipes-Ayto",directed,1
+"Moraceae","Perdigones",directed,1
+"Pinaceae","Ranillas-Ayto",directed,5
+"Bignoniaceae","Real Alcázar",directed,7
+"Cistaceae","María Luisa",directed,1
+"Solanaceae","Santa Clara-Don Fadrique",directed,1
+"Moraceae","Ranillas-Ayto",directed,1
+"Cannabaceae","Celestino Mutis-Ayto",directed,1
+"Sapindaceae","Barranco-Colón-Ayto",directed,1
+"Asteraceae","Real Alcázar",directed,5
+"Elaeagnaceae","Ribera del Guadaira-Ayto",directed,1
+"Moraceae","Americano-Ayto",directed,1
+"Agavaceae","Calles de Sevilla-Ayto",directed,3
+"Ulmaceae","Casino",directed,2
+"Cannabaceae","Bermejales-Ayto",directed,1
+"Oleaceae","Real Alcázar",directed,6
+"Meliaceae","El Turruñuelo-Ayto",directed,1
+"Meliaceae","Santa Clara-Don Fadrique",directed,1
+"Ginkgoaceae","Guadalquivir-Ayto",directed,1
+"Berberidaceae","Murillo",directed,1
+"Cyperaceae","María Luisa",directed,2
+"Cupressaceae","El Turruñuelo-Ayto",directed,1
+"Fabaceae","María Luisa",directed,8
+"Cupressaceae","Santa Clara-Don Fadrique",directed,1
+"Fabaceae","CEIP Vélez de Guevara",directed,3
+"Ericaceae","Tamarguillo-Ayto",directed,1
+"Laxmanniaceae","Miraflores-Ayto",directed,1
+"Rutaceae","San Jerónimo-Ayto",directed,1
+"Fabaceae","Prado-Ayto",directed,2
+"Fagaceae","Norte-Ayto",directed,2
+"Nyctaginaceae","Amate",directed,1
+"Oleaceae","Santa Clara-Don Fadrique",directed,3
+"Euphorbiaceae","Calles de Sevilla-Ayto",directed,1
+"Celastraceae","Amate",directed,1
+"Plumbaginaceae","María Luisa",directed,1
+"Myrtaceae","Barranco-Colón-Ayto",directed,1
+"Bignoniaceae","Bermejales-Ayto",directed,2
+"Elaeagnaceae","San Jerónimo-Ayto",directed,1
+"Malvaceae","Prado-Ayto",directed,1
+"Brassicaceae","Calles de Sevilla-Ayto",directed,1
+"Malvaceae","Cristina-Ayto",directed,3
+"Meliaceae","Casino",directed,1
+"Solanaceae","Miraflores-Ayto",directed,1
+"Violaceae","Real Alcázar",directed,1
+"Cupressaceae","María Luisa",directed,6
+"Bombacaceae","María Luisa",directed,1
+"Pinaceae","Miraflores-Ayto",directed,4
+"Proteaceae","Barranco-Colón-Ayto",directed,1
+"Salicaceae","Bermejales-Ayto",directed,1
+"Aceraceae","Real Alcázar",directed,1
+"Asteraceae","Murillo",directed,1
+"Acanthaceae","Amate",directed,1
+"Leguminosae","Ribera del Guadaira-Ayto",directed,1
+"Fabaceae","Amate",directed,4
+"Moraceae","Amate-Ayto",directed,4
+"Arecaceae","Maestranza-Ayto",directed,6
+"Pinaceae","Guadaira",directed,2
+"Rosaceae","Amate",directed,2
+"Ulmaceae","Barranco-Colón-Ayto",directed,1
+"Primulaceae","María Luisa",directed,1
+"Arecaceae","Ranillas-Ayto",directed,4
+"Cannabaceae","Tamarguillo-Ayto",directed,1
+"Lythraceae","Los Príncipes-Ayto",directed,1
+"Lauraceae","Otros-Ayto",directed,1
+"Myrtaceae","Delicias-Ayto",directed,1
+"Ginkgoaceae","Real Alcázar",directed,1
+"Agavaceae","Miraflores-Ayto",directed,1
+"Nymphaeaceae","Real Alcázar",directed,1
+"Arecaceae","Rey JCI-Torneo-Ayto",directed,5
+"Verbenaceae","Real Alcázar",directed,4
+"Ulmaceae","Amate-Ayto",directed,2
+"Bombacaceae","Los Príncipes-Ayto",directed,1
+"Rosaceae","María Luisa",directed,14
+"Salicaceae","Barranco-Colón-Ayto",directed,1
+"Arecaceae","Delicias-Ayto",directed,8
+"Santalaceae","Calles de Sevilla-Ayto",directed,1
+"Cupressaceae","Calles de Sevilla-Ayto",directed,5
+"Bignoniaceae","Buhaira-Ayto",directed,1
+"Salicaceae","Celestino Mutis-Ayto",directed,1
+"Laxmanniaceae","Real Alcázar",directed,1
+"Rosaceae","Casino",directed,3
+"Caprifoliaceae","Casino",directed,1
+"Lauraceae","Celestino Mutis-Ayto",directed,1
+"Ginkgoaceae","María Luisa",directed,1
+"Bignoniaceae","Ribera del Guadaira-Ayto",directed,2
+"Ulmaceae","Infanta Elena-Ayto",directed,2
+"Lythraceae","Alcosa-Ayto",directed,1
+"Platanaceae","Amate-Ayto",directed,1
+"Nephrolepidaceae","Santa Clara-Don Fadrique",directed,1
+"Cupressaceae","Cristina-Ayto",directed,1
+"Pinaceae","Norte-Ayto",directed,1
+"Anacardiaceae","Infanta Elena-Ayto",directed,1
+"Buxaceae","Santa Clara-Don Fadrique",directed,1
+"Cupressaceae","Miraflores-Ayto",directed,1
+"Fabaceae","Bermejales-Ayto",directed,2
+"Arecaceae","María Luisa",directed,13
+"Bombacaceae","Miraflores-Ayto",directed,1
+"Buxaceae","Murillo",directed,1
+"Pinaceae","Amate",directed,4
+"Cannaceae","Real Alcázar",directed,1
+"Anacardiaceae","Americano-Ayto",directed,1
+"Rutaceae","Rey JCI-Torneo-Ayto",directed,1
+"Magnoliaceae","Cristina-Ayto",directed,1
+"Pittosporaceae","Alcosa-Ayto",directed,1
+"Ulmaceae","Guadalquivir-Ayto",directed,1
+"Fabaceae","Guadalquivir-Ayto",directed,5
+"Tamaricaceae","Ribera del Guadaira-Ayto",directed,1
+"Moraceae","Buhaira-Ayto",directed,3
+"Malvaceae","Amate-Ayto",directed,2
+"Pinaceae","Ribera del Guadaira-Ayto",directed,2
+"Bignoniaceae","María Luisa",directed,4
+"Casuarinaceae","María Luisa",directed,1
+"Lamiaceae","Casino",directed,3
+"Caesalpiniaceae","Buhaira-Ayto",directed,1
+"Meliaceae","Calles de Sevilla-Ayto",directed,1
+"Malvaceae","Buhaira-Ayto",directed,1
+"Nyctaginaceae","Murillo",directed,1
+"Proteaceae","Valle-Ayto",directed,1
+"Cyperaceae","Real Alcázar",directed,2
+"Fagaceae","Ribera del Guadaira-Ayto",directed,2
+"Moraceae","Miraflores-Ayto",directed,7
+"Cannabaceae","Miraflores-Ayto",directed,2
+"Onagraceae","Santa Clara-Don Fadrique",directed,1
+"Proteaceae","Casino",directed,1
+"Araucariaceae","Guadaira",directed,2
+"Rosaceae","Santa Clara-Don Fadrique",directed,1
+"Meliaceae","Miraflores-Ayto",directed,1
+"Phytolaccaceae","Amate",directed,1
+"Polygonaceae","María Luisa",directed,1
+"Rutaceae","Tamarguillo-Ayto",directed,1
+"Juglandaceae","Real Alcázar",directed,2
+"Acanthaceae","CEIP Vélez de Guevara",directed,1
+"Pinaceae","Otros-Ayto",directed,5
+"Rutaceae","El Turruñuelo-Ayto",directed,1
+"Arecaceae","Prado-Ayto",directed,3
+"Bignoniaceae","Tamarguillo-Ayto",directed,2
+"Meliaceae","Rey JCI-Torneo-Ayto",directed,1
+"Phytolaccaceae","Los Príncipes-Ayto",directed,1
+"Oleaceae","Buhaira-Ayto",directed,3
+"Cannabaceae","Ribera del Guadaira-Ayto",directed,1
+"Rosaceae","Los Príncipes-Ayto",directed,2
+"Arecaceae","Catalina de Ribera-Ayto",directed,4
+"Casuarinaceae","Bermejales-Ayto",directed,1
+"Myrtaceae","Amate",directed,1
+"Leguminosae","Calles de Sevilla-Ayto",directed,1
+"Buxaceae","Delicias-Ayto",directed,1
+"Rosaceae","Guadaira",directed,2
+"Casuarinaceae","Cristina-Ayto",directed,1
+"Lythraceae","María Luisa",directed,2
+"Arecaceae","Amate-Ayto",directed,5
+"Cupressaceae","Maestranza-Ayto",directed,2
+"Adoxaceae","Calles de Sevilla-Ayto",directed,1
+"Caesalpiniaceae","Otros-Ayto",directed,1
+"Fabaceae","Norte-Ayto",directed,1
+"Altingiaceae","Calles de Sevilla-Ayto",directed,1
+"Oleaceae","Norte-Ayto",directed,1
+"Polygalaceae","Casino",directed,1
+"Salicaceae","Rey JCI-Torneo-Ayto",directed,1
+"Balsaminaceae","Casino",directed,1
+"Pinaceae","Delicias-Ayto",directed,2
+"Acanthaceae","Casino",directed,1
+"Araliaceae","Casino",directed,3
+"Oleaceae","CEIP Andalucía",directed,1
+"Arecaceae","Plaza Nueva-Ayto",directed,1
+"Malvaceae","Amate",directed,2
+"Rosaceae","Delicias-Ayto",directed,1
+"Solanaceae","María Luisa",directed,7
+"Rosaceae","Buhaira-Ayto",directed,2
+"Simaroubaceae","María Luisa",directed,1
+"Fagaceae","Alcosa-Ayto",directed,2
+"Adoxaceae","Perdigones",directed,1
+"Caprifoliaceae","Perdigones",directed,1
+"Salicaceae","Miraflores-Ayto",directed,2
+"Rosaceae","Murillo",directed,3
+"Meliaceae","Cortijo del Cuarto-Ayto",directed,1
+"Solanaceae","Murillo",directed,1
+"Salicaceae","Americano-Ayto",directed,1
+"Bignoniaceae","Miraflores-Ayto",directed,2
+"Elaeagnaceae","María Luisa",directed,1
+"Salicaceae","María Luisa",directed,1
+"Fagaceae","Calles de Sevilla-Ayto",directed,2
+"Salicaceae","CEIP Vélez de Guevara",directed,1
+"Rosaceae","Prado-Ayto",directed,1
+"Simaroubaceae","Calles de Sevilla-Ayto",directed,1
+"Cupressaceae","Real Alcázar",directed,3
+"Myrtaceae","Catalina de Ribera-Ayto",directed,1
+"Proteaceae","Prado-Ayto",directed,1
+"Asteraceae","Casino",directed,2
+"Proteaceae","Delicias-Ayto",directed,1
+"Musaceae","El Turruñuelo-Ayto",directed,1
+"Polygonaceae","Real Alcázar",directed,2
+"Ulmaceae","Ranillas-Ayto",directed,1
+"Lythraceae","Amate",directed,1
+"Cactaceae","Calles de Sevilla-Ayto",directed,1
+"Altingiaceae","Guadalquivir-Ayto",directed,1
+"Rosaceae","Vega de Triana-Ayto",directed,1
+"Celastraceae","Murillo",directed,1
+"Ericaceae","Miraflores-Ayto",directed,1
+"Ginkgoaceae","Los Príncipes-Ayto",directed,1
+"Moraceae","Vega de Triana-Ayto",directed,2
+"Sapindaceae","Delicias-Ayto",directed,1
+"Simaroubaceae","Buhaira-Ayto",directed,1
+"Pittosporaceae","Amate",directed,1
+"Cannabaceae","Ranillas-Ayto",directed,1
+"Salicaceae","Ranillas-Ayto",directed,1
+"Bignoniaceae","Maestranza-Ayto",directed,2
+"Oleaceae","Miraflores-Ayto",directed,3
+"Arecaceae","Amate",directed,4
+"Buxaceae","María Luisa",directed,2
+"Agavaceae","Murillo",directed,2
+"Verbenaceae","Casino",directed,1
+"Moraceae","Calles de Sevilla-Ayto",directed,9
+"Araucariaceae","Alcosa-Ayto",directed,1
+"Phytolaccaceae","Miraflores-Ayto",directed,1
+"Araceae","Real Alcázar",directed,3
+"Amaryllidaceae","Real Alcázar",directed,3
+"Platanaceae","Ranillas-Ayto",directed,1
+"Lythraceae","Guadalquivir-Ayto",directed,1
+"Bombacaceae","Tamarguillo-Ayto",directed,1
+"Cupressaceae","Catalina de Ribera-Ayto",directed,1
+"Malvaceae","CEIP San José Obrero",directed,1
+"Arecaceae","Guadaira",directed,2
+"Lauraceae","María Luisa",directed,2
+"Arecaceae","Buhaira-Ayto",directed,2
+"Rosaceae","Guadalquivir-Ayto",directed,5
+"Casuarinaceae","Ranillas-Ayto",directed,1
+"Bombacaceae","Americano-Ayto",directed,1
+"Cupressaceae","San Jerónimo-Ayto",directed,2
+"Oleaceae","Maestranza-Ayto",directed,2
+"Taxodiaceae","Guadaira",directed,1
+"Poaceae","Casino",directed,2
+"Ulmaceae","Delicias-Ayto",directed,2
+"Moraceae","Infanta Elena-Ayto",directed,2
+"Proteaceae","Amate-Ayto",directed,1
+"Myristicaceae","Calles de Sevilla-Ayto",directed,1
+"Cupressaceae","Guadalquivir-Ayto",directed,1
+"Cannabaceae","Barranco-Colón-Ayto",directed,1
+"Adoxaceae","María Luisa",directed,2
+"Rutaceae","Perdigones",directed,1
+"Meliaceae","Celestino Mutis-Ayto",directed,1
+"Oleaceae","Cortijo del Cuarto-Ayto",directed,2
+"Solanaceae","Casino",directed,2
+"Ulmaceae","Vega de Triana-Ayto",directed,1
+"Oleaceae","Guadalquivir-Ayto",directed,4
+"Menispermaceae","Casino",directed,1
+"Proteaceae","Tamarguillo-Ayto",directed,1
+"Hippocastanaceae","Real Alcázar",directed,1
+"Pinaceae","Los Príncipes-Ayto",directed,2
+"Platanaceae","Cristina-Ayto",directed,1
+"Arecaceae","Cristina-Ayto",directed,3
+"Malvaceae","Ribera del Guadaira-Ayto",directed,1
+"Cupressaceae","Casino",directed,2
+"Arecaceae","Ribera del Guadaira-Ayto",directed,1
+"Phytolaccaceae","Rey JCI-Torneo-Ayto",directed,1
+"Oleaceae","Celestino Mutis-Ayto",directed,2
+"Malvaceae","CEIP Vélez de Guevara",directed,2
+"Bignoniaceae","Amate",directed,1
+"Convolvulaceae","María Luisa",directed,1
+"Elaeagnaceae","Miraflores-Ayto",directed,1
+"Rutaceae","Vega de Triana-Ayto",directed,2
+"Magnoliaceae","Celestino Mutis-Ayto",directed,1
+"Ulmaceae","Celestino Mutis-Ayto",directed,1
+"Plumbaginaceae","Real Alcázar",directed,1
+"Pittosporaceae","Calles de Sevilla-Ayto",directed,1
+"Fagaceae","Vega de Triana-Ayto",directed,1
+"Ginkgoaceae","Miraflores-Ayto",directed,1
+"Magnoliaceae","Otros-Ayto",directed,1
+"Taxodiaceae","Real Alcázar",directed,1
+"Cycadaceae","Real Alcázar",directed,1
+"Pinaceae","Bermejales-Ayto",directed,1
+"Bombacaceae","Cristina-Ayto",directed,1
+"Apocynaceae","Amate",directed,1
+"Fagaceae","Infanta Elena-Ayto",directed,2
+"Crassulaceae","Real Alcázar",directed,2
+"Bombacaceae","Amate-Ayto",directed,1
+"Sapindaceae","Otros-Ayto",directed,2
+"Rutaceae","Santa Clara-Don Fadrique",directed,2
+"Magnoliaceae","Real Alcázar",directed,1
+"Moraceae","CEIP Vélez de Guevara",directed,1
+"Salicaceae","Amate",directed,2
+"Sapindaceae","Alcosa-Ayto",directed,2
+"Euphorbiaceae","Real Alcázar",directed,3
+"Lythraceae","San Jerónimo-Ayto",directed,1
+"Bombacaceae","Celestino Mutis-Ayto",directed,1
+"Rutaceae","Calles de Sevilla-Ayto",directed,4
+"Caprifoliaceae","Real Alcázar",directed,3
+"Amaryllidaceae","Casino",directed,3
+"Sapindaceae","Real Alcázar",directed,2
+"Ulmaceae","San Jerónimo-Ayto",directed,2
+"Verbenaceae","Calles de Sevilla-Ayto",directed,1
+"Caesalpiniaceae","Guadalquivir-Ayto",directed,1
+"Pittosporaceae","CEIP San José Obrero",directed,1
+"Arecaceae","Tamarguillo-Ayto",directed,3
+"Phytolaccaceae","San Jerónimo-Ayto",directed,1
+"Proteaceae","Miraflores-Ayto",directed,1
+"Rutaceae","Miraflores-Ayto",directed,1
+"Salicaceae","Tamarguillo-Ayto",directed,1
+"Arecaceae","Santa Clara-Don Fadrique",directed,1
+"Arecaceae","Barranco-Colón-Ayto",directed,6
+"Casuarinaceae","Real Alcázar",directed,1
+"Araliaceae","Murillo",directed,1
+"Pinaceae","Rey JCI-Torneo-Ayto",directed,1
+"Proteaceae","Maestranza-Ayto",directed,1
+"Rhamnaceae","María Luisa",directed,1
+"Scrophulariaceae","María Luisa",directed,1
+"Araliaceae","María Luisa",directed,3
+"Apocynaceae","Real Alcázar",directed,3
+"Meliaceae","Prado-Ayto",directed,1
+"Cupressaceae","Perdigones",directed,1
+"Oleaceae","Vega de Triana-Ayto",directed,4
+"Cupressaceae","Los Príncipes-Ayto",directed,3
+"Cannabaceae","Perdigones",directed,1
+"Berberidaceae","Calles de Sevilla-Ayto",directed,1
+"Bignoniaceae","Americano-Ayto",directed,2
+"Casuarinaceae","Otros-Ayto",directed,1
+"Malvaceae","Bermejales-Ayto",directed,1
+"Cannabaceae","Vega de Triana-Ayto",directed,1
+"Magnoliaceae","Rey JCI-Torneo-Ayto",directed,1
+"Nyctaginaceae","Santa Clara-Don Fadrique",directed,1
+"Malvaceae","Otros-Ayto",directed,5
+"Lythraceae","Catalina de Ribera-Ayto",directed,1
+"Myrtaceae","Miraflores-Ayto",directed,1
+"Adoxaceae","Real Alcázar",directed,1
+"Tamaricaceae","Rey JCI-Torneo-Ayto",directed,1
+"Cannabaceae","Cristina-Ayto",directed,2
+"Cannabaceae","Los Príncipes-Ayto",directed,1
+"Apocynaceae","CEIP San José Obrero",directed,1
+"Lamiaceae","Santa Clara-Don Fadrique",directed,1
+"Aceraceae","Calles de Sevilla-Ayto",directed,1
+"Magnoliaceae","Murillo",directed,1
+"Proteaceae","Alcosa-Ayto",directed,1
+"Fagaceae","Amate",directed,2
+"Oleaceae","Rey JCI-Torneo-Ayto",directed,3
+"Strelitziaceae","María Luisa",directed,2
+"Casuarinaceae","Tamarguillo-Ayto",directed,1
+"Caesalpiniaceae","Celestino Mutis-Ayto",directed,1
+"Leguminosae","Guadalquivir-Ayto",directed,1
+"Arecaceae","Los Príncipes-Ayto",directed,5
+"Anacardiaceae","Tamarguillo-Ayto",directed,2
+"Oleaceae","CEIP Vélez de Guevara",directed,3
+"Poaceae","Guadaira",directed,1
+"Lythraceae","Tamarguillo-Ayto",directed,1
+"Pinaceae","Cristina-Ayto",directed,1
+"Arecaceae","Casino",directed,10
+"Fabaceae","Infanta Elena-Ayto",directed,2
+"Rutaceae","Barranco-Colón-Ayto",directed,1
+"Phytolaccaceae","María Luisa",directed,1
+"Araliaceae","CEIP Vélez de Guevara",directed,1
+"Ebenaceae","Real Alcázar",directed,1
+"Cannabaceae","Americano-Ayto",directed,1
+"Lythraceae","Ribera del Guadaira-Ayto",directed,1
+"Pinaceae","Celestino Mutis-Ayto",directed,1
+"Bignoniaceae","Guadaira",directed,1
+"Proteaceae","San Jerónimo-Ayto",directed,1
+"Caesalpiniaceae","Casino",directed,1
+"Proteaceae","Calles de Sevilla-Ayto",directed,1
+"Menispermaceae","Real Alcázar",directed,1
+"Myrtaceae","Casino",directed,2
+"Ulmaceae","Los Príncipes-Ayto",directed,1
+"Platanaceae","Miraflores-Ayto",directed,1
+"Elaeagnaceae","Amate-Ayto",directed,1
+"Taxaceae","María Luisa",directed,1
+"Proteaceae","Guadalquivir-Ayto",directed,1
+"Oleaceae","Perdigones",directed,3
+"Fagaceae","Rey JCI-Torneo-Ayto",directed,2
+"Proteaceae","María Luisa",directed,1
+"Onagraceae","Casino",directed,1
+"Anacardiaceae","Alcosa-Ayto",directed,1
+"Bignoniaceae","Valle-Ayto",directed,1
+"Fagaceae","Delicias-Ayto",directed,2
+"Phytolaccaceae","Amate-Ayto",directed,1
+"Fagaceae","Real Alcázar",directed,2
+"Arecaceae","San Jerónimo-Ayto",directed,2
+"Fabaceae","Amate-Ayto",directed,7
+"Oleaceae","Ribera del Guadaira-Ayto",directed,3
+"Oleaceae","Cristina-Ayto",directed,1
+"Lamiaceae","Guadaira",directed,1
+"Cupressaceae","CEIP San José Obrero",directed,1
+"Buxaceae","Real Alcázar",directed,1
+"Lythraceae","Santa Clara-Don Fadrique",directed,1
+"Xanthorrhoeaceae","Real Alcázar",directed,2
+"Lauraceae","Guadalquivir-Ayto",directed,1
+"Tamaricaceae","Otros-Ayto",directed,1
+"Bignoniaceae","Otros-Ayto",directed,2
+"Berberidaceae","Real Alcázar",directed,1
+"Caesalpiniaceae","Calles de Sevilla-Ayto",directed,1
+"Meliaceae","Tamarguillo-Ayto",directed,1
+"Pittosporaceae","Casino",directed,1
+"Cannabaceae","María Luisa",directed,2
+"Malvaceae","Celestino Mutis-Ayto",directed,2
+"Nyctaginaceae","María Luisa",directed,2
+"Caprifoliaceae","Murillo",directed,2
+"Arecaceae","Valle-Ayto",directed,3
+"Myrtaceae","Amate-Ayto",directed,1
+"Meliaceae","Amate-Ayto",directed,1
+"Rutaceae","Real Alcázar",directed,9
+"Solanaceae","Americano-Ayto",directed,2
+"Bignoniaceae","San Jerónimo-Ayto",directed,1
+"Cupressaceae","Americano-Ayto",directed,3
+"Fagaceae","San Jerónimo-Ayto",directed,2
+"Amaranthaceae","Casino",directed,1
+"Malvaceae","Casino",directed,1
+"Moraceae","María Luisa",directed,9
+"Poaceae","Real Alcázar",directed,4
+"Sapindaceae","Calles de Sevilla-Ayto",directed,2
+"Verbenaceae","Perdigones",directed,1
+"Nyctaginaceae","CEIP Vélez de Guevara",directed,1
+"Simaroubaceae","Maestranza-Ayto",directed,1
+"Proteaceae","Buhaira-Ayto",directed,1
+"Bignoniaceae","Vega de Triana-Ayto",directed,1
+"Platanaceae","Celestino Mutis-Ayto",directed,1
+"Bignoniaceae","Murillo",directed,1
+"Malvaceae","Alcosa-Ayto",directed,4
+"Arecaceae","Real Alcázar",directed,8
+"Arecaceae","Norte-Ayto",directed,1
+"Rutaceae","Cristina-Ayto",directed,1
+"Cupressaceae","Amate",directed,2
+"Adoxaceae","Santa Clara-Don Fadrique",directed,1
+"Amaryllidaceae","Murillo",directed,1
+"Taxodiaceae","Celestino Mutis-Ayto",directed,1
+"Bignoniaceae","CEIP Andalucía",directed,1
+"Fabaceae","Rey JCI-Torneo-Ayto",directed,3
+"Cycadaceae","Plaza Nueva-Ayto",directed,1
+"Malvaceae","Tamarguillo-Ayto",directed,2
+"Bignoniaceae","CEIP Vélez de Guevara",directed,1
+"Anacardiaceae","Barranco-Colón-Ayto",directed,1
+"Fabaceae","Los Príncipes-Ayto",directed,5
+"Casuarinaceae","Ribera del Guadaira-Ayto",directed,1
+"Moraceae","Amate",directed,1
+"Arecaceae","Miraflores-Ayto",directed,6
+"Pittosporaceae","Murillo",directed,1
+"Phytolaccaceae","Alcosa-Ayto",directed,1
+"Bignoniaceae","Alcosa-Ayto",directed,2
+"Myrtaceae","Ribera del Guadaira-Ayto",directed,2
+"Oleaceae","Catalina de Ribera-Ayto",directed,2
+"Anacardiaceae","María Luisa",directed,1
+"Celastraceae","Real Alcázar",directed,1
+"Myrtaceae","Tamarguillo-Ayto",directed,1
+"Hydrangeaceae","Real Alcázar",directed,1
+"Proteaceae","Ranillas-Ayto",directed,1
+"Myrtaceae","Otros-Ayto",directed,3
+"Berberidaceae","María Luisa",directed,1
+"Pinaceae","CEIP Vélez de Guevara",directed,1
+"Arecaceae","Calles de Sevilla-Ayto",directed,11
+"Myrtaceae","Santa Clara-Don Fadrique",directed,1
+"Bignoniaceae","Celestino Mutis-Ayto",directed,2
+"Malvaceae","María Luisa",directed,9
+"Arecaceae","Celestino Mutis-Ayto",directed,6
+"Rosaceae","Celestino Mutis-Ayto",directed,1
+"Oleaceae","Murillo",directed,5
+"Bignoniaceae","Infanta Elena-Ayto",directed,1
+"Myrtaceae","María Luisa",directed,4
+"Platanaceae","Calles de Sevilla-Ayto",directed,1
+"Cannabaceae","Rey JCI-Torneo-Ayto",directed,1
+"Cannabaceae","Cortijo del Cuarto-Ayto",directed,1
+"Oleaceae","Otros-Ayto",directed,6
+"Myrtaceae","Vega de Triana-Ayto",directed,1
+"Fabaceae","Miraflores-Ayto",directed,8
+"Nyctaginaceae","CEIP Andalucía",directed,1
+"Cupressaceae","Valle-Ayto",directed,1
+"Apocynaceae","Murillo",directed,1
+"Malvaceae","Guadalquivir-Ayto",directed,3
+"Verbenaceae","María Luisa",directed,4
+"Bignoniaceae","Calles de Sevilla-Ayto",directed,3
+"Fagaceae","María Luisa",directed,3
+"Bignoniaceae","El Turruñuelo-Ayto",directed,2
+"Araucariaceae","Delicias-Ayto",directed,1
+"Fabaceae","Alcosa-Ayto",directed,6
+"Musaceae","Real Alcázar",directed,1
+"Simaroubaceae","Miraflores-Ayto",directed,1
+"Tamaricaceae","Calles de Sevilla-Ayto",directed,1
+"Elaeagnaceae","Guadalquivir-Ayto",directed,1
+"Menispermaceae","María Luisa",directed,1
+"Rosaceae","Calles de Sevilla-Ayto",directed,12
+"Fabaceae","Americano-Ayto",directed,3
+"Agavaceae","Barranco-Colón-Ayto",directed,2
+"Apocynaceae","Guadalquivir-Ayto",directed,1
+"Ericaceae","CEIP Vélez de Guevara",directed,1
+"Ebenaceae","María Luisa",directed,1
+"Fagaceae","Miraflores-Ayto",directed,2
+"Fabaceae","Perdigones",directed,1
+"Solanaceae","Delicias-Ayto",directed,1
+"Rhamnaceae","Real Alcázar",directed,1
+"Phytolaccaceae","Cristina-Ayto",directed,1
+"Taxodiaceae","Los Príncipes-Ayto",directed,1
+"Proteaceae","Vega de Triana-Ayto",directed,1
+"Moraceae","Tamarguillo-Ayto",directed,4
+"Asparagaceae","Casino",directed,3
+"Pinaceae","Catalina de Ribera-Ayto",directed,1
+"Bombacaceae","Calles de Sevilla-Ayto",directed,1
+"Cannabaceae","Delicias-Ayto",directed,1
+"Rutaceae","Casino",directed,2
+"Apocynaceae","Alcosa-Ayto",directed,1
+"Cupressaceae","Alcosa-Ayto",directed,3
+"Ulmaceae","Otros-Ayto",directed,2
+"Sapindaceae","Celestino Mutis-Ayto",directed,1
+"Proteaceae","Los Príncipes-Ayto",directed,1
+"Celastraceae","Santa Clara-Don Fadrique",directed,1
+"Ulmaceae","Real Alcázar",directed,1
+"Platanaceae","Alcosa-Ayto",directed,1
+"Lythraceae","Amate-Ayto",directed,1
+"Cannabaceae","El Turruñuelo-Ayto",directed,1
+"Arecaceae","Infanta Elena-Ayto",directed,3
+"Oleaceae","Amate-Ayto",directed,2
+"Menispermaceae","Delicias-Ayto",directed,1
+"Rosaceae","Miraflores-Ayto",directed,1
+"Fagaceae","Guadaira",directed,2
+"Rhamnaceae","Miraflores-Ayto",directed,1
+"Rosaceae","Perdigones",directed,3
+"Saxifragaceae","Real Alcázar",directed,1
+"Plumbaginaceae","Murillo",directed,1
+"Moraceae","Alcosa-Ayto",directed,4
+"Ericaceae","Infanta Elena-Ayto",directed,1
+"Asparagaceae","Santa Clara-Don Fadrique",directed,1
+"Moraceae","Delicias-Ayto",directed,4
+"Pittosporaceae","Otros-Ayto",directed,1
+"Lythraceae","Casino",directed,2
+"Melianthaceae","María Luisa",directed,1
+"Aizoaceae","Casino",directed,1
+"Lythraceae","Murillo",directed,2
+"Malvaceae","Catalina de Ribera-Ayto",directed,1
+"Malvaceae","Real Alcázar",directed,9
+"Caesalpiniaceae","Delicias-Ayto",directed,1
+"Myrtaceae","El Turruñuelo-Ayto",directed,1
+"Scrophulariaceae","Calles de Sevilla-Ayto",directed,1
+"Pinaceae","María Luisa",directed,3
+"Platanaceae","San Jerónimo-Ayto",directed,1
+"Apocynaceae","Calles de Sevilla-Ayto",directed,1
+"Platanaceae","Infanta Elena-Ayto",directed,1
+"Araucariaceae","Amate-Ayto",directed,1
+"Caesalpiniaceae","Catalina de Ribera-Ayto",directed,1
+"Pinaceae","Real Alcázar",directed,2
+"Juglandaceae","María Luisa",directed,2
+"Cannabaceae","Infanta Elena-Ayto",directed,1
+"Rutaceae","Delicias-Ayto",directed,3
+"Oleaceae","Ranillas-Ayto",directed,2
+"Pteridaceae","Real Alcázar",directed,1
+"Taxodiaceae","Calles de Sevilla-Ayto",directed,1
+"Cupressaceae","Delicias-Ayto",directed,3
+"Salicaceae","Vega de Triana-Ayto",directed,2
+"Vitaceae","Casino",directed,1
+"Brassicaceae","Real Alcázar",directed,1
+"Nyctaginaceae","Real Alcázar",directed,2
+"Lythraceae","Barranco-Colón-Ayto",directed,1
+"Ulmaceae","María Luisa",directed,3
+"Magnoliaceae","Los Príncipes-Ayto",directed,1
+"Taxaceae","Real Alcázar",directed,1
+"Cannabaceae","Casino",directed,1
+"Tamaricaceae","Infanta Elena-Ayto",directed,1
+"Ulmaceae","Buhaira-Ayto",directed,1
+"Nephrolepidaceae","Casino",directed,1
+"Cannabaceae","CEIP Andalucía",directed,1
+"Altingiaceae","Otros-Ayto",directed,1
+"Celastraceae","Casino",directed,1
+"Myrtaceae","Perdigones",directed,1
+"Araucariaceae","Real Alcázar",directed,1
+"Altingiaceae","Celestino Mutis-Ayto",directed,1
+"Anacardiaceae","Amate",directed,1
+"Pinaceae","Alcosa-Ayto",directed,1
+"Nyctaginaceae","Barranco-Colón-Ayto",directed,1
+"Strelitziaceae","Perdigones",directed,1
+"Fabaceae","Ranillas-Ayto",directed,1
+"Cannabaceae","San Jerónimo-Ayto",directed,1
+"Salicaceae","Otros-Ayto",directed,1
+"Taxodiaceae","Guadalquivir-Ayto",directed,1
+"Meliaceae","Delicias-Ayto",directed,1
+"Xanthorrhoeaceae","María Luisa",directed,3
+"Fabaceae","Vega de Triana-Ayto",directed,6
+"Rutaceae","Murillo",directed,1
+"Agavaceae","Guadaira",directed,2
+"Rosaceae","Barranco-Colón-Ayto",directed,2
+"Fabaceae","CEIP San José Obrero",directed,1
+"Arecaceae","Americano-Ayto",directed,5
+"Pittosporaceae","María Luisa",directed,3
+"Ericaceae","Bermejales-Ayto",directed,1
+"Myrtaceae","Valle-Ayto",directed,1
+"Amaryllidaceae","Santa Clara-Don Fadrique",directed,2
+"Menispermaceae","Miraflores-Ayto",directed,1
+"Sapindaceae","Americano-Ayto",directed,1
+"Moraceae","Prado-Ayto",directed,1
+"Sapindaceae","María Luisa",directed,3
+"Fabaceae","Guadaira",directed,1
+"Moraceae","Rey JCI-Torneo-Ayto",directed,1
+"Araucariaceae","María Luisa",directed,2
+"Lythraceae","Plaza Nueva-Ayto",directed,1
+"Cycadaceae","Otros-Ayto",directed,1
+"Fabaceae","Valle-Ayto",directed,2
+"Rutaceae","CEIP Vélez de Guevara",directed,1
+"Elaeagnaceae","Infanta Elena-Ayto",directed,1
+"Malvaceae","Valle-Ayto",directed,1
+"Leguminosae","Americano-Ayto",directed,1
+"Casuarinaceae","Delicias-Ayto",directed,1
+"Lythraceae","Calles de Sevilla-Ayto",directed,2
+"Meliaceae","CEIP Vélez de Guevara",directed,1
+"Platanaceae","Guadalquivir-Ayto",directed,1
+"Elaeagnaceae","Tamarguillo-Ayto",directed,1
+"Moraceae","Barranco-Colón-Ayto",directed,5
+"Araucariaceae","Otros-Ayto",directed,1
+"Fabaceae","Maestranza-Ayto",directed,2
+"Cupressaceae","Infanta Elena-Ayto",directed,3
+"Fabaceae","Delicias-Ayto",directed,8
+"Malvaceae","Vega de Triana-Ayto",directed,4
+"Anacardiaceae","Amate-Ayto",directed,1
+"Malvaceae","Delicias-Ayto",directed,4
+"Zingiberaceae","María Luisa",directed,1
+"Liliaceae","Real Alcázar",directed,2
+"Meliaceae","Guadalquivir-Ayto",directed,1
+"Fabaceae","Otros-Ayto",directed,13
+"Simaroubaceae","Bermejales-Ayto",directed,1
+"Proteaceae","Amate",directed,1
+"Phytolaccaceae","Tamarguillo-Ayto",directed,1
+"Malvaceae","Rey JCI-Torneo-Ayto",directed,2
+"Salicaceae","San Jerónimo-Ayto",directed,2
+"Strelitziaceae","Real Alcázar",directed,1
+"Casuarinaceae","Amate-Ayto",directed,1
+"Taxodiaceae","Rey JCI-Torneo-Ayto",directed,1
+"Myrtaceae","Ranillas-Ayto",directed,1
+"Moraceae","Los Príncipes-Ayto",directed,3
+"Fabaceae","Ribera del Guadaira-Ayto",directed,8
+"Bignoniaceae","Delicias-Ayto",directed,2
+"Simaroubaceae","Real Alcázar",directed,1
+"Araliaceae","Real Alcázar",directed,2
+"Meliaceae","Amate",directed,1
+"Cannabaceae","Alcosa-Ayto",directed,1
+"Platanaceae","Delicias-Ayto",directed,1
+"Phytolaccaceae","Celestino Mutis-Ayto",directed,1
+"Meliaceae","Barranco-Colón-Ayto",directed,1
+"Lauraceae","Alcosa-Ayto",directed,1
+"Anacardiaceae","Real Alcázar",directed,1
+"Meliaceae","Alcosa-Ayto",directed,1
+"Ericaceae","Real Alcázar",directed,1
+"Ginkgoaceae","Calles de Sevilla-Ayto",directed,1
+"Meliaceae","Otros-Ayto",directed,1
+"Cupressaceae","Ranillas-Ayto",directed,4
+"Nyctaginaceae","Otros-Ayto",directed,1
+"Cupressaceae","Tamarguillo-Ayto",directed,1
+"Malvaceae","Miraflores-Ayto",directed,3
+"Vitaceae","Santa Clara-Don Fadrique",directed,1
+"Taxodiaceae","Delicias-Ayto",directed,1
+"Lythraceae","Miraflores-Ayto",directed,1
+"Pinaceae","Guadalquivir-Ayto",directed,1
+"Cannabaceae","Real Alcázar",directed,1
+"Bromeliaceae","Calles de Sevilla-Ayto",directed,1
+"Rosaceae","Ribera del Guadaira-Ayto",directed,3
+"Nyctaginaceae","Calles de Sevilla-Ayto",directed,1
+"Bombacaceae","Delicias-Ayto",directed,1
+"Phytolaccaceae","Calles de Sevilla-Ayto",directed,1
+"Cupressaceae","Rey JCI-Torneo-Ayto",directed,1
+"Meliaceae","San Jerónimo-Ayto",directed,1
+"Musaceae","Calles de Sevilla-Ayto",directed,2
+"Fagaceae","Ranillas-Ayto",directed,2
+"Taxodiaceae","Americano-Ayto",directed,1
+"Lauraceae","CEIP Vélez de Guevara",directed,1
+"Agavaceae","Otros-Ayto",directed,1
+"Anacardiaceae","CEIP Vélez de Guevara",directed,1
+"Caesalpiniaceae","Americano-Ayto",directed,1
+"Ulmaceae","Miraflores-Ayto",directed,2
+"Cupressaceae","Barranco-Colón-Ayto",directed,2
+"Anacardiaceae","Guadaira",directed,1
+"Paulowniaceae","María Luisa",directed,1
+"Caesalpiniaceae","Ranillas-Ayto",directed,1
+"Meliaceae","Ranillas-Ayto",directed,1
+"Moraceae","Casino",directed,5
+"Tamaricaceae","Tamarguillo-Ayto",directed,1
+"Cupressaceae","Buhaira-Ayto",directed,1
+"Fabaceae","Tamarguillo-Ayto",directed,9
+"Apocynaceae","Otros-Ayto",directed,1
+"Celastraceae","Calles de Sevilla-Ayto",directed,1
+"Casuarinaceae","Miraflores-Ayto",directed,1
+"Lythraceae","Vega de Triana-Ayto",directed,1
+"Rutaceae","María Luisa",directed,3
+"Magnoliaceae","Barranco-Colón-Ayto",directed,1
+"Lauraceae","Delicias-Ayto",directed,1
+"Scrophulariaceae","Real Alcázar",directed,1
+"Cannabaceae","Guadalquivir-Ayto",directed,1
+"Moraceae","Norte-Ayto",directed,1
+"Acanthaceae","Santa Clara-Don Fadrique",directed,1
+"Bignoniaceae","Casino",directed,2
+"Oleaceae","Infanta Elena-Ayto",directed,3
+"Salicaceae","Calles de Sevilla-Ayto",directed,3
+"Asparagaceae","María Luisa",directed,2
+"Rutaceae","Amate-Ayto",directed,1
+"Liliaceae","María Luisa",directed,2
+"Musaceae","Delicias-Ayto",directed,1
+"Meliaceae","Los Príncipes-Ayto",directed,1
+"Fabaceae","Casino",directed,2
+"Myrtaceae","Norte-Ayto",directed,1
+"Salicaceae","Los Príncipes-Ayto",directed,2
+"Solanaceae","Real Alcázar",directed,3
+"Verbenaceae","Amate",directed,1
+"Araceae","María Luisa",directed,2
+"Menispermaceae","Murillo",directed,1
+"Rutaceae","Maestranza-Ayto",directed,1
+"Salicaceae","Guadaira",directed,2
+"Fabaceae","El Turruñuelo-Ayto",directed,2
+"Annonaceae","Calles de Sevilla-Ayto",directed,1
+"Myrtaceae","Celestino Mutis-Ayto",directed,2
+"Adoxaceae","Casino",directed,1
+"Anacardiaceae","Calles de Sevilla-Ayto",directed,3
+"Magnoliaceae","Maestranza-Ayto",directed,1
+"Bignoniaceae","Prado-Ayto",directed,1
+"Proteaceae","Celestino Mutis-Ayto",directed,1
+"Piperaceae","Casino",directed,1
+"Nyctaginaceae","Perdigones",directed,1
+"Oleaceae","María Luisa",directed,11
+"Agavaceae","Alcosa-Ayto",directed,2
+"Berberidaceae","Santa Clara-Don Fadrique",directed,1
+"Lauraceae","Casino",directed,1
+"Lamiaceae","Alcosa-Ayto",directed,1
+"Caprifoliaceae","María Luisa",directed,3
+"Malvaceae","Los Príncipes-Ayto",directed,2
+"Fabaceae","San Jerónimo-Ayto",directed,5
+"Anacardiaceae","Miraflores-Ayto",directed,2
+"Meliaceae","Vega de Triana-Ayto",directed,1
+"Ericaceae","Ribera del Guadaira-Ayto",directed,1
+"Oleaceae","Delicias-Ayto",directed,3
+"Rosaceae","Valle-Ayto",directed,1
+"Musaceae","Alcosa-Ayto",directed,1
+"Arecaceae","Vega de Triana-Ayto",directed,3
+"Oleaceae","Amate",directed,3
+"Verbenaceae","Alcosa-Ayto",directed,1
+"Rutaceae","Alcosa-Ayto",directed,2
+"Pinaceae","Calles de Sevilla-Ayto",directed,5
+"Bombacaceae","Ribera del Guadaira-Ayto",directed,1
+"Fabaceae","Cristina-Ayto",directed,1
+"Casuarinaceae","San Jerónimo-Ayto",directed,1
+"Amaryllidaceae","María Luisa",directed,2
+"Fabaceae","Real Alcázar",directed,7
+"Oleaceae","Guadaira",directed,3
+"Cupressaceae","Celestino Mutis-Ayto",directed,2
+"Phytolaccaceae","Real Alcázar",directed,1
+"Myrtaceae","Real Alcázar",directed,2
+"Caesalpiniaceae","Amate",directed,1
+"Fabaceae","Murillo",directed,3
+"Rutaceae","Plaza Nueva-Ayto",directed,1
+"Rutaceae","CEIP San José Obrero",directed,1
+"Lauraceae","Real Alcázar",directed,1
+"Rosaceae","Alcosa-Ayto",directed,5
+"Tamaricaceae","Miraflores-Ayto",directed,1
+"Malvaceae","Santa Clara-Don Fadrique",directed,1
+"Nyctaginaceae","Casino",directed,1
+"Rosaceae","Real Alcázar",directed,9
+"Lauraceae","Santa Clara-Don Fadrique",directed,1
+"Oleaceae","Tamarguillo-Ayto",directed,3
+"Cupressaceae","Otros-Ayto",directed,3
+"Ulmaceae","Calles de Sevilla-Ayto",directed,3
+"Bignoniaceae","Catalina de Ribera-Ayto",directed,2
+"Lauraceae","Calles de Sevilla-Ayto",directed,3
+"Malvaceae","Perdigones",directed,1
+"Platanaceae","Vega de Triana-Ayto",directed,1
+"Apocynaceae","Casino",directed,1
+"Betulaceae","Calles de Sevilla-Ayto",directed,1
+"Iridaceae","María Luisa",directed,1
+"Oleaceae","Barranco-Colón-Ayto",directed,5
+"Bignoniaceae","Guadalquivir-Ayto",directed,1
+"Hydrangeaceae","María Luisa",directed,1
+"Podocarpaceae","Alcosa-Ayto",directed,1
+"Pittosporaceae","Santa Clara-Don Fadrique",directed,1
+"Ulmaceae","Tamarguillo-Ayto",directed,1
+"Rutaceae","Buhaira-Ayto",directed,3
+"Fabaceae","Catalina de Ribera-Ayto",directed,3
+"Elaeagnaceae","Calles de Sevilla-Ayto",directed,2
+"Sapindaceae","Amate-Ayto",directed,2
+"Fabaceae","Calles de Sevilla-Ayto",directed,13
+"Lythraceae","Perdigones",directed,1
+"Malvaceae","Barranco-Colón-Ayto",directed,2
+"Oleaceae","Calles de Sevilla-Ayto",directed,9
+"Fagaceae","Otros-Ayto",directed,2
+"Caesalpiniaceae","Infanta Elena-Ayto",directed,1
+"Arecaceae","Murillo",directed,6
+"Agavaceae","Real Alcázar",directed,2
+"Arecaceae","Guadalquivir-Ayto",directed,3
+"Zamiaceae","María Luisa",directed,1
+"Aquifoliaceae","Casino",directed,1
+"Caprifoliaceae","Guadaira",directed,1
+"Pinaceae","Amate-Ayto",directed,2
+"Agavaceae","María Luisa",directed,3
+"Magnoliaceae","Delicias-Ayto",directed,1
+"Nymphaeaceae","María Luisa",directed,2
+"Agavaceae","Casino",directed,2
+"Rutaceae","Guadalquivir-Ayto",directed,1
+"Moraceae","Catalina de Ribera-Ayto",directed,1
+"Magnoliaceae","Calles de Sevilla-Ayto",directed,1
+"Piperaceae","Calles de Sevilla-Ayto",directed,2
+"Rutaceae","Valle-Ayto",directed,2
+"Sapindaceae","Catalina de Ribera-Ayto",directed,1
+"Celastraceae","CEIP Vélez de Guevara",directed,1
+"Rosaceae","San Jerónimo-Ayto",directed,3
+"Araucariaceae","Los Príncipes-Ayto",directed,1
+"Vitaceae","Real Alcázar",directed,2
+"Bignoniaceae","Perdigones",directed,4
+"Arecaceae","Bermejales-Ayto",directed,3
+"Rosaceae","El Turruñuelo-Ayto",directed,1
+"Casuarinaceae","Calles de Sevilla-Ayto",directed,1
+"Solanaceae","Calles de Sevilla-Ayto",directed,3
+"Scrophulariaceae","Otros-Ayto",directed,1
+"Cannaceae","María Luisa",directed,1
+"Casuarinaceae","Barranco-Colón-Ayto",directed,1
+"Strelitziaceae","Casino",directed,2
+"Verbenaceae","Murillo",directed,3
+"Bignoniaceae","Rey JCI-Torneo-Ayto",directed,1
+"Salicaceae","Guadalquivir-Ayto",directed,1
+"Xanthorrhoeaceae","Casino",directed,1
+"Rosaceae","Otros-Ayto",directed,7
+"Bignoniaceae","Barranco-Colón-Ayto",directed,1
+"Meliaceae","Norte-Ayto",directed,1
+"Cycadaceae","Casino",directed,1
+"Fagaceae","Tamarguillo-Ayto",directed,2
+"Pinaceae","Tamarguillo-Ayto",directed,3
+"Proteaceae","Otros-Ayto",directed,1
+"Meliaceae","Real Alcázar",directed,1
+"Lythraceae","Delicias-Ayto",directed,1
+"Rosaceae","CEIP San José Obrero",directed,1
+"Pittosporaceae","Real Alcázar",directed,1
+"Fagaceae","Bermejales-Ayto",directed,2
+"Ulmaceae","Catalina de Ribera-Ayto",directed,2
+"Podocarpaceae","María Luisa",directed,1
+"Anacardiaceae","Los Príncipes-Ayto",directed,1
+"Cycadaceae","María Luisa",directed,2
+"Cannabaceae","Murillo",directed,1
+"Lauraceae","Amate-Ayto",directed,1
+"Ulmaceae","Guadaira",directed,1
+"Anacardiaceae","Celestino Mutis-Ayto",directed,1
+"Moraceae","Guadaira",directed,1
+"Rosaceae","Maestranza-Ayto",directed,1
+"Proteaceae","Cortijo del Cuarto-Ayto",directed,1
+"Cycadaceae","Calles de Sevilla-Ayto",directed,1
+"Ulmaceae","CEIP San José Obrero",directed,1
+"Meliaceae","María Luisa",directed,1
+"Proteaceae","Rey JCI-Torneo-Ayto",directed,1
+"Ulmaceae","Amate",directed,2
+"Rutaceae","Catalina de Ribera-Ayto",directed,1
+"Elaeagnaceae","Otros-Ayto",directed,1
+"Cupressaceae","CEIP Andalucía",directed,1
+"Araucariaceae","Casino",directed,3
+"Cupressaceae","Amate-Ayto",directed,3
+"Annonaceae","Real Alcázar",directed,1
+"Acanthaceae","Murillo",directed,1
+"Celastraceae","María Luisa",directed,1
+"Agavaceae","Americano-Ayto",directed,1
+"Fabaceae","Celestino Mutis-Ayto",directed,6
+"Caesalpiniaceae","Miraflores-Ayto",directed,1
+"Moraceae","Bermejales-Ayto",directed,1
+"Salicaceae","Infanta Elena-Ayto",directed,2
+"Rosaceae","CEIP Vélez de Guevara",directed,2
+"Sapindaceae","Valle-Ayto",directed,1
+"Cannabaceae","Calles de Sevilla-Ayto",directed,2
+"Myrtaceae","Infanta Elena-Ayto",directed,1
+"Sapindaceae","Miraflores-Ayto",directed,2
+"Salicaceae","Alcosa-Ayto",directed,1
+"Magnoliaceae","María Luisa",directed,1
+"Caesalpiniaceae","Ribera del Guadaira-Ayto",directed,1
+"Sapindaceae","CEIP Vélez de Guevara",directed,1
+"Acanthaceae","Real Alcázar",directed,3
+"Salicaceae","Ribera del Guadaira-Ayto",directed,3
+"Fabaceae","Cortijo del Cuarto-Ayto",directed,1
+"Salicaceae","Amate-Ayto",directed,1
+"Arecaceae","Otros-Ayto",directed,8
+"Arecaceae","Alcosa-Ayto",directed,3
+"Moraceae","Celestino Mutis-Ayto",directed,1
+"Adoxaceae","Amate",directed,1
+"Lythraceae","Otros-Ayto",directed,2
+"Apocynaceae","Guadaira",directed,1
+"Meliaceae","Ribera del Guadaira-Ayto",directed,1
+"Cannabaceae","CEIP Vélez de Guevara",directed,1
+"Bombacaceae","Guadalquivir-Ayto",directed,1
+"Pinaceae","San Jerónimo-Ayto",directed,2
+"Simaroubaceae","Tamarguillo-Ayto",directed,1
+"Xanthorrhoeaceae","CEIP Vélez de Guevara",directed,1
+"Bignoniaceae","Los Príncipes-Ayto",directed,1
+"Phytolaccaceae","Delicias-Ayto",directed,1
+"Myrtaceae","Calles de Sevilla-Ayto",directed,3

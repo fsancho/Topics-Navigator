@@ -81,7 +81,7 @@ drelations-own
 qrelations-own
 [
   RelType
-  relation_attributes 
+  relation_attributes
   original?
 ]
 
@@ -132,12 +132,12 @@ globals
   RelationTypes        ; Relations Types in the network
   Relations-Styles     ; Visual features for the several relations types
 
-  ;Special Families Topics 
+  ;Special Families Topics
   Table:Actions        ; Table of action tasks to be applied over families of topics
   T-Visible            ; Visible Topics in any moment
   T-Layout             ; Topics to be considered in the layout
   Hyper                ; list of topic-types for hyper-edges
-  
+
   Layout:Modes         ; List of Layout Modes
   Buttons:Files        ; Control hide/show for Files
   Button:TI            ; Control hide/show Topic Information
@@ -146,22 +146,22 @@ globals
   Buttons:Schema
   Buttons:Timeline
   Buttons:Measures
-  
+
   Current-Traversal    ; List with current traversal [[v1... vn] [vi1...vin]]=[P,Q]
   Current-query        ; List with the query that is in constrution
   Query-set            ; List of Queries in memory
   Global-restrictions  ; List of "where" conditions in queries
-  
+
   Run-out              ; Action to be run out of turtle-context
   Customized-label     ; Format for the label to be shown by topics
-  
+
   MinTimeline          ; lower limit for Timeline
   MaxTimeline          ; upper limit for Timeline
-  
+
   topics-load          ; Auxiliary table to load edges faster from files
-  
+
   Processing           ; General reporter to show the % of computation processed
-  
+
 ]
 
 ; Procedure to be called when the model is loaded
@@ -182,9 +182,9 @@ to startup
   set MinTimeline 0
   set MaxTimeline 100
   set processing "No Job..."
-  
-  ;Table of action tasks to be applied over families of topics  
-  set Table:Actions table:from-list (list 
+
+  ;Table of action tasks to be applied over families of topics
+  set Table:Actions table:from-list (list
     (list "Show" task [Show-topics Selected-Family])
     (list "Hide" task [Hide-topics Selected-Family])
     (list "Expand" task [Expand-topics Selected-Family])
@@ -196,13 +196,13 @@ to startup
     (list "Show Labels" task [show-labels])
     (list "Hide Labels" task [hide-labels])
     )
-  
+
   ;List of action tasks for layout computing
   set Layout:Modes table:from-list (list
     (list "Spring" task [spring-layout])
     (list "ARF" task [ARF-layout])
     (list "ARF Weighted" task [ARF-Weighted-layout])
-    (list "ARF QWeighted" task [ARF-QWeighted-layout])    
+    (list "ARF QWeighted" task [ARF-QWeighted-layout])
     (list "Spring + ARF" task [spring-layout ARF-layout])
     (list "Hyp" task [hyp-layout])
     (list "Spring + Hyp" task [spring-layout hyp-layout])
@@ -211,17 +211,17 @@ to startup
     (list "Radial" task [radial-layout])
     (list "C. Bipartite" task [C-Bipartite])
     )
-  
+
   goo:set-chooser-items "Layout-mode" (map [first ?] (table:to-list Layout:Modes))
   goo:set-chooser-items "Family" (sentence "All" "Visible" "Selected" "Fixed")
-    
+
   ; Prepare the background and auxiliar turtles
   ask patches [set pcolor white]
   set-default-shape edges "line"        ; edges for the selection box
   set-default-shape selectors "circle"  ; highlighting for selected topics
   set-default-shape pins "pushpin"      ; pin for fixed topics
   set-default-shape informers "informer";Prepare the informers...
-  create-informers 3                    
+  create-informers 3
   [
     set heading 0
     setxy 0 (-.5 * who)
@@ -236,10 +236,10 @@ to startup
   set Temp-Selected no-turtles
   set T-Visible no-turtles
   set vrelations no-links
-     
+
   set Buttons:Files true
   set Button:TI true
-  set Buttons:Visual (list "selected-color" "spring-length" "spring-constant" "repulsion-constant" "tension" "radius" "Show-weights?" "Zoom" "refresh" 
+  set Buttons:Visual (list "selected-color" "spring-length" "spring-constant" "repulsion-constant" "tension" "radius" "Show-weights?" "Zoom" "refresh"
     "Hide-Orphans?" "Show-all-relations?" "V-Sort" "H-Sort" "R-Sort" "Fix?" "Show/Hide Topic Information" "Customize Topic Label" "Gravity" "Show-relation-labels?"
     "Topic-Information?" "Topic-Information")
   set Buttons:Queries (list "Add P" "Build P" "Launch!" "New Q" "Queries:" "Query-Path" "Export" "Q-Import" "Show Query" "Clear" "Output" "Threshold" "Filter" "Consolidate")
@@ -251,17 +251,17 @@ to startup
   set-buttons Buttons:Schema false
   set-buttons Buttons:Timeline false
   set-buttons Buttons:Measures false
-  
+
   ; Initialize of contextual menu
   setup-brwoser-menu
-  
-  let logo (bitmap:import "My_Logo.png") 
-  bitmap:copy-to-drawing logo (patch-size * world-width - (bitmap:width logo)) / 2 (patch-size * world-height - (bitmap:height logo)) / 2 
-  
+
+  let logo (bitmap:import "My_Logo.png")
+  bitmap:copy-to-drawing logo (patch-size * world-width - (bitmap:width logo)) / 2 (patch-size * world-height - (bitmap:height logo)) / 2
+
   display
 end
 
-; 
+;
 to Execute
   run table:get Table:actions Action
 end
@@ -272,8 +272,8 @@ to topic-inspect
   [
     let candidate min-one-of T-Visible [distancexy mouse-xcor mouse-ycor]
     if candidate != nobody
-    [ ask candidate 
-      [if (distancexy mouse-xcor mouse-ycor) < 1 
+    [ ask candidate
+      [if (distancexy mouse-xcor mouse-ycor) < 1
         [
           let att (table:to-list topic_attributes)
           let p_attr ifelse-value (empty? att) [""][reduce [(word ?1 ?2)] (map [(word "\n" (first ?) ": " (last ?) " | ")] att)]
@@ -289,7 +289,7 @@ end
 to select
   ask edges [die]
   selection-multi
-end  
+end
 
 to select-topic
   ifelse selected?
@@ -302,7 +302,7 @@ to select-topic
     ;se añade un selector para él
     no-display
     hatch-selectors 1
-    [ 
+    [
       move-to myself
       set parent myself
       set size 1.5 * [size] of myself
@@ -316,10 +316,10 @@ end
 to-report in-box? [x y]
   if not any? edges [ report false ]
   ; Calculamos las cotas del rect�ngulo
-  let y-max max [ycor] of edges   
-  let y-min min [ycor] of edges   
-  let x-max max [xcor] of edges   
-  let x-min min [xcor] of edges   
+  let y-max max [ycor] of edges
+  let y-min min [ycor] of edges
+  let x-max max [xcor] of edges
+  let x-min min [xcor] of edges
   ; Comprobamos si el punto (x,y) est� dentro de esas cotas
   report (x >= x-min) and (x <= x-max) and (y >= y-min) and (y <= y-max)
 end
@@ -363,10 +363,10 @@ to selection-multi
   ask edges [die] ;se elimina el rect�ngulo
   ; se a�ade un selector por cada t�pico seleccionado (que no estuviera seleccionado)
   ask Temp-Selected with [not selected?]
-    [ 
+    [
       set selected? true
       hatch-selectors 1
-      [ 
+      [
         set parent myself
         set size 1.5 * [size] of parent
         set color lput 120 extract-rgb selected-color
@@ -412,7 +412,7 @@ end
 to expand-topics [t]
   ; Expandimos los t�picos visibles de los recibidos como entrada
   set t turtle-set t
-  ask t with [not hidden?][ expand-topic self ] 
+  ask t with [not hidden?][ expand-topic self ]
   ; actualizamos los nodos visibles, y las aristas
   refresh-visible
   ; Si est� activada la opci�n, mostramos todas las aristas que se deriven de la aparici�n de los
@@ -466,7 +466,7 @@ to hide-topics [t]
   ]
   ask t2
   [
-    ht 
+    ht
     ask my-rels [hide-link]
   ]
   ask selectors
@@ -476,7 +476,7 @@ to hide-topics [t]
   ; Los t�picos de enlace que han quedado con grado 1 se consideran hu�rfanos
   ;Tras hide-topics los t�picos, si la funci�n est� activada, comprueba cu�les son los t�picos que han quedado hu�rfanos
   if Hide-Orphans? [ask topics with [my-rels with [not hidden?] = no-links] [ht]]
-  ; Actualiza los t�picos y aristas visibles 
+  ; Actualiza los t�picos y aristas visibles
   set T-Visible (topics with [not hidden?])
   set vrelations rels with [not hidden?]
 end
@@ -486,7 +486,7 @@ end
 ; para que un t�pico se considere pulsado, el clic ha de hacerse a una distancia <1 del t�pico
 to-report get-with-mouse
   let candidate nobody
-  if mouse-down? 
+  if mouse-down?
   [
     let resp 0
     set candidate min-one-of  T-Visible [distancexy mouse-xcor mouse-ycor]
@@ -576,7 +576,7 @@ to search
     show-topics rep
   ]
 end
-    
+
 
 to-report search-aux
   let goal string:lower-case (user-input "Enter the content to look for:")
@@ -605,7 +605,7 @@ to-report search-aux
   ]
   [
     report nobody
-  ] 
+  ]
 end
 
 
@@ -615,7 +615,7 @@ to list-topics [t]
   foreach (sort-by [ ([(word ID)] of ?1) < ([(word ID)] of ?2)] t)
   [
     ask ?
-    [ 
+    [
       let ss ""
       let att (map [(word last ?)] table:to-list topic_attributes)
       ifelse att = []
@@ -635,13 +635,13 @@ to Select-family
   ask (topics with [selected?])
   [
     ifelse any? selectors with [parent = myself]
-    [ 
-      ; si ya estaba seleccionado no hacer nada 
+    [
+      ; si ya estaba seleccionado no hacer nada
     ]
     [ ; si no estaba seleccionado
       ;se a�ade un selector para �l
       hatch-selectors 1
-      [ 
+      [
         set parent myself
         set size 1.5 * [size] of myself
         set color lput 120 extract-rgb selected-color
@@ -753,7 +753,7 @@ spring-constant
 spring-constant
 0
 1
-0.7
+0.19
 .01
 1
 NIL
@@ -768,7 +768,7 @@ spring-length
 spring-length
 0
 MaxSpringLength
-5
+1.22
 .01
 1
 NIL
@@ -783,7 +783,7 @@ repulsion-constant
 repulsion-constant
 0
 MaxRepulsionConstant
-1.5
+0.2978
 .0001
 1
 NIL
@@ -815,7 +815,7 @@ Zoom
 Zoom
 0
 200
-76
+60
 1
 1
 %
@@ -885,8 +885,8 @@ SLIDER
 radius
 radius
 0
-5
-2
+10
+2.78
 .01
 1
 NIL
@@ -901,7 +901,7 @@ tension
 tension
 0
 30
-10
+9.2
 .1
 1
 NIL
@@ -925,7 +925,7 @@ SWITCH
 354
 Fix?
 Fix?
-0
+1
 1
 -1000
 
@@ -935,7 +935,7 @@ INPUTBOX
 298
 301
 Query-Path
-P: 
+P:
 1
 0
 String
@@ -998,7 +998,7 @@ CHOOSER
 88
 Family
 Family
-"All" "Visible" "Selected" "Fixed" "Provincia" "Canton" "Parroquia" "Sensibilidad" "Inmaterial" "Herramientas" "UsoSimbolico" "Alcance" "Periodicidad" "Tecnica" "Producto" "Preparativo" "Elemento" "ElementosSig" "Ambito" "Subambito" "DetalleSubambito" "Lengua" "Comunidad"
+"All" "Visible" "Selected" "Fixed" "Scientific" "Family" "Origin" "Flower_color" "Type" "Foliage_type" "Flower_app" "Canopy" "Leaf_form" "Leaf_later" "Leaf_base" "Leaf_apex" "Leaf_type" "Leaf_layout" "Park_zone" "District"
 0
 
 BUTTON
@@ -1280,7 +1280,7 @@ CHOOSER
 Action
 Action
 "Show" "Hide" "Expand" "Leave" "Fix" "List" "Select" "Deselect" "Show Labels" "Hide Labels"
-5
+0
 
 BUTTON
 233
@@ -1307,7 +1307,7 @@ CHOOSER
 Layout-mode
 Layout-mode
 "Spring" "ARF" "ARF Weighted" "ARF QWeighted" "Spring + ARF" "Hyp" "Spring + Hyp" "Hyp + ARF" "Circle" "Radial" "C. Bipartite"
-1
+8
 
 BUTTON
 59
@@ -1464,7 +1464,7 @@ Gravity
 Gravity
 0
 1
-0.31
+1
 .01
 1
 NIL
@@ -1636,7 +1636,7 @@ CHOOSER
 Choose-Measure
 Choose-Measure
 "degree" "in-degree" "out-degree" "Clust.Coef" "rank" "Shimbel" "eccentricity" "closeness"
-4
+0
 
 BUTTON
 231
@@ -1820,19 +1820,19 @@ Informally, a **graph** is a ser of objects called **vertices** or **nodes** con
 From a practical point of view, the graphs allow us to study the relationships between units that interact with each other. For example, a network of concepts in a domain can be represented and studied by a graph in which the vertices represent the various concepts that are studied and the edges represent connections (which are considered appropriate in the domain, for example, synonymy, antonymy, comes from, etc.). Virtually any problem can be represented by a graph, and their study goes beyond the various areas of sciences and social sciences.
 
 Depending on how we consider the edge joining the vertices, the graphs can be classified as **directed** (when the edge starts from one of the vertices and reaches the other, ie the role of both nodes in the relationship is not same) or **undirected** (where the edge simply connect the vertices together). Typically, the directed edges are represented as an arrow (as seen in the figure below) and the undirected ones as segments.
- 
+
 ![Fig.1](file:.\doc\fig1.jpg)
 
 A **path** in a graph is a sequence of vertices such that from each of them there is an edge to the next vertex. In the figure below we highlight a path joining the vertices 3 and 4.
 
 ![Fig.2](file:.\doc\fig2.jpg)
 
-Additionally, you can consider **weights** on the edges that may indicate some kind of feature of it (length, flow of information, connection strength, etc.).. In this case, we say that the graph is weighted. 
+Additionally, you can consider **weights** on the edges that may indicate some kind of feature of it (length, flow of information, connection strength, etc.).. In this case, we say that the graph is weighted.
 
 Sometimes the kind information that relates the nodes not just connect the vertices in a binary way, ie, two by two, but the relationships are between larger sets of vertices. For example, suppose we have a network of tourism in which tourists consider traveling and visiting areas, in this case, relate only that tourist v1 visited the area v2 may be insufficient because it depends on the year in which he did it, in this case we introduce a third type of vertex, temporal, and the relationship is between the three simultaneously: the tourist v1 visited the area v2 in the year v3.
 
 ![Fig.3](file:.\doc\fig3.jpg)
- 
+
 In this case, we have more expressive possibilities, for example: v1 and v4 tourists visited the area v2 together in the year v3. Of course, the repersentation of this kind of relationships is more complicated and we cannot simply represent segments by connecting the dots.
 
 This type of graphs with stronger edges are called **hypergraphs**, and the edges of this type **hyperedges**.
@@ -1841,7 +1841,7 @@ Because representations of hyperedges are much more complex (and confusing) from
 
 ![Fig.4](file:.\doc\fig4.jpg)
 
-In the previous figure we see how an hyperedge linking the three circular nodes is represented by an independent vertex (gray, and highlighted in red) that links together. 
+In the previous figure we see how an hyperedge linking the three circular nodes is represented by an independent vertex (gray, and highlighted in red) that links together.
 
 ## Playing around with the tool
 
@@ -1853,7 +1853,7 @@ Here we introduce some of the main features it provides:
 
 ### How it works
 
-This tool can work with hypergraphs that mix edges of several types: undirected, directed and hyperedges in the same hypergraph. 
+This tool can work with hypergraphs that mix edges of several types: undirected, directed and hyperedges in the same hypergraph.
 
 The hyperedges will be represented by auxiliary nodes connecting all the topics in the hyperedge.
 
@@ -1878,15 +1878,15 @@ The system provides two different contextual menus acting on the nodes:
 ![Fig.5](file:.\doc\fig5.jpg)     ![Fig.6](file:.\doc\fig6.jpg)
 
   1. **Active Browser**: By pressing on this button you can act on every node with the main browser operations you can do over it:
-    * **Expand** will show all the nodes connected with it. ![ ](file:.\doc\Expand.jpg) 
-    * **Leave** will hide all nodes except this. ![ ](file:.\doc\Leave.jpg) 
+    * **Expand** will show all the nodes connected with it. ![ ](file:.\doc\Expand.jpg)
+    * **Leave** will hide all nodes except this. ![ ](file:.\doc\Leave.jpg)
     * **Hide** will hide this node from the current representation. ![ ](file:.\doc\hide.jpg)
     * **Select** will select this node. ![ ](file:.\doc\select.jpg)
     * **Fix** will fix this node. ![ ](file:.\doc\Fix.jpg)
     * **Label** will hide/show the label of this node. ![ ](file:.\doc\Label.jpg)
   2. **Active Data**: By pressing on this button you can act on every node with the main data operations you can do over it:
-    * **Add Node** will allow to add a new node to the graph. ![ ](file:.\doc\Addnode.jpg) 
-    * **Delete Node** will remove this node from the graph. ![ ](file:.\doc\DeleteNode.jpg) 
+    * **Add Node** will allow to add a new node to the graph. ![ ](file:.\doc\Addnode.jpg)
+    * **Delete Node** will remove this node from the graph. ![ ](file:.\doc\DeleteNode.jpg)
     * **Add Link** will add a new link between this node and an existing node. ![ ](file:.\doc\AddLink.jpg)
     * **Delete Link** will remove one of the links of this node. ![ ](file:.\doc\DeleteLink.jpg)
     * **Edit** allows to modify the attributes of this node. ![ ](file:.\doc\EditNode.jpg)
@@ -1921,7 +1921,7 @@ Pressing on **Execute!** button, the action will be applied on the nodes of the 
 
 ### Searchs
 
-With the **Search** button you can look for any node in your network by using any piece of information. It will show you all the nodes that have your input string as part of any of theirs attributes. 
+With the **Search** button you can look for any node in your network by using any piece of information. It will show you all the nodes that have your input string as part of any of theirs attributes.
 
 Once you have selected the one of your interest, it will be show on the world.
 
@@ -1967,12 +1967,12 @@ you can access more complex features and controls for analyzing and representing
 
 ## The Schema of Connected Information
 
-In order to retrieve information from the graph using queries it is necessary to build previously the **Graph Schema** from the loaded data. Since this schema is obtained from the data you must do it after loading the graph and after main changes in your graph. 
+In order to retrieve information from the graph using queries it is necessary to build previously the **Graph Schema** from the loaded data. Since this schema is obtained from the data you must do it after loading the graph and after main changes in your graph.
 
 ![ ](file:.\doc\fig12.jpg)
 
 Obtaining this schema is really simple from the data:
-* One _Schema-Node_ is added for every _NodeType_ of your graph (and every hyperedge) and 
+* One _Schema-Node_ is added for every _NodeType_ of your graph (and every hyperedge) and
 * Two Scheme-Nodes are _connected_ if there exists at least one connection between nodes of these types in your graph.
 
 Press on **Build** button to generate ths schema. **Layout Schema** to represent it in a mor confortable way, and **Show/Hide** to show/hide the schema.
@@ -1996,14 +1996,14 @@ A **traversal* is formed by 3 main parts:
 The only mandatory part of a query is part 1, the other two are optional and provide additional filtering processes. An example that uses the 3 parts is the following query:
 
 ![ ](file:.\doc\fig13.jpg)
->Connect Obra with Clas.Calvo if there exists a path verifying: 
->(&1) Obra -> 
->(&2) Localización -> 
->(&3) Jornada, verifying nombre = "I",  -> 
->(&4) Localización -> 
->(&5) Acto -> 
->(&6) Verbo -> 
->(&7) Clas.Calvo -> 
+>Connect Obra with Clas.Calvo if there exists a path verifying:
+>(&1) Obra ->
+>(&2) Localización ->
+>(&3) Jornada, verifying nombre = "I",  ->
+>(&4) Localización ->
+>(&5) Acto ->
+>(&6) Verbo ->
+>(&7) Clas.Calvo ->
 >Where &2 = &4
 
 Let us see step by step how to generate the previous query:
@@ -2012,16 +2012,16 @@ Let us see step by step how to generate the previous query:
   2. Once we have finished generating the path, we must add it to the current compund query by clicking the **Add P** and then the system will ask for the global constraint. To reference the various nodes of the path the system provides a numeric label for each one, _&n_ in the order they are generated. If, as in the present case, we look for nodes 2 and 4 in the path to be the same, just enter the following text in the dialog:
 
 ![ ](file:.\doc\fig16.jpg)
- 
+
 If you want to see in a more natural format the query generated just click on the button **Show Query**:
- 
+
 The result is shown below, and it is achieved by launching the query with the **Launch!** button:
 
 ![ ](file:.\doc\fig17.jpg)
 
 Keep in mind that if you perform another query without clearing previous one the reult is added (and then the weights of the possible new connections if they exist) to the existing one. If you want to run the query on a clean state, you must press the **"Clear**.
 
-The visualization of the results of the query is performed automatically after the execution of the query. Using the standard **Layout** button you can control the representation of the resulting graph. 
+The visualization of the results of the query is performed automatically after the execution of the query. Using the standard **Layout** button you can control the representation of the resulting graph.
 
 ### Exporting
 
@@ -2079,21 +2079,21 @@ The format for the **NLG** (NetLogo Graph) files are strictly the following:
     Name(string)   color   shape(string)   size
     ...
     <EndNodesTypes>
-    
+
     % Types of Edges: Name color shape thickness Type(0: Undirected, 1: Directed, 2-Hyperedge)
     %   if Hyperdege: Name color shape size Type
     <EdgesTypes>
     Name   color   shape   thickness   Type
     ...
     <EndEdgesTypes>
-    
+
     % Nodes of the graph. Structure: ID NodeType Attributes...
     <Nodes>
     "ID(X)"   "NodeType(S)"   "Att1(S)"   "Att2(X)" ...
     id1       "Type1"         "value1"     value2
     ...
     <EndNodes>
-    
+
     % Edges & HyperEdges of the graph.
     <Edges>
     "ID-List(X)"   "EdgeType(S)"   "Attr1(X)"   "Att2(S)" ...
@@ -2106,10 +2106,10 @@ Following you have an example:
     % Types of Nodes of the graph. Structure: Name color shape size
     <NodesTypes>
     "Mammal"    brown  "circle"   1
-    "Bird"      blue   "square"   1	
+    "Bird"      blue   "square"   1
     "Reptile"   red    "triangle" 1
     <EndNodesTypes>
-    
+
     % Types of Edges: Name color shape thickness Type(0: Undirected, 1: Directed, 2-Hyperedge)
     %   if Hyperdege: Name color shape size Type
     <EdgesTypes>
@@ -2118,7 +2118,7 @@ Following you have an example:
     "escapes"    green   "curve-3.0"  0.1    1
     "group"      gray    "conector"   0.5    2
     <EndEdgesTypes>
-    
+
     % Nodes of the graph. Structure: ID NodeType Attributes...
     <Nodes>
     "ID(X)"   "NodeType(S)"   "label(S)"
@@ -2129,7 +2129,7 @@ Following you have an example:
     5         "Reptile"       "Crocodile"
     6         "Bird"          "Eagle"
     <EndNodes>
-    
+
     % Edges & HyperEdges of the graph. Structure: [ID-list] EdgeType Attributes...
     % Special Attribute "Timeline"
     <Edges>
@@ -2377,6 +2377,7 @@ circle
 false
 0
 Circle -7500403 true true 0 0 300
+Circle -16777216 false false 0 0 300
 
 circle 2
 true
@@ -2385,6 +2386,17 @@ Circle -11221820 true true 0 0 300
 Circle -1 true false 30 30 240
 Line -7500403 false 150 30 150 270
 Line -7500403 false 30 150 270 150
+
+circle 3
+false
+0
+Circle -7500403 true true 0 0 300
+Circle -1 true false 74 74 152
+Circle -16777216 false false -3 -3 306
+Circle -16777216 false false 74 74 153
+Rectangle -1 true false 0 210 300 300
+Rectangle -7500403 true true 15 195 285 210
+Line -16777216 false 15 210 285 210
 
 clasificacion milagro
 false
@@ -2562,6 +2574,23 @@ Circle -13345367 true false 135 66 102
 Circle -1 true false 153 69 82
 Polygon -13345367 true false 150 135 105 180 60 240 119 196 165 150
 
+flower
+false
+0
+Polygon -10899396 true false 135 120 165 165 180 210 180 240 150 300 165 300 195 240 195 195 165 135
+Circle -7500403 true true 85 132 38
+Circle -7500403 true true 130 147 38
+Circle -7500403 true true 192 85 38
+Circle -7500403 true true 85 40 38
+Circle -7500403 true true 177 40 38
+Circle -7500403 true true 177 132 38
+Circle -7500403 true true 70 85 38
+Circle -7500403 true true 130 25 38
+Circle -7500403 true true 96 51 108
+Circle -16777216 true false 113 68 74
+Polygon -10899396 true false 189 233 219 188 249 173 279 188 234 218
+Polygon -10899396 true false 180 255 150 210 105 210 75 240 135 240
+
 folio
 false
 0
@@ -2599,17 +2628,17 @@ Line -16777216 false 30 120 270 120
 
 hyper-tipo
 false
-15
-Circle -7500403 true false 180 90 120
-Circle -7500403 true false 0 90 120
-Circle -7500403 true false 90 180 120
-Circle -7500403 true false 60 60 180
-Circle -7500403 true false 90 0 120
-Circle -1 true true 105 15 90
-Circle -1 true true 195 105 90
-Circle -1 true true 15 105 90
-Circle -1 true true 105 195 90
-Circle -1 true true 75 75 150
+1
+Circle -16777216 true false 150 90 120
+Circle -16777216 true false 30 90 120
+Circle -16777216 true false 90 150 120
+Circle -16777216 true false 60 60 180
+Circle -16777216 true false 90 30 120
+Circle -1 true false 105 45 90
+Circle -1 true false 165 105 90
+Circle -1 true false 45 105 90
+Circle -1 true false 105 165 90
+Circle -1 true false 75 75 150
 
 informer
 false
@@ -2648,6 +2677,12 @@ false
 Polygon -1 true false 0 150 105 75 150 90 195 75 300 150 195 210 105 210
 Line -16777216 false 0 150 300 150
 Polygon -16777216 false false 0 150 105 75 150 90 195 75 300 150 195 210 105 210
+
+leaf
+false
+0
+Rectangle -7500403 true true 144 218 156 298
+Polygon -7500403 true true 150 263 133 276 102 276 58 242 35 176 33 139 43 114 54 123 62 87 75 53 94 30 104 39 120 9 155 31 180 68 191 56 216 85 235 125 240 173 250 165 248 205 225 247 200 271 176 275
 
 leave
 false
@@ -2845,6 +2880,17 @@ Polygon -1 true false 15 75 195 15 270 255 150 300 90 300
 Polygon -16777216 true false 105 60 135 120 210 90 180 30
 Polygon -16777216 true false 45 90 90 255 165 225 75 90
 Polygon -16777216 true false 150 150 195 270 255 240 210 120
+
+orbit 6
+true
+0
+Circle -7500403 true true 116 11 67
+Circle -7500403 true true 26 176 67
+Circle -7500403 true true 206 176 67
+Circle -7500403 false true 45 45 210
+Circle -7500403 true true 26 58 67
+Circle -7500403 true true 206 58 67
+Circle -7500403 true true 116 221 67
 
 paisbn
 false
@@ -3189,7 +3235,7 @@ Polygon -16777216 false false 180 105 210 105 210 210 255 210 285 240 285 270 25
 Polygon -16777216 false false 210 240 240 240 255 255 240 270 210 270
 
 @#$#@#$#@
-NetLogo 5.0.5
+NetLogo 5.3.1
 @#$#@#$#@
 @#$#@#$#@
 @#$#@#$#@

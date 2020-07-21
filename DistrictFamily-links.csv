@@ -1,0 +1,409 @@
+Source,Target,Type,Weight
+"Sur","Santalaceae",directed,1
+"Macarena","Caesalpiniaceae",directed,1
+"Triana","Adoxaceae",directed,1
+"Norte","Simaroubaceae",directed,2
+"Sur","Lythraceae",directed,6
+"Casco Antiguo","Aizoaceae",directed,1
+"Norte","Vitaceae",directed,1
+"Los Remedios","Euphorbiaceae",directed,1
+"Los Remedios","Altingiaceae",directed,2
+"Los Remedios","Nyctaginaceae",directed,2
+"Triana","Magnoliaceae",directed,3
+"Macarena","Solanaceae",directed,4
+"Sur","Pittosporaceae",directed,2
+"Casco Antiguo","Scrophulariaceae",directed,2
+"Casco Antiguo","Bignoniaceae",directed,15
+"Triana","Proteaceae",directed,4
+"Macarena","Verbenaceae",directed,2
+"Macarena","Nyctaginaceae",directed,2
+"Triana","Sapindaceae",directed,8
+"Sur","Altingiaceae",directed,3
+"Sur","Malvaceae",directed,21
+"Los Remedios","Santalaceae",directed,1
+"Los Remedios","Sapindaceae",directed,4
+"Norte","Tamaricaceae",directed,3
+"Casco Antiguo","Fagaceae",directed,6
+"Macarena","Agavaceae",directed,3
+"Casco Antiguo","Taxodiaceae",directed,2
+"Casco Antiguo","Ulmaceae",directed,9
+"Los Remedios","Pittosporaceae",directed,2
+"Triana","Pinaceae",directed,12
+"Casco Antiguo","Tamaricaceae",directed,3
+"Los Remedios","Araucariaceae",directed,2
+"Triana","Piperaceae",directed,2
+"Sur","Verbenaceae",directed,1
+"Macarena","Adoxaceae",directed,2
+"Triana","Myrtaceae",directed,7
+"Triana","Fagaceae",directed,5
+"Casco Antiguo","Arecaceae",directed,57
+"Triana","Malvaceae",directed,20
+"Norte","Meliaceae",directed,3
+"Casco Antiguo","Casuarinaceae",directed,3
+"Triana","Casuarinaceae",directed,3
+"Casco Antiguo","Menispermaceae",directed,2
+"Sur","Poaceae",directed,3
+"Los Remedios","Vitaceae",directed,1
+"Sur","Cactaceae",directed,1
+"Sur","Bignoniaceae",directed,13
+"Norte","Brassicaceae",directed,1
+"Triana","Lauraceae",directed,5
+"Sur","Arecaceae",directed,39
+"Casco Antiguo","Simaroubaceae",directed,2
+"Los Remedios","Adoxaceae",directed,1
+"Norte","Pedaliaceae",directed,1
+"Los Remedios","Ginkgoaceae",directed,1
+"Triana","Phytolaccaceae",directed,3
+"Casco Antiguo","Moraceae",directed,24
+"Triana","Santalaceae",directed,1
+"Macarena","Strelitziaceae",directed,1
+"Casco Antiguo","Vitaceae",directed,2
+"Los Remedios","Simaroubaceae",directed,1
+"Sur","Buxaceae",directed,1
+"Macarena","Annonaceae",directed,1
+"Sur","Piperaceae",directed,2
+"Norte","Fabaceae",directed,34
+"Sur","Simaroubaceae",directed,2
+"Macarena","Anacardiaceae",directed,3
+"Norte","Araucariaceae",directed,2
+"Casco Antiguo","Magnoliaceae",directed,7
+"Sur","Menispermaceae",directed,1
+"Macarena","Oleaceae",directed,16
+"Triana","Altingiaceae",directed,4
+"Los Remedios","Malvaceae",directed,13
+"Casco Antiguo","Proteaceae",directed,6
+"Norte","Cupressaceae",directed,9
+"Norte","Solanaceae",directed,4
+"Norte","Pittosporaceae",directed,2
+"Casco Antiguo","Amaranthaceae",directed,1
+"Macarena","Sapindaceae",directed,2
+"Macarena","Piperaceae",directed,2
+"Los Remedios","Poaceae",directed,2
+"Triana","Bromeliaceae",directed,1
+"Sur","Caesalpiniaceae",directed,5
+"Norte","Santalaceae",directed,1
+"Macarena","Ginkgoaceae",directed,2
+"Macarena","Betulaceae",directed,1
+"Sur","Apocynaceae",directed,3
+"Casco Antiguo","Solanaceae",directed,6
+"Macarena","Cycadaceae",directed,1
+"Los Remedios","Myrtaceae",directed,6
+"Sur","Bombacaceae",directed,5
+"Triana","Arecaceae",directed,30
+"Sur","Lauraceae",directed,6
+"Triana","Ginkgoaceae",directed,2
+"Norte","Euphorbiaceae",directed,1
+"Sur","Proteaceae",directed,5
+"Casco Antiguo","Myrtaceae",directed,12
+"Triana","Caesalpiniaceae",directed,4
+"Triana","Pedaliaceae",directed,1
+"Sur","Lamiaceae",directed,3
+"Casco Antiguo","Bombacaceae",directed,3
+"Los Remedios","Lauraceae",directed,4
+"Casco Antiguo","Aquifoliaceae",directed,1
+"Casco Antiguo","Celastraceae",directed,3
+"Norte","Myrtaceae",directed,7
+"Casco Antiguo","Fabaceae",directed,42
+"Triana","Cupressaceae",directed,12
+"Casco Antiguo","Phytolaccaceae",directed,4
+"Norte","Myristicaceae",directed,1
+"Casco Antiguo","Berberidaceae",directed,3
+"Norte","Oleaceae",directed,18
+"Macarena","Aceraceae",directed,1
+"Norte","Malvaceae",directed,16
+"Triana","Vitaceae",directed,1
+"Norte","Rutaceae",directed,10
+"Triana","Meliaceae",directed,4
+"Casco Antiguo","Cactaceae",directed,1
+"Macarena","Arecaceae",directed,19
+"Sur","Myrtaceae",directed,12
+"Casco Antiguo","Araceae",directed,2
+"Macarena","Pinaceae",directed,7
+"Macarena","Caprifoliaceae",directed,1
+"Sur","Cannabaceae",directed,7
+"Norte","Anacardiaceae",directed,7
+"Los Remedios","Lythraceae",directed,4
+"Macarena","Cactaceae",directed,1
+"Norte","Bignoniaceae",directed,7
+"Sur","Annonaceae",directed,1
+"Sur","Betulaceae",directed,1
+"Macarena","Apocynaceae",directed,1
+"Casco Antiguo","Euphorbiaceae",directed,1
+"Los Remedios","Piperaceae",directed,2
+"Sur","Sapindaceae",directed,6
+"Macarena","Myrtaceae",directed,5
+"Triana","Celastraceae",directed,1
+"Norte","Araliaceae",directed,2
+"Los Remedios","Bromeliaceae",directed,1
+"Norte","Lauraceae",directed,4
+"Macarena","Malvaceae",directed,11
+"Triana","Brassicaceae",directed,1
+"Norte","Ginkgoaceae",directed,2
+"Los Remedios","Bignoniaceae",directed,5
+"Sur","Musaceae",directed,3
+"Los Remedios","Berberidaceae",directed,1
+"Triana","Elaeagnaceae",directed,4
+"Macarena","Cannabaceae",directed,4
+"Los Remedios","Anacardiaceae",directed,5
+"Los Remedios","Arecaceae",directed,19
+"Macarena","Cupressaceae",directed,7
+"Norte","Elaeagnaceae",directed,4
+"Norte","Bombacaceae",directed,3
+"Norte","Cannabaceae",directed,6
+"Triana","Poaceae",directed,2
+"Casco Antiguo","Lamiaceae",directed,5
+"Casco Antiguo","Cycadaceae",directed,4
+"Casco Antiguo","Pittosporaceae",directed,4
+"Triana","Agavaceae",directed,5
+"Casco Antiguo","Nyctaginaceae",directed,4
+"Sur","Berberidaceae",directed,1
+"Los Remedios","Ulmaceae",directed,5
+"Norte","Berberidaceae",directed,1
+"Norte","Magnoliaceae",directed,2
+"Macarena","Casuarinaceae",directed,1
+"Casco Antiguo","Buxaceae",directed,1
+"Triana","Cycadaceae",directed,2
+"Sur","Tamaricaceae",directed,3
+"Norte","Lythraceae",directed,5
+"Norte","Leguminosae",directed,1
+"Casco Antiguo","Salicaceae",directed,5
+"Casco Antiguo","Xanthorrhoeaceae",directed,1
+"Triana","Fabaceae",directed,40
+"Casco Antiguo","Cupressaceae",directed,18
+"Casco Antiguo","Betulaceae",directed,1
+"Los Remedios","Meliaceae",directed,2
+"Norte","Casuarinaceae",directed,3
+"Sur","Solanaceae",directed,4
+"Norte","Celastraceae",directed,1
+"Casco Antiguo","Pinaceae",directed,13
+"Triana","Betulaceae",directed,1
+"Triana","Nyctaginaceae",directed,2
+"Sur","Moraceae",directed,27
+"Norte","Laxmanniaceae",directed,1
+"Los Remedios","Caesalpiniaceae",directed,2
+"Macarena","Pedaliaceae",directed,1
+"Los Remedios","Celastraceae",directed,1
+"Sur","Fagaceae",directed,10
+"Triana","Euphorbiaceae",directed,1
+"Triana","Salicaceae",directed,8
+"Los Remedios","Pinaceae",directed,10
+"Los Remedios","Pedaliaceae",directed,1
+"Sur","Nyctaginaceae",directed,2
+"Macarena","Lauraceae",directed,3
+"Norte","Arecaceae",directed,25
+"Casco Antiguo","Oleaceae",directed,31
+"Los Remedios","Zingiberaceae",directed,1
+"Los Remedios","Rutaceae",directed,9
+"Sur","Salicaceae",directed,10
+"Sur","Zingiberaceae",directed,1
+"Casco Antiguo","Lythraceae",directed,10
+"Casco Antiguo","Piperaceae",directed,3
+"Norte","Salicaceae",directed,6
+"Triana","Bignoniaceae",directed,9
+"Los Remedios","Cupressaceae",directed,8
+"Norte","Moraceae",directed,23
+"Los Remedios","Elaeagnaceae",directed,3
+"Macarena","Musaceae",directed,2
+"Triana","Tamaricaceae",directed,2
+"Casco Antiguo","Annonaceae",directed,1
+"Los Remedios","Leguminosae",directed,1
+"Macarena","Lamiaceae",directed,2
+"Sur","Taxodiaceae",directed,4
+"Sur","Aceraceae",directed,1
+"Macarena","Berberidaceae",directed,1
+"Sur","Fabaceae",directed,51
+"Norte","Lamiaceae",directed,2
+"Los Remedios","Platanaceae",directed,2
+"Casco Antiguo","Asparagaceae",directed,3
+"Norte","Rosaceae",directed,20
+"Casco Antiguo","Brassicaceae",directed,1
+"Norte","Proteaceae",directed,3
+"Casco Antiguo","Rutaceae",directed,19
+"Los Remedios","Apocynaceae",directed,2
+"Norte","Pinaceae",directed,14
+"Casco Antiguo","Amaryllidaceae",directed,4
+"Norte","Zingiberaceae",directed,1
+"Casco Antiguo","Caesalpiniaceae",directed,4
+"Los Remedios","Lamiaceae",directed,2
+"Macarena","Simaroubaceae",directed,1
+"Norte","Altingiaceae",directed,2
+"Macarena","Fabaceae",directed,18
+"Casco Antiguo","Leguminosae",directed,1
+"Los Remedios","Cycadaceae",directed,2
+"Sur","Ginkgoaceae",directed,1
+"Norte","Aceraceae",directed,1
+"Los Remedios","Magnoliaceae",directed,2
+"Norte","Cycadaceae",directed,2
+"Macarena","Bromeliaceae",directed,1
+"Triana","Lythraceae",directed,6
+"Macarena","Araucariaceae",directed,1
+"Casco Antiguo","Asteraceae",directed,3
+"Triana","Simaroubaceae",directed,1
+"Norte","Sapindaceae",directed,6
+"Casco Antiguo","Sapindaceae",directed,6
+"Triana","Araucariaceae",directed,2
+"Triana","Bombacaceae",directed,4
+"Casco Antiguo","Apocynaceae",directed,4
+"Sur","Caprifoliaceae",directed,1
+"Casco Antiguo","Garryaceae",directed,1
+"Macarena","Altingiaceae",directed,1
+"Casco Antiguo","Polygalaceae",directed,1
+"Casco Antiguo","Verbenaceae",directed,5
+"Los Remedios","Verbenaceae",directed,1
+"Sur","Oleaceae",directed,26
+"Casco Antiguo","Plumbaginaceae",directed,1
+"Los Remedios","Scrophulariaceae",directed,2
+"Macarena","Celastraceae",directed,1
+"Los Remedios","Musaceae",directed,2
+"Macarena","Magnoliaceae",directed,2
+"Casco Antiguo","Balsaminaceae",directed,1
+"Triana","Araliaceae",directed,2
+"Casco Antiguo","Altingiaceae",directed,2
+"Triana","Platanaceae",directed,4
+"Macarena","Zingiberaceae",directed,1
+"Sur","Brassicaceae",directed,1
+"Sur","Magnoliaceae",directed,4
+"Sur","Araliaceae",directed,2
+"Casco Antiguo","Platanaceae",directed,5
+"Macarena","Moraceae",directed,12
+"Los Remedios","Taxodiaceae",directed,1
+"Macarena","Pittosporaceae",directed,1
+"Triana","Moraceae",directed,24
+"Sur","Bromeliaceae",directed,1
+"Los Remedios","Agavaceae",directed,4
+"Macarena","Scrophulariaceae",directed,1
+"Los Remedios","Fagaceae",directed,4
+"Sur","Agavaceae",directed,6
+"Macarena","Acanthaceae",directed,1
+"Macarena","Elaeagnaceae",directed,2
+"Sur","Ulmaceae",directed,11
+"Casco Antiguo","Elaeagnaceae",directed,3
+"Los Remedios","Solanaceae",directed,3
+"Los Remedios","Moraceae",directed,16
+"Triana","Scrophulariaceae",directed,2
+"Sur","Casuarinaceae",directed,4
+"Los Remedios","Cactaceae",directed,1
+"Norte","Caesalpiniaceae",directed,3
+"Triana","Myristicaceae",directed,1
+"Macarena","Tamaricaceae",directed,2
+"Norte","Phytolaccaceae",directed,3
+"Casco Antiguo","Agavaceae",directed,8
+"Sur","Elaeagnaceae",directed,4
+"Macarena","Lythraceae",directed,3
+"Los Remedios","Brassicaceae",directed,1
+"Macarena","Ulmaceae",directed,3
+"Casco Antiguo","Acanthaceae",directed,2
+"Macarena","Rutaceae",directed,6
+"Casco Antiguo","Araucariaceae",directed,5
+"Los Remedios","Casuarinaceae",directed,2
+"Triana","Leguminosae",directed,3
+"Sur","Celastraceae",directed,1
+"Norte","Rhamnaceae",directed,1
+"Norte","Scrophulariaceae",directed,2
+"Macarena","Bombacaceae",directed,1
+"Los Remedios","Oleaceae",directed,15
+"Norte","Ulmaceae",directed,7
+"Macarena","Santalaceae",directed,1
+"Casco Antiguo","Santalaceae",directed,1
+"Triana","Annonaceae",directed,1
+"Los Remedios","Betulaceae",directed,1
+"Casco Antiguo","Adoxaceae",directed,2
+"Casco Antiguo","Poaceae",directed,4
+"Casco Antiguo","Ginkgoaceae",directed,2
+"Norte","Bromeliaceae",directed,1
+"Macarena","Myristicaceae",directed,1
+"Triana","Rutaceae",directed,12
+"Norte","Cactaceae",directed,1
+"Macarena","Platanaceae",directed,2
+"Casco Antiguo","Onagraceae",directed,1
+"Triana","Aceraceae",directed,1
+"Macarena","Fagaceae",directed,6
+"Triana","Oleaceae",directed,23
+"Sur","Euphorbiaceae",directed,1
+"Macarena","Araliaceae",directed,2
+"Norte","Nyctaginaceae",directed,2
+"Triana","Musaceae",directed,2
+"Macarena","Rosaceae",directed,15
+"Casco Antiguo","Malvaceae",directed,23
+"Norte","Adoxaceae",directed,1
+"Triana","Berberidaceae",directed,1
+"Sur","Pinaceae",directed,17
+"Macarena","Leguminosae",directed,1
+"Macarena","Bignoniaceae",directed,8
+"Los Remedios","Salicaceae",directed,4
+"Sur","Vitaceae",directed,1
+"Los Remedios","Tamaricaceae",directed,2
+"Los Remedios","Proteaceae",directed,2
+"Casco Antiguo","Zingiberaceae",directed,1
+"Sur","Pedaliaceae",directed,1
+"Norte","Musaceae",directed,2
+"Triana","Cannabaceae",directed,7
+"Casco Antiguo","Strelitziaceae",directed,2
+"Macarena","Poaceae",directed,2
+"Sur","Rutaceae",directed,14
+"Triana","Apocynaceae",directed,3
+"Macarena","Brassicaceae",directed,1
+"Triana","Cactaceae",directed,1
+"Norte","Annonaceae",directed,1
+"Macarena","Vitaceae",directed,1
+"Triana","Taxodiaceae",directed,3
+"Norte","Fagaceae",directed,6
+"Casco Antiguo","Musaceae",directed,2
+"Casco Antiguo","Anacardiaceae",directed,5
+"Sur","Phytolaccaceae",directed,4
+"Sur","Araucariaceae",directed,6
+"Triana","Anacardiaceae",directed,7
+"Sur","Anacardiaceae",directed,8
+"Sur","Meliaceae",directed,6
+"Casco Antiguo","Pedaliaceae",directed,1
+"Triana","Ulmaceae",directed,7
+"Sur","Rosaceae",directed,27
+"Norte","Apocynaceae",directed,2
+"Los Remedios","Rosaceae",directed,19
+"Norte","Ericaceae",directed,1
+"Casco Antiguo","Caprifoliaceae",directed,3
+"Casco Antiguo","Cannabaceae",directed,10
+"Casco Antiguo","Meliaceae",directed,4
+"Macarena","Taxodiaceae",directed,2
+"Los Remedios","Annonaceae",directed,1
+"Macarena","Salicaceae",directed,4
+"Triana","Verbenaceae",directed,1
+"Macarena","Meliaceae",directed,3
+"Casco Antiguo","Lauraceae",directed,5
+"Norte","Agavaceae",directed,5
+"Sur","Adoxaceae",directed,1
+"Los Remedios","Bombacaceae",directed,2
+"Sur","Leguminosae",directed,2
+"Sur","Cycadaceae",directed,2
+"Triana","Lamiaceae",directed,2
+"Norte","Betulaceae",directed,1
+"Triana","Zingiberaceae",directed,1
+"Triana","Rosaceae",directed,25
+"Casco Antiguo","Rosaceae",directed,27
+"Norte","Menispermaceae",directed,1
+"Casco Antiguo","Bromeliaceae",directed,1
+"Casco Antiguo","Myristicaceae",directed,1
+"Macarena","Phytolaccaceae",directed,2
+"Norte","Platanaceae",directed,3
+"Sur","Ericaceae",directed,1
+"Norte","Taxodiaceae",directed,1
+"Casco Antiguo","Aceraceae",directed,1
+"Los Remedios","Araliaceae",directed,2
+"Sur","Platanaceae",directed,5
+"Los Remedios","Phytolaccaceae",directed,2
+"Casco Antiguo","Araliaceae",directed,6
+"Triana","Pittosporaceae",directed,2
+"Macarena","Proteaceae",directed,2
+"Los Remedios","Cannabaceae",directed,4
+"Los Remedios","Fabaceae",directed,26
+"Norte","Piperaceae",directed,2
+"Sur","Myristicaceae",directed,1
+"Los Remedios","Aceraceae",directed,1
+"Triana","Solanaceae",directed,5
+"Sur","Cupressaceae",directed,15
+"Los Remedios","Myristicaceae",directed,1
+"Macarena","Euphorbiaceae",directed,1
+"Casco Antiguo","Nephrolepidaceae",directed,1
+"Norte","Poaceae",directed,2
+"Sur","Scrophulariaceae",directed,2
+"Norte","Verbenaceae",directed,1

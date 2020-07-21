@@ -1,0 +1,541 @@
+;----------------------------------------------------------------------------------------------------
+;----------------------------------------------------------------------------------------------------
+; This module contains procedures linked to the visualization and layouts
+;----------------------------------------------------------------------------------------------------
+;----------------------------------------------------------------------------------------------------
+
+; Procedure to toggle the Files Buttons
+to Buttons-toggle [b]
+  set Buttons:Files not Buttons:Files
+  set-buttons b Buttons:Files
+end
+
+; Procedure to show/hide the Visual Buttons
+to Buttons-Visual
+  set-buttons Buttons:Visual true
+  set-buttons Buttons:Queries false
+  set-buttons Buttons:Schema false
+  set-buttons Buttons:Measures false
+  set-buttons Buttons:Timeline false
+end
+
+; Procedure to show/hide the Queries Buttons
+to Buttons-Queries
+  set-buttons Buttons:Visual false
+  set-buttons Buttons:Queries true
+  set-buttons Buttons:Schema false
+  set-buttons Buttons:Measures false
+  set-buttons Buttons:Timeline false
+end
+
+; Procedure to show/hide the Schema Buttons
+to Buttons-Schema
+  set-buttons Buttons:Visual false
+  set-buttons Buttons:Queries false
+  set-buttons Buttons:Schema true
+  set-buttons Buttons:Measures false
+  set-buttons Buttons:Timeline false
+end
+
+; Procedure to show/hide the Timeline Buttons
+to Buttons-Timeline
+  set-buttons Buttons:Visual false
+  set-buttons Buttons:Queries false
+  set-buttons Buttons:Schema false
+  set-buttons Buttons:Measures false
+  set-buttons Buttons:Timeline true
+end
+
+; Procedure to show/hide the Measures Buttons
+to Buttons-Measures
+  set-buttons Buttons:Visual false
+  set-buttons Buttons:Queries false
+  set-buttons Buttons:Schema false
+  set-buttons Buttons:Timeline false
+  set-buttons Buttons:Measures true
+end
+
+; Procedure to hide/show a list of buttons
+to set-buttons [list-b state]
+  ifelse state
+  [
+    foreach list-b [goo:show ?]
+  ]
+  [
+    foreach list-b [goo:hide ?]
+  ]
+end
+
+;------------------------------------- LAYOUT ---------------------------------------------------
+
+; Main procedure to Layout (usually it's inside a loop
+to layout
+  no-display
+  ; Works only over the visible and not fixed topics
+  ifelse Fix?
+  [
+    set T-layout (T-visible with [not fixed?])
+  ]
+  [
+    set T-layout T-visible
+  ]
+  
+  if any? T-layout
+  [
+    ; We run the layout selected by the user
+    run table:get Layout:Modes Layout-Mode
+    
+    ; Compute the geometric center
+    let cx mean [xcor] of T-layout 
+    let cy mean [ycor] of T-layout 
+    ; Move the graph to set the center to (0,0) and avoiding the islands to be far away from it 
+    ;   (it depends on Gravity)
+    ask T-layout
+    [ 
+      let xcor1 (xcor - (cx / 100))
+      let ycor1 (ycor - (cy / 100)) 
+      if (xcor1 >= (min-pxcor + 1) and xcor1 <= (max-pxcor - 1)) [set xcor xcor1]
+      if (ycor1 >= (min-pycor + 1) and ycor1 <= (max-pycor - 1)) [set ycor ycor1]
+      set xcor (1 - Gravity / 100) * xcor
+      set ycor (1 - Gravity / 100) * ycor 
+     ]    
+  ]
+  
+  ; Move decorators to be on their parents
+  ask selectors [move-to parent]
+  ask pins [move-to parent]
+  ; Adjust the menu-items
+  layout-spring menu-items links-menu 1 1 1
+  display
+  ; Some layouts must be applied only once
+  if Layout-Mode = "C. Bipartite" or Layout-Mode = "Circle" or Layout-Mode = "Radial" [stop]
+end
+
+; Usual Spring layout
+to spring-layout
+  layout-spring T-layout (rels with [not hidden?]) spring-constant spring-length repulsion-constant
+end
+
+; Radial Layput
+to radial-layout
+  user-message "Select the center of the layout"
+  let root nobody
+  while [root = nobody]
+  [
+    set root get-with-mouse
+  ]
+  layout-radial T-layout (links with [not hidden?]) root
+end
+
+; Circle Layout
+to circle-layout
+  layout-circle T-layout max-pycor
+end
+
+; Hyp Layout (similar to Spring)
+to hyp-layout
+  let EE spring-length
+  let f 0
+  ask T-layout
+  [
+    let x1 xcor
+    let y1 ycor
+    ifelse (Hyper? TType)
+      [
+        set EE spring-length / 5
+      ]
+      [
+        set EE spring-length
+      ]
+    let S1 0 
+    let S2 0
+    let vec other T-layout with [rel-neighbor? myself]
+    ask vec with [distance myself > ( EE + .01)]
+    [
+      let d distance myself
+      set f (d - EE) ^ 2
+      let v1 (x1 - xcor) / d * f * (1 / 200)
+      let v2 (y1 - ycor) / d * f * (1 / 200)
+      set S1 S1 + v1
+      set S2 S2 + v2
+    ]
+    ask vec with [distance myself < (EE - .01) ]
+    [
+      let d distance myself
+      let z (EE - d) / EE
+      set f (-1 / 2) * ln ((1 + z) /(1 - z))
+      let v1 (x1 - xcor) / d * f * (1 / 200)
+      let v2 (y1 - ycor) / d * f * (1 / 200)
+      set S1 S1 + v1
+      set S2 S2 + v2
+    ]
+    ask other T-layout with [distance myself > .01 and not (rel-neighbor? myself)]
+    [
+      let d distance myself
+      set f -1 / (d ^ 2) * (1 + 5 * repulsion-constant)
+      let v1 (x1 - xcor) / d * f * (1 / 200)
+      let v2 (y1 - ycor) / d * f * (1 / 200)
+      set S1 S1 + v1
+      set S2 S2 + v2
+    ]
+    let xcor1 xcor - S1 
+    let ycor1 ycor - S2 
+    if (xcor1 >= min-pxcor and xcor1 <= max-pxcor) [set xcor xcor1]
+    if (ycor1 >= min-pycor and ycor1 <= max-pycor) [set ycor ycor1]
+  ]  
+end
+
+; ARF Layout
+to ARF-layout
+  let b1 radius * 10
+  let b2 b1 * 1.4 * max-pycor / max-pxcor
+  let K 0
+  ask T-layout
+  [
+    let x1 xcor
+    let y1 ycor
+    let S1 0
+    let S2 0
+    let tt other T-layout with [distance myself > .01]
+    let vec tt with [rel-neighbor? myself]
+    set K ifelse-value  (Hyper? Ttype) [5 * tension] [tension]
+    ask vec 
+    [
+      let d distance myself
+      set S1 S1 + (K - b1 / d) * (xcor - x1)
+      set S2 S2 + (K - b2 / d) * (ycor - y1)
+    ]
+    let nvec tt with [not rel-neighbor? myself]
+    ask nvec 
+    [
+      let d distance myself
+      set S1 S1 + (1 - b1 / d) * (xcor - x1)
+      set S2 S2 + (1 - b2 / d) * (ycor - y1)
+    ]
+    
+    let xcor1 xcor + S1 / 1000
+    let ycor1 ycor + S2 / 1000
+    if (xcor1 >= min-pxcor and xcor1 <= max-pxcor) [set xcor xcor1]
+    if (ycor1 >= min-pycor and ycor1 <= max-pycor) [set ycor ycor1]
+  ]
+end
+
+to ARF-Qweighted-layout
+  let b1 radius * 10
+  let b2 b1 * 1.4 * max-pycor / max-pxcor
+  let K 0
+  let Max-mul (max [r_att "multiplicity"] of qrelations) / 5
+  ask T-layout
+  [
+    let x1 xcor
+    let y1 ycor
+    let S1 0
+    let S2 0
+    let tt other T-layout with [distance myself > .01]
+    let vec tt with [rel-neighbor? myself]
+    set K ifelse-value  (Hyper? Ttype) [5 * tension] [tension]
+    ask vec 
+    [
+      let m 1
+      if out-qrelation-neighbor? myself
+      [set m [r_att "multiplicity"] of qrelation ([who] of self) ([who] of myself)] 
+      if in-qrelation-neighbor? myself
+      [set m [r_att "multiplicity"] of qrelation  ([who] of myself) ([who] of self)]
+     
+      let d distance myself
+      ;show m
+      set K K +  m / Max-mul
+      set S1 S1 + (K - b1 / d) * (xcor - x1)
+      set S2 S2 + (K - b2 / d) * (ycor - y1)
+    ]
+    let nvec tt with [not rel-neighbor? myself]
+    ask nvec 
+    [
+      let d distance myself
+      set S1 S1 + (1 - b1 / d) * (xcor - x1)
+      set S2 S2 + (1 - b2 / d) * (ycor - y1)
+    ]
+    
+    let xcor1 xcor + S1 / 3000
+    let ycor1 ycor + S2 / 3000
+    if (xcor1 >= min-pxcor and xcor1 <= max-pxcor) [set xcor xcor1]
+    if (ycor1 >= min-pycor and ycor1 <= max-pycor) [set ycor ycor1]
+  ]
+end
+
+to ARF-weighted-layout
+  let b1 radius * 10
+  let b2 b1 * 1.4 * max-pycor / max-pxcor
+  let K 0
+  let Max-mul (max [read-from-string r_att "multiplicity"] of drelations) / 5
+  ask T-layout
+  [
+    let x1 xcor
+    let y1 ycor
+    let S1 0
+    let S2 0
+    let tt other T-layout with [distance myself > .01]
+    let vec tt with [rel-neighbor? myself]
+    set K ifelse-value  (Hyper? Ttype) [5 * tension] [tension]
+    ask vec 
+    [
+      let m 1
+      if out-drelation-neighbor? myself
+      [set m [read-from-string r_att "multiplicity"] of drelation ([who] of self) ([who] of myself)] 
+      if in-drelation-neighbor? myself
+      [set m [read-from-string r_att "multiplicity"] of drelation  ([who] of myself) ([who] of self)]
+     
+      let d distance myself
+      ;show m
+      set K K +  m / Max-mul
+      set S1 S1 + (K - b1 / d) * (xcor - x1)
+      set S2 S2 + (K - b2 / d) * (ycor - y1)
+    ]
+    let nvec tt with [not rel-neighbor? myself]
+    ask nvec 
+    [
+      let d distance myself
+      set S1 S1 + (1 - b1 / d) * (xcor - x1)
+      set S2 S2 + (1 - b2 / d) * (ycor - y1)
+    ]
+    
+    let xcor1 xcor + S1 / 3000
+    let ycor1 ycor + S2 / 3000
+    if (xcor1 >= min-pxcor and xcor1 <= max-pxcor) [set xcor xcor1]
+    if (ycor1 >= min-pycor and ycor1 <= max-pycor) [set ycor ycor1]
+  ]
+end
+
+
+; Bipartite Layout (two concntric ellipses) for queries results
+to c-bipartite
+  let orig map [first first ?] query-set
+  let goal map [first last ?] query-set
+  let G1 T-Visible with [member? TType orig]
+  let G2 T-Visible with [member? TType goal]
+  if (not any? G1) or (not any? G2) [user-message "This Layout must be used with query results" stop]
+  let n count G1
+  let fase 360 / (2 * n)
+  (foreach (shuffle sort G1) (n-values n [?])
+  [
+    ask ?1
+    [
+      let ang 360 / n * ?2
+      setxy (17 * cos ang) (10 * sin ang)
+    ]
+  ])
+  set n count G2
+  (foreach (shuffle sort G2) (n-values n [?])
+  [
+    ask ?1
+    [
+      let ang 360 / n * ?2 + fase
+      setxy (10 * cos ang) (5 * sin ang)
+    ]
+  ])
+  ask selectors [setxy [xcor] of parent [ycor] of parent]
+  display
+end
+
+; Experimental addon to center the hyperedges
+; Currently is not being used by any layout
+to center-hyper
+  ask topics with [Hyper? ttype]
+  [
+    let xm mean [xcor] of relation-neighbors
+    let ym mean [ycor] of relation-neighbors
+    setxy xm ym
+  ]
+end
+
+; Adjust the Max value for SpingLength parameter (it depends on the number of visible topics)
+to-report MaxSpringLength
+  report ifelse-value (T-visible = 0 or not any? T-visible)
+  [ 10 ]
+  [ 200 / (1 +  sqrt count T-visible) ]
+end
+
+; Adjust the Max value for REpulsionConstant parameter (it depends on the number of visible topics)
+to-report MaxRepulsionConstant
+  report ifelse-value (T-visible = 0 or not any? T-visible)
+  [ 2 ]
+  [ 10 / (1 + sqrt count T-visible) ]
+end
+
+; Vertical Layout (uniform distribution) for Selected Topics
+to sort-vertical
+  no-display
+  let sel topics with [selected?]
+  if any? sel
+  [
+    let x (sum [xcor] of sel) / (count sel)
+    let ymax max [ycor] of sel
+    let ymin min [ycor] of sel
+    let yinc (ymax - ymin) / (count sel - 1)
+    foreach  sort-by [[ycor] of ?1 < [ycor] of ?2] sel
+    [
+      ask ? [setxy x ymin]
+      set ymin ymin + yinc
+    ]
+    ask selectors [setxy [xcor] of parent [ycor] of parent]
+    display
+  ]
+end
+
+; Horizontal Layout (uniform distribution) for Selected Topics
+to sort-horizontal
+  no-display
+  let sel topics with [selected?]
+  if any? sel
+  [
+    let y (sum [ycor] of sel) / (count sel)
+    let xmax max [xcor] of sel
+    let xmin min [xcor] of sel
+    let xinc (xmax - xmin) / (count sel - 1)
+    foreach  sort-by [[xcor] of ?1 < [xcor] of ?2] sel
+    [
+      ask ? [setxy xmin y]
+      set xmin xmin + xinc
+    ]
+    ask selectors [setxy [xcor] of parent [ycor] of parent]
+    display
+  ]
+end
+
+; Circular Layout (uniform distribution) for Selected Topics
+to sort-circular
+  no-display
+  let sel topics with [selected?]
+  if any? sel
+  [
+    let n count sel
+    (foreach (sort sel) (n-values n [?])
+      [
+        ask ?1
+        [
+          let ang 360 / n * ?2
+          show ang
+          setxy (10 * cos (360 / n * ?2)) (10 * sin (360 / n * ?2))
+        ]
+      ])
+    ask selectors [setxy [xcor] of parent [ycor] of parent]
+    display
+  ]
+end
+      
+; Fix selected nodes (they will not be changed by layouts procedures)
+to Fix
+  ask pins [die]
+  ask topics [set fixed? false]
+  ask Selected-Family with [not hidden?] [set fixed? true]
+  ask topics with [fixed?]
+  [ hatch-pins 1 
+    [
+      set size 1.5 * [size] of myself
+      set label ""
+      set parent myself
+    ]
+  ]
+end
+
+; Fix individual topic (it will not be changed by layout procedures)
+to Fix-topic
+  ifelse any? pins with [parent = myself] 
+  [
+    ask pins with [parent = myself] [die]
+    set fixed? false
+  ]
+  [
+    set fixed? true
+    hatch-pins 1 
+    [
+      set size 1.5 * [size] of myself
+      set label ""
+      set parent myself
+    ]
+  ]
+end
+
+; Refresh the representation of topics applying visual modifiers from Visual options
+to refresh
+  let tt Topic-Types
+  foreach hyper [set tt remove ? tt]
+  foreach tt
+  [
+    let est (item 2 item (type-index ?) Topics-Styles)
+    ask Topics with [ttype = ?]
+    [ 
+      set size  Zoom * est / 100 
+      if label != "" [set label (word (runresult customized-label)  (spaces ceiling (zoom / 20)))]
+    ]
+  ]
+  ifelse show-relation-labels?
+  [
+    ask rels with [not hyper? reltype]
+    [
+      set label RelType
+    ]
+  ]
+  [
+    ask rels with [not hyper? reltype]
+    [
+      set label ""
+    ]
+  ]
+  ifelse show-relation-labels?
+  [
+    ask topics with [hyper? ttype]
+    [
+      set label (word TType "  ")
+    ]
+  ]
+  [
+    ask topics with [hyper? ttype]
+    [
+      set label ""
+    ]
+  ]
+  ifelse Show-weights?
+  [
+    ask qrelations [set label (r_att "multiplicity")]
+  ]
+  [
+    ask qrelations [set label ""]
+  ]
+end
+
+; Topic Procedure: shows the label following the customized selection
+to show-one-label 
+  set label (word (runresult customized-label)  (spaces ceiling (zoom / 10)))
+end
+
+; Show labels for all the topics in a Family
+to show-labels
+  ask Selected-Family with [not Hyper? TType]
+  [
+    show-one-label
+  ]
+end
+
+; Procedure to customize the label of the nodes. Allows to choose the attribute to be show as label.
+; WARNING: currently, it considers all the topics to have the same attributes
+to set-customized-label
+  let sel user-one-of "Select one of the following attributes to be shown as label" (sentence "ID" "TType" (table:keys [topic_attributes] of one-of topics with [not Hyper? ttype]))
+  ifelse sel = "ID" or sel = "TType"
+  [
+    set customized-label (word "(word " sel ")")
+  ]
+  [
+    set customized-label (word "(word (t_att \"" sel "\"))")
+  ]
+  refresh
+end
+
+; Hide labels for all the topics in a Family
+to hide-labels
+  ask Selected-Family
+  [
+    set label ""
+  ]
+end
+

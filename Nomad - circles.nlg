@@ -1,0 +1,73 @@
+% Types of Nodes of the graph. Structure: Name color shape size
+<NodesTypes>
+ "Scientific" 13 "circle" 1
+ "Family" 18 "circle" 1
+ "Origin" 23 "circle" 1
+ "Flower_color" 28 "circle" 1
+ "Type" 33 "circle" 1
+ "Foliage_type" 38 "circle" 1
+ "Flower_app" 43 "circle" 1
+ "Canopy" 63 "circle" 1
+ "Leaf_form" 68 "circle" 1
+ "Leaf_later" 73 "circle" 1
+ "Leaf_base" 78 "circle" 1
+ "Leaf_apex" 83 "circle" 1
+ "Leaf_type" 88 "circle" 1
+ "Leaf_layout" 93 "circle" 1
+ "Park_zone" 98 "circle" 1
+ "District" 103 "circle" 1
+<EndNodesTypes>
+
+% Types of Edges: Name color shape thickness Type(0: Undir, 1: Dir, 2-Hyper)
+%   if Hyperdege: Name color shape size Type
+<EdgesTypes>
+ "canopy" 5 "straight" 0 0
+ "park-district" 5 "straight" 0 0
+ "family" 5 "straight" 0 0
+ "flower_app" 5 "straight" 0 0
+ "flower_color" 5 "straight" 0 0
+ "foliage_type" 5 "straight" 0 0
+ "leaf_apex" 5 "straight" 0 0
+ "leaf_base" 5 "straight" 0 0
+ "leaf_form" 5 "straight" 0 0
+ "leaf_later" 5 "straight" 0 0
+ "leaf_layout" 5 "straight" 0 0
+ "leaf_type" 5 "straight" 0 0
+ "park_zone" 5 "straight" 0 0
+ "type" 5 "straight" 0 0
+ "origin" 5 "straight" 0 0
+ <EndEdgesTypes>
+
+<Input>
+.\red\Scientific.nod
+.\red\Family.nod
+.\red\Origin.nod
+.\red\Flower_color.nod
+.\red\Type.nod
+.\red\Foliage_type.nod
+.\red\Flower_app.nod
+.\red\Canopy.nod
+.\red\Leaf_form.nod
+.\red\Leaf_later.nod
+.\red\Leaf_base.nod
+.\red\Leaf_apex.nod
+.\red\Leaf_type.nod
+.\red\Leaf_layout.nod
+.\red\Park_zone.nod
+.\red\District.nod
+.\red\canopy.edg
+.\red\origin.edg
+.\red\park-district.edg
+.\red\family.edg
+.\red\flower_app.edg
+.\red\flower_color.edg
+.\red\foliage_type.edg
+.\red\leaf_apex.edg
+.\red\leaf_base.edg
+.\red\leaf_form.edg
+.\red\leaf_later.edg
+.\red\leaf_layout.edg
+.\red\leaf_type.edg
+.\red\park_zone2.edg
+.\red\type.edg
+<EndInput>

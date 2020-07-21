@@ -1,0 +1,14 @@
+<Nodes>
+ "ID(S)" "NodeType(S)" "Label(S)"
+"Cordada" "Leaf_base" "Cordada" 
+"Oblicua" "Leaf_base" "Oblicua" 
+"None" "Leaf_base" "None" 
+"Atenuada" "Leaf_base" "Atenuada" 
+"Cuneada" "Leaf_base" "Cuneada" 
+"Obtusa" "Leaf_base" "Obtusa" 
+"Peltada" "Leaf_base" "Peltada" 
+"Auriculada" "Leaf_base" "Auriculada" 
+"Truncada" "Leaf_base" "Truncada" 
+"Sagitada" "Leaf_base" "Sagitada" 
+"Hastada" "Leaf_base" "Hastada" 
+<EndNodes>

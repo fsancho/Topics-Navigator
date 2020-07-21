@@ -1,0 +1,8 @@
+<Nodes>
+ "ID(X)" "NodeType(S)" "Label(S)"
+ "Africano" "Origin" "Africano"
+ "Americano" "Origin" "Americano"
+ "Europeo/Mediterráneo" "Origin" "Europeo/Mediterráneo"
+ "Oceanía" "Origin" "Oceanía"
+ "Oriental/Asiático" "Origin" "Oriental/Asiático"
+<EndNodes>

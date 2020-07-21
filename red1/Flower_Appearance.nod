@@ -1,0 +1,6 @@
+<Nodes>
+ "ID(X)" "NodeType(S)" "Label(S)"
+ "Aparente" "Flower_Appearance" "Aparente"
+ "No aparente" "Flower_Appearance" "No aparente"
+ "None" "Flower_Appearance" "None"
+<EndNodes>

@@ -1,0 +1,596 @@
+Id,Type,Label,X,Y
+"Nymphaeaceae","Family","",13,-2
+"Pectinado","Leaf_later","",10,-2
+"Bambuseae (tribu)","Scientific","",1,0
+"Verde","Flower_color","",10,10
+"Teucrium fruticans","Scientific","",-5,0
+"Clivia miniata","Scientific","",-3,3
+"Thuja plicata","Scientific","",-10,-9
+"Broussonetia papyrifera","Scientific","",-18,11
+"Punica granatum","Scientific","",-2,3
+"Buxus balearica","Scientific","",-12,6
+"Viburnum suspensum","Scientific","",10,-1
+"Saxifragaceae","Family","",10,9
+"Nymphaea alba","Scientific","",4,0
+"Simple","Leaf_type","",9,-3
+"Abelia x grandiflora","Scientific","",-2,-8
+"Washingtonia robusta","Scientific","",-20,7
+"Tamarix gallica","Scientific","",0,-10
+"San Pablo-Santa Justa","District","",9,-11
+"Mata","Canopy","",8,-10
+"Cedrus atlantica","Scientific","",14,6
+"Triangular","Leaf_form","",19,-6
+"Aesculus hippocastanum","Scientific","",-3,-1
+"Phormium tenax","Scientific","",6,5
+"Sapindaceae","Family","",-13,8
+"Caprifoliaceae","Family","",-1,7
+"Cupressus arizonica","Scientific","",-17,3
+"Ficus benjamina","Scientific","",11,-10
+"Primulaceae","Family","",14,-5
+"Alterna","Leaf_layout","",13,4
+"Phyllostachys aurea","Scientific","",20,3
+"Doble Serrado","Leaf_later","",-9,11
+"Peperomia obtusifolia","Scientific","",-10,8
+"Celestino Mutis-Ayto","Park_zone","",12,-6
+"Arecaceae","Family","",-17,6
+"Styphnolobium japonicum","Scientific","",-12,-8
+"Tamarguillo-Ayto","Park_zone","",-6,8
+"Senecio lineatus","Scientific","",11,-1
+"Trepadera","Canopy","",-1,-8
+"Orbicular","Leaf_form","",-13,2
+"Septos","Leaf_type","",13,-11
+"Cyperaceae","Family","",4,0
+"Melicoccus bijugatus","Scientific","",15,5
+"Agapanthus umbellatus","Scientific","",-9,5
+"Carpinus betulus","Scientific","",-9,-10
+"Acanthus mollis","Scientific","",11,11
+"Cuneada","Leaf_base","",-3,-3
+"Polygalaceae","Family","",3,7
+"Cascabela thevetia","Scientific","",3,-10
+"Solanum bonariense","Scientific","",-12,-10
+"Elaeagnus x ebbingei","Scientific","",6,3
+"Oceanía","Origin","",-2,7
+"Cinnamomum cassia-C. verum","Scientific","",-12,3
+"Prunus persica","Scientific","",9,2
+"Acacia saligna","Scientific","",0,-3
+"Peltada","Leaf_base","",9,10
+"Citrus myrtifolia","Scientific","",-16,0
+"Senecio petasitis","Scientific","",-16,2
+"Mucronado","Leaf_apex","",-14,1
+"Muehlenbeckia complexa","Scientific","",-2,8
+"Salicaceae","Family","",6,-2
+"Fraxinus ornus","Scientific","",-9,-5
+"Amate","Park_zone","",-15,-2
+"Ananas comosus","Scientific","",12,7
+"Hastada","Leaf_base","",-15,4
+"Fabaceae","Family","",-18,-7
+"No aparente","Flower_app","",5,-5
+"Handroanthus chrysanthus-H. albus","Scientific","",16,3
+"Melianthaceae","Family","",-14,8
+"Arbutus unedo","Scientific","",-8,9
+"Liliaceae","Family","",-1,8
+"Digitada","Leaf_form","",-2,6
+"Vitex agnus-castus","Scientific","",18,4
+"Alcea rosea","Scientific","",9,-8
+"Lonicera japonica","Scientific","",17,-10
+"Thuja occidentalis","Scientific","",-11,0
+"Zinnia elegans","Scientific","",11,6
+"Rutaceae","Family","",2,-11
+"Parasol","Canopy","",19,2
+"Serrado","Leaf_later","",15,2
+"Cortijo del Cuarto-Ayto","Park_zone","",-18,-5
+"Acuática","Type","",-17,-9
+"Platycladus orientalis","Scientific","",11,2
+"Elíptica","Leaf_form","",-4,-11
+"Aspidistra spp.","Scientific","",-10,-9
+"Ipomoea spp.","Scientific","",-18,10
+"Obovada","Leaf_form","",-1,-11
+"Duranta repens","Scientific","",-4,-1
+"Opuntia spp.","Scientific","",-14,3
+"Calles de Sevilla-Ayto","Park_zone","",-14,6
+"Schefflera actinophylla","Scientific","",5,-3
+"Ceiba speciosa","Scientific","",-2,-11
+"None","Flower_color","",-2,1
+"Narcissus spp.","Scientific","",-19,-7
+"Phragmites australis","Scientific","",-8,9
+"Prunus cerasifera var. pissardii","Scientific","",1,4
+"Lantana camara","Scientific","",-6,-8
+"Bellavista-La Palmera","District","",7,-3
+"Musa acuminata","Scientific","",-4,-8
+"CEIP Vélez de Guevara","Park_zone","",-8,-9
+"Catalpa bignonioides","Scientific","",-5,-6
+"Alocasia odora-A. macrorrhizos","Scientific","",0,8
+"Phoenix dactylifera","Scientific","",5,-9
+"Ligustrum japonicum","Scientific","",-6,-3
+"Araceae","Family","",20,9
+"Ficus pumila","Scientific","",-12,-4
+"Bipinnada","Leaf_type","",-20,11
+"Phoenix reclinata","Scientific","",-7,-1
+"Ginkgoaceae","Family","",6,-7
+"Fagaceae","Family","",1,1
+"Pandorea jasminoides","Scientific","",-3,-11
+"Ceratonia siliqua","Scientific","",-11,11
+"Poaceae","Family","",14,-5
+"Otros-Ayto","Park_zone","",18,2
+"Melianthus major","Scientific","",13,0
+"Catalina de Ribera-Ayto","Park_zone","",15,-5
+"Rojo","Flower_color","",-9,0
+"Pseudosasa japonica","Scientific","",-1,-9
+"Proteaceae","Family","",18,2
+"Citrus reticulata","Scientific","",-15,-11
+"Cannabaceae","Family","",-16,-6
+"CEIP Andalucía","Park_zone","",17,1
+"Clerodendrum bungei","Scientific","",3,8
+"Photinia serratifolia","Scientific","",-12,-8
+"Aloe maculata","Scientific","",19,-7
+"Iridaceae","Family","",-9,-5
+"Ranillas-Ayto","Park_zone","",8,5
+"Ziziphus zizyphus","Scientific","",-17,-9
+"Butia capitata","Scientific","",-18,-10
+"Blanco","Flower_color","",13,-11
+"Magnolia grandiflora","Scientific","",-1,2
+"Howea forsteriana","Scientific","",14,-2
+"Persea americana","Scientific","",-14,10
+"Abanico","Canopy","",-10,-3
+"Nephrolepis spp.","Scientific","",-14,10
+"Polygonaceae","Family","",5,3
+"Maestranza-Ayto","Park_zone","",-13,-7
+"Liquidambar styraciflua","Scientific","",1,-5
+"Acer negundo","Scientific","",14,5
+"Citrus x sinensis","Scientific","",16,10
+"Juglans nigra","Scientific","",8,-9
+"Pinaceae","Family","",7,-1
+"Crataegus monogyna","Scientific","",-5,5
+"Acer negundo var. argenteo-variegatum","Scientific","",-2,-9
+"Oleaceae","Family","",10,-2
+"Sinapis alba","Scientific","",4,-1
+"Lythraceae","Family","",-1,-7
+"Pendular","Canopy","",-5,-2
+"Carya illinoinensis","Scientific","",-5,-3
+"María Luisa","Park_zone","",-8,11
+"Filiforme","Leaf_form","",-8,6
+"Obtuso","Leaf_apex","",2,-7
+"Agudo","Leaf_apex","",8,6
+"Yucca aloifolia","Scientific","",-8,-3
+"Brachychiton populneus","Scientific","",-6,5
+"Cupressaceae","Family","",-9,6
+"Cactaceae","Family","",-1,0
+"Populus nigra","Scientific","",13,-7
+"Esférica","Canopy","",0,7
+"Myrtus communis","Scientific","",13,-5
+"Americano-Ayto","Park_zone","",-5,8
+"Chimonanthus praecox","Scientific","",-7,-7
+"Hibiscus syriacus cv. White","Scientific","",-2,-9
+"Acer pseudoplatanus","Scientific","",8,2
+"Nandina domestica","Scientific","",7,-10
+"Rosmarinus officinalis","Scientific","",3,-4
+"Wisteria sinensis","Scientific","",15,-5
+"Tulbaghia violacea","Scientific","",-2,-6
+"Lamiaceae","Family","",-14,-2
+"Taxaceae","Family","",-8,6
+"Nuphar rubrodisca","Scientific","",1,7
+"Rhapis excelsa","Scientific","",7,8
+"Canna spp.","Scientific","",17,10
+"Prunus domestica","Scientific","",-10,2
+"Rosa spp.","Scientific","",6,-9
+"Yucca elephantipes","Scientific","",-6,-10
+"Populus alba","Scientific","",15,-4
+"Bignoniaceae","Family","",13,0
+"Casuarinaceae","Family","",2,4
+"Americano","Origin","",-18,6
+"Myrtaceae","Family","",11,4
+"Myristica fragrans","Scientific","",-6,3
+"Viburnum opulus","Scientific","",-4,-7
+"Hippocastanaceae","Family","",8,-11
+"Nerium oleander","Scientific","",-16,-11
+"Buddleya madagascariensis","Scientific","",11,5
+"Aeonium arboreum","Scientific","",18,9
+"Ovoidal","Canopy","",20,-9
+"Aristado","Leaf_apex","",8,8
+"Laxmanniaceae","Family","",19,6
+"Cupressus macrocarpa","Scientific","",-3,-8
+"Solandra maxima","Scientific","",9,0
+"Ficus rubiginosa","Scientific","",17,-1
+"Perenne","Foliage_type","",14,-2
+"Tipuana tipu","Scientific","",1,-9
+"Buddlejaceae","Family","",10,6
+"Strelitzia alba","Scientific","",4,3
+"Hemerocallis spp.","Scientific","",18,-7
+"Vinca spp.","Scientific","",-5,-3
+"Sagitada","Leaf_base","",0,-2
+"Infanta Elena-Ayto","Park_zone","",-20,-2
+"Trachycarpus fortunei","Scientific","",16,4
+"Chamaedorea elegans","Scientific","",7,1
+"Chlorophytum comosum","Scientific","",4,-11
+"Cyperus alternifolius-C. involucratus","Scientific","",-9,4
+"Hibiscus mutabilis","Scientific","",-10,0
+"Cuspidado","Leaf_apex","",6,6
+"Euonymus japonicus","Scientific","",-17,-9
+"Celosia plumosa","Scientific","",17,-1
+"Perdigones","Park_zone","",-7,-8
+"Tilia platyphyllos","Scientific","",16,-5
+"Araucariaceae","Family","",-16,1
+"Berberis x chenaultii","Scientific","",-3,-6
+"Auriculada","Leaf_base","",-19,-9
+"Russelia equisetiformis","Scientific","",-5,7
+"Aloe vera","Scientific","",-8,8
+"Rhamnaceae","Family","",15,-1
+"Pinus canariensis","Scientific","",-16,2
+"Enredadera","Type","",14,-1
+"Adoxaceae","Family","",15,-4
+"Ulmus minor","Scientific","",-3,-7
+"Prunus dulcis","Scientific","",-18,2
+"Muehlenbeckia platyclados","Scientific","",2,-8
+"Lauraceae","Family","",3,4
+"Sabal minor","Scientific","",12,7
+"Viburnum tinus","Scientific","",20,3
+"Santolina chamaecyparissus","Scientific","",12,-10
+"Cerro-Amate","District","",-7,2
+"Morus nigra","Scientific","",-17,0
+"Buxus sempervirens","Scientific","",13,-3
+"Justicia carnea","Scientific","",6,11
+"Feijoa sellowiana","Scientific","",-15,-9
+"Violaceae","Family","",-11,3
+"Amarillo","Flower_color","",-19,3
+"Árbol","Type","",-17,8
+"Piper nigrum","Scientific","",8,-9
+"Ruscus spp.","Scientific","",8,-9
+"Lavandula angustifolia","Scientific","",-13,3
+"Cortaderia selloana","Scientific","",1,-3
+"Cistaceae","Family","",-14,-3
+"Inciso","Leaf_later","",-5,-10
+"Firmiana simplex","Scientific","",-12,7
+"Cycadaceae","Family","",-1,9
+"Pyrostegia venusta","Scientific","",4,-10
+"Lineal","Leaf_form","",20,-2
+"Convolvulaceae","Family","",11,-7
+"Myrsine africana","Scientific","",10,4
+"Ribera del Guadaira-Ayto","Park_zone","",-11,-9
+"Guadalquivir-Ayto","Park_zone","",1,10
+"Apocynaceae","Family","",2,-5
+"Amaryllidaceae","Family","",-17,5
+"Paulownia tomentosa","Scientific","",-12,5
+"Gaura lindheimeri","Scientific","",-14,5
+"Cónica","Canopy","",10,10
+"Phytolaccaceae","Family","",-20,10
+"Citrus limetta","Scientific","",16,2
+"Emarginado","Leaf_apex","",13,-11
+"Anacardiaceae","Family","",6,-11
+"Semiarundinaria fastuosa","Scientific","",12,0
+"Syzygium aromaticum","Scientific","",12,-2
+"Abutilon pictum","Scientific","",4,4
+"Diospyros kaki","Scientific","",2,1
+"Santa Clara-Don Fadrique","Park_zone","",-14,1
+"Ficus macrophylla","Scientific","",7,0
+"Entero","Leaf_later","",-3,7
+"Pistacia lentiscus","Scientific","",-2,8
+"Spiraea cantoniensis","Scientific","",8,6
+"Brachychiton acerifolius","Scientific","",6,4
+"Schefflera arboricola","Scientific","",15,5
+"Lycianthes rantonnetii","Scientific","",-11,9
+"Senecio kleinia","Scientific","",0,11
+"Laurus nobilis","Scientific","",15,1
+"Casuarina equisetifolia","Scientific","",-1,-8
+"Scrophulariaceae","Family","",1,-4
+"Philadelphus coronarius-Deutzia scabra","Scientific","",-15,8
+"Sinuado","Leaf_later","",-4,5
+"Leguminosae","Family","",19,-11
+"Chasmanthe aethiopica","Scientific","",-18,10
+"Planta","Type","",17,-11
+"Ulmus glabra","Scientific","",-7,11
+"Oblonga","Leaf_form","",20,0
+"Tagetes spp.","Scientific","",-7,6
+"Valle-Ayto","Park_zone","",-20,-11
+"Rey JCI-Torneo-Ayto","Park_zone","",-4,8
+"Quercus suber","Scientific","",-6,-4
+"Salvia officinalis","Scientific","",9,-5
+"Cercis siliquastrum","Scientific","",-4,-8
+"Psidium guajava","Scientific","",8,0
+"Pittosporum tobira","Scientific","",-9,-1
+"Celastraceae","Family","",0,9
+"Aizoaceae","Family","",3,8
+"Sur","District","",-7,-7
+"Chaenomeles speciosa","Scientific","",-20,10
+"Citrus spp.","Scientific","",0,-8
+"Lagunaria patersonia","Scientific","",-17,-7
+"Mespilus germanica","Scientific","",4,-2
+"Tetrastigma voinerianum","Scientific","",20,-5
+"Real Alcázar","Park_zone","",-6,11
+"Ginkgo biloba","Scientific","",-15,10
+"Asteraceae","Family","",-17,4
+"Drosanthemum floribundum","Scientific","",-13,-3
+"Iris germanica","Scientific","",-13,2
+"Juglandaceae","Family","",-10,5
+"Berberidaceae","Family","",-10,5
+"Strelitziaceae","Family","",0,-9
+"Taxus baccata","Scientific","",4,2
+"Norte-Ayto","Park_zone","",7,-11
+"Malvaceae","Family","",1,-8
+"Lagerstroemia indica","Scientific","",18,2
+"Olea europaea","Scientific","",-13,-7
+"Platanus orientalis","Scientific","",15,-3
+"Dracaena draco","Scientific","",2,-2
+"Moraceae","Family","",-14,-8
+"Eriobotrya japonica","Scientific","",8,-11
+"Delicias-Ayto","Park_zone","",-18,-3
+"Buxaceae","Family","",3,-8
+"Jasminum azoricum","Scientific","",-17,11
+"Agave americana","Scientific","",20,-5
+"Meliaceae","Family","",-11,6
+"Cycas circinalis","Scientific","",-13,-2
+"Citrus aurantium","Scientific","",5,4
+"Cocculus laurifolius","Scientific","",-2,7
+"Asparagus setaceus","Scientific","",-3,-10
+"Bergenia crassifolia","Scientific","",-20,8
+"Serrulado","Leaf_later","",18,7
+"Zingiber spp.","Scientific","",8,-11
+"Multicolor","Flower_color","",1,9
+"Caesalpinia gilliesii","Scientific","",-8,-4
+"Callistemon spp.","Scientific","",-7,8
+"Verbenaceae","Family","",-4,-3
+"Guadaira","Park_zone","",8,11
+"Elaeagnus pungens","Scientific","",-4,-5
+"Philadelphus coronarius","Scientific","",15,9
+"Cuphea hyssopifolia","Scientific","",-1,11
+"Garryaceae","Family","",16,9
+"Amate-Ayto","Park_zone","",1,8
+"Ciliado","Leaf_later","",4,8
+"Taxodium distichum","Scientific","",20,-1
+"Escuamiforme","Leaf_type","",-15,5
+"Viburnum odoratissimum","Scientific","",-19,7
+"Ficus carica","Scientific","",15,10
+"Caesalpiniaceae","Family","",-5,-3
+"Obtusa","Leaf_base","",5,-2
+"Tilia x europaea","Scientific","",5,2
+"Naranja","Flower_color","",0,11
+"Brassicaceae","Family","",2,-7
+"Pittosporum coriaceum","Scientific","",2,11
+"Miraflores-Ayto","Park_zone","",5,3
+"Podranea ricasoliana","Scientific","",-11,-6
+"Annonaceae","Family","",-6,-1
+"Calycanthaceae","Family","",20,8
+"El Turruñuelo-Ayto","Park_zone","",-10,-6
+"Acanthaceae","Family","",8,-5
+"Phoenix canariensis","Scientific","",6,7
+"Aceraceae","Family","",15,10
+"Chamaedorea seifrizii","Scientific","",11,8
+"Aquifoliaceae","Family","",-18,0
+"Alcosa-Ayto","Park_zone","",-3,-4
+"Livistona chinensis","Scientific","",-20,8
+"Quercus robur","Scientific","",10,-10
+"Citrus x limon","Scientific","",8,-8
+"Europeo-Mediterráneo","Origin","",-9,-9
+"Celtis australis","Scientific","",-8,0
+"Oblicua","Leaf_base","",11,1
+"Ficus retusa","Scientific","",19,-11
+"Nyctaginaceae","Family","",-6,8
+"Cupressus sempervirens","Scientific","",-1,2
+"Hibiscus rosa-sinensis","Scientific","",-8,-4
+"Euphorbiaceae","Family","",-6,9
+"Quercus ilex","Scientific","",1,5
+"Casco Antiguo","District","",-9,-7
+"Matthiola incana","Scientific","",20,5
+"Erythrina crista-galli","Scientific","",2,-11
+"Plumbaginaceae","Family","",2,-10
+"Santalaceae","Family","",11,-2
+"Encephalartos horridus","Scientific","",16,-10
+"Cedrus deodara","Scientific","",20,5
+"Monstera deliciosa","Scientific","",-10,-1
+"Brugmansia arborea","Scientific","",-5,3
+"Zantedeschia aethiopica","Scientific","",2,-1
+"Crenado","Leaf_later","",-6,8
+"Mirabilis jalapa","Scientific","",1,7
+"Lonicera fragrantissima","Scientific","",9,-6
+"Syagrus romanzoffiana","Scientific","",-15,-8
+"Elaeagnaceae","Family","",0,7
+"Carex pendula","Scientific","",-16,2
+"Ilex crenata","Scientific","",-13,-1
+"Ricinus communis","Scientific","",-5,-6
+"Falciforme","Leaf_form","",-7,-2
+"Musa x paradisiaca","Scientific","",-6,4
+"Prado-Ayto","Park_zone","",5,-7
+"Jasminum humile","Scientific","",-4,-7
+"Elaeagnus angustifolia","Scientific","",-10,-8
+"Lanceolada","Leaf_form","",10,2
+"Robinia pseudoacacia","Scientific","",-20,10
+"Fraxinus excelsior","Scientific","",-10,-8
+"Romboidal","Leaf_form","",15,7
+"Norte","District","",10,-9
+"Euphorbia ingens","Scientific","",18,4
+"Cilindrocónica","Canopy","",-9,8
+"Washingtonia filifera","Scientific","",-20,-1
+"Polygala myrtifolia","Scientific","",-20,1
+"Archontophoenix alexandrae","Scientific","",9,-4
+"Strelitzia reginae","Scientific","",-2,1
+"Tecoma capensis","Scientific","",13,-9
+"Platanaceae","Family","",-1,10
+"Cinnamomum camphora","Scientific","",-6,5
+"Eucalyptus globulus","Scientific","",7,5
+"Aesculus x carnea","Scientific","",0,-1
+"Ulmus pumila","Scientific","",-2,4
+"Solanaceae","Family","",-10,-10
+"Bauhinia forficata","Scientific","",-6,1
+"Zamiaceae","Family","",-6,2
+"Pinus pinea","Scientific","",2,8
+"Cordyline fruticosa","Scientific","",-4,7
+"Cestrum elegans","Scientific","",-3,-4
+"Annona cherimola","Scientific","",17,-9
+"Cristina-Ayto","Park_zone","",-19,-8
+"Viola odorata","Scientific","",16,-1
+"Este-Alcosa-Torreblanca","District","",-7,10
+"Pittosporaceae","Family","",20,10
+"Agavaceae","Family","",-5,11
+"Albizia julibrissin","Scientific","",5,-10
+"Yucca gloriosa","Scientific","",-7,-3
+"Citrus maxima","Scientific","",14,-11
+"Cannaceae","Family","",-11,0
+"Pedaliaceae","Family","",-14,2
+"Reniforme","Leaf_form","",2,-10
+"Cocos nucifera","Scientific","",5,4
+"Rhamnus alaternus","Scientific","",6,-9
+"Paulowniaceae","Family","",-2,10
+"Ligustrum ovalifolium","Scientific","",-12,-7
+"Jasminum officinale","Scientific","",18,6
+"Acicular","Leaf_form","",0,-7
+"Magnoliaceae","Family","",0,1
+"Grevillea robusta","Scientific","",11,-7
+"Rosa","Flower_color","",-18,6
+"Prunus cerasifera","Scientific","",-19,1
+"Irregular","Canopy","",19,6
+"Celtis occidentalis","Scientific","",7,3
+"Justicia adhatoda","Scientific","",14,2
+"Jasminum grandiflorum","Scientific","",-12,-7
+"Jacaranda mimosifolia","Scientific","",20,-2
+"Podocarpus neriifolius","Scientific","",12,1
+"Ligustrum sinense","Scientific","",-19,-9
+"Aloysia citriodora","Scientific","",-9,-4
+"Rubus ulmifolius","Scientific","",14,4
+"Pennisetum setaceum","Scientific","",16,-11
+"Cyperus papyrus","Scientific","",1,-10
+"Leucaena leucocephala","Scientific","",4,6
+"Araucaria angustifolia","Scientific","",12,-7
+"Macarena","District","",-9,8
+"Pteridaceae","Family","",-6,-8
+"Xanthorrhoeaceae","Family","",-1,6
+"Taxodiaceae","Family","",-3,7
+"Malvaviscus arboreus","Scientific","",-19,-1
+"Plumbago auriculata","Scientific","",-7,-9
+"Chamaerops humilis","Scientific","",15,-1
+"Balsaminaceae","Family","",-20,-6
+"Cordada","Leaf_base","",-2,2
+"Acuminado","Leaf_apex","",5,3
+"Jasminum mesnyi","Scientific","",3,-10
+"Pyracantha coccinea","Scientific","",5,-7
+"Centaurea cineraria","Scientific","",-19,-1
+"Amaranthaceae","Family","",-16,1
+"Morus alba","Scientific","",6,-4
+"Salix spp.","Scientific","",3,6
+"Musaceae","Family","",3,9
+"CEIP San José Obrero","Park_zone","",-1,3
+"Phyllostachys nigra","Scientific","",5,-4
+"Schinus polygama","Scientific","",18,5
+"Malus domestica","Scientific","",-20,6
+"Araucaria araucana-Araucaria spp.","Scientific","",4,-6
+"Casino","Park_zone","",5,-8
+"Beaucarnea recurvata","Scientific","",7,-10
+"Hydrangeaceae","Family","",17,9
+"Lila","Flower_color","",6,7
+"Azul","Flower_color","",0,-3
+"Dombeya x cayeuxii","Scientific","",1,10
+"Bermejales-Ayto","Park_zone","",13,2
+"Truncada","Leaf_base","",-17,-3
+"Altingiaceae","Family","",10,-2
+"Otras","Type","",8,-4
+"Eucalyptus camaldulensis","Scientific","",-11,3
+"Araucaria columnaris","Scientific","",-20,0
+"Zingiberaceae","Family","",-15,-9
+"Ailanthus altissima","Scientific","",-19,-2
+"Campsis radicans","Scientific","",-7,-10
+"Acokanthera oblongifolia","Scientific","",11,-8
+"Dentado","Leaf_later","",8,-1
+"Cistus albidus","Scientific","",16,11
+"Denticulado","Leaf_later","",-6,-9
+"Araliaceae","Family","",0,8
+"Palmeada","Leaf_form","",9,-6
+"Betulaceae","Family","",18,-9
+"Vega de Triana-Ayto","Park_zone","",-11,3
+"Ligustrum lucidum","Scientific","",18,-4
+"Cotoneaster spp.","Scientific","",1,10
+"Asparagus aethiopicus","Scientific","",-19,-11
+"Arbusto","Type","",6,-8
+"Melia azedarach","Scientific","",-7,-3
+"Los Príncipes-Ayto","Park_zone","",-1,-6
+"Diospyros virginiana","Scientific","",4,-9
+"Asparagaceae","Family","",-13,-5
+"Myristicaceae","Family","",-12,6
+"Santalum album","Scientific","",-17,10
+"Hedera helix","Scientific","",12,10
+"Plaza Nueva-Ayto","Park_zone","",3,2
+"Brugmansia suaveolens","Scientific","",13,-3
+"Barranco-Colón-Ayto","Park_zone","",-2,-6
+"Murillo","Park_zone","",18,-10
+"Bombacaceae","Family","",8,-1
+"Oriental-Asiático","Origin","",-6,-4
+"Parkinsonia aculeata","Scientific","",-15,8
+"Euphorbia pulcherrima","Scientific","",-20,-11
+"Asparagus densiflorus","Scientific","",4,6
+"Umbilicus rupestris","Scientific","",-8,9
+"Piper longum","Scientific","",9,-3
+"Salvia microphylla","Scientific","",6,-7
+"Cestrum fasciculatum","Scientific","",-7,-4
+"Myoporum tenuifolium","Scientific","",8,2
+"Opuesta","Leaf_layout","",-6,-1
+"Bauhinia variegata-B. purpurea","Scientific","",10,1
+"Aparente","Flower_app","",12,-11
+"Pinus halepensis","Scientific","",-12,7
+"Montanoa bipinnatifida","Scientific","",20,4
+"Pinus pinaster","Scientific","",-6,9
+"Onagraceae","Family","",-7,8
+"Handroanthus heptaphyllus-H. impetiginosus","Scientific","",-13,4
+"Vitaceae","Family","",10,9
+"Morus kagayamae","Scientific","",-3,8
+"Acacia longifolia","Scientific","",7,-6
+"Rosa banksiae","Scientific","",-11,2
+"Platanus x hispanica","Scientific","",15,3
+"Photinia x fraseri","Scientific","",18,-11
+"Ulmaceae","Family","",-3,8
+"Lobado","Leaf_later","",0,-4
+"Ebenaceae","Family","",-14,-6
+"Pittosporum tenuifolium","Scientific","",-2,-3
+"Rosaceae","Family","",-2,10
+"San Jerónimo-Ayto","Park_zone","",-14,4
+"Africano","Origin","",2,-8
+"Koelreuteria paniculata","Scientific","",-8,5
+"Cycas revoluta","Scientific","",1,-9
+"Pyrus communis","Scientific","",-17,-7
+"Hibiscus syriacus","Scientific","",3,2
+"Sesamum indicum","Scientific","",-17,-11
+"Ficus elastica","Scientific","",-16,10
+"Nephrolepidaceae","Family","",-10,8
+"Atenuada","Leaf_base","",-8,-6
+"Tamaricaceae","Family","",-5,-9
+"Nervión","District","",5,-5
+"Fagus sylvatica","Scientific","",-4,1
+"Citrus x paradisi","Scientific","",-6,3
+"Bromeliaceae","Family","",12,5
+"Ficus microcarpa","Scientific","",-18,10
+"Simaroubaceae","Family","",-7,10
+"Menispermaceae","Family","",-14,4
+"Chaenomeles japonica","Scientific","",-5,-9
+"Crassulaceae","Family","",-11,-4
+"Otras disposiciones","Leaf_layout","",16,7
+"Ovada","Leaf_form","",15,-2
+"Albizia procera","Scientific","",-19,6
+"Araucaria cunninghamii","Scientific","",-18,2
+"Adiantum capillus-veneris","Scientific","",18,-2
+"Cestrum nocturnum","Scientific","",-15,-2
+"Palmera","Type","",14,0
+"Pyrus calleryana","Scientific","",-8,-9
+"Gleditsia triacanthos","Scientific","",-8,-9
+"Photinia glabra","Scientific","",11,8
+"Pinnada","Leaf_type","",12,-9
+"Piperaceae","Family","",11,9
+"Rastrera","Canopy","",-12,-10
+"Schinus terebinthifolia","Scientific","",8,-8
+"Tetraclinis articulata","Scientific","",9,-3
+"Vitis vinifera-Vitis spp.","Scientific","",-2,9
+"Buhaira-Ayto","Park_zone","",-19,-8
+"Extendida","Canopy","",-3,-7
+"Aucuba japonica","Scientific","",10,7
+"Phytolacca dioica","Scientific","",10,11
+"Lantana montevidensis","Scientific","",-10,6
+"Impatiens hawkeri","Scientific","",14,-7
+"Vigna caracalla","Scientific","",-6,9
+"Triana","District","",-3,-4
+"Trifoliada","Leaf_form","",-7,11
+"Alpinia zerumbet","Scientific","",11,4
+"Podocarpaceae","Family","",-17,9
+"Caduco","Foliage_type","",-7,0
+"Partido","Leaf_later","",9,-11
+"Araucaria bidwillii","Scientific","",16,-4
+"Los Remedios","District","",9,8
+"Fraxinus angustifolia","Scientific","",15,-11
+"Ericaceae","Family","",-13,-5
+"Schinus molle","Scientific","",-4,-7
+"Bougainvillea spp.","Scientific","",-1,7
+"Ondulado","Leaf_later","",-18,11

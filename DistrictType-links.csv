@@ -1,0 +1,37 @@
+Source,Target,Type,Weight
+"Los Remedios","Enredadera",directed,7
+"Sur","Planta",directed,14
+"Triana","Arbusto",directed,40
+"Sur","Palmera",directed,44
+"Casco Antiguo","Árbol",directed,304
+"Los Remedios","Arbusto",directed,35
+"Norte","Planta",directed,14
+"Casco Antiguo","Enredadera",directed,19
+"Triana","Planta",directed,14
+"Casco Antiguo","Planta",directed,41
+"Macarena","Árbol",directed,144
+"Los Remedios","Palmera",directed,23
+"Triana","Palmera",directed,34
+"Macarena","Arbusto",directed,33
+"Sur","Arbusto",directed,52
+"Macarena","Planta",directed,13
+"Triana","Otras",directed,1
+"Sur","Árbol",directed,322
+"Norte","Enredadera",directed,7
+"Casco Antiguo","Arbusto",directed,73
+"Sur","Enredadera",directed,10
+"Macarena","Enredadera",directed,10
+"Triana","Enredadera",directed,8
+"Norte","Arbusto",directed,39
+"Los Remedios","Árbol",directed,174
+"Norte","Palmera",directed,30
+"Macarena","Palmera",directed,21
+"Norte","Otras",directed,1
+"Sur","Otras",directed,1
+"Norte","Árbol",directed,228
+"Triana","Árbol",directed,267
+"Macarena","Otras",directed,1
+"Los Remedios","Otras",directed,1
+"Casco Antiguo","Otras",directed,1
+"Los Remedios","Planta",directed,12
+"Casco Antiguo","Palmera",directed,65

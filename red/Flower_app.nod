@@ -1,0 +1,6 @@
+<Nodes>
+ "ID(S)" "NodeType(S)" "Label(S)"
+"None" "Flower_app" "None" 
+"Aparente" "Flower_app" "Aparente" 
+"No aparente" "Flower_app" "No aparente" 
+<EndNodes>

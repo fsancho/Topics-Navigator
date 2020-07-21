@@ -1,0 +1,1810 @@
+<Edges>
+ "ID-List(X)" "EdgeType(S)" "Weight(X)"
+["Abelia x grandiflora" "Casino"] "park_zone" 5
+["Abelia x grandiflora" "María Luisa"] "park_zone" 12
+["Abutilon pictum" "Real Alcázar"] "park_zone" 3
+["Acacia longifolia" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Acacia longifolia" "Otros-Ayto"] "park_zone" 1
+["Acacia saligna" "Calles de Sevilla-Ayto"] "park_zone" 3
+["Acacia saligna" "María Luisa"] "park_zone" 1
+["Acacia saligna" "Miraflores-Ayto"] "park_zone" 6
+["Acacia saligna" "Otros-Ayto"] "park_zone" 7
+["Acacia saligna" "Ribera del Guadaira-Ayto"] "park_zone" 9
+["Acacia saligna" "Tamarguillo-Ayto"] "park_zone" 41
+["Acanthus mollis" "María Luisa"] "park_zone" 915
+["Acanthus mollis" "Real Alcázar"] "park_zone" 310
+["Acanthus mollis" "Santa Clara-Don Fadrique"] "park_zone" 18
+["Acer negundo" "Alcosa-Ayto"] "park_zone" 21
+["Acer negundo" "Amate-Ayto"] "park_zone" 5
+["Acer negundo" "Barranco-Colón-Ayto"] "park_zone" 5
+["Acer negundo" "Buhaira-Ayto"] "park_zone" 344
+["Acer negundo" "Calles de Sevilla-Ayto"] "park_zone" 748
+["Acer negundo" "Catalina de Ribera-Ayto"] "park_zone" 10
+["Acer negundo" "Delicias-Ayto"] "park_zone" 5
+["Acer negundo" "Guadalquivir-Ayto"] "park_zone" 1
+["Acer negundo" "Los Príncipes-Ayto"] "park_zone" 2
+["Acer negundo" "María Luisa"] "park_zone" 40
+["Acer negundo" "Miraflores-Ayto"] "park_zone" 3
+["Acer negundo" "Otros-Ayto"] "park_zone" 67
+["Acer negundo" "Valle-Ayto"] "park_zone" 2
+["Acer negundo var. argenteo-variegatum" "Real Alcázar"] "park_zone" 4
+["Acer pseudoplatanus" "Calles de Sevilla-Ayto"] "park_zone" 27
+["Acer pseudoplatanus" "Real Alcázar"] "park_zone" 1
+["Acokanthera oblongifolia" "María Luisa"] "park_zone" 2
+["Adiantum capillus-veneris" "Real Alcázar"] "park_zone" 25
+["Aeonium arboreum" "Real Alcázar"] "park_zone" 1
+["Aesculus hippocastanum" "María Luisa"] "park_zone" 4
+["Aesculus hippocastanum" "Real Alcázar"] "park_zone" 4
+["Aesculus x carnea" "María Luisa"] "park_zone" 1
+["Agapanthus umbellatus" "Casino"] "park_zone" 56
+["Agapanthus umbellatus" "María Luisa"] "park_zone" 756
+["Agapanthus umbellatus" "Real Alcázar"] "park_zone" 594
+["Agapanthus umbellatus" "Santa Clara-Don Fadrique"] "park_zone" 7
+["Agave americana" "Real Alcázar"] "park_zone" 2
+["Ailanthus altissima" "Bermejales-Ayto"] "park_zone" 6
+["Ailanthus altissima" "Buhaira-Ayto"] "park_zone" 1
+["Ailanthus altissima" "Calles de Sevilla-Ayto"] "park_zone" 108
+["Ailanthus altissima" "Delicias-Ayto"] "park_zone" 1
+["Ailanthus altissima" "Maestranza-Ayto"] "park_zone" 2
+["Ailanthus altissima" "María Luisa"] "park_zone" 45
+["Ailanthus altissima" "Miraflores-Ayto"] "park_zone" 5
+["Ailanthus altissima" "Real Alcázar"] "park_zone" 3
+["Ailanthus altissima" "Tamarguillo-Ayto"] "park_zone" 1
+["Albizia julibrissin" "Alcosa-Ayto"] "park_zone" 2
+["Albizia julibrissin" "Amate"] "park_zone" 12
+["Albizia julibrissin" "Amate-Ayto"] "park_zone" 91
+["Albizia julibrissin" "Barranco-Colón-Ayto"] "park_zone" 5
+["Albizia julibrissin" "Calles de Sevilla-Ayto"] "park_zone" 291
+["Albizia julibrissin" "Catalina de Ribera-Ayto"] "park_zone" 4
+["Albizia julibrissin" "Celestino Mutis-Ayto"] "park_zone" 1
+["Albizia julibrissin" "Delicias-Ayto"] "park_zone" 1
+["Albizia julibrissin" "Miraflores-Ayto"] "park_zone" 2
+["Albizia julibrissin" "Otros-Ayto"] "park_zone" 162
+["Albizia julibrissin" "Ribera del Guadaira-Ayto"] "park_zone" 10
+["Albizia julibrissin" "Tamarguillo-Ayto"] "park_zone" 1
+["Albizia julibrissin" "Vega de Triana-Ayto"] "park_zone" 415
+["Albizia procera" "Amate"] "park_zone" 68
+["Albizia procera" "Amate-Ayto"] "park_zone" 28
+["Albizia procera" "Calles de Sevilla-Ayto"] "park_zone" 53
+["Albizia procera" "Delicias-Ayto"] "park_zone" 1
+["Albizia procera" "María Luisa"] "park_zone" 3
+["Albizia procera" "Otros-Ayto"] "park_zone" 1
+["Albizia procera" "Real Alcázar"] "park_zone" 1
+["Alcea rosea" "Real Alcázar"] "park_zone" 8
+["Alocasia odora-A. macrorrhizos" "Real Alcázar"] "park_zone" 74
+["Aloe maculata" "María Luisa"] "park_zone" 23
+["Aloe maculata" "Real Alcázar"] "park_zone" 5
+["Aloe vera" "CEIP Vélez de Guevara"] "park_zone" 4
+["Aloe vera" "Real Alcázar"] "park_zone" 2
+["Aloysia citriodora" "Real Alcázar"] "park_zone" 4
+["Alpinia zerumbet" "María Luisa"] "park_zone" 138
+["Ananas comosus" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Annona cherimola" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Annona cherimola" "Real Alcázar"] "park_zone" 1
+["Araucaria angustifolia" "Casino"] "park_zone" 1
+["Araucaria araucana-Araucaria spp." "Alcosa-Ayto"] "park_zone" 2
+["Araucaria araucana-Araucaria spp." "Amate-Ayto"] "park_zone" 1
+["Araucaria araucana-Araucaria spp." "Calles de Sevilla-Ayto"] "park_zone" 6
+["Araucaria araucana-Araucaria spp." "Casino"] "park_zone" 3
+["Araucaria araucana-Araucaria spp." "Celestino Mutis-Ayto"] "park_zone" 1
+["Araucaria araucana-Araucaria spp." "Delicias-Ayto"] "park_zone" 2
+["Araucaria araucana-Araucaria spp." "Los Príncipes-Ayto"] "park_zone" 2
+["Araucaria araucana-Araucaria spp." "Otros-Ayto"] "park_zone" 29
+["Araucaria bidwillii" "Guadaira"] "park_zone" 9
+["Araucaria bidwillii" "María Luisa"] "park_zone" 5
+["Araucaria columnaris" "Guadaira"] "park_zone" 14
+["Araucaria columnaris" "Real Alcázar"] "park_zone" 1
+["Araucaria cunninghamii" "Casino"] "park_zone" 2
+["Araucaria cunninghamii" "María Luisa"] "park_zone" 5
+["Arbutus unedo" "Bermejales-Ayto"] "park_zone" 4
+["Arbutus unedo" "CEIP Vélez de Guevara"] "park_zone" 1
+["Arbutus unedo" "Infanta Elena-Ayto"] "park_zone" 2
+["Arbutus unedo" "Miraflores-Ayto"] "park_zone" 8
+["Arbutus unedo" "Real Alcázar"] "park_zone" 4
+["Arbutus unedo" "Ribera del Guadaira-Ayto"] "park_zone" 1
+["Arbutus unedo" "Tamarguillo-Ayto"] "park_zone" 1
+["Archontophoenix alexandrae" "Casino"] "park_zone" 9
+["Asparagus aethiopicus" "Real Alcázar"] "park_zone" 2
+["Asparagus densiflorus" "Casino"] "park_zone" 11
+["Asparagus setaceus" "Casino"] "park_zone" 1
+["Asparagus setaceus" "Santa Clara-Don Fadrique"] "park_zone" 2
+["Aspidistra spp." "Casino"] "park_zone" 16
+["Aspidistra spp." "María Luisa"] "park_zone" 22
+["Aucuba japonica" "Casino"] "park_zone" 4
+["Bambuseae (tribu)" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Bambuseae (tribu)" "María Luisa"] "park_zone" 4
+["Bauhinia forficata" "Calles de Sevilla-Ayto"] "park_zone" 22
+["Bauhinia forficata" "Otros-Ayto"] "park_zone" 20
+["Bauhinia variegata-B. purpurea" "Buhaira-Ayto"] "park_zone" 5
+["Bauhinia variegata-B. purpurea" "Calles de Sevilla-Ayto"] "park_zone" 270
+["Bauhinia variegata-B. purpurea" "Guadalquivir-Ayto"] "park_zone" 4
+["Bauhinia variegata-B. purpurea" "Otros-Ayto"] "park_zone" 21
+["Bauhinia variegata-B. purpurea" "Prado-Ayto"] "park_zone" 9
+["Beaucarnea recurvata" "Real Alcázar"] "park_zone" 1
+["Berberis x chenaultii" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Berberis x chenaultii" "Catalina de Ribera-Ayto"] "park_zone" 1
+["Bergenia crassifolia" "Real Alcázar"] "park_zone" 27
+["Bougainvillea spp." "Amate"] "park_zone" 22
+["Bougainvillea spp." "Barranco-Colón-Ayto"] "park_zone" 1
+["Bougainvillea spp." "Calles de Sevilla-Ayto"] "park_zone" 6
+["Bougainvillea spp." "Casino"] "park_zone" 14
+["Bougainvillea spp." "CEIP Andalucía"] "park_zone" 1
+["Bougainvillea spp." "CEIP Vélez de Guevara"] "park_zone" 1
+["Bougainvillea spp." "María Luisa"] "park_zone" 35
+["Bougainvillea spp." "Murillo"] "park_zone" 1
+["Bougainvillea spp." "Otros-Ayto"] "park_zone" 14
+["Bougainvillea spp." "Perdigones"] "park_zone" 7
+["Bougainvillea spp." "Real Alcázar"] "park_zone" 38
+["Bougainvillea spp." "Santa Clara-Don Fadrique"] "park_zone" 1
+["Brachychiton acerifolius" "Calles de Sevilla-Ayto"] "park_zone" 43
+["Brachychiton acerifolius" "Delicias-Ayto"] "park_zone" 2
+["Brachychiton acerifolius" "Guadalquivir-Ayto"] "park_zone" 1
+["Brachychiton acerifolius" "Otros-Ayto"] "park_zone" 12
+["Brachychiton acerifolius" "Tamarguillo-Ayto"] "park_zone" 2
+["Brachychiton acerifolius" "Valle-Ayto"] "park_zone" 8
+["Brachychiton acerifolius" "Vega de Triana-Ayto"] "park_zone" 59
+["Brachychiton populneus" "Alcosa-Ayto"] "park_zone" 33
+["Brachychiton populneus" "Amate"] "park_zone" 97
+["Brachychiton populneus" "Amate-Ayto"] "park_zone" 322
+["Brachychiton populneus" "Barranco-Colón-Ayto"] "park_zone" 29
+["Brachychiton populneus" "Bermejales-Ayto"] "park_zone" 4
+["Brachychiton populneus" "Buhaira-Ayto"] "park_zone" 1
+["Brachychiton populneus" "Calles de Sevilla-Ayto"] "park_zone" 4011
+["Brachychiton populneus" "CEIP San José Obrero"] "park_zone" 4
+["Brachychiton populneus" "Celestino Mutis-Ayto"] "park_zone" 5
+["Brachychiton populneus" "Cristina-Ayto"] "park_zone" 6
+["Brachychiton populneus" "Delicias-Ayto"] "park_zone" 2
+["Brachychiton populneus" "Guadalquivir-Ayto"] "park_zone" 1
+["Brachychiton populneus" "Los Príncipes-Ayto"] "park_zone" 114
+["Brachychiton populneus" "María Luisa"] "park_zone" 84
+["Brachychiton populneus" "Miraflores-Ayto"] "park_zone" 79
+["Brachychiton populneus" "Otros-Ayto"] "park_zone" 382
+["Brachychiton populneus" "Real Alcázar"] "park_zone" 11
+["Brachychiton populneus" "Rey JCI-Torneo-Ayto"] "park_zone" 5
+["Brachychiton populneus" "San Jerónimo-Ayto"] "park_zone" 543
+["Brachychiton populneus" "Tamarguillo-Ayto"] "park_zone" 14
+["Brachychiton populneus" "Vega de Triana-Ayto"] "park_zone" 42
+["Broussonetia papyrifera" "Americano-Ayto"] "park_zone" 1
+["Broussonetia papyrifera" "Barranco-Colón-Ayto"] "park_zone" 1
+["Broussonetia papyrifera" "Calles de Sevilla-Ayto"] "park_zone" 26
+["Broussonetia papyrifera" "Casino"] "park_zone" 2
+["Broussonetia papyrifera" "Delicias-Ayto"] "park_zone" 3
+["Broussonetia papyrifera" "Guadalquivir-Ayto"] "park_zone" 1
+["Broussonetia papyrifera" "María Luisa"] "park_zone" 22
+["Broussonetia papyrifera" "Miraflores-Ayto"] "park_zone" 3
+["Broussonetia papyrifera" "Otros-Ayto"] "park_zone" 18
+["Broussonetia papyrifera" "Real Alcázar"] "park_zone" 3
+["Brugmansia arborea" "Americano-Ayto"] "park_zone" 2
+["Brugmansia arborea" "María Luisa"] "park_zone" 12
+["Brugmansia suaveolens" "Real Alcázar"] "park_zone" 74
+["Buddleya madagascariensis" "María Luisa"] "park_zone" 1
+["Butia capitata" "Rey JCI-Torneo-Ayto"] "park_zone" 2
+["Butia capitata" "San Jerónimo-Ayto"] "park_zone" 2
+["Buxus balearica" "María Luisa"] "park_zone" 25
+["Buxus sempervirens" "Delicias-Ayto"] "park_zone" 1
+["Buxus sempervirens" "María Luisa"] "park_zone" 760
+["Buxus sempervirens" "Murillo"] "park_zone" 6
+["Buxus sempervirens" "Real Alcázar"] "park_zone" 875
+["Buxus sempervirens" "Santa Clara-Don Fadrique"] "park_zone" 1
+["Caesalpinia gilliesii" "Delicias-Ayto"] "park_zone" 1
+["Caesalpinia gilliesii" "Otros-Ayto"] "park_zone" 1
+["Callistemon spp." "Casino"] "park_zone" 8
+["Callistemon spp." "Celestino Mutis-Ayto"] "park_zone" 3
+["Callistemon spp." "María Luisa"] "park_zone" 18
+["Callistemon spp." "Otros-Ayto"] "park_zone" 13
+["Callistemon spp." "Ribera del Guadaira-Ayto"] "park_zone" 5
+["Campsis radicans" "Real Alcázar"] "park_zone" 40
+["Canna spp." "María Luisa"] "park_zone" 12
+["Canna spp." "Real Alcázar"] "park_zone" 169
+["Carex pendula" "María Luisa"] "park_zone" 306
+["Carpinus betulus" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Carya illinoinensis" "María Luisa"] "park_zone" 1
+["Carya illinoinensis" "Real Alcázar"] "park_zone" 7
+["Cascabela thevetia" "Real Alcázar"] "park_zone" 3
+["Casuarina equisetifolia" "Alcosa-Ayto"] "park_zone" 21
+["Casuarina equisetifolia" "Amate-Ayto"] "park_zone" 14
+["Casuarina equisetifolia" "Barranco-Colón-Ayto"] "park_zone" 3
+["Casuarina equisetifolia" "Bermejales-Ayto"] "park_zone" 47
+["Casuarina equisetifolia" "Calles de Sevilla-Ayto"] "park_zone" 292
+["Casuarina equisetifolia" "Cristina-Ayto"] "park_zone" 39
+["Casuarina equisetifolia" "Delicias-Ayto"] "park_zone" 4
+["Casuarina equisetifolia" "Los Príncipes-Ayto"] "park_zone" 15
+["Casuarina equisetifolia" "María Luisa"] "park_zone" 65
+["Casuarina equisetifolia" "Miraflores-Ayto"] "park_zone" 3
+["Casuarina equisetifolia" "Otros-Ayto"] "park_zone" 246
+["Casuarina equisetifolia" "Ranillas-Ayto"] "park_zone" 23
+["Casuarina equisetifolia" "Real Alcázar"] "park_zone" 17
+["Casuarina equisetifolia" "Ribera del Guadaira-Ayto"] "park_zone" 176
+["Casuarina equisetifolia" "San Jerónimo-Ayto"] "park_zone" 23
+["Casuarina equisetifolia" "Tamarguillo-Ayto"] "park_zone" 355
+["Casuarina equisetifolia" "Vega de Triana-Ayto"] "park_zone" 2
+["Catalpa bignonioides" "Alcosa-Ayto"] "park_zone" 3
+["Catalpa bignonioides" "Amate-Ayto"] "park_zone" 8
+["Catalpa bignonioides" "Bermejales-Ayto"] "park_zone" 4
+["Catalpa bignonioides" "Calles de Sevilla-Ayto"] "park_zone" 1057
+["Catalpa bignonioides" "Catalina de Ribera-Ayto"] "park_zone" 1
+["Catalpa bignonioides" "Celestino Mutis-Ayto"] "park_zone" 2
+["Catalpa bignonioides" "Delicias-Ayto"] "park_zone" 2
+["Catalpa bignonioides" "El Turruñuelo-Ayto"] "park_zone" 3
+["Catalpa bignonioides" "Infanta Elena-Ayto"] "park_zone" 49
+["Catalpa bignonioides" "María Luisa"] "park_zone" 3
+["Catalpa bignonioides" "Miraflores-Ayto"] "park_zone" 46
+["Catalpa bignonioides" "Otros-Ayto"] "park_zone" 72
+["Catalpa bignonioides" "Perdigones"] "park_zone" 1
+["Catalpa bignonioides" "Real Alcázar"] "park_zone" 1
+["Catalpa bignonioides" "Ribera del Guadaira-Ayto"] "park_zone" 113
+["Catalpa bignonioides" "Tamarguillo-Ayto"] "park_zone" 27
+["Cedrus atlantica" "Guadaira"] "park_zone" 3
+["Cedrus atlantica" "María Luisa"] "park_zone" 2
+["Cedrus atlantica" "Otros-Ayto"] "park_zone" 1
+["Cedrus atlantica" "Ranillas-Ayto"] "park_zone" 2
+["Cedrus deodara" "Amate"] "park_zone" 1
+["Cedrus deodara" "Calles de Sevilla-Ayto"] "park_zone" 36
+["Cedrus deodara" "María Luisa"] "park_zone" 2
+["Cedrus deodara" "Miraflores-Ayto"] "park_zone" 10
+["Cedrus deodara" "Otros-Ayto"] "park_zone" 8
+["Cedrus deodara" "Ranillas-Ayto"] "park_zone" 7
+["Cedrus deodara" "Real Alcázar"] "park_zone" 39
+["Cedrus deodara" "Tamarguillo-Ayto"] "park_zone" 3
+["Ceiba speciosa" "Amate-Ayto"] "park_zone" 9
+["Ceiba speciosa" "Americano-Ayto"] "park_zone" 9
+["Ceiba speciosa" "Calles de Sevilla-Ayto"] "park_zone" 17
+["Ceiba speciosa" "Celestino Mutis-Ayto"] "park_zone" 6
+["Ceiba speciosa" "Cristina-Ayto"] "park_zone" 5
+["Ceiba speciosa" "Delicias-Ayto"] "park_zone" 15
+["Ceiba speciosa" "Guadalquivir-Ayto"] "park_zone" 1
+["Ceiba speciosa" "Los Príncipes-Ayto"] "park_zone" 3
+["Ceiba speciosa" "María Luisa"] "park_zone" 4
+["Ceiba speciosa" "Miraflores-Ayto"] "park_zone" 11
+["Ceiba speciosa" "Otros-Ayto"] "park_zone" 17
+["Ceiba speciosa" "Real Alcázar"] "park_zone" 7
+["Ceiba speciosa" "Ribera del Guadaira-Ayto"] "park_zone" 24
+["Ceiba speciosa" "Tamarguillo-Ayto"] "park_zone" 6
+["Celosia plumosa" "Casino"] "park_zone" 9
+["Celtis australis" "Alcosa-Ayto"] "park_zone" 9
+["Celtis australis" "Barranco-Colón-Ayto"] "park_zone" 29
+["Celtis australis" "Bermejales-Ayto"] "park_zone" 77
+["Celtis australis" "Calles de Sevilla-Ayto"] "park_zone" 5596
+["Celtis australis" "Casino"] "park_zone" 10
+["Celtis australis" "Catalina de Ribera-Ayto"] "park_zone" 1
+["Celtis australis" "CEIP Andalucía"] "park_zone" 4
+["Celtis australis" "CEIP Vélez de Guevara"] "park_zone" 1
+["Celtis australis" "Celestino Mutis-Ayto"] "park_zone" 3
+["Celtis australis" "Cortijo del Cuarto-Ayto"] "park_zone" 21
+["Celtis australis" "Cristina-Ayto"] "park_zone" 4
+["Celtis australis" "Delicias-Ayto"] "park_zone" 11
+["Celtis australis" "El Turruñuelo-Ayto"] "park_zone" 2
+["Celtis australis" "Guadalquivir-Ayto"] "park_zone" 24
+["Celtis australis" "Infanta Elena-Ayto"] "park_zone" 8
+["Celtis australis" "Los Príncipes-Ayto"] "park_zone" 19
+["Celtis australis" "María Luisa"] "park_zone" 190
+["Celtis australis" "Miraflores-Ayto"] "park_zone" 317
+["Celtis australis" "Murillo"] "park_zone" 1
+["Celtis australis" "Otros-Ayto"] "park_zone" 975
+["Celtis australis" "Perdigones"] "park_zone" 47
+["Celtis australis" "Ranillas-Ayto"] "park_zone" 92
+["Celtis australis" "Real Alcázar"] "park_zone" 2
+["Celtis australis" "Rey JCI-Torneo-Ayto"] "park_zone" 80
+["Celtis australis" "Ribera del Guadaira-Ayto"] "park_zone" 218
+["Celtis australis" "San Jerónimo-Ayto"] "park_zone" 142
+["Celtis australis" "Tamarguillo-Ayto"] "park_zone" 134
+["Celtis australis" "Vega de Triana-Ayto"] "park_zone" 167
+["Celtis occidentalis" "Americano-Ayto"] "park_zone" 2
+["Celtis occidentalis" "Calles de Sevilla-Ayto"] "park_zone" 97
+["Celtis occidentalis" "Cristina-Ayto"] "park_zone" 1
+["Celtis occidentalis" "María Luisa"] "park_zone" 3
+["Celtis occidentalis" "Miraflores-Ayto"] "park_zone" 2
+["Celtis occidentalis" "Otros-Ayto"] "park_zone" 12
+["Centaurea cineraria" "Real Alcázar"] "park_zone" 2
+["Ceratonia siliqua" "Alcosa-Ayto"] "park_zone" 6
+["Ceratonia siliqua" "Amate-Ayto"] "park_zone" 1
+["Ceratonia siliqua" "Bermejales-Ayto"] "park_zone" 90
+["Ceratonia siliqua" "Calles de Sevilla-Ayto"] "park_zone" 39
+["Ceratonia siliqua" "CEIP San José Obrero"] "park_zone" 1
+["Ceratonia siliqua" "CEIP Vélez de Guevara"] "park_zone" 3
+["Ceratonia siliqua" "Cortijo del Cuarto-Ayto"] "park_zone" 117
+["Ceratonia siliqua" "Guadaira"] "park_zone" 39
+["Ceratonia siliqua" "Infanta Elena-Ayto"] "park_zone" 32
+["Ceratonia siliqua" "Los Príncipes-Ayto"] "park_zone" 1
+["Ceratonia siliqua" "María Luisa"] "park_zone" 2
+["Ceratonia siliqua" "Miraflores-Ayto"] "park_zone" 79
+["Ceratonia siliqua" "Norte-Ayto"] "park_zone" 144
+["Ceratonia siliqua" "Otros-Ayto"] "park_zone" 56
+["Ceratonia siliqua" "Ranillas-Ayto"] "park_zone" 66
+["Ceratonia siliqua" "Real Alcázar"] "park_zone" 1
+["Ceratonia siliqua" "Rey JCI-Torneo-Ayto"] "park_zone" 4
+["Ceratonia siliqua" "Ribera del Guadaira-Ayto"] "park_zone" 82
+["Ceratonia siliqua" "San Jerónimo-Ayto"] "park_zone" 26
+["Ceratonia siliqua" "Tamarguillo-Ayto"] "park_zone" 685
+["Ceratonia siliqua" "Vega de Triana-Ayto"] "park_zone" 15
+["Cercis siliquastrum" "Alcosa-Ayto"] "park_zone" 30
+["Cercis siliquastrum" "Amate-Ayto"] "park_zone" 56
+["Cercis siliquastrum" "Buhaira-Ayto"] "park_zone" 15
+["Cercis siliquastrum" "Calles de Sevilla-Ayto"] "park_zone" 371
+["Cercis siliquastrum" "Celestino Mutis-Ayto"] "park_zone" 1
+["Cercis siliquastrum" "Cristina-Ayto"] "park_zone" 7
+["Cercis siliquastrum" "Delicias-Ayto"] "park_zone" 6
+["Cercis siliquastrum" "El Turruñuelo-Ayto"] "park_zone" 4
+["Cercis siliquastrum" "Guadalquivir-Ayto"] "park_zone" 7
+["Cercis siliquastrum" "Los Príncipes-Ayto"] "park_zone" 59
+["Cercis siliquastrum" "María Luisa"] "park_zone" 220
+["Cercis siliquastrum" "Miraflores-Ayto"] "park_zone" 13
+["Cercis siliquastrum" "Murillo"] "park_zone" 1
+["Cercis siliquastrum" "Otros-Ayto"] "park_zone" 192
+["Cercis siliquastrum" "Perdigones"] "park_zone" 2
+["Cercis siliquastrum" "Real Alcázar"] "park_zone" 2
+["Cercis siliquastrum" "Ribera del Guadaira-Ayto"] "park_zone" 57
+["Cercis siliquastrum" "San Jerónimo-Ayto"] "park_zone" 35
+["Cercis siliquastrum" "Tamarguillo-Ayto"] "park_zone" 1
+["Cercis siliquastrum" "Valle-Ayto"] "park_zone" 23
+["Cercis siliquastrum" "Vega de Triana-Ayto"] "park_zone" 14
+["Cestrum elegans" "Americano-Ayto"] "park_zone" 5
+["Cestrum elegans" "Calles de Sevilla-Ayto"] "park_zone" 2
+["Cestrum elegans" "Delicias-Ayto"] "park_zone" 1
+["Cestrum elegans" "María Luisa"] "park_zone" 16
+["Cestrum elegans" "Real Alcázar"] "park_zone" 2
+["Cestrum fasciculatum" "Casino"] "park_zone" 1
+["Cestrum fasciculatum" "María Luisa"] "park_zone" 5
+["Cestrum nocturnum" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Cestrum nocturnum" "Casino"] "park_zone" 2
+["Cestrum nocturnum" "María Luisa"] "park_zone" 28
+["Cestrum nocturnum" "Murillo"] "park_zone" 6
+["Cestrum nocturnum" "Perdigones"] "park_zone" 8
+["Cestrum nocturnum" "Real Alcázar"] "park_zone" 16
+["Cestrum nocturnum" "Santa Clara-Don Fadrique"] "park_zone" 11
+["Chaenomeles japonica" "María Luisa"] "park_zone" 3
+["Chaenomeles speciosa" "Calles de Sevilla-Ayto"] "park_zone" 6
+["Chaenomeles speciosa" "Real Alcázar"] "park_zone" 1
+["Chamaedorea elegans" "María Luisa"] "park_zone" 3
+["Chamaedorea elegans" "Real Alcázar"] "park_zone" 18
+["Chamaedorea seifrizii" "Casino"] "park_zone" 2
+["Chamaedorea seifrizii" "María Luisa"] "park_zone" 3
+["Chamaerops humilis" "Calles de Sevilla-Ayto"] "park_zone" 58
+["Chamaerops humilis" "Casino"] "park_zone" 47
+["Chamaerops humilis" "Celestino Mutis-Ayto"] "park_zone" 3
+["Chamaerops humilis" "Cristina-Ayto"] "park_zone" 18
+["Chamaerops humilis" "Guadaira"] "park_zone" 15
+["Chamaerops humilis" "Infanta Elena-Ayto"] "park_zone" 62
+["Chamaerops humilis" "Los Príncipes-Ayto"] "park_zone" 5
+["Chamaerops humilis" "Maestranza-Ayto"] "park_zone" 1
+["Chamaerops humilis" "María Luisa"] "park_zone" 7
+["Chamaerops humilis" "Otros-Ayto"] "park_zone" 45
+["Chamaerops humilis" "Ranillas-Ayto"] "park_zone" 7
+["Chamaerops humilis" "Real Alcázar"] "park_zone" 7
+["Chamaerops humilis" "Tamarguillo-Ayto"] "park_zone" 459
+["Chasmanthe aethiopica" "María Luisa"] "park_zone" 19
+["Chimonanthus praecox" "Real Alcázar"] "park_zone" 12
+["Chlorophytum comosum" "María Luisa"] "park_zone" 14
+["Chlorophytum comosum" "Real Alcázar"] "park_zone" 195
+["Cinnamomum camphora" "María Luisa"] "park_zone" 2
+["Cinnamomum cassia-C. verum" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Cistus albidus" "María Luisa"] "park_zone" 1
+["Citrus aurantium" "Alcosa-Ayto"] "park_zone" 1616
+["Citrus aurantium" "Amate-Ayto"] "park_zone" 86
+["Citrus aurantium" "Barranco-Colón-Ayto"] "park_zone" 87
+["Citrus aurantium" "Calles de Sevilla-Ayto"] "park_zone" 36881
+["Citrus aurantium" "Casino"] "park_zone" 72
+["Citrus aurantium" "Catalina de Ribera-Ayto"] "park_zone" 9
+["Citrus aurantium" "CEIP San José Obrero"] "park_zone" 18
+["Citrus aurantium" "CEIP Vélez de Guevara"] "park_zone" 16
+["Citrus aurantium" "Celestino Mutis-Ayto"] "park_zone" 43
+["Citrus aurantium" "Cristina-Ayto"] "park_zone" 4
+["Citrus aurantium" "Delicias-Ayto"] "park_zone" 305
+["Citrus aurantium" "El Turruñuelo-Ayto"] "park_zone" 3
+["Citrus aurantium" "Guadalquivir-Ayto"] "park_zone" 155
+["Citrus aurantium" "Los Príncipes-Ayto"] "park_zone" 275
+["Citrus aurantium" "Maestranza-Ayto"] "park_zone" 6
+["Citrus aurantium" "María Luisa"] "park_zone" 1045
+["Citrus aurantium" "Murillo"] "park_zone" 140
+["Citrus aurantium" "Otros-Ayto"] "park_zone" 1720
+["Citrus aurantium" "Perdigones"] "park_zone" 26
+["Citrus aurantium" "Plaza Nueva-Ayto"] "park_zone" 64
+["Citrus aurantium" "Prado-Ayto"] "park_zone" 183
+["Citrus aurantium" "Real Alcázar"] "park_zone" 1089
+["Citrus aurantium" "Rey JCI-Torneo-Ayto"] "park_zone" 58
+["Citrus aurantium" "San Jerónimo-Ayto"] "park_zone" 429
+["Citrus aurantium" "Santa Clara-Don Fadrique"] "park_zone" 37
+["Citrus aurantium" "Tamarguillo-Ayto"] "park_zone" 42
+["Citrus aurantium" "Valle-Ayto"] "park_zone" 56
+["Citrus aurantium" "Vega de Triana-Ayto"] "park_zone" 139
+["Citrus limetta" "Real Alcázar"] "park_zone" 2
+["Citrus maxima" "Real Alcázar"] "park_zone" 4
+["Citrus myrtifolia" "Delicias-Ayto"] "park_zone" 27
+["Citrus myrtifolia" "María Luisa"] "park_zone" 28
+["Citrus myrtifolia" "Real Alcázar"] "park_zone" 28
+["Citrus reticulata" "Buhaira-Ayto"] "park_zone" 7
+["Citrus reticulata" "Calles de Sevilla-Ayto"] "park_zone" 55
+["Citrus reticulata" "Miraflores-Ayto"] "park_zone" 16
+["Citrus reticulata" "Otros-Ayto"] "park_zone" 1
+["Citrus reticulata" "Real Alcázar"] "park_zone" 28
+["Citrus spp." "Real Alcázar"] "park_zone" 8
+["Citrus x limon" "Alcosa-Ayto"] "park_zone" 60
+["Citrus x limon" "Buhaira-Ayto"] "park_zone" 33
+["Citrus x limon" "Calles de Sevilla-Ayto"] "park_zone" 115
+["Citrus x limon" "Casino"] "park_zone" 7
+["Citrus x limon" "Delicias-Ayto"] "park_zone" 17
+["Citrus x limon" "Los Príncipes-Ayto"] "park_zone" 1
+["Citrus x limon" "María Luisa"] "park_zone" 5
+["Citrus x limon" "Otros-Ayto"] "park_zone" 7
+["Citrus x limon" "Real Alcázar"] "park_zone" 39
+["Citrus x limon" "Valle-Ayto"] "park_zone" 2
+["Citrus x limon" "Vega de Triana-Ayto"] "park_zone" 2
+["Citrus x paradisi" "Otros-Ayto"] "park_zone" 80
+["Citrus x paradisi" "Real Alcázar"] "park_zone" 8
+["Citrus x sinensis" "Buhaira-Ayto"] "park_zone" 58
+["Citrus x sinensis" "Calles de Sevilla-Ayto"] "park_zone" 3
+["Citrus x sinensis" "Otros-Ayto"] "park_zone" 27
+["Citrus x sinensis" "Real Alcázar"] "park_zone" 37
+["Citrus x sinensis" "Santa Clara-Don Fadrique"] "park_zone" 1
+["Clerodendrum bungei" "Real Alcázar"] "park_zone" 18
+["Clivia miniata" "Casino"] "park_zone" 22
+["Clivia miniata" "María Luisa"] "park_zone" 524
+["Clivia miniata" "Murillo"] "park_zone" 23
+["Clivia miniata" "Real Alcázar"] "park_zone" 178
+["Cocculus laurifolius" "Casino"] "park_zone" 14
+["Cocculus laurifolius" "Delicias-Ayto"] "park_zone" 4
+["Cocculus laurifolius" "María Luisa"] "park_zone" 54
+["Cocculus laurifolius" "Miraflores-Ayto"] "park_zone" 1
+["Cocculus laurifolius" "Murillo"] "park_zone" 1
+["Cocculus laurifolius" "Real Alcázar"] "park_zone" 2
+["Cocos nucifera" "Barranco-Colón-Ayto"] "park_zone" 2
+["Cocos nucifera" "Calles de Sevilla-Ayto"] "park_zone" 11
+["Cocos nucifera" "Guadalquivir-Ayto"] "park_zone" 18
+["Cordyline fruticosa" "Miraflores-Ayto"] "park_zone" 1
+["Cordyline fruticosa" "Real Alcázar"] "park_zone" 41
+["Cortaderia selloana" "María Luisa"] "park_zone" 29
+["Cortaderia selloana" "Real Alcázar"] "park_zone" 5
+["Cotoneaster spp." "Guadaira"] "park_zone" 48
+["Cotoneaster spp." "María Luisa"] "park_zone" 14
+["Crataegus monogyna" "María Luisa"] "park_zone" 2
+["Cuphea hyssopifolia" "Real Alcázar"] "park_zone" 8
+["Cupressus arizonica" "Alcosa-Ayto"] "park_zone" 3
+["Cupressus arizonica" "Amate"] "park_zone" 7
+["Cupressus arizonica" "Amate-Ayto"] "park_zone" 10
+["Cupressus arizonica" "Americano-Ayto"] "park_zone" 1
+["Cupressus arizonica" "Calles de Sevilla-Ayto"] "park_zone" 45
+["Cupressus arizonica" "Celestino Mutis-Ayto"] "park_zone" 2
+["Cupressus arizonica" "Infanta Elena-Ayto"] "park_zone" 26
+["Cupressus arizonica" "Los Príncipes-Ayto"] "park_zone" 1
+["Cupressus arizonica" "Maestranza-Ayto"] "park_zone" 3
+["Cupressus arizonica" "María Luisa"] "park_zone" 4
+["Cupressus arizonica" "Otros-Ayto"] "park_zone" 42
+["Cupressus arizonica" "Ranillas-Ayto"] "park_zone" 12
+["Cupressus arizonica" "Real Alcázar"] "park_zone" 1
+["Cupressus arizonica" "Ribera del Guadaira-Ayto"] "park_zone" 1
+["Cupressus arizonica" "San Jerónimo-Ayto"] "park_zone" 16
+["Cupressus macrocarpa" "Calles de Sevilla-Ayto"] "park_zone" 6
+["Cupressus macrocarpa" "Perdigones"] "park_zone" 3
+["Cupressus sempervirens" "Alcosa-Ayto"] "park_zone" 11
+["Cupressus sempervirens" "Amate"] "park_zone" 26
+["Cupressus sempervirens" "Amate-Ayto"] "park_zone" 5
+["Cupressus sempervirens" "Americano-Ayto"] "park_zone" 1
+["Cupressus sempervirens" "Barranco-Colón-Ayto"] "park_zone" 5
+["Cupressus sempervirens" "Buhaira-Ayto"] "park_zone" 70
+["Cupressus sempervirens" "Calles de Sevilla-Ayto"] "park_zone" 472
+["Cupressus sempervirens" "Casino"] "park_zone" 4
+["Cupressus sempervirens" "Celestino Mutis-Ayto"] "park_zone" 2
+["Cupressus sempervirens" "Cristina-Ayto"] "park_zone" 1
+["Cupressus sempervirens" "Delicias-Ayto"] "park_zone" 10
+["Cupressus sempervirens" "El Turruñuelo-Ayto"] "park_zone" 11
+["Cupressus sempervirens" "Guadalquivir-Ayto"] "park_zone" 79
+["Cupressus sempervirens" "Infanta Elena-Ayto"] "park_zone" 6
+["Cupressus sempervirens" "Los Príncipes-Ayto"] "park_zone" 19
+["Cupressus sempervirens" "Maestranza-Ayto"] "park_zone" 4
+["Cupressus sempervirens" "María Luisa"] "park_zone" 125
+["Cupressus sempervirens" "Miraflores-Ayto"] "park_zone" 77
+["Cupressus sempervirens" "Murillo"] "park_zone" 10
+["Cupressus sempervirens" "Otros-Ayto"] "park_zone" 185
+["Cupressus sempervirens" "Ranillas-Ayto"] "park_zone" 181
+["Cupressus sempervirens" "Real Alcázar"] "park_zone" 286
+["Cupressus sempervirens" "Rey JCI-Torneo-Ayto"] "park_zone" 43
+["Cupressus sempervirens" "Ribera del Guadaira-Ayto"] "park_zone" 30
+["Cupressus sempervirens" "San Jerónimo-Ayto"] "park_zone" 38
+["Cupressus sempervirens" "Santa Clara-Don Fadrique"] "park_zone" 3
+["Cupressus sempervirens" "Tamarguillo-Ayto"] "park_zone" 26
+["Cupressus sempervirens" "Valle-Ayto"] "park_zone" 1
+["Cycas circinalis" "María Luisa"] "park_zone" 5
+["Cycas revoluta" "Calles de Sevilla-Ayto"] "park_zone" 14
+["Cycas revoluta" "Casino"] "park_zone" 16
+["Cycas revoluta" "María Luisa"] "park_zone" 12
+["Cycas revoluta" "Otros-Ayto"] "park_zone" 18
+["Cycas revoluta" "Plaza Nueva-Ayto"] "park_zone" 11
+["Cycas revoluta" "Real Alcázar"] "park_zone" 21
+["Cyperus alternifolius-C. involucratus" "María Luisa"] "park_zone" 45
+["Cyperus alternifolius-C. involucratus" "Real Alcázar"] "park_zone" 57
+["Cyperus papyrus" "Real Alcázar"] "park_zone" 8
+["Diospyros kaki" "Real Alcázar"] "park_zone" 2
+["Diospyros virginiana" "María Luisa"] "park_zone" 1
+["Dombeya x cayeuxii" "Guadalquivir-Ayto"] "park_zone" 1
+["Dombeya x cayeuxii" "María Luisa"] "park_zone" 2
+["Dombeya x cayeuxii" "Murillo"] "park_zone" 2
+["Dombeya x cayeuxii" "Real Alcázar"] "park_zone" 1
+["Dracaena draco" "Alcosa-Ayto"] "park_zone" 1
+["Dracaena draco" "Barranco-Colón-Ayto"] "park_zone" 2
+["Dracaena draco" "Calles de Sevilla-Ayto"] "park_zone" 6
+["Dracaena draco" "Guadaira"] "park_zone" 3
+["Dracaena draco" "María Luisa"] "park_zone" 4
+["Drosanthemum floribundum" "Casino"] "park_zone" 8
+["Duranta repens" "María Luisa"] "park_zone" 126
+["Duranta repens" "Murillo"] "park_zone" 3
+["Duranta repens" "Real Alcázar"] "park_zone" 2
+["Elaeagnus angustifolia" "Amate-Ayto"] "park_zone" 5
+["Elaeagnus angustifolia" "Calles de Sevilla-Ayto"] "park_zone" 17
+["Elaeagnus angustifolia" "Guadalquivir-Ayto"] "park_zone" 4
+["Elaeagnus angustifolia" "Infanta Elena-Ayto"] "park_zone" 1
+["Elaeagnus angustifolia" "Miraflores-Ayto"] "park_zone" 1
+["Elaeagnus angustifolia" "Otros-Ayto"] "park_zone" 3
+["Elaeagnus angustifolia" "Ribera del Guadaira-Ayto"] "park_zone" 4
+["Elaeagnus angustifolia" "San Jerónimo-Ayto"] "park_zone" 1
+["Elaeagnus angustifolia" "Tamarguillo-Ayto"] "park_zone" 22
+["Elaeagnus pungens" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Elaeagnus x ebbingei" "María Luisa"] "park_zone" 93
+["Encephalartos horridus" "María Luisa"] "park_zone" 1
+["Eriobotrya japonica" "Calles de Sevilla-Ayto"] "park_zone" 28
+["Eriobotrya japonica" "Guadalquivir-Ayto"] "park_zone" 2
+["Eriobotrya japonica" "María Luisa"] "park_zone" 10
+["Eriobotrya japonica" "Real Alcázar"] "park_zone" 9
+["Erythrina crista-galli" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Erythrina crista-galli" "Celestino Mutis-Ayto"] "park_zone" 1
+["Erythrina crista-galli" "Delicias-Ayto"] "park_zone" 3
+["Erythrina crista-galli" "Maestranza-Ayto"] "park_zone" 2
+["Erythrina crista-galli" "Tamarguillo-Ayto"] "park_zone" 8
+["Erythrina crista-galli" "Vega de Triana-Ayto"] "park_zone" 40
+["Eucalyptus camaldulensis" "Amate-Ayto"] "park_zone" 52
+["Eucalyptus camaldulensis" "Barranco-Colón-Ayto"] "park_zone" 7
+["Eucalyptus camaldulensis" "Calles de Sevilla-Ayto"] "park_zone" 15
+["Eucalyptus camaldulensis" "Casino"] "park_zone" 1
+["Eucalyptus camaldulensis" "Catalina de Ribera-Ayto"] "park_zone" 1
+["Eucalyptus camaldulensis" "Delicias-Ayto"] "park_zone" 11
+["Eucalyptus camaldulensis" "El Turruñuelo-Ayto"] "park_zone" 7
+["Eucalyptus camaldulensis" "Infanta Elena-Ayto"] "park_zone" 57
+["Eucalyptus camaldulensis" "María Luisa"] "park_zone" 106
+["Eucalyptus camaldulensis" "Norte-Ayto"] "park_zone" 2
+["Eucalyptus camaldulensis" "Otros-Ayto"] "park_zone" 21
+["Eucalyptus camaldulensis" "Ranillas-Ayto"] "park_zone" 100
+["Eucalyptus camaldulensis" "Real Alcázar"] "park_zone" 7
+["Eucalyptus camaldulensis" "Ribera del Guadaira-Ayto"] "park_zone" 58
+["Eucalyptus camaldulensis" "Tamarguillo-Ayto"] "park_zone" 290
+["Eucalyptus camaldulensis" "Valle-Ayto"] "park_zone" 2
+["Eucalyptus camaldulensis" "Vega de Triana-Ayto"] "park_zone" 15
+["Eucalyptus globulus" "Calles de Sevilla-Ayto"] "park_zone" 16
+["Eucalyptus globulus" "Miraflores-Ayto"] "park_zone" 139
+["Eucalyptus globulus" "Otros-Ayto"] "park_zone" 46
+["Euonymus japonicus" "Amate"] "park_zone" 36
+["Euonymus japonicus" "Calles de Sevilla-Ayto"] "park_zone" 13
+["Euonymus japonicus" "Casino"] "park_zone" 4
+["Euonymus japonicus" "CEIP Vélez de Guevara"] "park_zone" 2
+["Euonymus japonicus" "María Luisa"] "park_zone" 8653
+["Euonymus japonicus" "Murillo"] "park_zone" 182
+["Euonymus japonicus" "Real Alcázar"] "park_zone" 4471
+["Euonymus japonicus" "Santa Clara-Don Fadrique"] "park_zone" 2
+["Euphorbia ingens" "Real Alcázar"] "park_zone" 2
+["Euphorbia pulcherrima" "Real Alcázar"] "park_zone" 2
+["Fagus sylvatica" "Real Alcázar"] "park_zone" 1
+["Feijoa sellowiana" "María Luisa"] "park_zone" 6
+["Feijoa sellowiana" "Murillo"] "park_zone" 2
+["Ficus benjamina" "Alcosa-Ayto"] "park_zone" 3
+["Ficus benjamina" "Calles de Sevilla-Ayto"] "park_zone" 47
+["Ficus benjamina" "Casino"] "park_zone" 29
+["Ficus benjamina" "Guadalquivir-Ayto"] "park_zone" 4
+["Ficus benjamina" "María Luisa"] "park_zone" 21
+["Ficus benjamina" "Miraflores-Ayto"] "park_zone" 2
+["Ficus benjamina" "Otros-Ayto"] "park_zone" 11
+["Ficus benjamina" "Vega de Triana-Ayto"] "park_zone" 93
+["Ficus carica" "Alcosa-Ayto"] "park_zone" 4
+["Ficus carica" "Amate-Ayto"] "park_zone" 1
+["Ficus carica" "Barranco-Colón-Ayto"] "park_zone" 10
+["Ficus carica" "Buhaira-Ayto"] "park_zone" 9
+["Ficus carica" "Calles de Sevilla-Ayto"] "park_zone" 13
+["Ficus carica" "Casino"] "park_zone" 1
+["Ficus carica" "Guadaira"] "park_zone" 4
+["Ficus carica" "María Luisa"] "park_zone" 10
+["Ficus carica" "Miraflores-Ayto"] "park_zone" 37
+["Ficus carica" "Norte-Ayto"] "park_zone" 1
+["Ficus carica" "Otros-Ayto"] "park_zone" 13
+["Ficus carica" "Real Alcázar"] "park_zone" 1
+["Ficus carica" "Ribera del Guadaira-Ayto"] "park_zone" 1
+["Ficus carica" "San Jerónimo-Ayto"] "park_zone" 1
+["Ficus carica" "Tamarguillo-Ayto"] "park_zone" 9
+["Ficus elastica" "Alcosa-Ayto"] "park_zone" 24
+["Ficus elastica" "Amate-Ayto"] "park_zone" 2
+["Ficus elastica" "Barranco-Colón-Ayto"] "park_zone" 5
+["Ficus elastica" "Calles de Sevilla-Ayto"] "park_zone" 94
+["Ficus elastica" "CEIP Vélez de Guevara"] "park_zone" 1
+["Ficus elastica" "Guadalquivir-Ayto"] "park_zone" 2
+["Ficus elastica" "Los Príncipes-Ayto"] "park_zone" 11
+["Ficus elastica" "Otros-Ayto"] "park_zone" 24
+["Ficus macrophylla" "Calles de Sevilla-Ayto"] "park_zone" 8
+["Ficus macrophylla" "Delicias-Ayto"] "park_zone" 1
+["Ficus macrophylla" "María Luisa"] "park_zone" 12
+["Ficus macrophylla" "Murillo"] "park_zone" 5
+["Ficus macrophylla" "Otros-Ayto"] "park_zone" 5
+["Ficus macrophylla" "Perdigones"] "park_zone" 1
+["Ficus microcarpa" "Calles de Sevilla-Ayto"] "park_zone" 8
+["Ficus microcarpa" "Miraflores-Ayto"] "park_zone" 1
+["Ficus microcarpa" "Real Alcázar"] "park_zone" 2
+["Ficus microcarpa" "Tamarguillo-Ayto"] "park_zone" 3
+["Ficus pumila" "María Luisa"] "park_zone" 1
+["Ficus retusa" "Amate"] "park_zone" 5
+["Ficus retusa" "Amate-Ayto"] "park_zone" 1
+["Ficus retusa" "Barranco-Colón-Ayto"] "park_zone" 2
+["Ficus retusa" "Calles de Sevilla-Ayto"] "park_zone" 39
+["Ficus retusa" "Casino"] "park_zone" 4
+["Ficus retusa" "Celestino Mutis-Ayto"] "park_zone" 1
+["Ficus retusa" "Delicias-Ayto"] "park_zone" 1
+["Ficus retusa" "Guadalquivir-Ayto"] "park_zone" 2
+["Ficus retusa" "Los Príncipes-Ayto"] "park_zone" 2
+["Ficus retusa" "María Luisa"] "park_zone" 12
+["Ficus retusa" "Miraflores-Ayto"] "park_zone" 6
+["Ficus retusa" "Otros-Ayto"] "park_zone" 33
+["Ficus retusa" "Prado-Ayto"] "park_zone" 6
+["Ficus retusa" "Rey JCI-Torneo-Ayto"] "park_zone" 18
+["Ficus retusa" "San Jerónimo-Ayto"] "park_zone" 1
+["Ficus rubiginosa" "Los Príncipes-Ayto"] "park_zone" 1
+["Ficus rubiginosa" "María Luisa"] "park_zone" 4
+["Ficus rubiginosa" "Ribera del Guadaira-Ayto"] "park_zone" 147
+["Ficus rubiginosa" "Tamarguillo-Ayto"] "park_zone" 4
+["Firmiana simplex" "Alcosa-Ayto"] "park_zone" 3
+["Firmiana simplex" "Calles de Sevilla-Ayto"] "park_zone" 835
+["Firmiana simplex" "Catalina de Ribera-Ayto"] "park_zone" 3
+["Firmiana simplex" "CEIP Vélez de Guevara"] "park_zone" 1
+["Firmiana simplex" "Cristina-Ayto"] "park_zone" 2
+["Firmiana simplex" "Delicias-Ayto"] "park_zone" 1
+["Firmiana simplex" "María Luisa"] "park_zone" 2
+["Firmiana simplex" "Miraflores-Ayto"] "park_zone" 8
+["Firmiana simplex" "Otros-Ayto"] "park_zone" 4
+["Firmiana simplex" "Vega de Triana-Ayto"] "park_zone" 17
+["Fraxinus angustifolia" "Alcosa-Ayto"] "park_zone" 81
+["Fraxinus angustifolia" "Barranco-Colón-Ayto"] "park_zone" 42
+["Fraxinus angustifolia" "Bermejales-Ayto"] "park_zone" 1
+["Fraxinus angustifolia" "Buhaira-Ayto"] "park_zone" 2
+["Fraxinus angustifolia" "Calles de Sevilla-Ayto"] "park_zone" 117
+["Fraxinus angustifolia" "CEIP Vélez de Guevara"] "park_zone" 4
+["Fraxinus angustifolia" "Guadaira"] "park_zone" 4
+["Fraxinus angustifolia" "Guadalquivir-Ayto"] "park_zone" 46
+["Fraxinus angustifolia" "Infanta Elena-Ayto"] "park_zone" 10
+["Fraxinus angustifolia" "María Luisa"] "park_zone" 3
+["Fraxinus angustifolia" "Otros-Ayto"] "park_zone" 79
+["Fraxinus angustifolia" "Rey JCI-Torneo-Ayto"] "park_zone" 40
+["Fraxinus angustifolia" "Ribera del Guadaira-Ayto"] "park_zone" 57
+["Fraxinus angustifolia" "San Jerónimo-Ayto"] "park_zone" 317
+["Fraxinus angustifolia" "Tamarguillo-Ayto"] "park_zone" 23
+["Fraxinus excelsior" "Barranco-Colón-Ayto"] "park_zone" 13
+["Fraxinus excelsior" "Calles de Sevilla-Ayto"] "park_zone" 340
+["Fraxinus excelsior" "Cortijo del Cuarto-Ayto"] "park_zone" 310
+["Fraxinus excelsior" "Delicias-Ayto"] "park_zone" 4
+["Fraxinus excelsior" "Infanta Elena-Ayto"] "park_zone" 2
+["Fraxinus excelsior" "María Luisa"] "park_zone" 11
+["Fraxinus excelsior" "Miraflores-Ayto"] "park_zone" 1
+["Fraxinus excelsior" "Otros-Ayto"] "park_zone" 31
+["Fraxinus excelsior" "Rey JCI-Torneo-Ayto"] "park_zone" 1
+["Fraxinus excelsior" "San Jerónimo-Ayto"] "park_zone" 105
+["Fraxinus excelsior" "Vega de Triana-Ayto"] "park_zone" 456
+["Fraxinus ornus" "Calles de Sevilla-Ayto"] "park_zone" 207
+["Fraxinus ornus" "Catalina de Ribera-Ayto"] "park_zone" 3
+["Fraxinus ornus" "Delicias-Ayto"] "park_zone" 7
+["Fraxinus ornus" "Guadalquivir-Ayto"] "park_zone" 9
+["Fraxinus ornus" "Los Príncipes-Ayto"] "park_zone" 2
+["Fraxinus ornus" "María Luisa"] "park_zone" 7
+["Fraxinus ornus" "Otros-Ayto"] "park_zone" 10
+["Fraxinus ornus" "Real Alcázar"] "park_zone" 1
+["Fraxinus ornus" "San Jerónimo-Ayto"] "park_zone" 10
+["Fraxinus ornus" "Vega de Triana-Ayto"] "park_zone" 141
+["Gaura lindheimeri" "Casino"] "park_zone" 5
+["Gaura lindheimeri" "Santa Clara-Don Fadrique"] "park_zone" 4
+["Ginkgo biloba" "Calles de Sevilla-Ayto"] "park_zone" 32
+["Ginkgo biloba" "Guadalquivir-Ayto"] "park_zone" 4
+["Ginkgo biloba" "Los Príncipes-Ayto"] "park_zone" 2
+["Ginkgo biloba" "María Luisa"] "park_zone" 4
+["Ginkgo biloba" "Miraflores-Ayto"] "park_zone" 1
+["Ginkgo biloba" "Real Alcázar"] "park_zone" 11
+["Ginkgo biloba" "Rey JCI-Torneo-Ayto"] "park_zone" 73
+["Ginkgo biloba" "Tamarguillo-Ayto"] "park_zone" 2
+["Gleditsia triacanthos" "Amate"] "park_zone" 2
+["Gleditsia triacanthos" "Amate-Ayto"] "park_zone" 8
+["Gleditsia triacanthos" "Americano-Ayto"] "park_zone" 4
+["Gleditsia triacanthos" "Buhaira-Ayto"] "park_zone" 9
+["Gleditsia triacanthos" "Calles de Sevilla-Ayto"] "park_zone" 340
+["Gleditsia triacanthos" "Casino"] "park_zone" 3
+["Gleditsia triacanthos" "Catalina de Ribera-Ayto"] "park_zone" 66
+["Gleditsia triacanthos" "Celestino Mutis-Ayto"] "park_zone" 1
+["Gleditsia triacanthos" "Delicias-Ayto"] "park_zone" 25
+["Gleditsia triacanthos" "Guadalquivir-Ayto"] "park_zone" 30
+["Gleditsia triacanthos" "Infanta Elena-Ayto"] "park_zone" 6
+["Gleditsia triacanthos" "María Luisa"] "park_zone" 207
+["Gleditsia triacanthos" "Miraflores-Ayto"] "park_zone" 51
+["Gleditsia triacanthos" "Otros-Ayto"] "park_zone" 130
+["Gleditsia triacanthos" "Ranillas-Ayto"] "park_zone" 4
+["Gleditsia triacanthos" "Ribera del Guadaira-Ayto"] "park_zone" 130
+["Gleditsia triacanthos" "Tamarguillo-Ayto"] "park_zone" 84
+["Grevillea robusta" "Alcosa-Ayto"] "park_zone" 1
+["Grevillea robusta" "Amate"] "park_zone" 6
+["Grevillea robusta" "Amate-Ayto"] "park_zone" 13
+["Grevillea robusta" "Barranco-Colón-Ayto"] "park_zone" 1
+["Grevillea robusta" "Buhaira-Ayto"] "park_zone" 5
+["Grevillea robusta" "Calles de Sevilla-Ayto"] "park_zone" 449
+["Grevillea robusta" "Casino"] "park_zone" 10
+["Grevillea robusta" "Celestino Mutis-Ayto"] "park_zone" 4
+["Grevillea robusta" "Cortijo del Cuarto-Ayto"] "park_zone" 335
+["Grevillea robusta" "Delicias-Ayto"] "park_zone" 3
+["Grevillea robusta" "Guadalquivir-Ayto"] "park_zone" 9
+["Grevillea robusta" "Los Príncipes-Ayto"] "park_zone" 23
+["Grevillea robusta" "Maestranza-Ayto"] "park_zone" 1
+["Grevillea robusta" "María Luisa"] "park_zone" 32
+["Grevillea robusta" "Miraflores-Ayto"] "park_zone" 82
+["Grevillea robusta" "Otros-Ayto"] "park_zone" 161
+["Grevillea robusta" "Prado-Ayto"] "park_zone" 8
+["Grevillea robusta" "Ranillas-Ayto"] "park_zone" 2
+["Grevillea robusta" "Rey JCI-Torneo-Ayto"] "park_zone" 2
+["Grevillea robusta" "San Jerónimo-Ayto"] "park_zone" 30
+["Grevillea robusta" "Tamarguillo-Ayto"] "park_zone" 20
+["Grevillea robusta" "Valle-Ayto"] "park_zone" 5
+["Grevillea robusta" "Vega de Triana-Ayto"] "park_zone" 51
+["Handroanthus chrysanthus-H. albus" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Handroanthus chrysanthus-H. albus" "Real Alcázar"] "park_zone" 1
+["Handroanthus heptaphyllus-H. impetiginosus" "Americano-Ayto"] "park_zone" 1
+["Handroanthus heptaphyllus-H. impetiginosus" "Maestranza-Ayto"] "park_zone" 1
+["Hedera helix" "Casino"] "park_zone" 1
+["Hedera helix" "CEIP Vélez de Guevara"] "park_zone" 3
+["Hedera helix" "María Luisa"] "park_zone" 288
+["Hedera helix" "Murillo"] "park_zone" 14
+["Hedera helix" "Real Alcázar"] "park_zone" 329
+["Hemerocallis spp." "Casino"] "park_zone" 82
+["Hemerocallis spp." "María Luisa"] "park_zone" 14
+["Hibiscus mutabilis" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Hibiscus mutabilis" "Real Alcázar"] "park_zone" 16
+["Hibiscus rosa-sinensis" "Alcosa-Ayto"] "park_zone" 6
+["Hibiscus rosa-sinensis" "Calles de Sevilla-Ayto"] "park_zone" 8
+["Hibiscus rosa-sinensis" "CEIP Vélez de Guevara"] "park_zone" 1
+["Hibiscus rosa-sinensis" "María Luisa"] "park_zone" 115
+["Hibiscus rosa-sinensis" "Murillo"] "park_zone" 5
+["Hibiscus rosa-sinensis" "Real Alcázar"] "park_zone" 21
+["Hibiscus rosa-sinensis" "Santa Clara-Don Fadrique"] "park_zone" 2
+["Hibiscus syriacus" "Amate"] "park_zone" 33
+["Hibiscus syriacus" "Calles de Sevilla-Ayto"] "park_zone" 11
+["Hibiscus syriacus" "María Luisa"] "park_zone" 13
+["Hibiscus syriacus" "Otros-Ayto"] "park_zone" 3
+["Hibiscus syriacus" "Perdigones"] "park_zone" 6
+["Hibiscus syriacus" "Real Alcázar"] "park_zone" 10
+["Hibiscus syriacus" "Ribera del Guadaira-Ayto"] "park_zone" 1
+["Hibiscus syriacus cv. White" "Real Alcázar"] "park_zone" 1
+["Howea forsteriana" "María Luisa"] "park_zone" 3
+["Ilex crenata" "Casino"] "park_zone" 1
+["Impatiens hawkeri" "Casino"] "park_zone" 15
+["Ipomoea spp." "María Luisa"] "park_zone" 1
+["Iris germanica" "María Luisa"] "park_zone" 207
+["Iris germanica" "Real Alcázar"] "park_zone" 172
+["Jacaranda mimosifolia" "Alcosa-Ayto"] "park_zone" 32
+["Jacaranda mimosifolia" "Amate"] "park_zone" 21
+["Jacaranda mimosifolia" "Amate-Ayto"] "park_zone" 12
+["Jacaranda mimosifolia" "Americano-Ayto"] "park_zone" 81
+["Jacaranda mimosifolia" "Barranco-Colón-Ayto"] "park_zone" 92
+["Jacaranda mimosifolia" "Bermejales-Ayto"] "park_zone" 3
+["Jacaranda mimosifolia" "Buhaira-Ayto"] "park_zone" 89
+["Jacaranda mimosifolia" "Calles de Sevilla-Ayto"] "park_zone" 4147
+["Jacaranda mimosifolia" "Casino"] "park_zone" 2
+["Jacaranda mimosifolia" "Catalina de Ribera-Ayto"] "park_zone" 21
+["Jacaranda mimosifolia" "CEIP Andalucía"] "park_zone" 15
+["Jacaranda mimosifolia" "CEIP Vélez de Guevara"] "park_zone" 2
+["Jacaranda mimosifolia" "Celestino Mutis-Ayto"] "park_zone" 37
+["Jacaranda mimosifolia" "Cristina-Ayto"] "park_zone" 17
+["Jacaranda mimosifolia" "Delicias-Ayto"] "park_zone" 23
+["Jacaranda mimosifolia" "El Turruñuelo-Ayto"] "park_zone" 20
+["Jacaranda mimosifolia" "Guadaira"] "park_zone" 6
+["Jacaranda mimosifolia" "Guadalquivir-Ayto"] "park_zone" 24
+["Jacaranda mimosifolia" "Los Príncipes-Ayto"] "park_zone" 119
+["Jacaranda mimosifolia" "Maestranza-Ayto"] "park_zone" 12
+["Jacaranda mimosifolia" "María Luisa"] "park_zone" 85
+["Jacaranda mimosifolia" "Miraflores-Ayto"] "park_zone" 201
+["Jacaranda mimosifolia" "Otros-Ayto"] "park_zone" 1059
+["Jacaranda mimosifolia" "Perdigones"] "park_zone" 14
+["Jacaranda mimosifolia" "Prado-Ayto"] "park_zone" 107
+["Jacaranda mimosifolia" "Real Alcázar"] "park_zone" 14
+["Jacaranda mimosifolia" "Rey JCI-Torneo-Ayto"] "park_zone" 246
+["Jacaranda mimosifolia" "Ribera del Guadaira-Ayto"] "park_zone" 73
+["Jacaranda mimosifolia" "San Jerónimo-Ayto"] "park_zone" 45
+["Jacaranda mimosifolia" "Tamarguillo-Ayto"] "park_zone" 27
+["Jacaranda mimosifolia" "Valle-Ayto"] "park_zone" 1
+["Jacaranda mimosifolia" "Vega de Triana-Ayto"] "park_zone" 35
+["Jasminum azoricum" "María Luisa"] "park_zone" 5
+["Jasminum grandiflorum" "Barranco-Colón-Ayto"] "park_zone" 1
+["Jasminum grandiflorum" "Calles de Sevilla-Ayto"] "park_zone" 3
+["Jasminum grandiflorum" "Cristina-Ayto"] "park_zone" 3
+["Jasminum humile" "María Luisa"] "park_zone" 126
+["Jasminum mesnyi" "Guadaira"] "park_zone" 37
+["Jasminum mesnyi" "María Luisa"] "park_zone" 73
+["Jasminum mesnyi" "Murillo"] "park_zone" 1
+["Jasminum mesnyi" "Real Alcázar"] "park_zone" 82
+["Jasminum officinale" "María Luisa"] "park_zone" 49
+["Jasminum officinale" "Murillo"] "park_zone" 5
+["Jasminum officinale" "Real Alcázar"] "park_zone" 194
+["Jasminum officinale" "Santa Clara-Don Fadrique"] "park_zone" 16
+["Juglans nigra" "María Luisa"] "park_zone" 1
+["Juglans nigra" "Real Alcázar"] "park_zone" 1
+["Justicia adhatoda" "Amate"] "park_zone" 10
+["Justicia adhatoda" "Casino"] "park_zone" 1
+["Justicia adhatoda" "CEIP Vélez de Guevara"] "park_zone" 2
+["Justicia adhatoda" "María Luisa"] "park_zone" 335
+["Justicia adhatoda" "Murillo"] "park_zone" 3
+["Justicia adhatoda" "Perdigones"] "park_zone" 5
+["Justicia adhatoda" "Real Alcázar"] "park_zone" 12
+["Justicia carnea" "Real Alcázar"] "park_zone" 3
+["Koelreuteria paniculata" "Alcosa-Ayto"] "park_zone" 3
+["Koelreuteria paniculata" "Amate"] "park_zone" 43
+["Koelreuteria paniculata" "Amate-Ayto"] "park_zone" 22
+["Koelreuteria paniculata" "Americano-Ayto"] "park_zone" 1
+["Koelreuteria paniculata" "Calles de Sevilla-Ayto"] "park_zone" 1597
+["Koelreuteria paniculata" "CEIP Vélez de Guevara"] "park_zone" 1
+["Koelreuteria paniculata" "Celestino Mutis-Ayto"] "park_zone" 15
+["Koelreuteria paniculata" "Guadalquivir-Ayto"] "park_zone" 2
+["Koelreuteria paniculata" "María Luisa"] "park_zone" 37
+["Koelreuteria paniculata" "Miraflores-Ayto"] "park_zone" 16
+["Koelreuteria paniculata" "Otros-Ayto"] "park_zone" 67
+["Koelreuteria paniculata" "Vega de Triana-Ayto"] "park_zone" 21
+["Lagerstroemia indica" "Amate"] "park_zone" 8
+["Lagerstroemia indica" "Amate-Ayto"] "park_zone" 3
+["Lagerstroemia indica" "Barranco-Colón-Ayto"] "park_zone" 4
+["Lagerstroemia indica" "Calles de Sevilla-Ayto"] "park_zone" 158
+["Lagerstroemia indica" "Casino"] "park_zone" 12
+["Lagerstroemia indica" "Catalina de Ribera-Ayto"] "park_zone" 13
+["Lagerstroemia indica" "Delicias-Ayto"] "park_zone" 114
+["Lagerstroemia indica" "Guadalquivir-Ayto"] "park_zone" 9
+["Lagerstroemia indica" "Los Príncipes-Ayto"] "park_zone" 57
+["Lagerstroemia indica" "María Luisa"] "park_zone" 51
+["Lagerstroemia indica" "Miraflores-Ayto"] "park_zone" 2
+["Lagerstroemia indica" "Murillo"] "park_zone" 3
+["Lagerstroemia indica" "Otros-Ayto"] "park_zone" 76
+["Lagerstroemia indica" "Perdigones"] "park_zone" 11
+["Lagerstroemia indica" "Plaza Nueva-Ayto"] "park_zone" 10
+["Lagerstroemia indica" "Real Alcázar"] "park_zone" 35
+["Lagerstroemia indica" "Ribera del Guadaira-Ayto"] "park_zone" 1
+["Lagerstroemia indica" "San Jerónimo-Ayto"] "park_zone" 12
+["Lagerstroemia indica" "Vega de Triana-Ayto"] "park_zone" 46
+["Lagunaria patersonia" "Alcosa-Ayto"] "park_zone" 7
+["Lagunaria patersonia" "Amate-Ayto"] "park_zone" 33
+["Lagunaria patersonia" "Barranco-Colón-Ayto"] "park_zone" 8
+["Lagunaria patersonia" "Calles de Sevilla-Ayto"] "park_zone" 83
+["Lagunaria patersonia" "Casino"] "park_zone" 1
+["Lagunaria patersonia" "Celestino Mutis-Ayto"] "park_zone" 2
+["Lagunaria patersonia" "Cristina-Ayto"] "park_zone" 1
+["Lagunaria patersonia" "Delicias-Ayto"] "park_zone" 3
+["Lagunaria patersonia" "Los Príncipes-Ayto"] "park_zone" 22
+["Lagunaria patersonia" "María Luisa"] "park_zone" 7
+["Lagunaria patersonia" "Miraflores-Ayto"] "park_zone" 3
+["Lagunaria patersonia" "Otros-Ayto"] "park_zone" 103
+["Lagunaria patersonia" "Prado-Ayto"] "park_zone" 4
+["Lagunaria patersonia" "Real Alcázar"] "park_zone" 3
+["Lagunaria patersonia" "Rey JCI-Torneo-Ayto"] "park_zone" 33
+["Lagunaria patersonia" "Vega de Triana-Ayto"] "park_zone" 87
+["Lantana camara" "Amate"] "park_zone" 10
+["Lantana camara" "Casino"] "park_zone" 14
+["Lantana camara" "María Luisa"] "park_zone" 70
+["Lantana camara" "Murillo"] "park_zone" 18
+["Lantana camara" "Perdigones"] "park_zone" 11
+["Lantana camara" "Real Alcázar"] "park_zone" 23
+["Lantana montevidensis" "María Luisa"] "park_zone" 46
+["Laurus nobilis" "Alcosa-Ayto"] "park_zone" 19
+["Laurus nobilis" "Amate-Ayto"] "park_zone" 3
+["Laurus nobilis" "Calles de Sevilla-Ayto"] "park_zone" 36
+["Laurus nobilis" "Casino"] "park_zone" 21
+["Laurus nobilis" "CEIP Vélez de Guevara"] "park_zone" 1
+["Laurus nobilis" "Celestino Mutis-Ayto"] "park_zone" 1
+["Laurus nobilis" "Delicias-Ayto"] "park_zone" 4
+["Laurus nobilis" "Guadalquivir-Ayto"] "park_zone" 5
+["Laurus nobilis" "María Luisa"] "park_zone" 62
+["Laurus nobilis" "Otros-Ayto"] "park_zone" 50
+["Laurus nobilis" "Real Alcázar"] "park_zone" 13
+["Laurus nobilis" "Santa Clara-Don Fadrique"] "park_zone" 1
+["Lavandula angustifolia" "Calles de Sevilla-Ayto"] "park_zone" 3
+["Lavandula angustifolia" "Real Alcázar"] "park_zone" 75
+["Leucaena leucocephala" "Americano-Ayto"] "park_zone" 3
+["Leucaena leucocephala" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Leucaena leucocephala" "Guadalquivir-Ayto"] "park_zone" 53
+["Leucaena leucocephala" "Ribera del Guadaira-Ayto"] "park_zone" 8
+["Ligustrum japonicum" "Alcosa-Ayto"] "park_zone" 39
+["Ligustrum japonicum" "Amate"] "park_zone" 87
+["Ligustrum japonicum" "Amate-Ayto"] "park_zone" 28
+["Ligustrum japonicum" "Barranco-Colón-Ayto"] "park_zone" 1
+["Ligustrum japonicum" "Buhaira-Ayto"] "park_zone" 1
+["Ligustrum japonicum" "Calles de Sevilla-Ayto"] "park_zone" 1701
+["Ligustrum japonicum" "Casino"] "park_zone" 1
+["Ligustrum japonicum" "Catalina de Ribera-Ayto"] "park_zone" 3
+["Ligustrum japonicum" "CEIP Andalucía"] "park_zone" 6
+["Ligustrum japonicum" "CEIP Vélez de Guevara"] "park_zone" 1
+["Ligustrum japonicum" "Delicias-Ayto"] "park_zone" 19
+["Ligustrum japonicum" "Guadalquivir-Ayto"] "park_zone" 62
+["Ligustrum japonicum" "Los Príncipes-Ayto"] "park_zone" 14
+["Ligustrum japonicum" "Maestranza-Ayto"] "park_zone" 1
+["Ligustrum japonicum" "María Luisa"] "park_zone" 380
+["Ligustrum japonicum" "Murillo"] "park_zone" 2
+["Ligustrum japonicum" "Otros-Ayto"] "park_zone" 156
+["Ligustrum japonicum" "Perdigones"] "park_zone" 10
+["Ligustrum japonicum" "Ranillas-Ayto"] "park_zone" 24
+["Ligustrum japonicum" "Real Alcázar"] "park_zone" 11
+["Ligustrum japonicum" "Rey JCI-Torneo-Ayto"] "park_zone" 251
+["Ligustrum japonicum" "Ribera del Guadaira-Ayto"] "park_zone" 1
+["Ligustrum japonicum" "Tamarguillo-Ayto"] "park_zone" 1
+["Ligustrum japonicum" "Vega de Triana-Ayto"] "park_zone" 75
+["Ligustrum lucidum" "Calles de Sevilla-Ayto"] "park_zone" 2389
+["Ligustrum lucidum" "María Luisa"] "park_zone" 3
+["Ligustrum lucidum" "Miraflores-Ayto"] "park_zone" 3
+["Ligustrum lucidum" "Otros-Ayto"] "park_zone" 80
+["Ligustrum lucidum" "Real Alcázar"] "park_zone" 2
+["Ligustrum ovalifolium" "Amate"] "park_zone" 51
+["Ligustrum ovalifolium" "Calles de Sevilla-Ayto"] "park_zone" 4
+["Ligustrum ovalifolium" "Casino"] "park_zone" 11
+["Ligustrum ovalifolium" "María Luisa"] "park_zone" 20
+["Ligustrum ovalifolium" "Murillo"] "park_zone" 40
+["Ligustrum ovalifolium" "Perdigones"] "park_zone" 2
+["Ligustrum ovalifolium" "Santa Clara-Don Fadrique"] "park_zone" 7
+["Ligustrum sinense" "Calles de Sevilla-Ayto"] "park_zone" 142
+["Ligustrum sinense" "Casino"] "park_zone" 2
+["Ligustrum sinense" "Celestino Mutis-Ayto"] "park_zone" 1
+["Liquidambar styraciflua" "Americano-Ayto"] "park_zone" 12
+["Liquidambar styraciflua" "Calles de Sevilla-Ayto"] "park_zone" 32
+["Liquidambar styraciflua" "Celestino Mutis-Ayto"] "park_zone" 2
+["Liquidambar styraciflua" "Guadalquivir-Ayto"] "park_zone" 2
+["Liquidambar styraciflua" "Otros-Ayto"] "park_zone" 1
+["Livistona chinensis" "Calles de Sevilla-Ayto"] "park_zone" 4
+["Livistona chinensis" "Casino"] "park_zone" 26
+["Livistona chinensis" "Delicias-Ayto"] "park_zone" 2
+["Livistona chinensis" "María Luisa"] "park_zone" 383
+["Livistona chinensis" "Murillo"] "park_zone" 1
+["Livistona chinensis" "Real Alcázar"] "park_zone" 18
+["Lonicera fragrantissima" "María Luisa"] "park_zone" 39
+["Lonicera fragrantissima" "Real Alcázar"] "park_zone" 1
+["Lonicera japonica" "Guadaira"] "park_zone" 19
+["Lonicera japonica" "Murillo"] "park_zone" 1
+["Lonicera japonica" "Perdigones"] "park_zone" 17
+["Lycianthes rantonnetii" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Lycianthes rantonnetii" "María Luisa"] "park_zone" 10
+["Lycianthes rantonnetii" "Miraflores-Ayto"] "park_zone" 3
+["Magnolia grandiflora" "Amate-Ayto"] "park_zone" 45
+["Magnolia grandiflora" "Barranco-Colón-Ayto"] "park_zone" 2
+["Magnolia grandiflora" "Buhaira-Ayto"] "park_zone" 6
+["Magnolia grandiflora" "Calles de Sevilla-Ayto"] "park_zone" 50
+["Magnolia grandiflora" "Casino"] "park_zone" 4
+["Magnolia grandiflora" "Celestino Mutis-Ayto"] "park_zone" 2
+["Magnolia grandiflora" "Cristina-Ayto"] "park_zone" 1
+["Magnolia grandiflora" "Delicias-Ayto"] "park_zone" 9
+["Magnolia grandiflora" "Guadalquivir-Ayto"] "park_zone" 1
+["Magnolia grandiflora" "Los Príncipes-Ayto"] "park_zone" 13
+["Magnolia grandiflora" "Maestranza-Ayto"] "park_zone" 2
+["Magnolia grandiflora" "María Luisa"] "park_zone" 65
+["Magnolia grandiflora" "Murillo"] "park_zone" 2
+["Magnolia grandiflora" "Otros-Ayto"] "park_zone" 4
+["Magnolia grandiflora" "Real Alcázar"] "park_zone" 12
+["Magnolia grandiflora" "Rey JCI-Torneo-Ayto"] "park_zone" 6
+["Malus domestica" "Calles de Sevilla-Ayto"] "park_zone" 2
+["Malvaviscus arboreus" "María Luisa"] "park_zone" 83
+["Matthiola incana" "Real Alcázar"] "park_zone" 2
+["Melia azedarach" "Alcosa-Ayto"] "park_zone" 84
+["Melia azedarach" "Amate"] "park_zone" 8
+["Melia azedarach" "Amate-Ayto"] "park_zone" 49
+["Melia azedarach" "Barranco-Colón-Ayto"] "park_zone" 12
+["Melia azedarach" "Buhaira-Ayto"] "park_zone" 20
+["Melia azedarach" "Calles de Sevilla-Ayto"] "park_zone" 6211
+["Melia azedarach" "Casino"] "park_zone" 3
+["Melia azedarach" "CEIP Vélez de Guevara"] "park_zone" 3
+["Melia azedarach" "Celestino Mutis-Ayto"] "park_zone" 241
+["Melia azedarach" "Cortijo del Cuarto-Ayto"] "park_zone" 190
+["Melia azedarach" "Delicias-Ayto"] "park_zone" 35
+["Melia azedarach" "El Turruñuelo-Ayto"] "park_zone" 7
+["Melia azedarach" "Guadalquivir-Ayto"] "park_zone" 140
+["Melia azedarach" "Los Príncipes-Ayto"] "park_zone" 1
+["Melia azedarach" "María Luisa"] "park_zone" 26
+["Melia azedarach" "Miraflores-Ayto"] "park_zone" 650
+["Melia azedarach" "Norte-Ayto"] "park_zone" 1
+["Melia azedarach" "Otros-Ayto"] "park_zone" 841
+["Melia azedarach" "Prado-Ayto"] "park_zone" 13
+["Melia azedarach" "Ranillas-Ayto"] "park_zone" 1
+["Melia azedarach" "Real Alcázar"] "park_zone" 1
+["Melia azedarach" "Rey JCI-Torneo-Ayto"] "park_zone" 1
+["Melia azedarach" "Ribera del Guadaira-Ayto"] "park_zone" 69
+["Melia azedarach" "San Jerónimo-Ayto"] "park_zone" 25
+["Melia azedarach" "Santa Clara-Don Fadrique"] "park_zone" 1
+["Melia azedarach" "Tamarguillo-Ayto"] "park_zone" 99
+["Melia azedarach" "Vega de Triana-Ayto"] "park_zone" 89
+["Melianthus major" "María Luisa"] "park_zone" 4
+["Melicoccus bijugatus" "Real Alcázar"] "park_zone" 2
+["Mespilus germanica" "Alcosa-Ayto"] "park_zone" 20
+["Mespilus germanica" "Barranco-Colón-Ayto"] "park_zone" 1
+["Mespilus germanica" "Calles de Sevilla-Ayto"] "park_zone" 25
+["Mespilus germanica" "Otros-Ayto"] "park_zone" 4
+["Mirabilis jalapa" "María Luisa"] "park_zone" 1
+["Mirabilis jalapa" "Real Alcázar"] "park_zone" 2
+["Monstera deliciosa" "Casino"] "park_zone" 29
+["Monstera deliciosa" "María Luisa"] "park_zone" 2
+["Monstera deliciosa" "Real Alcázar"] "park_zone" 296
+["Monstera deliciosa" "Santa Clara-Don Fadrique"] "park_zone" 1
+["Montanoa bipinnatifida" "María Luisa"] "park_zone" 9
+["Montanoa bipinnatifida" "Murillo"] "park_zone" 3
+["Montanoa bipinnatifida" "Real Alcázar"] "park_zone" 5
+["Morus alba" "Alcosa-Ayto"] "park_zone" 3
+["Morus alba" "Amate-Ayto"] "park_zone" 185
+["Morus alba" "Bermejales-Ayto"] "park_zone" 2
+["Morus alba" "Buhaira-Ayto"] "park_zone" 1
+["Morus alba" "Calles de Sevilla-Ayto"] "park_zone" 272
+["Morus alba" "Casino"] "park_zone" 1
+["Morus alba" "Delicias-Ayto"] "park_zone" 1
+["Morus alba" "Guadalquivir-Ayto"] "park_zone" 7
+["Morus alba" "Infanta Elena-Ayto"] "park_zone" 3
+["Morus alba" "María Luisa"] "park_zone" 26
+["Morus alba" "Miraflores-Ayto"] "park_zone" 1
+["Morus alba" "Otros-Ayto"] "park_zone" 136
+["Morus alba" "Ranillas-Ayto"] "park_zone" 2
+["Morus alba" "Real Alcázar"] "park_zone" 3
+["Morus alba" "Ribera del Guadaira-Ayto"] "park_zone" 17
+["Morus alba" "Tamarguillo-Ayto"] "park_zone" 6
+["Morus alba" "Vega de Triana-Ayto"] "park_zone" 108
+["Morus kagayamae" "Buhaira-Ayto"] "park_zone" 45
+["Morus kagayamae" "Infanta Elena-Ayto"] "park_zone" 3
+["Morus kagayamae" "Ribera del Guadaira-Ayto"] "park_zone" 98
+["Morus nigra" "Barranco-Colón-Ayto"] "park_zone" 1
+["Morus nigra" "Calles de Sevilla-Ayto"] "park_zone" 101
+["Morus nigra" "Catalina de Ribera-Ayto"] "park_zone" 1
+["Morus nigra" "María Luisa"] "park_zone" 4
+["Morus nigra" "Miraflores-Ayto"] "park_zone" 9
+["Morus nigra" "Real Alcázar"] "park_zone" 10
+["Muehlenbeckia complexa" "Real Alcázar"] "park_zone" 1
+["Muehlenbeckia platyclados" "María Luisa"] "park_zone" 72
+["Muehlenbeckia platyclados" "Real Alcázar"] "park_zone" 2
+["Musa acuminata" "Calles de Sevilla-Ayto"] "park_zone" 2
+["Musa acuminata" "El Turruñuelo-Ayto"] "park_zone" 5
+["Musa x paradisiaca" "Alcosa-Ayto"] "park_zone" 1
+["Musa x paradisiaca" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Musa x paradisiaca" "Delicias-Ayto"] "park_zone" 1
+["Musa x paradisiaca" "Real Alcázar"] "park_zone" 1
+["Myoporum tenuifolium" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Myoporum tenuifolium" "Otros-Ayto"] "park_zone" 5
+["Myoporum tenuifolium" "Real Alcázar"] "park_zone" 38
+["Myristica fragrans" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Myrsine africana" "María Luisa"] "park_zone" 834
+["Myrtus communis" "Amate"] "park_zone" 34
+["Myrtus communis" "Guadaira"] "park_zone" 12
+["Myrtus communis" "María Luisa"] "park_zone" 2164
+["Myrtus communis" "Murillo"] "park_zone" 209
+["Myrtus communis" "Perdigones"] "park_zone" 146
+["Myrtus communis" "Real Alcázar"] "park_zone" 5037
+["Myrtus communis" "Santa Clara-Don Fadrique"] "park_zone" 14
+["Nandina domestica" "María Luisa"] "park_zone" 249
+["Nandina domestica" "Murillo"] "park_zone" 7
+["Nandina domestica" "Real Alcázar"] "park_zone" 14
+["Nandina domestica" "Santa Clara-Don Fadrique"] "park_zone" 2
+["Narcissus spp." "Real Alcázar"] "park_zone" 18
+["Nephrolepis spp." "Casino"] "park_zone" 38
+["Nephrolepis spp." "María Luisa"] "park_zone" 45
+["Nephrolepis spp." "Santa Clara-Don Fadrique"] "park_zone" 4
+["Nerium oleander" "Alcosa-Ayto"] "park_zone" 2
+["Nerium oleander" "Amate"] "park_zone" 278
+["Nerium oleander" "Calles de Sevilla-Ayto"] "park_zone" 43
+["Nerium oleander" "Casino"] "park_zone" 9
+["Nerium oleander" "CEIP San José Obrero"] "park_zone" 4
+["Nerium oleander" "Guadaira"] "park_zone" 20
+["Nerium oleander" "María Luisa"] "park_zone" 235
+["Nerium oleander" "Murillo"] "park_zone" 10
+["Nerium oleander" "Otros-Ayto"] "park_zone" 2
+["Nerium oleander" "Real Alcázar"] "park_zone" 8
+["Nuphar rubrodisca" "María Luisa"] "park_zone" 4
+["Nymphaea alba" "María Luisa"] "park_zone" 13
+["Nymphaea alba" "Real Alcázar"] "park_zone" 5
+["Olea europaea" "Alcosa-Ayto"] "park_zone" 36
+["Olea europaea" "Amate"] "park_zone" 10
+["Olea europaea" "Amate-Ayto"] "park_zone" 12
+["Olea europaea" "Barranco-Colón-Ayto"] "park_zone" 7
+["Olea europaea" "Bermejales-Ayto"] "park_zone" 295
+["Olea europaea" "Buhaira-Ayto"] "park_zone" 44
+["Olea europaea" "Calles de Sevilla-Ayto"] "park_zone" 274
+["Olea europaea" "CEIP Vélez de Guevara"] "park_zone" 1
+["Olea europaea" "Celestino Mutis-Ayto"] "park_zone" 3
+["Olea europaea" "Cortijo del Cuarto-Ayto"] "park_zone" 76
+["Olea europaea" "Guadaira"] "park_zone" 24
+["Olea europaea" "Guadalquivir-Ayto"] "park_zone" 38
+["Olea europaea" "Infanta Elena-Ayto"] "park_zone" 338
+["Olea europaea" "Los Príncipes-Ayto"] "park_zone" 1
+["Olea europaea" "Maestranza-Ayto"] "park_zone" 4
+["Olea europaea" "María Luisa"] "park_zone" 14
+["Olea europaea" "Miraflores-Ayto"] "park_zone" 62
+["Olea europaea" "Murillo"] "park_zone" 2
+["Olea europaea" "Norte-Ayto"] "park_zone" 77
+["Olea europaea" "Otros-Ayto"] "park_zone" 518
+["Olea europaea" "Perdigones"] "park_zone" 2
+["Olea europaea" "Ranillas-Ayto"] "park_zone" 70
+["Olea europaea" "Real Alcázar"] "park_zone" 1
+["Olea europaea" "Ribera del Guadaira-Ayto"] "park_zone" 135
+["Olea europaea" "San Jerónimo-Ayto"] "park_zone" 1
+["Olea europaea" "Santa Clara-Don Fadrique"] "park_zone" 1
+["Olea europaea" "Tamarguillo-Ayto"] "park_zone" 313
+["Olea europaea" "Vega de Triana-Ayto"] "park_zone" 138
+["Opuntia spp." "Calles de Sevilla-Ayto"] "park_zone" 1
+["Opuntia spp." "María Luisa"] "park_zone" 1
+["Pandorea jasminoides" "Real Alcázar"] "park_zone" 2
+["Parkinsonia aculeata" "Amate-Ayto"] "park_zone" 1
+["Parkinsonia aculeata" "Americano-Ayto"] "park_zone" 6
+["Parkinsonia aculeata" "Calles de Sevilla-Ayto"] "park_zone" 25
+["Parkinsonia aculeata" "Celestino Mutis-Ayto"] "park_zone" 3
+["Parkinsonia aculeata" "Delicias-Ayto"] "park_zone" 1
+["Parkinsonia aculeata" "El Turruñuelo-Ayto"] "park_zone" 1
+["Parkinsonia aculeata" "Guadalquivir-Ayto"] "park_zone" 2
+["Parkinsonia aculeata" "Miraflores-Ayto"] "park_zone" 8
+["Parkinsonia aculeata" "Otros-Ayto"] "park_zone" 6
+["Parkinsonia aculeata" "Ribera del Guadaira-Ayto"] "park_zone" 19
+["Parkinsonia aculeata" "San Jerónimo-Ayto"] "park_zone" 5
+["Parkinsonia aculeata" "Tamarguillo-Ayto"] "park_zone" 8
+["Paulownia tomentosa" "María Luisa"] "park_zone" 1
+["Pennisetum setaceum" "Casino"] "park_zone" 4
+["Peperomia obtusifolia" "Casino"] "park_zone" 4
+["Persea americana" "Calles de Sevilla-Ayto"] "park_zone" 3
+["Philadelphus coronarius" "María Luisa"] "park_zone" 155
+["Philadelphus coronarius-Deutzia scabra" "Real Alcázar"] "park_zone" 117
+["Phoenix canariensis" "Alcosa-Ayto"] "park_zone" 100
+["Phoenix canariensis" "Amate-Ayto"] "park_zone" 8
+["Phoenix canariensis" "Americano-Ayto"] "park_zone" 2
+["Phoenix canariensis" "Barranco-Colón-Ayto"] "park_zone" 16
+["Phoenix canariensis" "Calles de Sevilla-Ayto"] "park_zone" 760
+["Phoenix canariensis" "Casino"] "park_zone" 2
+["Phoenix canariensis" "Catalina de Ribera-Ayto"] "park_zone" 13
+["Phoenix canariensis" "Delicias-Ayto"] "park_zone" 47
+["Phoenix canariensis" "Infanta Elena-Ayto"] "park_zone" 25
+["Phoenix canariensis" "Los Príncipes-Ayto"] "park_zone" 1
+["Phoenix canariensis" "Maestranza-Ayto"] "park_zone" 16
+["Phoenix canariensis" "María Luisa"] "park_zone" 320
+["Phoenix canariensis" "Miraflores-Ayto"] "park_zone" 7
+["Phoenix canariensis" "Murillo"] "park_zone" 7
+["Phoenix canariensis" "Otros-Ayto"] "park_zone" 259
+["Phoenix canariensis" "Ranillas-Ayto"] "park_zone" 16
+["Phoenix canariensis" "Real Alcázar"] "park_zone" 38
+["Phoenix canariensis" "Rey JCI-Torneo-Ayto"] "park_zone" 7
+["Phoenix canariensis" "Ribera del Guadaira-Ayto"] "park_zone" 1
+["Phoenix canariensis" "Tamarguillo-Ayto"] "park_zone" 19
+["Phoenix canariensis" "Valle-Ayto"] "park_zone" 8
+["Phoenix canariensis" "Vega de Triana-Ayto"] "park_zone" 1
+["Phoenix dactylifera" "Alcosa-Ayto"] "park_zone" 16
+["Phoenix dactylifera" "Amate"] "park_zone" 28
+["Phoenix dactylifera" "Amate-Ayto"] "park_zone" 82
+["Phoenix dactylifera" "Barranco-Colón-Ayto"] "park_zone" 49
+["Phoenix dactylifera" "Buhaira-Ayto"] "park_zone" 150
+["Phoenix dactylifera" "Calles de Sevilla-Ayto"] "park_zone" 747
+["Phoenix dactylifera" "Casino"] "park_zone" 9
+["Phoenix dactylifera" "Catalina de Ribera-Ayto"] "park_zone" 23
+["Phoenix dactylifera" "Celestino Mutis-Ayto"] "park_zone" 2
+["Phoenix dactylifera" "Delicias-Ayto"] "park_zone" 14
+["Phoenix dactylifera" "Guadalquivir-Ayto"] "park_zone" 101
+["Phoenix dactylifera" "Los Príncipes-Ayto"] "park_zone" 13
+["Phoenix dactylifera" "Maestranza-Ayto"] "park_zone" 11
+["Phoenix dactylifera" "María Luisa"] "park_zone" 70
+["Phoenix dactylifera" "Miraflores-Ayto"] "park_zone" 5
+["Phoenix dactylifera" "Murillo"] "park_zone" 3
+["Phoenix dactylifera" "Otros-Ayto"] "park_zone" 195
+["Phoenix dactylifera" "Perdigones"] "park_zone" 2
+["Phoenix dactylifera" "Plaza Nueva-Ayto"] "park_zone" 30
+["Phoenix dactylifera" "Prado-Ayto"] "park_zone" 2
+["Phoenix dactylifera" "Real Alcázar"] "park_zone" 67
+["Phoenix dactylifera" "Rey JCI-Torneo-Ayto"] "park_zone" 64
+["Phoenix dactylifera" "Valle-Ayto"] "park_zone" 3
+["Phoenix reclinata" "Amate"] "park_zone" 5
+["Phoenix reclinata" "Amate-Ayto"] "park_zone" 1
+["Phoenix reclinata" "Calles de Sevilla-Ayto"] "park_zone" 7
+["Phoenix reclinata" "Delicias-Ayto"] "park_zone" 5
+["Phoenix reclinata" "María Luisa"] "park_zone" 15
+["Phoenix reclinata" "Otros-Ayto"] "park_zone" 1
+["Phormium tenax" "María Luisa"] "park_zone" 14
+["Photinia glabra" "Alcosa-Ayto"] "park_zone" 3
+["Photinia glabra" "Calles de Sevilla-Ayto"] "park_zone" 11
+["Photinia glabra" "María Luisa"] "park_zone" 5
+["Photinia glabra" "Otros-Ayto"] "park_zone" 16
+["Photinia serratifolia" "Amate"] "park_zone" 29
+["Photinia serratifolia" "Calles de Sevilla-Ayto"] "park_zone" 46
+["Photinia serratifolia" "CEIP San José Obrero"] "park_zone" 2
+["Photinia serratifolia" "María Luisa"] "park_zone" 120
+["Photinia serratifolia" "Perdigones"] "park_zone" 28
+["Photinia serratifolia" "Real Alcázar"] "park_zone" 1
+["Photinia x fraseri" "Casino"] "park_zone" 1
+["Phragmites australis" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Phragmites australis" "Guadaira"] "park_zone" 430
+["Phyllostachys aurea" "Casino"] "park_zone" 1
+["Phyllostachys aurea" "María Luisa"] "park_zone" 628
+["Phyllostachys aurea" "Real Alcázar"] "park_zone" 111
+["Phyllostachys nigra" "María Luisa"] "park_zone" 278
+["Phyllostachys nigra" "Real Alcázar"] "park_zone" 12
+["Phytolacca dioica" "Alcosa-Ayto"] "park_zone" 2
+["Phytolacca dioica" "Amate"] "park_zone" 5
+["Phytolacca dioica" "Amate-Ayto"] "park_zone" 18
+["Phytolacca dioica" "Calles de Sevilla-Ayto"] "park_zone" 34
+["Phytolacca dioica" "CEIP Vélez de Guevara"] "park_zone" 1
+["Phytolacca dioica" "Celestino Mutis-Ayto"] "park_zone" 2
+["Phytolacca dioica" "Cristina-Ayto"] "park_zone" 2
+["Phytolacca dioica" "Delicias-Ayto"] "park_zone" 9
+["Phytolacca dioica" "Guadalquivir-Ayto"] "park_zone" 1
+["Phytolacca dioica" "Los Príncipes-Ayto"] "park_zone" 2
+["Phytolacca dioica" "María Luisa"] "park_zone" 53
+["Phytolacca dioica" "Miraflores-Ayto"] "park_zone" 5
+["Phytolacca dioica" "Otros-Ayto"] "park_zone" 71
+["Phytolacca dioica" "Real Alcázar"] "park_zone" 2
+["Phytolacca dioica" "Rey JCI-Torneo-Ayto"] "park_zone" 5
+["Phytolacca dioica" "San Jerónimo-Ayto"] "park_zone" 5
+["Phytolacca dioica" "Tamarguillo-Ayto"] "park_zone" 54
+["Pinus canariensis" "Amate"] "park_zone" 4
+["Pinus canariensis" "Calles de Sevilla-Ayto"] "park_zone" 14
+["Pinus canariensis" "Delicias-Ayto"] "park_zone" 1
+["Pinus canariensis" "Miraflores-Ayto"] "park_zone" 7
+["Pinus canariensis" "Real Alcázar"] "park_zone" 2
+["Pinus halepensis" "Amate"] "park_zone" 127
+["Pinus halepensis" "Amate-Ayto"] "park_zone" 92
+["Pinus halepensis" "Calles de Sevilla-Ayto"] "park_zone" 80
+["Pinus halepensis" "Celestino Mutis-Ayto"] "park_zone" 1
+["Pinus halepensis" "Los Príncipes-Ayto"] "park_zone" 3
+["Pinus halepensis" "Miraflores-Ayto"] "park_zone" 3
+["Pinus halepensis" "Otros-Ayto"] "park_zone" 12
+["Pinus halepensis" "Ranillas-Ayto"] "park_zone" 30
+["Pinus halepensis" "Ribera del Guadaira-Ayto"] "park_zone" 9
+["Pinus halepensis" "San Jerónimo-Ayto"] "park_zone" 76
+["Pinus halepensis" "Tamarguillo-Ayto"] "park_zone" 19
+["Pinus pinaster" "Barranco-Colón-Ayto"] "park_zone" 6
+["Pinus pinaster" "Calles de Sevilla-Ayto"] "park_zone" 11
+["Pinus pinaster" "Infanta Elena-Ayto"] "park_zone" 6
+["Pinus pinaster" "Otros-Ayto"] "park_zone" 2
+["Pinus pinaster" "Ranillas-Ayto"] "park_zone" 7
+["Pinus pinea" "Alcosa-Ayto"] "park_zone" 44
+["Pinus pinea" "Amate"] "park_zone" 28
+["Pinus pinea" "Amate-Ayto"] "park_zone" 60
+["Pinus pinea" "Barranco-Colón-Ayto"] "park_zone" 11
+["Pinus pinea" "Bermejales-Ayto"] "park_zone" 202
+["Pinus pinea" "Calles de Sevilla-Ayto"] "park_zone" 462
+["Pinus pinea" "Catalina de Ribera-Ayto"] "park_zone" 1
+["Pinus pinea" "CEIP Vélez de Guevara"] "park_zone" 3
+["Pinus pinea" "Cortijo del Cuarto-Ayto"] "park_zone" 155
+["Pinus pinea" "Cristina-Ayto"] "park_zone" 2
+["Pinus pinea" "Delicias-Ayto"] "park_zone" 1
+["Pinus pinea" "Guadaira"] "park_zone" 93
+["Pinus pinea" "Guadalquivir-Ayto"] "park_zone" 41
+["Pinus pinea" "Infanta Elena-Ayto"] "park_zone" 41
+["Pinus pinea" "Los Príncipes-Ayto"] "park_zone" 2
+["Pinus pinea" "María Luisa"] "park_zone" 5
+["Pinus pinea" "Miraflores-Ayto"] "park_zone" 497
+["Pinus pinea" "Norte-Ayto"] "park_zone" 252
+["Pinus pinea" "Otros-Ayto"] "park_zone" 493
+["Pinus pinea" "Ranillas-Ayto"] "park_zone" 165
+["Pinus pinea" "Rey JCI-Torneo-Ayto"] "park_zone" 90
+["Pinus pinea" "Ribera del Guadaira-Ayto"] "park_zone" 138
+["Pinus pinea" "San Jerónimo-Ayto"] "park_zone" 43
+["Pinus pinea" "Tamarguillo-Ayto"] "park_zone" 1100
+["Pinus pinea" "Vega de Triana-Ayto"] "park_zone" 182
+["Piper longum" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Piper nigrum" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Pistacia lentiscus" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Pistacia lentiscus" "Guadaira"] "park_zone" 24
+["Pistacia lentiscus" "María Luisa"] "park_zone" 1
+["Pistacia lentiscus" "Otros-Ayto"] "park_zone" 4
+["Pistacia lentiscus" "Ribera del Guadaira-Ayto"] "park_zone" 5
+["Pistacia lentiscus" "Tamarguillo-Ayto"] "park_zone" 8
+["Pittosporum coriaceum" "María Luisa"] "park_zone" 1
+["Pittosporum tenuifolium" "María Luisa"] "park_zone" 29
+["Pittosporum tobira" "Alcosa-Ayto"] "park_zone" 4
+["Pittosporum tobira" "Amate"] "park_zone" 30
+["Pittosporum tobira" "Calles de Sevilla-Ayto"] "park_zone" 46
+["Pittosporum tobira" "Casino"] "park_zone" 178
+["Pittosporum tobira" "CEIP San José Obrero"] "park_zone" 1
+["Pittosporum tobira" "María Luisa"] "park_zone" 3056
+["Pittosporum tobira" "Murillo"] "park_zone" 8
+["Pittosporum tobira" "Otros-Ayto"] "park_zone" 1
+["Pittosporum tobira" "Real Alcázar"] "park_zone" 123
+["Pittosporum tobira" "Santa Clara-Don Fadrique"] "park_zone" 6
+["Platanus orientalis" "María Luisa"] "park_zone" 43
+["Platanus x hispanica" "Alcosa-Ayto"] "park_zone" 27
+["Platanus x hispanica" "Amate-Ayto"] "park_zone" 245
+["Platanus x hispanica" "Barranco-Colón-Ayto"] "park_zone" 44
+["Platanus x hispanica" "Calles de Sevilla-Ayto"] "park_zone" 6603
+["Platanus x hispanica" "Celestino Mutis-Ayto"] "park_zone" 30
+["Platanus x hispanica" "Cristina-Ayto"] "park_zone" 36
+["Platanus x hispanica" "Delicias-Ayto"] "park_zone" 7
+["Platanus x hispanica" "Guadalquivir-Ayto"] "park_zone" 358
+["Platanus x hispanica" "Infanta Elena-Ayto"] "park_zone" 3
+["Platanus x hispanica" "María Luisa"] "park_zone" 534
+["Platanus x hispanica" "Miraflores-Ayto"] "park_zone" 71
+["Platanus x hispanica" "Otros-Ayto"] "park_zone" 520
+["Platanus x hispanica" "Plaza Nueva-Ayto"] "park_zone" 66
+["Platanus x hispanica" "Prado-Ayto"] "park_zone" 57
+["Platanus x hispanica" "Ranillas-Ayto"] "park_zone" 30
+["Platanus x hispanica" "Rey JCI-Torneo-Ayto"] "park_zone" 316
+["Platanus x hispanica" "San Jerónimo-Ayto"] "park_zone" 2
+["Platanus x hispanica" "Vega de Triana-Ayto"] "park_zone" 46
+["Platycladus orientalis" "Alcosa-Ayto"] "park_zone" 3
+["Platycladus orientalis" "Americano-Ayto"] "park_zone" 1
+["Platycladus orientalis" "Barranco-Colón-Ayto"] "park_zone" 7
+["Platycladus orientalis" "Calles de Sevilla-Ayto"] "park_zone" 11
+["Platycladus orientalis" "Casino"] "park_zone" 2
+["Platycladus orientalis" "CEIP Andalucía"] "park_zone" 2
+["Platycladus orientalis" "CEIP San José Obrero"] "park_zone" 1
+["Platycladus orientalis" "Delicias-Ayto"] "park_zone" 2
+["Platycladus orientalis" "Infanta Elena-Ayto"] "park_zone" 21
+["Platycladus orientalis" "Los Príncipes-Ayto"] "park_zone" 1
+["Platycladus orientalis" "María Luisa"] "park_zone" 95
+["Platycladus orientalis" "Murillo"] "park_zone" 8
+["Platycladus orientalis" "Otros-Ayto"] "park_zone" 4
+["Platycladus orientalis" "Ranillas-Ayto"] "park_zone" 21
+["Platycladus orientalis" "Real Alcázar"] "park_zone" 2612
+["Plumbago auriculata" "María Luisa"] "park_zone" 262
+["Plumbago auriculata" "Murillo"] "park_zone" 8
+["Plumbago auriculata" "Real Alcázar"] "park_zone" 3
+["Podocarpus neriifolius" "Alcosa-Ayto"] "park_zone" 1
+["Podocarpus neriifolius" "María Luisa"] "park_zone" 4
+["Podranea ricasoliana" "María Luisa"] "park_zone" 20
+["Podranea ricasoliana" "Perdigones"] "park_zone" 22
+["Polygala myrtifolia" "Casino"] "park_zone" 3
+["Polygala myrtifolia" "Santa Clara-Don Fadrique"] "park_zone" 3
+["Populus alba" "Alcosa-Ayto"] "park_zone" 4
+["Populus alba" "Amate"] "park_zone" 1
+["Populus alba" "Amate-Ayto"] "park_zone" 3
+["Populus alba" "Americano-Ayto"] "park_zone" 3
+["Populus alba" "Barranco-Colón-Ayto"] "park_zone" 16
+["Populus alba" "Bermejales-Ayto"] "park_zone" 12
+["Populus alba" "Calles de Sevilla-Ayto"] "park_zone" 154
+["Populus alba" "Celestino Mutis-Ayto"] "park_zone" 9
+["Populus alba" "Cortijo del Cuarto-Ayto"] "park_zone" 154
+["Populus alba" "Guadaira"] "park_zone" 6
+["Populus alba" "Guadalquivir-Ayto"] "park_zone" 118
+["Populus alba" "Infanta Elena-Ayto"] "park_zone" 2
+["Populus alba" "Los Príncipes-Ayto"] "park_zone" 20
+["Populus alba" "María Luisa"] "park_zone" 1
+["Populus alba" "Miraflores-Ayto"] "park_zone" 27
+["Populus alba" "Otros-Ayto"] "park_zone" 121
+["Populus alba" "Rey JCI-Torneo-Ayto"] "park_zone" 112
+["Populus alba" "Ribera del Guadaira-Ayto"] "park_zone" 69
+["Populus alba" "San Jerónimo-Ayto"] "park_zone" 61
+["Populus alba" "Tamarguillo-Ayto"] "park_zone" 1
+["Populus alba" "Vega de Triana-Ayto"] "park_zone" 108
+["Populus nigra" "Amate"] "park_zone" 5
+["Populus nigra" "Calles de Sevilla-Ayto"] "park_zone" 17
+["Populus nigra" "CEIP Vélez de Guevara"] "park_zone" 6
+["Populus nigra" "Cortijo del Cuarto-Ayto"] "park_zone" 33
+["Populus nigra" "Infanta Elena-Ayto"] "park_zone" 9
+["Populus nigra" "Los Príncipes-Ayto"] "park_zone" 23
+["Populus nigra" "Miraflores-Ayto"] "park_zone" 145
+["Populus nigra" "Ranillas-Ayto"] "park_zone" 1
+["Populus nigra" "Ribera del Guadaira-Ayto"] "park_zone" 1
+["Populus nigra" "San Jerónimo-Ayto"] "park_zone" 54
+["Prunus cerasifera" "Barranco-Colón-Ayto"] "park_zone" 2
+["Prunus cerasifera" "Calles de Sevilla-Ayto"] "park_zone" 32
+["Prunus cerasifera" "Casino"] "park_zone" 4
+["Prunus cerasifera" "Delicias-Ayto"] "park_zone" 5
+["Prunus cerasifera" "Los Príncipes-Ayto"] "park_zone" 2
+["Prunus cerasifera" "Maestranza-Ayto"] "park_zone" 1
+["Prunus cerasifera" "María Luisa"] "park_zone" 3
+["Prunus cerasifera" "Otros-Ayto"] "park_zone" 16
+["Prunus cerasifera" "Prado-Ayto"] "park_zone" 41
+["Prunus cerasifera" "San Jerónimo-Ayto"] "park_zone" 3
+["Prunus cerasifera" "Valle-Ayto"] "park_zone" 11
+["Prunus cerasifera var. pissardii" "Alcosa-Ayto"] "park_zone" 4
+["Prunus cerasifera var. pissardii" "Calles de Sevilla-Ayto"] "park_zone" 115
+["Prunus cerasifera var. pissardii" "CEIP Vélez de Guevara"] "park_zone" 1
+["Prunus cerasifera var. pissardii" "Celestino Mutis-Ayto"] "park_zone" 4
+["Prunus cerasifera var. pissardii" "El Turruñuelo-Ayto"] "park_zone" 3
+["Prunus cerasifera var. pissardii" "Guadalquivir-Ayto"] "park_zone" 11
+["Prunus cerasifera var. pissardii" "Los Príncipes-Ayto"] "park_zone" 5
+["Prunus cerasifera var. pissardii" "María Luisa"] "park_zone" 23
+["Prunus cerasifera var. pissardii" "Miraflores-Ayto"] "park_zone" 5
+["Prunus cerasifera var. pissardii" "Otros-Ayto"] "park_zone" 25
+["Prunus cerasifera var. pissardii" "Perdigones"] "park_zone" 2
+["Prunus cerasifera var. pissardii" "Real Alcázar"] "park_zone" 10
+["Prunus cerasifera var. pissardii" "Ribera del Guadaira-Ayto"] "park_zone" 50
+["Prunus cerasifera var. pissardii" "Vega de Triana-Ayto"] "park_zone" 82
+["Prunus domestica" "Buhaira-Ayto"] "park_zone" 2
+["Prunus domestica" "María Luisa"] "park_zone" 1
+["Prunus domestica" "Otros-Ayto"] "park_zone" 1
+["Prunus domestica" "Tamarguillo-Ayto"] "park_zone" 2
+["Prunus dulcis" "Alcosa-Ayto"] "park_zone" 5
+["Prunus dulcis" "Calles de Sevilla-Ayto"] "park_zone" 8
+["Prunus dulcis" "Guadalquivir-Ayto"] "park_zone" 4
+["Prunus dulcis" "Otros-Ayto"] "park_zone" 11
+["Prunus dulcis" "Real Alcázar"] "park_zone" 1
+["Prunus dulcis" "Ribera del Guadaira-Ayto"] "park_zone" 10
+["Prunus dulcis" "Tamarguillo-Ayto"] "park_zone" 1
+["Prunus persica" "Calles de Sevilla-Ayto"] "park_zone" 2
+["Prunus persica" "Guadalquivir-Ayto"] "park_zone" 1
+["Prunus persica" "Real Alcázar"] "park_zone" 57
+["Prunus persica" "San Jerónimo-Ayto"] "park_zone" 1
+["Pseudosasa japonica" "María Luisa"] "park_zone" 34
+["Psidium guajava" "Celestino Mutis-Ayto"] "park_zone" 2
+["Punica granatum" "Alcosa-Ayto"] "park_zone" 4
+["Punica granatum" "Calles de Sevilla-Ayto"] "park_zone" 42
+["Punica granatum" "Casino"] "park_zone" 39
+["Punica granatum" "María Luisa"] "park_zone" 475
+["Punica granatum" "Murillo"] "park_zone" 13
+["Punica granatum" "Otros-Ayto"] "park_zone" 7
+["Punica granatum" "Real Alcázar"] "park_zone" 198
+["Punica granatum" "Santa Clara-Don Fadrique"] "park_zone" 3
+["Punica granatum" "Tamarguillo-Ayto"] "park_zone" 131
+["Pyracantha coccinea" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Pyracantha coccinea" "Guadalquivir-Ayto"] "park_zone" 1
+["Pyracantha coccinea" "María Luisa"] "park_zone" 18
+["Pyracantha coccinea" "Murillo"] "park_zone" 10
+["Pyrostegia venusta" "Real Alcázar"] "park_zone" 1
+["Pyrus calleryana" "Guadaira"] "park_zone" 4
+["Pyrus calleryana" "Ribera del Guadaira-Ayto"] "park_zone" 112
+["Pyrus calleryana" "San Jerónimo-Ayto"] "park_zone" 10
+["Pyrus communis" "Alcosa-Ayto"] "park_zone" 2
+["Pyrus communis" "Buhaira-Ayto"] "park_zone" 1
+["Pyrus communis" "Calles de Sevilla-Ayto"] "park_zone" 33
+["Pyrus communis" "Otros-Ayto"] "park_zone" 4
+["Pyrus communis" "Real Alcázar"] "park_zone" 2
+["Pyrus communis" "Tamarguillo-Ayto"] "park_zone" 5
+["Quercus ilex" "Alcosa-Ayto"] "park_zone" 6
+["Quercus ilex" "Amate"] "park_zone" 12
+["Quercus ilex" "Bermejales-Ayto"] "park_zone" 275
+["Quercus ilex" "Calles de Sevilla-Ayto"] "park_zone" 80
+["Quercus ilex" "Guadaira"] "park_zone" 12
+["Quercus ilex" "Infanta Elena-Ayto"] "park_zone" 78
+["Quercus ilex" "María Luisa"] "park_zone" 5
+["Quercus ilex" "Miraflores-Ayto"] "park_zone" 22
+["Quercus ilex" "Norte-Ayto"] "park_zone" 113
+["Quercus ilex" "Otros-Ayto"] "park_zone" 66
+["Quercus ilex" "Ranillas-Ayto"] "park_zone" 60
+["Quercus ilex" "Rey JCI-Torneo-Ayto"] "park_zone" 29
+["Quercus ilex" "Ribera del Guadaira-Ayto"] "park_zone" 67
+["Quercus ilex" "San Jerónimo-Ayto"] "park_zone" 43
+["Quercus ilex" "Tamarguillo-Ayto"] "park_zone" 315
+["Quercus ilex" "Vega de Triana-Ayto"] "park_zone" 43
+["Quercus robur" "Delicias-Ayto"] "park_zone" 1
+["Quercus robur" "María Luisa"] "park_zone" 1
+["Quercus robur" "Real Alcázar"] "park_zone" 5
+["Quercus suber" "Alcosa-Ayto"] "park_zone" 3
+["Quercus suber" "Amate"] "park_zone" 1
+["Quercus suber" "Bermejales-Ayto"] "park_zone" 43
+["Quercus suber" "Calles de Sevilla-Ayto"] "park_zone" 32
+["Quercus suber" "Delicias-Ayto"] "park_zone" 2
+["Quercus suber" "Guadaira"] "park_zone" 9
+["Quercus suber" "Infanta Elena-Ayto"] "park_zone" 175
+["Quercus suber" "María Luisa"] "park_zone" 7
+["Quercus suber" "Miraflores-Ayto"] "park_zone" 11
+["Quercus suber" "Norte-Ayto"] "park_zone" 32
+["Quercus suber" "Otros-Ayto"] "park_zone" 45
+["Quercus suber" "Ranillas-Ayto"] "park_zone" 83
+["Quercus suber" "Rey JCI-Torneo-Ayto"] "park_zone" 24
+["Quercus suber" "Ribera del Guadaira-Ayto"] "park_zone" 24
+["Quercus suber" "San Jerónimo-Ayto"] "park_zone" 20
+["Quercus suber" "Tamarguillo-Ayto"] "park_zone" 171
+["Rhamnus alaternus" "María Luisa"] "park_zone" 1
+["Rhamnus alaternus" "Miraflores-Ayto"] "park_zone" 29
+["Rhapis excelsa" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Rhapis excelsa" "Casino"] "park_zone" 17
+["Ricinus communis" "Bermejales-Ayto"] "park_zone" 1
+["Ricinus communis" "Calles de Sevilla-Ayto"] "park_zone" 4
+["Ricinus communis" "Real Alcázar"] "park_zone" 1
+["Robinia pseudoacacia" "Alcosa-Ayto"] "park_zone" 51
+["Robinia pseudoacacia" "Amate"] "park_zone" 36
+["Robinia pseudoacacia" "Amate-Ayto"] "park_zone" 96
+["Robinia pseudoacacia" "Americano-Ayto"] "park_zone" 7
+["Robinia pseudoacacia" "Barranco-Colón-Ayto"] "park_zone" 1
+["Robinia pseudoacacia" "Buhaira-Ayto"] "park_zone" 9
+["Robinia pseudoacacia" "Calles de Sevilla-Ayto"] "park_zone" 3381
+["Robinia pseudoacacia" "Casino"] "park_zone" 1
+["Robinia pseudoacacia" "Catalina de Ribera-Ayto"] "park_zone" 18
+["Robinia pseudoacacia" "Delicias-Ayto"] "park_zone" 11
+["Robinia pseudoacacia" "Guadalquivir-Ayto"] "park_zone" 97
+["Robinia pseudoacacia" "Infanta Elena-Ayto"] "park_zone" 18
+["Robinia pseudoacacia" "Los Príncipes-Ayto"] "park_zone" 25
+["Robinia pseudoacacia" "María Luisa"] "park_zone" 66
+["Robinia pseudoacacia" "Miraflores-Ayto"] "park_zone" 331
+["Robinia pseudoacacia" "Murillo"] "park_zone" 8
+["Robinia pseudoacacia" "Otros-Ayto"] "park_zone" 97
+["Robinia pseudoacacia" "Real Alcázar"] "park_zone" 2
+["Robinia pseudoacacia" "Rey JCI-Torneo-Ayto"] "park_zone" 2
+["Robinia pseudoacacia" "Ribera del Guadaira-Ayto"] "park_zone" 61
+["Robinia pseudoacacia" "San Jerónimo-Ayto"] "park_zone" 30
+["Robinia pseudoacacia" "Tamarguillo-Ayto"] "park_zone" 9
+["Robinia pseudoacacia" "Valle-Ayto"] "park_zone" 38
+["Rosa banksiae" "María Luisa"] "park_zone" 111
+["Rosa banksiae" "Murillo"] "park_zone" 19
+["Rosa spp." "Casino"] "park_zone" 17
+["Rosa spp." "CEIP Vélez de Guevara"] "park_zone" 2
+["Rosa spp." "María Luisa"] "park_zone" 974
+["Rosa spp." "Murillo"] "park_zone" 15
+["Rosa spp." "Perdigones"] "park_zone" 40
+["Rosa spp." "Real Alcázar"] "park_zone" 1357
+["Rosa spp." "Santa Clara-Don Fadrique"] "park_zone" 1
+["Rosmarinus officinalis" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Rosmarinus officinalis" "Casino"] "park_zone" 19
+["Rosmarinus officinalis" "Guadaira"] "park_zone" 9
+["Rosmarinus officinalis" "Real Alcázar"] "park_zone" 85
+["Rubus ulmifolius" "María Luisa"] "park_zone" 1
+["Ruscus spp." "María Luisa"] "park_zone" 738
+["Ruscus spp." "Real Alcázar"] "park_zone" 8
+["Russelia equisetiformis" "María Luisa"] "park_zone" 1
+["Sabal minor" "María Luisa"] "park_zone" 17
+["Salix spp." "Calles de Sevilla-Ayto"] "park_zone" 1
+["Salix spp." "Guadaira"] "park_zone" 9
+["Salix spp." "Ribera del Guadaira-Ayto"] "park_zone" 6
+["Salix spp." "Vega de Triana-Ayto"] "park_zone" 40
+["Salvia microphylla" "Casino"] "park_zone" 1
+["Salvia officinalis" "Real Alcázar"] "park_zone" 37
+["Santalum album" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Santolina chamaecyparissus" "Casino"] "park_zone" 17
+["Schefflera actinophylla" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Schefflera actinophylla" "Casino"] "park_zone" 7
+["Schefflera actinophylla" "María Luisa"] "park_zone" 1
+["Schefflera arboricola" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Schefflera arboricola" "Casino"] "park_zone" 7
+["Schefflera arboricola" "María Luisa"] "park_zone" 54
+["Schefflera arboricola" "Real Alcázar"] "park_zone" 4
+["Schinus molle" "Alcosa-Ayto"] "park_zone" 7
+["Schinus molle" "Amate"] "park_zone" 105
+["Schinus molle" "Amate-Ayto"] "park_zone" 90
+["Schinus molle" "Americano-Ayto"] "park_zone" 15
+["Schinus molle" "Barranco-Colón-Ayto"] "park_zone" 18
+["Schinus molle" "Calles de Sevilla-Ayto"] "park_zone" 88
+["Schinus molle" "CEIP Vélez de Guevara"] "park_zone" 1
+["Schinus molle" "Celestino Mutis-Ayto"] "park_zone" 8
+["Schinus molle" "Guadalquivir-Ayto"] "park_zone" 23
+["Schinus molle" "Infanta Elena-Ayto"] "park_zone" 7
+["Schinus molle" "Los Príncipes-Ayto"] "park_zone" 23
+["Schinus molle" "Miraflores-Ayto"] "park_zone" 93
+["Schinus molle" "Otros-Ayto"] "park_zone" 60
+["Schinus molle" "Tamarguillo-Ayto"] "park_zone" 18
+["Schinus polygama" "Real Alcázar"] "park_zone" 2
+["Schinus terebinthifolia" "Calles de Sevilla-Ayto"] "park_zone" 4
+["Schinus terebinthifolia" "Miraflores-Ayto"] "park_zone" 3
+["Semiarundinaria fastuosa" "Real Alcázar"] "park_zone" 17
+["Senecio kleinia" "Real Alcázar"] "park_zone" 4
+["Senecio lineatus" "María Luisa"] "park_zone" 5
+["Senecio petasitis" "Real Alcázar"] "park_zone" 2
+["Sesamum indicum" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Sinapis alba" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Solandra maxima" "María Luisa"] "park_zone" 1
+["Solanum bonariense" "María Luisa"] "park_zone" 11
+["Spiraea cantoniensis" "Amate"] "park_zone" 17
+["Spiraea cantoniensis" "María Luisa"] "park_zone" 227
+["Spiraea cantoniensis" "Real Alcázar"] "park_zone" 69
+["Strelitzia alba" "Casino"] "park_zone" 25
+["Strelitzia alba" "María Luisa"] "park_zone" 3
+["Strelitzia reginae" "Casino"] "park_zone" 7
+["Strelitzia reginae" "María Luisa"] "park_zone" 79
+["Strelitzia reginae" "Perdigones"] "park_zone" 44
+["Strelitzia reginae" "Real Alcázar"] "park_zone" 4
+["Styphnolobium japonicum" "Alcosa-Ayto"] "park_zone" 3
+["Styphnolobium japonicum" "Calles de Sevilla-Ayto"] "park_zone" 4644
+["Styphnolobium japonicum" "Catalina de Ribera-Ayto"] "park_zone" 15
+["Styphnolobium japonicum" "CEIP Vélez de Guevara"] "park_zone" 1
+["Styphnolobium japonicum" "Celestino Mutis-Ayto"] "park_zone" 10
+["Styphnolobium japonicum" "Los Príncipes-Ayto"] "park_zone" 10
+["Styphnolobium japonicum" "María Luisa"] "park_zone" 140
+["Styphnolobium japonicum" "Miraflores-Ayto"] "park_zone" 41
+["Styphnolobium japonicum" "Murillo"] "park_zone" 10
+["Styphnolobium japonicum" "Otros-Ayto"] "park_zone" 220
+["Styphnolobium japonicum" "Ribera del Guadaira-Ayto"] "park_zone" 52
+["Styphnolobium japonicum" "Tamarguillo-Ayto"] "park_zone" 10
+["Styphnolobium japonicum" "Vega de Triana-Ayto"] "park_zone" 44
+["Syagrus romanzoffiana" "Americano-Ayto"] "park_zone" 31
+["Syagrus romanzoffiana" "Bermejales-Ayto"] "park_zone" 2
+["Syagrus romanzoffiana" "Calles de Sevilla-Ayto"] "park_zone" 15
+["Syagrus romanzoffiana" "Casino"] "park_zone" 22
+["Syagrus romanzoffiana" "Celestino Mutis-Ayto"] "park_zone" 5
+["Syagrus romanzoffiana" "Delicias-Ayto"] "park_zone" 3
+["Syagrus romanzoffiana" "Maestranza-Ayto"] "park_zone" 4
+["Syagrus romanzoffiana" "María Luisa"] "park_zone" 5
+["Syagrus romanzoffiana" "Miraflores-Ayto"] "park_zone" 8
+["Syagrus romanzoffiana" "Otros-Ayto"] "park_zone" 4
+["Syagrus romanzoffiana" "Rey JCI-Torneo-Ayto"] "park_zone" 24
+["Syagrus romanzoffiana" "Vega de Triana-Ayto"] "park_zone" 39
+["Syzygium aromaticum" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Tagetes spp." "Real Alcázar"] "park_zone" 116
+["Tamarix gallica" "Calles de Sevilla-Ayto"] "park_zone" 19
+["Tamarix gallica" "Infanta Elena-Ayto"] "park_zone" 3
+["Tamarix gallica" "Miraflores-Ayto"] "park_zone" 17
+["Tamarix gallica" "Otros-Ayto"] "park_zone" 4
+["Tamarix gallica" "Rey JCI-Torneo-Ayto"] "park_zone" 5
+["Tamarix gallica" "Ribera del Guadaira-Ayto"] "park_zone" 129
+["Tamarix gallica" "San Jerónimo-Ayto"] "park_zone" 57
+["Tamarix gallica" "Tamarguillo-Ayto"] "park_zone" 1
+["Taxodium distichum" "Americano-Ayto"] "park_zone" 12
+["Taxodium distichum" "Calles de Sevilla-Ayto"] "park_zone" 3
+["Taxodium distichum" "Celestino Mutis-Ayto"] "park_zone" 1
+["Taxodium distichum" "Delicias-Ayto"] "park_zone" 7
+["Taxodium distichum" "Guadaira"] "park_zone" 13
+["Taxodium distichum" "Guadalquivir-Ayto"] "park_zone" 1
+["Taxodium distichum" "Los Príncipes-Ayto"] "park_zone" 3
+["Taxodium distichum" "María Luisa"] "park_zone" 19
+["Taxodium distichum" "Real Alcázar"] "park_zone" 2
+["Taxodium distichum" "Rey JCI-Torneo-Ayto"] "park_zone" 79
+["Taxus baccata" "María Luisa"] "park_zone" 16
+["Taxus baccata" "Real Alcázar"] "park_zone" 18
+["Tecoma capensis" "Casino"] "park_zone" 6
+["Tecoma capensis" "María Luisa"] "park_zone" 20
+["Tecoma capensis" "Murillo"] "park_zone" 3
+["Tecoma capensis" "Perdigones"] "park_zone" 3
+["Tecoma capensis" "Real Alcázar"] "park_zone" 2
+["Tetraclinis articulata" "María Luisa"] "park_zone" 2
+["Tetraclinis articulata" "Ranillas-Ayto"] "park_zone" 14
+["Tetrastigma voinerianum" "Real Alcázar"] "park_zone" 11
+["Teucrium fruticans" "Alcosa-Ayto"] "park_zone" 1
+["Teucrium fruticans" "Casino"] "park_zone" 2
+["Teucrium fruticans" "Santa Clara-Don Fadrique"] "park_zone" 13
+["Thuja occidentalis" "Calles de Sevilla-Ayto"] "park_zone" 9
+["Thuja occidentalis" "María Luisa"] "park_zone" 9
+["Thuja plicata" "Amate-Ayto"] "park_zone" 1
+["Thuja plicata" "Catalina de Ribera-Ayto"] "park_zone" 2
+["Thuja plicata" "Delicias-Ayto"] "park_zone" 1
+["Thuja plicata" "María Luisa"] "park_zone" 1
+["Tilia platyphyllos" "Calles de Sevilla-Ayto"] "park_zone" 1
+["Tilia platyphyllos" "María Luisa"] "park_zone" 3
+["Tilia x europaea" "María Luisa"] "park_zone" 9
+["Tipuana tipu" "Alcosa-Ayto"] "park_zone" 8
+["Tipuana tipu" "Amate"] "park_zone" 308
+["Tipuana tipu" "Amate-Ayto"] "park_zone" 488
+["Tipuana tipu" "Americano-Ayto"] "park_zone" 26
+["Tipuana tipu" "Barranco-Colón-Ayto"] "park_zone" 126
+["Tipuana tipu" "Bermejales-Ayto"] "park_zone" 1
+["Tipuana tipu" "Buhaira-Ayto"] "park_zone" 15
+["Tipuana tipu" "Calles de Sevilla-Ayto"] "park_zone" 6349
+["Tipuana tipu" "CEIP Vélez de Guevara"] "park_zone" 3
+["Tipuana tipu" "Celestino Mutis-Ayto"] "park_zone" 19
+["Tipuana tipu" "Delicias-Ayto"] "park_zone" 3
+["Tipuana tipu" "Guadalquivir-Ayto"] "park_zone" 51
+["Tipuana tipu" "Los Príncipes-Ayto"] "park_zone" 76
+["Tipuana tipu" "Maestranza-Ayto"] "park_zone" 4
+["Tipuana tipu" "María Luisa"] "park_zone" 9
+["Tipuana tipu" "Miraflores-Ayto"] "park_zone" 374
+["Tipuana tipu" "Otros-Ayto"] "park_zone" 785
+["Tipuana tipu" "Prado-Ayto"] "park_zone" 359
+["Tipuana tipu" "Real Alcázar"] "park_zone" 13
+["Tipuana tipu" "Rey JCI-Torneo-Ayto"] "park_zone" 13
+["Tipuana tipu" "Ribera del Guadaira-Ayto"] "park_zone" 116
+["Tipuana tipu" "San Jerónimo-Ayto"] "park_zone" 167
+["Tipuana tipu" "Tamarguillo-Ayto"] "park_zone" 137
+["Tipuana tipu" "Vega de Triana-Ayto"] "park_zone" 33
+["Trachycarpus fortunei" "Alcosa-Ayto"] "park_zone" 2
+["Trachycarpus fortunei" "Americano-Ayto"] "park_zone" 6
+["Trachycarpus fortunei" "Barranco-Colón-Ayto"] "park_zone" 5
+["Trachycarpus fortunei" "Bermejales-Ayto"] "park_zone" 3
+["Trachycarpus fortunei" "Calles de Sevilla-Ayto"] "park_zone" 41
+["Trachycarpus fortunei" "Catalina de Ribera-Ayto"] "park_zone" 4
+["Trachycarpus fortunei" "Celestino Mutis-Ayto"] "park_zone" 4
+["Trachycarpus fortunei" "Delicias-Ayto"] "park_zone" 25
+["Trachycarpus fortunei" "Maestranza-Ayto"] "park_zone" 2
+["Trachycarpus fortunei" "María Luisa"] "park_zone" 638
+["Trachycarpus fortunei" "Miraflores-Ayto"] "park_zone" 6
+["Trachycarpus fortunei" "Murillo"] "park_zone" 13
+["Trachycarpus fortunei" "Otros-Ayto"] "park_zone" 68
+["Trachycarpus fortunei" "Prado-Ayto"] "park_zone" 14
+["Trachycarpus fortunei" "Real Alcázar"] "park_zone" 46
+["Tulbaghia violacea" "Casino"] "park_zone" 1
+["Tulbaghia violacea" "Santa Clara-Don Fadrique"] "park_zone" 4
+["Ulmus glabra" "Amate-Ayto"] "park_zone" 2
+["Ulmus glabra" "Calles de Sevilla-Ayto"] "park_zone" 50
+["Ulmus glabra" "Casino"] "park_zone" 1
+["Ulmus glabra" "Catalina de Ribera-Ayto"] "park_zone" 1
+["Ulmus glabra" "Celestino Mutis-Ayto"] "park_zone" 1
+["Ulmus glabra" "Delicias-Ayto"] "park_zone" 1
+["Ulmus glabra" "Guadalquivir-Ayto"] "park_zone" 2
+["Ulmus glabra" "María Luisa"] "park_zone" 45
+["Ulmus minor" "Amate"] "park_zone" 2
+["Ulmus minor" "Buhaira-Ayto"] "park_zone" 1
+["Ulmus minor" "Calles de Sevilla-Ayto"] "park_zone" 675
+["Ulmus minor" "Guadaira"] "park_zone" 84
+["Ulmus minor" "Infanta Elena-Ayto"] "park_zone" 15
+["Ulmus minor" "María Luisa"] "park_zone" 5
+["Ulmus minor" "Miraflores-Ayto"] "park_zone" 146
+["Ulmus minor" "Otros-Ayto"] "park_zone" 2
+["Ulmus minor" "Real Alcázar"] "park_zone" 4
+["Ulmus minor" "Ribera del Guadaira-Ayto"] "park_zone" 3
+["Ulmus minor" "San Jerónimo-Ayto"] "park_zone" 47
+["Ulmus pumila" "Alcosa-Ayto"] "park_zone" 139
+["Ulmus pumila" "Amate"] "park_zone" 98
+["Ulmus pumila" "Amate-Ayto"] "park_zone" 108
+["Ulmus pumila" "Barranco-Colón-Ayto"] "park_zone" 1
+["Ulmus pumila" "Calles de Sevilla-Ayto"] "park_zone" 1843
+["Ulmus pumila" "Casino"] "park_zone" 4
+["Ulmus pumila" "Catalina de Ribera-Ayto"] "park_zone" 47
+["Ulmus pumila" "CEIP San José Obrero"] "park_zone" 7
+["Ulmus pumila" "Delicias-Ayto"] "park_zone" 2
+["Ulmus pumila" "Infanta Elena-Ayto"] "park_zone" 353
+["Ulmus pumila" "Los Príncipes-Ayto"] "park_zone" 6
+["Ulmus pumila" "María Luisa"] "park_zone" 47
+["Ulmus pumila" "Miraflores-Ayto"] "park_zone" 1
+["Ulmus pumila" "Otros-Ayto"] "park_zone" 267
+["Ulmus pumila" "Ranillas-Ayto"] "park_zone" 103
+["Ulmus pumila" "Ribera del Guadaira-Ayto"] "park_zone" 232
+["Ulmus pumila" "San Jerónimo-Ayto"] "park_zone" 113
+["Ulmus pumila" "Tamarguillo-Ayto"] "park_zone" 91
+["Ulmus pumila" "Vega de Triana-Ayto"] "park_zone" 9
+["Umbilicus rupestris" "Real Alcázar"] "park_zone" 1
+["Viburnum odoratissimum" "María Luisa"] "park_zone" 7
+["Viburnum opulus" "Real Alcázar"] "park_zone" 1
+["Viburnum suspensum" "María Luisa"] "park_zone" 28
+["Viburnum suspensum" "Murillo"] "park_zone" 2
+["Viburnum suspensum" "Real Alcázar"] "park_zone" 3
+["Viburnum tinus" "Amate"] "park_zone" 50
+["Viburnum tinus" "Calles de Sevilla-Ayto"] "park_zone" 158
+["Viburnum tinus" "Casino"] "park_zone" 7
+["Viburnum tinus" "María Luisa"] "park_zone" 322
+["Viburnum tinus" "Perdigones"] "park_zone" 3
+["Viburnum tinus" "Real Alcázar"] "park_zone" 6
+["Viburnum tinus" "Santa Clara-Don Fadrique"] "park_zone" 1
+["Vigna caracalla" "Real Alcázar"] "park_zone" 3
+["Vinca spp." "Guadalquivir-Ayto"] "park_zone" 56
+["Vinca spp." "María Luisa"] "park_zone" 300
+["Vinca spp." "Real Alcázar"] "park_zone" 41
+["Viola odorata" "Real Alcázar"] "park_zone" 49
+["Vitex agnus-castus" "Alcosa-Ayto"] "park_zone" 1
+["Vitex agnus-castus" "Calles de Sevilla-Ayto"] "park_zone" 9
+["Vitex agnus-castus" "María Luisa"] "park_zone" 9
+["Vitex agnus-castus" "Murillo"] "park_zone" 4
+["Vitex agnus-castus" "Real Alcázar"] "park_zone" 9
+["Vitis vinifera-Vitis spp." "Calles de Sevilla-Ayto"] "park_zone" 2
+["Vitis vinifera-Vitis spp." "Casino"] "park_zone" 1
+["Vitis vinifera-Vitis spp." "Real Alcázar"] "park_zone" 15
+["Vitis vinifera-Vitis spp." "Santa Clara-Don Fadrique"] "park_zone" 1
+["Washingtonia filifera" "Amate"] "park_zone" 31
+["Washingtonia filifera" "Amate-Ayto"] "park_zone" 8
+["Washingtonia filifera" "Americano-Ayto"] "park_zone" 3
+["Washingtonia filifera" "Barranco-Colón-Ayto"] "park_zone" 15
+["Washingtonia filifera" "Buhaira-Ayto"] "park_zone" 1
+["Washingtonia filifera" "Calles de Sevilla-Ayto"] "park_zone" 270
+["Washingtonia filifera" "Casino"] "park_zone" 32
+["Washingtonia filifera" "Catalina de Ribera-Ayto"] "park_zone" 1
+["Washingtonia filifera" "Celestino Mutis-Ayto"] "park_zone" 5
+["Washingtonia filifera" "Cristina-Ayto"] "park_zone" 2
+["Washingtonia filifera" "Delicias-Ayto"] "park_zone" 4
+["Washingtonia filifera" "Los Príncipes-Ayto"] "park_zone" 5
+["Washingtonia filifera" "Maestranza-Ayto"] "park_zone" 1
+["Washingtonia filifera" "María Luisa"] "park_zone" 118
+["Washingtonia filifera" "Miraflores-Ayto"] "park_zone" 44
+["Washingtonia filifera" "Murillo"] "park_zone" 4
+["Washingtonia filifera" "Otros-Ayto"] "park_zone" 115
+["Washingtonia filifera" "Ranillas-Ayto"] "park_zone" 8
+["Washingtonia filifera" "Real Alcázar"] "park_zone" 27
+["Washingtonia filifera" "Santa Clara-Don Fadrique"] "park_zone" 2
+["Washingtonia filifera" "Tamarguillo-Ayto"] "park_zone" 1
+["Washingtonia filifera" "Valle-Ayto"] "park_zone" 4
+["Washingtonia robusta" "Amate"] "park_zone" 42
+["Washingtonia robusta" "Amate-Ayto"] "park_zone" 16
+["Washingtonia robusta" "Americano-Ayto"] "park_zone" 55
+["Washingtonia robusta" "Barranco-Colón-Ayto"] "park_zone" 24
+["Washingtonia robusta" "Bermejales-Ayto"] "park_zone" 3
+["Washingtonia robusta" "Calles de Sevilla-Ayto"] "park_zone" 616
+["Washingtonia robusta" "Casino"] "park_zone" 46
+["Washingtonia robusta" "Celestino Mutis-Ayto"] "park_zone" 33
+["Washingtonia robusta" "Cristina-Ayto"] "park_zone" 1
+["Washingtonia robusta" "Delicias-Ayto"] "park_zone" 4
+["Washingtonia robusta" "Guadaira"] "park_zone" 4
+["Washingtonia robusta" "Guadalquivir-Ayto"] "park_zone" 34
+["Washingtonia robusta" "Infanta Elena-Ayto"] "park_zone" 1
+["Washingtonia robusta" "Los Príncipes-Ayto"] "park_zone" 72
+["Washingtonia robusta" "María Luisa"] "park_zone" 215
+["Washingtonia robusta" "Miraflores-Ayto"] "park_zone" 44
+["Washingtonia robusta" "Murillo"] "park_zone" 3
+["Washingtonia robusta" "Norte-Ayto"] "park_zone" 1
+["Washingtonia robusta" "Otros-Ayto"] "park_zone" 1173
+["Washingtonia robusta" "Perdigones"] "park_zone" 16
+["Washingtonia robusta" "Prado-Ayto"] "park_zone" 70
+["Washingtonia robusta" "Ranillas-Ayto"] "park_zone" 2
+["Washingtonia robusta" "Real Alcázar"] "park_zone" 87
+["Washingtonia robusta" "Rey JCI-Torneo-Ayto"] "park_zone" 19
+["Washingtonia robusta" "San Jerónimo-Ayto"] "park_zone" 32
+["Washingtonia robusta" "Vega de Triana-Ayto"] "park_zone" 81
+["Wisteria sinensis" "Casino"] "park_zone" 31
+["Wisteria sinensis" "María Luisa"] "park_zone" 34
+["Wisteria sinensis" "Real Alcázar"] "park_zone" 111
+["Yucca aloifolia" "Alcosa-Ayto"] "park_zone" 10
+["Yucca aloifolia" "Calles de Sevilla-Ayto"] "park_zone" 2
+["Yucca aloifolia" "Murillo"] "park_zone" 1
+["Yucca aloifolia" "Real Alcázar"] "park_zone" 1
+["Yucca elephantipes" "Calles de Sevilla-Ayto"] "park_zone" 111
+["Yucca elephantipes" "Casino"] "park_zone" 3
+["Yucca elephantipes" "Guadaira"] "park_zone" 2
+["Yucca elephantipes" "María Luisa"] "park_zone" 73
+["Yucca elephantipes" "Miraflores-Ayto"] "park_zone" 4
+["Yucca elephantipes" "Murillo"] "park_zone" 8
+["Yucca elephantipes" "Otros-Ayto"] "park_zone" 4
+["Yucca elephantipes" "Real Alcázar"] "park_zone" 52
+["Yucca gloriosa" "Americano-Ayto"] "park_zone" 6
+["Yucca gloriosa" "Barranco-Colón-Ayto"] "park_zone" 9
+["Yucca gloriosa" "Casino"] "park_zone" 2
+["Yucca gloriosa" "María Luisa"] "park_zone" 93
+["Zantedeschia aethiopica" "Casino"] "park_zone" 8
+["Zantedeschia aethiopica" "María Luisa"] "park_zone" 26
+["Zantedeschia aethiopica" "Real Alcázar"] "park_zone" 9
+["Zingiber spp." "Calles de Sevilla-Ayto"] "park_zone" 1
+["Zinnia elegans" "Casino"] "park_zone" 16
+["Ziziphus zizyphus" "Real Alcázar"] "park_zone" 2
+<EndEdges>

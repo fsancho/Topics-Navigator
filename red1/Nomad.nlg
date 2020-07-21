@@ -1,0 +1,45 @@
+% Types of Nodes of the graph. Structure: Name color shape size
+<NodesTypes>
+ "Family" brown "orbit 6" 1
+ "Flower_Appearance" black "c petals" 1
+ "Flower_Color" red "flower" 1
+ "Foliage_Type" orange "leaf" 1
+ "Item" green "plant" 1
+ "Origin" yellow "lugarbn" 1
+ "Type" pink "plato" 1
+ "Month" black "date" 1
+<EndNodesTypes>
+
+% Types of Edges: Name color shape thickness Type(0: Undir, 1: Dir, 2-Hyper)
+%   if Hyperdege: Name color shape size Type
+<EdgesTypes>
+ "familia" 55 "straight" 0 0
+ "flower_app" 55 "straight" 0 0
+ "flower_col" 55 "straight" 0 0
+ "foliage_ty" 55 "straight" 0 0
+ "origen" 55 "straight" 0 0
+ "type" 55 "straight" 0 0
+ "flower_month" 55 "hyper-tipo" 0 2
+ "fruit_month" 55 "hyper-tipo" 0 2
+ "aroma_month" 55 "hyper-tipo" 0 2
+<EndEdgesTypes>
+
+<Input>
+.\red\Type.nod
+.\red\Origin.nod
+.\red\Item.nod
+.\red\Foliage_Type.nod
+.\red\Flower_Color.nod
+.\red\Flower_Appearance.nod
+.\red\Family.nod
+.\red\Month.nod
+.\red\flower_month.edg
+.\red\fruit_month.edg
+.\red\aroma_month.edg
+.\red\type.edg
+.\red\origen.edg
+.\red\foliage_ty.edg
+.\red\flower_col.edg
+.\red\flower_app.edg
+.\red\familia.edg
+<EndInput>

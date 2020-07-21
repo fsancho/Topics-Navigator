@@ -1,0 +1,13 @@
+<Nodes>
+ "ID(X)" "NodeType(S)" "Label(S)"
+ "Amarillo" "Flower_Color" "Amarillo"
+ "Azul" "Flower_Color" "Azul"
+ "Blanco" "Flower_Color" "Blanco"
+ "Lila" "Flower_Color" "Lila"
+ "Multicolor" "Flower_Color" "Multicolor"
+ "Naranja" "Flower_Color" "Naranja"
+ "None" "Flower_Color" "None"
+ "Rojo" "Flower_Color" "Rojo"
+ "Rosa" "Flower_Color" "Rosa"
+ "Verde" "Flower_Color" "Verde"
+<EndNodes>

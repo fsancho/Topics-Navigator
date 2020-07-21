@@ -1,0 +1,5 @@
+<Nodes>
+ "ID(X)" "NodeType(S)" "Label(S)"
+ "Caduco" "Foliage_Type" "Caduco"
+ "Perenne" "Foliage_Type" "Perenne"
+<EndNodes>

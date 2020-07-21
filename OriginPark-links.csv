@@ -1,0 +1,181 @@
+Source,Target,Type,Weight
+"Vega de Triana-Ayto","Oceanía",directed,6
+"Miraflores-Ayto","Europeo-Mediterráneo",directed,19
+"Buhaira-Ayto","Oriental-Asiático",directed,10
+"Norte-Ayto","Oceanía",directed,1
+"Americano-Ayto","Oriental-Asiático",directed,4
+"Prado-Ayto","Americano",directed,3
+"Maestranza-Ayto","Oceanía",directed,1
+"Barranco-Colón-Ayto","Africano",directed,2
+"Norte-Ayto","Oriental-Asiático",directed,2
+"Vega de Triana-Ayto","Europeo-Mediterráneo",directed,11
+"Amate-Ayto","Europeo-Mediterráneo",directed,11
+"Amate","Europeo-Mediterráneo",directed,13
+"Prado-Ayto","Europeo-Mediterráneo",directed,3
+"CEIP San José Obrero","Oceanía",directed,1
+"Ranillas-Ayto","Europeo-Mediterráneo",directed,14
+"Calles de Sevilla-Ayto","Oceanía",directed,14
+"Ribera del Guadaira-Ayto","Oriental-Asiático",directed,14
+"Calles de Sevilla-Ayto","Europeo-Mediterráneo",directed,39
+"Los Príncipes-Ayto","Oceanía",directed,5
+"Los Príncipes-Ayto","Americano",directed,13
+"Real Alcázar","Americano",directed,47
+"Cortijo del Cuarto-Ayto","Oceanía",directed,1
+"El Turruñuelo-Ayto","Oceanía",directed,1
+"Americano-Ayto","Africano",directed,1
+"Cortijo del Cuarto-Ayto","Europeo-Mediterráneo",directed,7
+"Vega de Triana-Ayto","Americano",directed,5
+"Tamarguillo-Ayto","Americano",directed,11
+"Ribera del Guadaira-Ayto","Oceanía",directed,5
+"Barranco-Colón-Ayto","Oriental-Asiático",directed,14
+"CEIP Vélez de Guevara","Europeo-Mediterráneo",directed,10
+"Bermejales-Ayto","Oceanía",directed,2
+"Tamarguillo-Ayto","Europeo-Mediterráneo",directed,17
+"Alcosa-Ayto","Oceanía",directed,4
+"Calles de Sevilla-Ayto","Oriental-Asiático",directed,61
+"Celestino Mutis-Ayto","Oceanía",directed,4
+"Santa Clara-Don Fadrique","Africano",directed,4
+"CEIP Andalucía","Oriental-Asiático",directed,2
+"CEIP Vélez de Guevara","Americano",directed,5
+"Amate","Oriental-Asiático",directed,16
+"Cristina-Ayto","Oriental-Asiático",directed,3
+"María Luisa","Europeo-Mediterráneo",directed,48
+"Celestino Mutis-Ayto","Americano",directed,18
+"Rey JCI-Torneo-Ayto","Oceanía",directed,3
+"Delicias-Ayto","Europeo-Mediterráneo",directed,14
+"Maestranza-Ayto","Americano",directed,8
+"El Turruñuelo-Ayto","Europeo-Mediterráneo",directed,4
+"El Turruñuelo-Ayto","Americano",directed,3
+"San Jerónimo-Ayto","Europeo-Mediterráneo",directed,18
+"Tamarguillo-Ayto","Oceanía",directed,7
+"Infanta Elena-Ayto","Africano",directed,1
+"Catalina de Ribera-Ayto","Oceanía",directed,1
+"Guadalquivir-Ayto","Oceanía",directed,4
+"Alcosa-Ayto","Europeo-Mediterráneo",directed,19
+"Casino","Africano",directed,12
+"Maestranza-Ayto","Oriental-Asiático",directed,4
+"Amate","Africano",directed,2
+"Rey JCI-Torneo-Ayto","Americano",directed,9
+"Barranco-Colón-Ayto","Europeo-Mediterráneo",directed,12
+"Alcosa-Ayto","Americano",directed,10
+"Barranco-Colón-Ayto","Americano",directed,10
+"Delicias-Ayto","Africano",directed,3
+"Buhaira-Ayto","Europeo-Mediterráneo",directed,8
+"Vega de Triana-Ayto","Oriental-Asiático",directed,13
+"Celestino Mutis-Ayto","Europeo-Mediterráneo",directed,12
+"Bermejales-Ayto","Oriental-Asiático",directed,3
+"Amate-Ayto","Americano",directed,16
+"Infanta Elena-Ayto","Americano",directed,6
+"Guadaira","Oriental-Asiático",directed,6
+"Bermejales-Ayto","Europeo-Mediterráneo",directed,9
+"María Luisa","Americano",directed,48
+"Otros-Ayto","Oriental-Asiático",directed,31
+"Infanta Elena-Ayto","Oriental-Asiático",directed,5
+"Cristina-Ayto","Oceanía",directed,3
+"Tamarguillo-Ayto","Africano",directed,1
+"Bermejales-Ayto","Africano",directed,1
+"Miraflores-Ayto","Americano",directed,17
+"Valle-Ayto","Americano",directed,4
+"Real Alcázar","Oriental-Asiático",directed,62
+"Amate-Ayto","Africano",directed,2
+"Guadaira","Americano",directed,4
+"Santa Clara-Don Fadrique","Oriental-Asiático",directed,13
+"Casino","Oceanía",directed,9
+"Norte-Ayto","Americano",directed,1
+"Catalina de Ribera-Ayto","Europeo-Mediterráneo",directed,5
+"Guadaira","Oceanía",directed,2
+"CEIP San José Obrero","Oriental-Asiático",directed,5
+"Cristina-Ayto","Americano",directed,7
+"María Luisa","Oceanía",directed,17
+"Valle-Ayto","Africano",directed,1
+"Santa Clara-Don Fadrique","Americano",directed,6
+"Los Príncipes-Ayto","Africano",directed,1
+"CEIP Andalucía","Europeo-Mediterráneo",directed,1
+"Otros-Ayto","Oceanía",directed,13
+"Delicias-Ayto","Americano",directed,19
+"Maestranza-Ayto","Africano",directed,1
+"Murillo","Oriental-Asiático",directed,21
+"Murillo","Africano",directed,5
+"Guadalquivir-Ayto","Africano",directed,1
+"Casino","Europeo-Mediterráneo",directed,13
+"Infanta Elena-Ayto","Oceanía",directed,1
+"Ranillas-Ayto","Africano",directed,1
+"Catalina de Ribera-Ayto","Oriental-Asiático",directed,10
+"San Jerónimo-Ayto","Americano",directed,8
+"Valle-Ayto","Oceanía",directed,3
+"Valle-Ayto","Oriental-Asiático",directed,2
+"Real Alcázar","Africano",directed,16
+"Bermejales-Ayto","Americano",directed,5
+"Miraflores-Ayto","Oceanía",directed,6
+"Amate","Oceanía",directed,2
+"Casino","Americano",directed,23
+"Amate-Ayto","Oceanía",directed,5
+"Alcosa-Ayto","Africano",directed,2
+"Ribera del Guadaira-Ayto","Africano",directed,1
+"Casino","Oriental-Asiático",directed,33
+"El Turruñuelo-Ayto","Oriental-Asiático",directed,3
+"Prado-Ayto","Oceanía",directed,2
+"Ranillas-Ayto","Oriental-Asiático",directed,6
+"Guadaira","Europeo-Mediterráneo",directed,15
+"Murillo","Oceanía",directed,1
+"Barranco-Colón-Ayto","Oceanía",directed,6
+"Rey JCI-Torneo-Ayto","Africano",directed,1
+"Los Príncipes-Ayto","Europeo-Mediterráneo",directed,14
+"Otros-Ayto","Americano",directed,22
+"Perdigones","Oceanía",directed,1
+"Prado-Ayto","Oriental-Asiático",directed,5
+"Rey JCI-Torneo-Ayto","Europeo-Mediterráneo",directed,12
+"Perdigones","Oriental-Asiático",directed,9
+"Otros-Ayto","Africano",directed,2
+"Valle-Ayto","Europeo-Mediterráneo",directed,4
+"Alcosa-Ayto","Oriental-Asiático",directed,22
+"San Jerónimo-Ayto","Oceanía",directed,3
+"Catalina de Ribera-Ayto","Americano",directed,7
+"Real Alcázar","Oceanía",directed,11
+"San Jerónimo-Ayto","Oriental-Asiático",directed,9
+"Real Alcázar","Europeo-Mediterráneo",directed,40
+"María Luisa","Africano",directed,23
+"CEIP San José Obrero","Europeo-Mediterráneo",directed,2
+"María Luisa","Oriental-Asiático",directed,66
+"Cristina-Ayto","Europeo-Mediterráneo",directed,6
+"Amate","Americano",directed,11
+"Calles de Sevilla-Ayto","Africano",directed,5
+"Plaza Nueva-Ayto","Europeo-Mediterráneo",directed,2
+"Norte-Ayto","Europeo-Mediterráneo",directed,5
+"Infanta Elena-Ayto","Europeo-Mediterráneo",directed,17
+"Americano-Ayto","Americano",directed,19
+"Murillo","Americano",directed,12
+"Guadalquivir-Ayto","Europeo-Mediterráneo",directed,15
+"Guadaira","Africano",directed,1
+"Ranillas-Ayto","Oceanía",directed,3
+"Los Príncipes-Ayto","Oriental-Asiático",directed,11
+"Ranillas-Ayto","Americano",directed,4
+"Rey JCI-Torneo-Ayto","Oriental-Asiático",directed,5
+"Americano-Ayto","Europeo-Mediterráneo",directed,2
+"Ribera del Guadaira-Ayto","Americano",directed,9
+"Delicias-Ayto","Oriental-Asiático",directed,19
+"Perdigones","Americano",directed,7
+"Murillo","Europeo-Mediterráneo",directed,11
+"Guadalquivir-Ayto","Americano",directed,14
+"Delicias-Ayto","Oceanía",directed,7
+"Vega de Triana-Ayto","Africano",directed,1
+"Guadalquivir-Ayto","Oriental-Asiático",directed,16
+"Santa Clara-Don Fadrique","Europeo-Mediterráneo",directed,7
+"Miraflores-Ayto","Africano",directed,2
+"Celestino Mutis-Ayto","Oriental-Asiático",directed,8
+"Buhaira-Ayto","Americano",directed,7
+"Cortijo del Cuarto-Ayto","Oriental-Asiático",directed,1
+"Amate-Ayto","Oriental-Asiático",directed,13
+"Perdigones","Africano",directed,3
+"Perdigones","Europeo-Mediterráneo",directed,7
+"Tamarguillo-Ayto","Oriental-Asiático",directed,15
+"Catalina de Ribera-Ayto","Africano",directed,1
+"Calles de Sevilla-Ayto","Americano",directed,37
+"Buhaira-Ayto","Oceanía",directed,2
+"Miraflores-Ayto","Oriental-Asiático",directed,23
+"CEIP Vélez de Guevara","Oriental-Asiático",directed,12
+"Otros-Ayto","Europeo-Mediterráneo",directed,28
+"Ribera del Guadaira-Ayto","Europeo-Mediterráneo",directed,17
+"CEIP Andalucía","Americano",directed,2
+"Plaza Nueva-Ayto","Oriental-Asiático",directed,3
+"Maestranza-Ayto","Europeo-Mediterráneo",directed,5

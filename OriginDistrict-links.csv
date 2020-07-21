@@ -1,0 +1,31 @@
+Source,Target,Type,Weight
+"Macarena","Africano",directed,9
+"Casco Antiguo","Africano",directed,28
+"Triana","Africano",directed,10
+"Los Remedios","Europeo-Mediterráneo",directed,67
+"Los Remedios","Oceanía",directed,27
+"Sur","Oceanía",directed,47
+"Norte","Americano",directed,76
+"Los Remedios","Oriental-Asiático",directed,92
+"Norte","Oriental-Asiático",directed,115
+"Casco Antiguo","Oceanía",directed,48
+"Los Remedios","Africano",directed,7
+"Macarena","Americano",directed,54
+"Norte","Africano",directed,9
+"Triana","Europeo-Mediterráneo",directed,95
+"Norte","Oceanía",directed,33
+"Casco Antiguo","Oriental-Asiático",directed,173
+"Casco Antiguo","Americano",directed,129
+"Norte","Europeo-Mediterráneo",directed,86
+"Sur","Oriental-Asiático",directed,144
+"Casco Antiguo","Europeo-Mediterráneo",directed,125
+"Macarena","Oriental-Asiático",directed,77
+"Sur","Africano",directed,12
+"Triana","Oriental-Asiático",directed,125
+"Los Remedios","Americano",directed,59
+"Sur","Europeo-Mediterráneo",directed,128
+"Triana","Americano",directed,97
+"Macarena","Oceanía",directed,19
+"Sur","Americano",directed,112
+"Triana","Oceanía",directed,37
+"Macarena","Europeo-Mediterráneo",directed,63

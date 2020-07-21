@@ -1,0 +1,11 @@
+<Nodes>
+ "ID(S)" "NodeType(S)" "Label(S)"
+"Acuminado" "Leaf_apex" "Acuminado" 
+"Agudo" "Leaf_apex" "Agudo" 
+"Obtuso" "Leaf_apex" "Obtuso" 
+"None" "Leaf_apex" "None" 
+"Aristado" "Leaf_apex" "Aristado" 
+"Mucronado" "Leaf_apex" "Mucronado" 
+"Cuspidado" "Leaf_apex" "Cuspidado" 
+"Emarginado" "Leaf_apex" "Emarginado" 
+<EndNodes>

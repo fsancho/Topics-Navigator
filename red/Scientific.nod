@@ -1,0 +1,345 @@
+<Nodes>
+ "ID(S)" "NodeType(S)" "Label(S)" "Common_Name(S)" "Slug(S)" "Height_max(X)" "Height_min(X)" "Radius(X)" "Flower_cal(S)" "Fruit_cal(S)" "Aroma_cal(S)" "Sunstroke(X)" "Water_cons(X)" "C02_range(X)" "CO2_absorb(X)"
+"Bambuseae (tribu)" "Scientific" "Bambuseae (tribu)" "Bambú" "bambu" 15 2 0.1 "000000000000" "000000000000" "000000000000" 3 2 2 25.46 
+"Impatiens hawkeri" "Scientific" "Impatiens hawkeri" "Alegría de Guinea" "alegria-de-guinea" 0.5 0.2 0.2 "001111111000" "000000000000" "000000000000" 4 3 0 0.5 
+"Cyperus papyrus" "Scientific" "Cyperus papyrus" "Papiro" "papyrus" 1 0.2 0.2 "000000000000" "111111111111" "000000000000" 5 2 0 0.5 
+"Matthiola incana" "Scientific" "Matthiola incana" "Alhelí" "stock" 1 0.2 0.2 "001111000000" "001111000000" "002222000000" 5 1 0 0.5 
+"Muehlenbeckia complexa" "Scientific" "Muehlenbeckia complexa" "Enredadera de Alambre" "maidenhair-vine" 1 0.2 0.2 "111000000000" "011100000000" "000000000000" 3 0 1 19.1 
+"Umbilicus rupestris" "Scientific" "Umbilicus rupestris" "Ombligo de Venus" "navelwort" 1 0.2 0.2 "000000000000" "111111111111" "000000000000" 1 2 0 1.5 
+"Sinapis alba" "Scientific" "Sinapis alba" "Mostaza blanca" "mostaza-blanca" 0.75 0.3 0.2 "000011000000" "000001100000" "000000000000" 3 2 0 0.5 
+"Myoporum tenuifolium" "Scientific" "Myoporum tenuifolium" "Transparente" "naio" 3 2 0.2 "001100000000" "000000000000" "000000000000" 1 0 0 0.09 
+"Hemerocallis spp." "Scientific" "Hemerocallis spp." "Hemerocalis" "hemerocallis" 1.5 0.2 0.25 "000011111100" "000011111100" "000011111100" 3 2 0 1.5 
+"Aspidistra spp." "Scientific" "Aspidistra spp." "Pilistra" "aspidistra" 1 0.5 0.25 "000001000000" "000000000000" "000000000000" 1 1 0 5.42 
+"Gaura lindheimeri" "Scientific" "Gaura lindheimeri" "Gaura" "gaura" 1.5 0.5 0.25 "0011111100" "000000000000" "000000000000" 4 0 0 0.5 
+"Cistus albidus" "Scientific" "Cistus albidus" "Jara blanca" "cistus-albidus" 1.5 0.5 0.25 "001111100000" "000000000000" "111111111111" 1 0 0 9.7 
+"Agapanthus umbellatus" "Scientific" "Agapanthus umbellatus" "Agapanto" "agapanthus" 1 0.2 0.3 "000000111000" "000000000000" "000000000000" 3 1 0 1.5 
+"Aloe vera" "Scientific" "Aloe vera" "Aloe" "true-aloe" 1 0.2 0.3 "000001110000" "000000000000" "000000000000" 0 0 3 50.53 
+"Chlorophytum comosum" "Scientific" "Chlorophytum comosum" "Cinta" "spider-plant" 1 0.2 0.3 "000111100000" "000000000000" "000000000000" 2 1 0 0.5 
+"Spiraea cantoniensis" "Scientific" "Spiraea cantoniensis" "Espirea" "reeves-spirea" 1 0.2 0.3 "000110000000" "000000000000" "000110000000" 5 1 0 7.46 
+"Tagetes spp." "Scientific" "Tagetes spp." "Clavel Moro-Damasquino" "marigold" 1 0.2 0.3 "111111111111" "111111111111" "000000000000" 1 1 0 1.5 
+"Tulbaghia violacea" "Scientific" "Tulbaghia violacea" "Tulbagia-Ajo silvestre" "tulbagia-ajo-silvestre" 0.7 0.4 0.3 "000011111000" "000011111000" "111111111111" 4 2 0 1.5 
+"Encephalartos horridus" "Scientific" "Encephalartos horridus" "Cica azul del Cabo" "encephalartos" 1 0.5 0.3 "111111000001" "111111111111" "000000000000" 5 0 1 1 
+"Salvia microphylla" "Scientific" "Salvia microphylla" "Salvia rosa" "salvia-rosa" 1.2 0.5 0.3 "000111110000" "111111111111" "111111111111" 5 2 0 5 
+"Sesamum indicum" "Scientific" "Sesamum indicum" "Ajonjolí" "ajonjoli" 1.2 0.5 0.3 "000001110000" "000000011000" "000000000000" 4 2 0 1.5 
+"Zingiber spp." "Scientific" "Zingiber spp." "Jengibre" "jengibre" 2 0.5 0.3 "000000000000" "111111111111" "000000000000" 4 2 0 1.5 
+"Alcea rosea" "Scientific" "Alcea rosea" "Malva real-Malvarrosa" "common-hollyhock" 2 1 0.3 "000011111000" "000000000000" "000001111000" 5 1 0 6.8 
+"Rosmarinus officinalis" "Scientific" "Rosmarinus officinalis" "Romero" "rosemary" 2 1 0.3 "001111111100" "111111111111" "112222222211" 5 0 0 6.7 
+"Hibiscus mutabilis" "Scientific" "Hibiscus mutabilis" "Amoraluzo" "cotton-rosemallow" 3 2 0.3 "000000000110" "000000000000" "000000000110" 5 1 0 6.8 
+"Cinnamomum cassia-C. verum" "Scientific" "Cinnamomum cassia-C. verum" "Canelero" "canelero" 10 5 0.3 "111111111111" "111111111111" "111111111111" 5 2 1 16.66 
+"Chasmanthe aethiopica" "Scientific" "Chasmanthe aethiopica" "Lirio rojo" "chasmanthe-aethiopica" 1.4 1 0.4 "000011110000" "000000000000" "000000000000" 5 2 0 1.5 
+"Peperomia obtusifolia" "Scientific" "Peperomia obtusifolia" "Peperomia obtusifolia" "peperomia-obtusifolia" 0.25 0.1 0.5 "000001100000" "000000000000" "000000000000" 3 2 0 1.5 
+"Celosia plumosa" "Scientific" "Celosia plumosa" "Amaranto plumoso" "amaranto-plumoso" 0.8 0.15 0.5 "001111111100" "000000000000" "000000000000" 5 4 0 1.5 
+"Acanthus mollis" "Scientific" "Acanthus mollis" "Acanto" "acanthus" 1 0.2 0.5 "000001110000" "000000000000" "000000000000" 2 1 0 1.5 
+"Adiantum capillus-veneris" "Scientific" "Adiantum capillus-veneris" "Culantrillo de Pozo" "venus-hair-fern" 1 0.2 0.5 "000000000000" "000000000000" "000000000000" 1 4 0 0.5 
+"Aloe maculata" "Scientific" "Aloe maculata" "Pita Real" "soap-aloe" 1 0.2 0.5 "011000000000" "000000000000" "000000000000" 3 0 3 50.53 
+"Bergenia crassifolia" "Scientific" "Bergenia crassifolia" "Begoña de Invierno" "leather-bergenia" 1 0.2 0.5 "111110000000" "000000000000" "000000000000" 5 0 0 0.5 
+"Centaurea cineraria" "Scientific" "Centaurea cineraria" "Centáurea" "velvet-centaurea" 1 0.2 0.5 "000001110000" "000000000000" "000001110000" 5 0 0 1.5 
+"Chaenomeles speciosa" "Scientific" "Chaenomeles speciosa" "Membrillero Japonés" "chinese-flowering-quince" 1 0.2 0.5 "001111000000" "000001110000" "001111000000" 4 1 1 14.16 
+"Cuphea hyssopifolia" "Scientific" "Cuphea hyssopifolia" "Cufea" "elfin-herb" 1 0.2 0.5 "000011110000" "000000000000" "000000000000" 4 0 0 8.03 
+"Iris germanica" "Scientific" "Iris germanica" "Lirio" "german-iris" 1 0.2 0.5 "000001110000" "000000000000" "000002220000" 3 1 0 1.5 
+"Lavandula angustifolia" "Scientific" "Lavandula angustifolia" "Espliego-Lavanda" "english-lavender" 1 0.2 0.5 "000001111000" "111111111111" "111111122111" 5 0 0 1.5 
+"Muehlenbeckia platyclados" "Scientific" "Muehlenbeckia platyclados" "Helecho Basto" "tapeworm-plant" 1 0.2 0.5 "000000000110" "000000000000" "000000000000" 2 1 1 19.1 
+"Narcissus spp." "Scientific" "Narcissus spp." "Narciso" "narcissus" 1 0.2 0.5 "011000000000" "000000000000" "022000000000" 2 2 0 1.5 
+"Rosa spp." "Scientific" "Rosa spp." "Rosal" "rose" 1 0.2 0.5 "001111111110" "001111111110" "001122211110" 5 1 1 12.72 
+"Ruscus spp." "Scientific" "Ruscus spp." "Rusco" "jews-myrtle" 1 0.2 0.5 "001110000000" "000000000000" "000000000000" 3 1 1 9.7 
+"Salvia officinalis" "Scientific" "Salvia officinalis" "Salvia" "sage" 1 0.2 0.5 "000011100000" "111111111111" "111122211111" 5 0 1 19.1 
+"Strelitzia reginae" "Scientific" "Strelitzia reginae" "Flor del Paraíso" "bird-of-paradise" 1 0.2 0.5 "111000000111" "000000000000" "000000000000" 4 2 0 1.5 
+"Vinca spp." "Scientific" "Vinca spp." "Vincapervinca-Hierba doncella" "bigleaf-periwinkle" 1 0.2 0.5 "011111110000" "000000000000" "000000000000" 2 1 0 1.5 
+"Viola odorata" "Scientific" "Viola odorata" "Violeta" "wood-violet" 1 0.2 0.5 "111000000000" "111000000000" "111000000000" 2 1 0 1.5 
+"Zantedeschia aethiopica" "Scientific" "Zantedeschia aethiopica" "Cala" "arum-lily" 1 0.2 0.5 "000000000000" "000000000000" "000000000000" 2 2 0 8.1 
+"Carex pendula" "Scientific" "Carex pendula" "Carex" "carex" 1 0.2 0.5 "000111100000" "000000000000" "000000000000" 3 2 0 0.5 
+"Chaenomeles japonica" "Scientific" "Chaenomeles japonica" "Membrillero de flor" "chaenomeles-japonica" 1 0.2 0.5 "111001110000" "000110001100" "111001110000" 5 2 1 14.16 
+"Zinnia elegans" "Scientific" "Zinnia elegans" "Cinia" "cinia" 1.5 0.35 0.5 "000001111000" "000000000000" "000000000000" 4 4 0 1.5 
+"Russelia equisetiformis" "Scientific" "Russelia equisetiformis" "Lágrimas de Cupido" "russelia-equisetiformis" 1.5 0.5 0.5 "111111111111" "000000000000" "000000000000" 5 2 1 1.5 
+"Phragmites australis" "Scientific" "Phragmites australis" "Carrizo" "carrizo" 2.5 0.5 0.5 "000111100000" "111111111111" "000000000000" 4 5 2 25.46 
+"Polygala myrtifolia" "Scientific" "Polygala myrtifolia" "Lechera del Cabo" "lechera-del-cabo" 3 0.5 0.5 "000111111100" "000000000000" "000111111100" 4 2 0 1.5 
+"Abutilon pictum" "Scientific" "Abutilon pictum" "Abutilón" "chinese-lantern" 2 1 0.5 "000111111000" "000000000000" "000111111000" 4 1 1 6.8 
+"Canna spp." "Scientific" "Canna spp." "Achira" "indian-shot" 2 1 0.5 "000000011000" "000000000000" "000000000000" 5 1 0 1.5 
+"Clerodendrum bungei" "Scientific" "Clerodendrum bungei" "Clerodendro" "glory-bower" 2 1 0.5 "000000111110" "000000000000" "000000111110" 4 1 1 9.18 
+"Clivia miniata" "Scientific" "Clivia miniata" "Clivia" "natal-lily" 2 1 0.5 "000111110000" "000000000000" "000000000000" 2 1 0 1.5 
+"Justicia adhatoda" "Scientific" "Justicia adhatoda" "Justicia" "malabar-nut" 2 1 0.5 "000111100000" "000000000000" "000222200000" 3 1 0 5 
+"Justicia carnea" "Scientific" "Justicia carnea" "Justicia Americana -Jacobinia" "jacobinia" 2 1 0.5 "000000111000" "000000000000" "000000111000" 3 1 0 5 
+"Mirabilis jalapa" "Scientific" "Mirabilis jalapa" "Dondiego de Noche" "four-oclock-flower" 2 1 0.5 "000001111100" "000000000000" "000002222200" 4 0 0 3.13 
+"Myrtus communis" "Scientific" "Myrtus communis" "Arrayán-Mirto" "myrtle" 2 1 0.5 "000001110000" "000000000000" "111113331111" 4 1 0 6.67 
+"Solanum bonariense" "Scientific" "Solanum bonariense" "Tomatillo" "solanum-bonariense" 2 1 0.5 "001111100000" "000000000000" "000000000000" 4 2 1 12.2 
+"Chamaedorea seifrizii" "Scientific" "Chamaedorea seifrizii" "Palma bambú" "chamaedorea-seifrizii" 3 1 0.5 "000000000000" "000000000000" "000000000000" 3 2 0 4.52 
+"Rhapis excelsa" "Scientific" "Rhapis excelsa" "Palmerita china" "palmerita-china" 3 1.5 0.5 "000000000000" "000000000000" "000000000000" 3 3 0 4.68 
+"Vitex agnus-castus" "Scientific" "Vitex agnus-castus" "Sauzgatillo-Arbusto de la Pimienta" "chasteberry" 3 2 0.5 "000001110000" "000000000000" "000002220000" 5 0 1 12.9 
+"Schefflera arboricola" "Scientific" "Schefflera arboricola" "Cheflera-Seflera" "umbrella-tree" 4 3 0.5 "000000000000" "000000000000" "000000000000" 1 0 0 1.22 
+"Psidium guajava" "Scientific" "Psidium guajava" "Guayabero" "guayabero" 6 3 0.5 "000011000000" "000000110000" "000000000000" 4 2 0 6.67 
+"Butia capitata" "Scientific" "Butia capitata" "Palmera de la Jalea" "palmera-de-la-jalea" 6 4 0.5 "100000001111" "111000000001" "000000000000" 5 1 0 0.15 
+"Koelreuteria paniculata" "Scientific" "Koelreuteria paniculata" "Árbol de los farolillos" "arbol-de-los-farolillos" 12 8 0.5 "000000011100" "100000000111" "000000000000" 2 1 1 18 
+"Syzygium aromaticum" "Scientific" "Syzygium aromaticum" "Árbol del Clavo" "arbol-del-clavo" 15 8 0.5 "110000001111" "111100000011" "111111111111" 5 2 1 16.32 
+"Cinnamomum camphora" "Scientific" "Cinnamomum camphora" "Alcanforero" "alcanforero" 25 10 0.5 "000011000000" "000000000000" "111111111111" 4 2 1 16.66 
+"Buxus sempervirens" "Scientific" "Buxus sempervirens" "Boj" "box" 3 0.2 0.6 "000100000000" "000000000000" "222222222222" 5 1 0 5.19 
+"Lantana montevidensis" "Scientific" "Lantana montevidensis" "Lantana rastrera" "lantana-montevidensis" 1 0.3 0.75 "001111111110" "000000000000" "001111111110" 5 2 0 1.03 
+"Pennisetum setaceum" "Scientific" "Pennisetum setaceum" "Plumacho" "pennisetum-setaceum" 1 0.6 0.75 "001111100000" "000000000000" "000000000000" 5 1 0 1.5 
+"Ananas comosus" "Scientific" "Ananas comosus" "Piña" "pina" 1.5 1 0.75 "000000000000" "000000000000" "000000000000" 5 2 0 0.5 
+"Pyracantha coccinea" "Scientific" "Pyracantha coccinea" "Espino de fuego" "pyracantha" 2 1 0.75 "000111100000" "110000011111" "000000000000" 4 2 1 12.72 
+"Pseudosasa japonica" "Scientific" "Pseudosasa japonica" "Bambú japonés" "pseudosasa-japonica" 5 2 0.75 "000000000000" "000000000000" "000000000000" 3 2 2 25.46 
+"Ulmus pumila" "Scientific" "Ulmus pumila" "Olmo de Siberia" "olmo-de-siberia" 15 10 0.75 "011000000000" "000000000000" "000000000000" 2 1 1 21.03 
+"Ulmus glabra" "Scientific" "Ulmus glabra" "Olmo de montaña" "olmo-de-montana" 30 15 0.75 "001100000000" "011111111100" "000000000000" 1 2 0 7.14 
+"Santolina chamaecyparissus" "Scientific" "Santolina chamaecyparissus" "Abrótano hembra" "abrotano-hembra-manzanilla-te-de-aragon" 0.7 0.2 0.9 "000011111000" "111111111111" "000011111000" 5 2 0 1.5 
+"Asparagus densiflorus" "Scientific" "Asparagus densiflorus" "Esparraguera cola de zorro" "esparraguera-cola-de-zorro" 0.75 0.2 0.95 "000000000000" "000000000000" "000000000000" 2 4 0 5.42 
+"Drosanthemum floribundum" "Scientific" "Drosanthemum floribundum" "Rocío rosa" "rocio-rosa" 0.3 0.1 1 "000111100000" "000000000000" "000000000000" 5 0 0 1.5 
+"Aeonium arboreum" "Scientific" "Aeonium arboreum" "Aeonio" "tree-aeonium" 1 0.2 1 "011100000000" "000000000000" "000000000000" 5 0 0 1.5 
+"Asparagus aethiopicus" "Scientific" "Asparagus aethiopicus" "Esparraguera africana" "esparraguera-plumosa" 1 0.2 1 "000001110000" "000000000000" "000000000000" 4 1 0 5.42 
+"Nymphaea alba" "Scientific" "Nymphaea alba" "Nenúfar blanco" "white-lotus" 1 0.2 1 "000001111000" "000000000000" "000000000000" 3 3 0 1.5 
+"Asparagus setaceus" "Scientific" "Asparagus setaceus" "Esparraguera plumosa" "lace-fern" 1 0.2 1 "000001110000" "000000000000" "000000000000" 4 1 0 5.42 
+"Nuphar rubrodisca" "Scientific" "Nuphar rubrodisca" "Nenúfar amarillo" "nuphar-rubrodisca" 1 0.2 1 "000001111000" "000000000000" "000000000000" 3 3 0 1.5 
+"Ilex crenata" "Scientific" "Ilex crenata" "Acebo japonés" "ilex-crenata" 3 0.4 1 "000011000000" "000000000000" "000000000000" 1 3 0 5 
+"Teucrium fruticans" "Scientific" "Teucrium fruticans" "Olivilla" "olivilla" 1.5 0.5 1 "001111000000" "000000000000" "011100000000" 5 0 0 5 
+"Senecio lineatus" "Scientific" "Senecio lineatus" "Senecio lineatus" "senecio-lineatus" 1.5 0.5 1 "001110000000" "000000000000" "000000000000" 4 1 0 1.5 
+"Nephrolepis spp." "Scientific" "Nephrolepis spp." "Helecho-Nephrolepis" "nephrolepis" 2 0.5 1 "000000000000" "000000000000" "000000000000" 2 4 0 1.5 
+"Buxus balearica" "Scientific" "Buxus balearica" "Boj balear" "buxus-balearica" 4 0.5 1 "000100000000" "000000000000" "111211111111" 5 1 0 5.19 
+"Rubus ulmifolius" "Scientific" "Rubus ulmifolius" "Zarzamora" "rubus-ulmifolius" 1 1 1 "000011110000" "000000111000" "000000000000" 5 2 1 12.72 
+"Agave americana" "Scientific" "Agave americana" "Pita" "century-plant" 2 1 1 "000001110000" "000000000000" "000000000000" 5 0 1 16.75 
+"Beaucarnea recurvata" "Scientific" "Beaucarnea recurvata" "Nolina-Pata de Elefante" "elephants-foot" 2 1 1 "001110000000" "000000000000" "000000000000" 2 1 0 5.42 
+"Cyperus alternifolius-C. involucratus" "Scientific" "Cyperus alternifolius-C. involucratus" "Paraguas-Paragüitas" "umbrella-papyrus" 2 1 1 "000000000000" "000000000000" "000000000000" 3 2 0 0.5 
+"Duranta repens" "Scientific" "Duranta repens" "Duranta" "golden-dewdrop" 2 1 1 "000011111000" "000000000000" "000011111000" 5 1 0 1.03 
+"Lantana camara" "Scientific" "Lantana camara" "Banderitas-Confite" "west-indian-lantana" 2 1 1 "001111111110" "000000000000" "001111111110" 4 0 0 1.03 
+"Nandina domestica" "Scientific" "Nandina domestica" "Nandina-Bambú Sagrado" "sacred-bamboo" 2 1 1 "000011110000" "000000000000" "000000000000" 4 1 2 27.06 
+"Platycladus orientalis" "Scientific" "Platycladus orientalis" "Tuya-Árbol de la vida" "oriental-arborvitae" 2 1 1 "111100000000" "000000000000" "111111111111" 0 1 0 4.13 
+"Senecio kleinia" "Scientific" "Senecio kleinia" "Verode-Vero de Canarias" "verode" 2 1 1 "000000000000" "000000000000" "000000000000" 5 0 0 1.5 
+"Berberis x chenaultii" "Scientific" "Berberis x chenaultii" "Berberis chenaultii" "berberis-chenaultii" 2 1 1 "001110000000" "000000000000" "000000000000" 2 1 2 27.06 
+"Myrsine africana" "Scientific" "Myrsine africana" "Boj africano" "boj-africano" 2 1 1 "000011000000" "000001100000" "000000000000" 5 1 0 0.01 
+"Abelia x grandiflora" "Scientific" "Abelia x grandiflora" "Abelia" "abelia-x-grandiflora" 2.5 1 1 "001111111000" "000000000000" "001111111000" 4 3 0 5 
+"Cestrum fasciculatum" "Scientific" "Cestrum fasciculatum" "Galán rojo" "cestrum-fasciculatum" 2.5 1 1 "001111111110" "000000000000" "000000000000" 4 2 1 12.2 
+"Lycianthes rantonnetii" "Scientific" "Lycianthes rantonnetii" "Solano azul" "lycianthes-rantonnei" 2.5 1 1 "000001111100" "000000000000" "000000000000" 5 2 1 12.2 
+"Phormium tenax" "Scientific" "Phormium tenax" "Lino de Nueva Zelanda-Formio" "phormium-tenax" 2.5 1 1 "000001110000" "000000000000" "000000000000" 5 2 1 1.5 
+"Brugmansia suaveolens" "Scientific" "Brugmansia suaveolens" "Datura" "angels-trumpet" 3 1 1 "000000111110" "000000000000" "000002222200" 4 2 1 12.2 
+"Cestrum elegans" "Scientific" "Cestrum elegans" "Coralito" "red-cestrum" 3 1 1 "111111111111" "000000000000" "111111111111" 4 0 1 12.2 
+"Yucca gloriosa" "Scientific" "Yucca gloriosa" "Daga española-Yuca brillante" "yucca-gloriosa" 3 1 1 "000011111100" "000000000000" "000000000000" 5 0 1 8.51 
+"Alpinia zerumbet" "Scientific" "Alpinia zerumbet" "Alpinia" "alpinia-zerumbet" 3 1 1 "000111000000" "000000000000" "000122000000" 4 4 0 5 
+"Ficus pumila" "Scientific" "Ficus pumila" "Ficus trepador" "ficus-pumila" 3 1 1 "000000000000" "000000000000" "000000000000" 2 2 0 0.01 
+"Podranea ricasoliana" "Scientific" "Podranea ricasoliana" "Bignonia rosa" "podranea" 3.5 1 1 "000001111100" "000000000000" "000001111100" 4 3 2 29.33 
+"Aucuba japonica" "Scientific" "Aucuba japonica" "Laurel moteado" "laurel-moteado" 4 1 1 "001100000000" "000000000000" "000000000000" 2 2 0 5 
+"Ipomoea spp." "Scientific" "Ipomoea spp." "Ipomoea" "ipomoea" 4 1 1 "000001111110" "000000000000" "000000000000" 4 1 0 0.56 
+"Jasminum azoricum" "Scientific" "Jasminum azoricum" "Jazmín de las Azores" "jasminum-azoricum" 3 1.5 1 "000111111100" "000000000000" "000111111100" 4 2 1 15.7 
+"Photinia x fraseri" "Scientific" "Photinia x fraseri" "Fotinia fraseri" "fotinia-fraseri" 3.5 1.5 1 "001111000000" "000000000000" "001221000000" 4 3 1 19.1 
+"Viburnum tinus" "Scientific" "Viburnum tinus" "Durillo de flor" "eve-price-laurestine" 5 1.5 1 "001111110000" "000000000000" "001111110000" 3 1 1 10.69 
+"Viburnum odoratissimum" "Scientific" "Viburnum odoratissimum" "Viburno dulce" "viburnum-odoratissimum" 6 1.5 1 "001111000000" "000000000000" "001111000000" 4 1 1 10.69 
+"Chamaedorea elegans" "Scientific" "Chamaedorea elegans" "Caña Elegante-Palmera de Salón" "parlour-palm" 3 2 1 "000000000000" "000000000000" "000000000000" 3 1 0 4.52 
+"Chimonanthus praecox" "Scientific" "Chimonanthus praecox" "Macasar" "wintersweet" 3 2 1 "100000000001" "000000000000" "200000000002" 5 1 1 16.66 
+"Euphorbia pulcherrima" "Scientific" "Euphorbia pulcherrima" "Flor de Pascua-Pascuero" "poinsettia" 3 2 1 "100000000001" "000000000000" "000000000000" 5 0 1 12.77 
+"Philadelphus coronarius-Deutzia scabra" "Scientific" "Philadelphus coronarius-Deutzia scabra" "Celinda y Melinda-Celinda de Espiga" "sweet-mock-orange-fuzzy-deutzia" 3 2 1 "001111000000" "000000000000" "001111000000" 4 1 5 147.08 
+"Pyrostegia venusta" "Scientific" "Pyrostegia venusta" "Bignonia de Invierno" "flame-vine-orange-trumpet" 3 2 1 "110000000111" "000000000000" "000000000000" 4 0 2 29.33 
+"Senecio petasitis" "Scientific" "Senecio petasitis" "Platanillo" "velvet-groundsel" 3 2 1 "111110000011" "000000000000" "110000000011" 4 0 1 19.1 
+"Tecoma capensis" "Scientific" "Tecoma capensis" "Bignonia del Cabo" "cape-honeysuckle" 3 2 1 "000000001000" "000000000000" "000000000000" 5 1 2 29.33 
+"Tetrastigma voinerianum" "Scientific" "Tetrastigma voinerianum" "Vinca-Vid de Adorno" "chestnut-vine" 3 2 1 "000000000000" "000000000000" "000000000000" 4 0 1 19.1 
+"Yucca elephantipes" "Scientific" "Yucca elephantipes" "Yuca Péndula-Yuca Robusta" "blue-stem-yucca" 3 2 1 "000001111100" "111111111111" "000000000000" 5 0 1 8.51 
+"Philadelphus coronarius" "Scientific" "Philadelphus coronarius" "Celinda-Melinda" "celinda-melinda" 3 2 1 "000111000000" "000000000000" "000111000000" 4 1 5 147.08 
+"Musa acuminata" "Scientific" "Musa acuminata" "Plátano malayo" "platano-malayo" 3.5 2 1 "000001110000" "000000111000" "000000000000" 5 2 0 1.5 
+"Brugmansia arborea" "Scientific" "Brugmansia arborea" "Floripondio" "datura-arborea" 3.5 2 1 "000001111100" "000000000000" "000002222200" 3 2 1 12.2 
+"Ligustrum sinense" "Scientific" "Ligustrum sinense" "Ligustrina" "ligustrum-sinense" 4 2 1 "000001100000" "000000000000" "000001100000" 4 3 1 9.85 
+"Callistemon spp." "Scientific" "Callistemon spp." "Limpiatubos-Escobillón rojo" "limpiatubos" 5 2 1 "001111000000" "000000000000" "001111000000" 5 1 4 64.21 
+"Photinia glabra" "Scientific" "Photinia glabra" "Fotinia de hoja roja" "photinia-glabra" 5 2 1 "001110000000" "000000000000" "002220000000" 4 2 1 19.1 
+"Acokanthera oblongifolia" "Scientific" "Acokanthera oblongifolia" "Laurel tóxico" "acokanthera" 5 2 1 "000110000000" "000000000000" "000110000000" 4 1 1 10.39 
+"Piper longum" "Scientific" "Piper longum" "Pimentero largo" "pimentero-largo" 6 2 1 "111111111111" "111111111111" "111111111111" 4 2 1 19.1 
+"Piper nigrum" "Scientific" "Piper nigrum" "Pimentero" "pimentero" 6 2 1 "111111111111" "111111111111" "111111111111" 4 2 1 19.1 
+"Mespilus germanica" "Scientific" "Mespilus germanica" "Níspero europeo" "neflier" 6 2 1 "000110000000" "000000000011" "000000000000" 4 2 1 10.74 
+"Thuja occidentalis" "Scientific" "Thuja occidentalis" "Tuya del Canadá" "thuja-occidentalis" 15 2 1 "000000000000" "000000000000" "000000000000" 3 2 0 7.85 
+"Aloysia citriodora" "Scientific" "Aloysia citriodora" "Hierbaluisa" "lemon-verbena" 4 3 1 "000001110000" "000000000000" "111122221111" 5 2 0 1.03 
+"Citrus myrtifolia" "Scientific" "Citrus myrtifolia" "Naranjo Moruno" "myrtle-leaved-orange-tree" 4 3 1 "001100000000" "110000000000" "002200000000" 4 0 0 5.6 
+"Musa x paradisiaca" "Scientific" "Musa x paradisiaca" "Bananero" "banana" 4 3 1 "000001110000" "000000111000" "000000000000" 5 2 0 1.5 
+"Nerium oleander" "Scientific" "Nerium oleander" "Adelfa" "oleander" 4 3 1 "000111111000" "000000000000" "000111111000" 0 1 1 9.55 
+"Punica granatum" "Scientific" "Punica granatum" "Granado" "pomegranate" 4 3 1 "000011111110" "000000000110" "000000000100" 5 1 1 9.4 
+"Acacia saligna" "Scientific" "Acacia saligna" "Acacia azul" "acacia-saligna" 8 3 1 "011110000000" "000000000000" "000000000000" 5 1 3 44.56 
+"Eriobotrya japonica" "Scientific" "Eriobotrya japonica" "Níspero" "japanese-medlar" 6 4 1 "001100000000" "000110000000" "001100000000" 4 1 1 17.15 
+"Ricinus communis" "Scientific" "Ricinus communis" "Ricino" "castor-oil-plant" 6 4 1 "000001111000" "000000000000" "000000000000" 5 1 1 12.77 
+"Vitis vinifera-Vitis spp." "Scientific" "Vitis vinifera-Vitis spp." "Parra-Vid" "vine" 6 4 1 "000000000000" "000000111111" "000000000000" 4 1 1 12.09 
+"Yucca aloifolia" "Scientific" "Yucca aloifolia" "Yuca Pinchona-Bayoneta española" "spanish-bayonet" 6 4 1 "000011111100" "000000000000" "000000000000" 5 0 0 0.4 
+"Ziziphus zizyphus" "Scientific" "Ziziphus zizyphus" "Azufaifo" "jujube" 6 4 1 "000000000000" "000000011100" "111111111111" 5 0 1 21.19 
+"Prunus domestica" "Scientific" "Prunus domestica" "Ciruelo" "ciruelo" 8 4 1 "001100000000" "000001110000" "000001110000" 5 2 1 16.74 
+"Tetraclinis articulata" "Scientific" "Tetraclinis articulata" "Araar" "tetraclinis-articulata" 10 4 1 "000000000111" "000000000000" "000000000000" 5 1 0 2.95 
+"Semiarundinaria fastuosa" "Scientific" "Semiarundinaria fastuosa" "Bambú" "bamboo" 10 5 1 "000000000000" "111111111111" "000000000000" 5 0 2 25.46 
+"Styphnolobium japonicum" "Scientific" "Styphnolobium japonicum" "Sófora-Acacia del Japón" "acacia-del-japon" 15 5 1 "000000111000" "000000000000" "000000111000" 3 1 1 18.3 
+"Trachycarpus fortunei" "Scientific" "Trachycarpus fortunei" "Palmera de Fortune-Palmito de la China" "chusan-palm" 12 10 1 "000000000000" "000000000000" "000000000000" 5 0 1 12.02 
+"Pyrus calleryana" "Scientific" "Pyrus calleryana" "Peral de flor" "peral-de-flor" 15 10 1 "011000000000" "001100000000" "011000000000" 4 3 0 7.49 
+"Archontophoenix alexandrae" "Scientific" "Archontophoenix alexandrae" "Palma Alejandra" "palma-alejandra" 20 10 1 "000000000000" "000000000000" "000000000000" 3 3 0 4.68 
+"Gleditsia triacanthos" "Scientific" "Gleditsia triacanthos" "Acacia de tres espinas" "acacia-de-tres-espinas" 20 10 1 "001110000000" "000000011000" "000000000000" 2 1 2 39.54 
+"Livistona chinensis" "Scientific" "Livistona chinensis" "Latania" "chinese-fan-palm" 15 12 1 "000000000000" "000000000000" "000000000000" 4 0 0 8.32 
+"Cupressus sempervirens" "Scientific" "Cupressus sempervirens" "Ciprés" "mediterranean-cypress" 20 15 1 "000000000000" "000000000000" "111111111111" 4 1 1 11.42 
+"Grevillea robusta" "Scientific" "Grevillea robusta" "Roble dorado" "pino-de-oro" 30 15 1 "001111000000" "000000000000" "000000000000" 2 1 2 34.72 
+"Jasminum mesnyi" "Scientific" "Jasminum mesnyi" "Jazmín Amarillo" "primrose-jasmine-yellow-jasmine" 3 2 1.2 "011111000000" "000000000000" "022222000000" 5 1 1 15.7 
+"Jasminum officinale" "Scientific" "Jasminum officinale" "Jazmín-Jazmín común" "jasmine-pink-jasmine" 3 2 1.2 "000011111110" "000000000000" "000033333000" 5 0 1 15.7 
+"Jasminum grandiflorum" "Scientific" "Jasminum grandiflorum" "Jazmín real-Jazmín de España" "jazmin-real-jazmin-de-espana" 3 2 1.2 "000111111111" "000000000000" "000233333320" 5 0 1 15.7 
+"Jasminum humile" "Scientific" "Jasminum humile" "Jazmín italiano" "jazmin-italiano" 3 2 1.2 "011111000000" "000000000000" "022222000000" 5 1 1 15.7 
+"Photinia serratifolia" "Scientific" "Photinia serratifolia" "Fotinia" "chinese-photinia" 6 2 1.2 "001110000000" "000000000000" "003330000000" 5 1 1 19.1 
+"Ficus benjamina" "Scientific" "Ficus benjamina" "Ficus benjamina" "ficus-benjamina" 8 1 1.25 "000001110000" "000000001110" "000000000000" 4 2 1 13.66 
+"Cotoneaster spp." "Scientific" "Cotoneaster spp." "Cotoneaster" "cotoneaster" 3 0.5 1.5 "000011110000" "000000000000" "000000000000" 4 2 1 12.72 
+"Alocasia odora-A. macrorrhizos" "Scientific" "Alocasia odora-A. macrorrhizos" "Colocasia-Oreja de Elefante" "giant-upright-elephant-ear" 3 1 1.5 "000001110000" "000000000000" "000000000000" 2 2 0 8.1 
+"Sabal minor" "Scientific" "Sabal minor" "Sabal enano" "sabal-minor" 3 1 1.5 "000001110000" "000000011100" "000000000000" 5 2 1 8.34 
+"Pistacia lentiscus" "Scientific" "Pistacia lentiscus" "Lentisco" "pistacia-lentiscus" 5 1 1.5 "000110000000" "000000000000" "000000001110" 5 1 1 9.83 
+"Cycas revoluta" "Scientific" "Cycas revoluta" "Cica" "king-sago-palm" 6 1 1.5 "000011110000" "000000000000" "000000000000" 4 1 1 1 
+"Arbutus unedo" "Scientific" "Arbutus unedo" "Madroño" "strawberry-tree" 3 2 1.5 "000000001110" "000000000110" "000000000000" 4 1 2 35 
+"Cestrum nocturnum" "Scientific" "Cestrum nocturnum" "Dama de Noche" "lady-of-the-night" 3 2 1.5 "000001111000" "000000000000" "000002222000" 4 1 1 12.2 
+"Cordyline fruticosa" "Scientific" "Cordyline fruticosa" "Dracena" "good-luck-plant" 3 2 1.5 "000001110000" "111111111111" "000000000000" 5 0 0 0.16 
+"Montanoa bipinnatifida" "Scientific" "Montanoa bipinnatifida" "Aralia de flor-Margaritero" "tree-daisy" 3 2 1.5 "001110000000" "000000000000" "001110000000" 5 1 1 19.1 
+"Viburnum suspensum" "Scientific" "Viburnum suspensum" "Viburno" "sandanqua-viburnum" 3 2 1.5 "001111000000" "000000000000" "001111000000" 5 1 1 10.69 
+"Melianthus major" "Scientific" "Melianthus major" "Flor de miel" "melianthus" 3 2 1.5 "001111111110" "000000000000" "001111111110" 3 2 1 19.1 
+"Euonymus japonicus" "Scientific" "Euonymus japonicus" "Bonetero-Evónimo" "japanese-euonymus" 4 2 1.5 "000011100000" "000000000000" "000000000000" 3 1 1 14.92 
+"Viburnum opulus" "Scientific" "Viburnum opulus" "Viburno Bola de Nieve-Mundillo" "guelder-rose" 4 2 1.5 "001111000000" "000000000000" "001111000000" 5 1 1 10.69 
+"Feijoa sellowiana" "Scientific" "Feijoa sellowiana" "Feijoa" "feijoa" 5 2 1.5 "000111000000" "000000001110" "000111001110" 4 2 0 6.67 
+"Elaeagnus pungens" "Scientific" "Elaeagnus pungens" "Eleagno" "eleagno" 5 2 1.5 "000000000110" "000010000000" "000000000110" 4 1 0 6.4 
+"Crataegus monogyna" "Scientific" "Crataegus monogyna" "Majuelo" "crataegus-monogyna" 10 2 1.5 "001111000000" "000000111000" "000000000000" 4 3 1 12.87 
+"Leucaena leucocephala" "Scientific" "Leucaena leucocephala" "Guaje-Aromo blanco" "faux-acacia-cassie-blanc" 6 3 1.5 "000000000000" "000000000000" "000000000000" 5 1 2 28.62 
+"Strelitzia alba" "Scientific" "Strelitzia alba" "Strelitzia alba" "strelitzia-alba" 8 3.5 1.5 "000001110000" "000000000000" "000000000000" 5 3 1 1.5 
+"Lagerstroemia indica" "Scientific" "Lagerstroemia indica" "Árbol de Júpiter" "crape-myrtle" 6 4 1.5 "000001111000" "000000000000" "000000000000" 4 0 1 29.46 
+"Acacia longifolia" "Scientific" "Acacia longifolia" "Mimosa dorada" "mimosa-dorada" 8 4 1.5 "011110000000" "000000000000" "000000000000" 5 2 2 28.88 
+"Malus domestica" "Scientific" "Malus domestica" "Manzano" "manzano" 12 5 1.5 "001110000000" "000001111110" "011100000000" 3 2 2 28.86 
+"Thuja plicata" "Scientific" "Thuja plicata" "Tuya gigante" "tuya-gigante" 30 5 1.5 "000000000000" "000000000000" "111111111111" 1 1 0 3.91 
+"Tamarix gallica" "Scientific" "Tamarix gallica" "Taray" "taray" 8 6 1.5 "000111000000" "000000000000" "000000000000" 5 2 1 23.4 
+"Schefflera actinophylla" "Scientific" "Schefflera actinophylla" "Schefflera actinophylla" "schefflera-actinophylla" 12 6 1.5 "000011111000" "000000000000" "000000111100" 4 1 0 1.22 
+"Dracaena draco" "Scientific" "Dracaena draco" "Drago" "drago" 12 6 1.5 "000111111000" "000000011100" "000000000000" 5 1 2 25 
+"Brachychiton acerifolius" "Scientific" "Brachychiton acerifolius" "Árbol de fuego" "arbol-de-fuego" 15 6 1.5 "000110000000" "000000000000" "000000000000" 5 2 1 8.39 
+"Liquidambar styraciflua" "Scientific" "Liquidambar styraciflua" "Liquidámbar americano" "liquidambar-americano" 15 8 1.5 "001110000000" "000000000000" "000000000000" 4 3 2 26.63 
+"Podocarpus neriifolius" "Scientific" "Podocarpus neriifolius" "Podocarpo hojas de adelfa" "podocarpus-1" 15 8 1.5 "000000000000" "000000000000" "000000000000" 4 2 2 500 
+"Populus nigra" "Scientific" "Populus nigra" "Álamo negro" "alamo-negro" 30 15 1.5 "011000000000" "000000000000" "000000000000" 4 4 2 33.06 
+"Platanus x hispanica" "Scientific" "Platanus x hispanica" "Plátano de sombra" "platano-de-sombra" 35 20 1.5 "001110000000" "000000000000" "000000000000" 1 1 2 27.3 
+"Platanus orientalis" "Scientific" "Platanus orientalis" "Plátano de Paseo" "platano-de-paseo" 35 20 1.5 "001110000000" "000000000000" "000000000000" 1 2 2 27.3 
+"Ligustrum ovalifolium" "Scientific" "Ligustrum ovalifolium" "Ligustrina" "ligustrum-ovalifolium" 4 1 2 "000011100000" "000000000000" "000011100000" 4 2 1 9.85 
+"Elaeagnus x ebbingei" "Scientific" "Elaeagnus x ebbingei" "Eleagno" "elaeagnus" 5 1 2 "000000000110" "000010000000" "000000000110" 4 1 0 6.4 
+"Pittosporum tenuifolium" "Scientific" "Pittosporum tenuifolium" "Pitosporo" "pittosporum-tenuifolium" 5 1 2 "001110000000" "000000000000" "001110000000" 4 2 0 2.24 
+"Cycas circinalis" "Scientific" "Cycas circinalis" "Cica elegante" "cycas-circinalis" 6 1 2 "000011110000" "000000000000" "000000000000" 4 2 1 1 
+"Lonicera japonica" "Scientific" "Lonicera japonica" "Madreselva del Japón" "madreselva-del-japon" 8 1 2 "000111111000" "000000000000" "000111111100" 4 2 2 27.03 
+"Opuntia spp." "Scientific" "Opuntia spp." "Higuera chumba" "opuntia" 5 1.5 2 "001111111100" "111111111111" "0011111100" 5 0 1 16.75 
+"Cascabela thevetia" "Scientific" "Cascabela thevetia" "Campanilla Amarilla" "yellow-oleander" 3 2 2 "000001111000" "000000000000" "000001111100" 5 1 2 25.17 
+"Chamaerops humilis" "Scientific" "Chamaerops humilis" "Palmito" "mediterranean-dwarf-palm" 3 2 2 "000000000000" "111110000111" "000000000000" 4 0 1 10 
+"Hibiscus rosa-sinensis" "Scientific" "Hibiscus rosa-sinensis" "Pacífico-Rosa de China" "chinese-hibiscus" 3 2 2 "000011111110" "000011111110" "000011111110" 0 1 0 6.8 
+"Hibiscus syriacus" "Scientific" "Hibiscus syriacus" "Rosa de Siria-Altea" "rose-mallow" 3 2 2 "000011100000" "000011100000" "000011100000" 0 1 0 6.8 
+"Hibiscus syriacus cv. White" "Scientific" "Hibiscus syriacus cv. White" "Granado Blanco" "white-mallow" 3 2 2 "000011100000" "000000000000" "000011100000" 0 1 0 6.8 
+"Plumbago auriculata" "Scientific" "Plumbago auriculata" "Celestina-Jazmín Azul" "blue-plumbago" 3 2 2 "000011111100" "000000000000" "000000000000" 5 1 0 1.5 
+"Caesalpinia gilliesii" "Scientific" "Caesalpinia gilliesii" "Ave del paraíso" "ave-del-paraiso" 3 2 2 "000011110000" "000000000000" "000000000000" 5 1 1 13.87 
+"Buddleya madagascariensis" "Scientific" "Buddleya madagascariensis" "Arbusto de las mariposas" "buddleya-madagascariensis" 8 2 2 "111100000000" "000000000000" "111100000000" 4 1 1 9.91 
+"Rhamnus alaternus" "Scientific" "Rhamnus alaternus" "Aladierno" "rhammus-alaternus" 8 2 2 "011100000000" "000000000000" "011100000000" 4 0 0 6.67 
+"Howea forsteriana" "Scientific" "Howea forsteriana" "Kentia" "kentia" 15 2 2 "000000000000" "000000000000" "000000000000" 5 1 0 4.52 
+"Citrus limetta" "Scientific" "Citrus limetta" "Lima-Lima Dulce" "sweet-lime" 4 3 2 "110000000011" "011000000000" "220000000022" 4 1 0 7.13 
+"Citrus reticulata" "Scientific" "Citrus reticulata" "Mandarino" "mandarine" 4 3 2 "000110000000" "000000000110" "000110000000" 4 1 0 5.6 
+"Citrus x limon" "Scientific" "Citrus x limon" "Limonero" "lemon" 4 3 2 "001110000000" "000000000111" "002220000000" 4 1 0 7.13 
+"Citrus x sinensis" "Scientific" "Citrus x sinensis" "Naranjo Dulce" "sweet-orange" 4 3 2 "001100000000" "110000000000" "002200000000" 4 0 0 5.6 
+"Monstera deliciosa" "Scientific" "Monstera deliciosa" "Costilla de Adán" "monstera-deliciosa" 4 3 2 "000011111100" "111111111111" "000000000000" 3 1 0 8.1 
+"Phyllostachys aurea" "Scientific" "Phyllostachys aurea" "Bambú Amarillo" "fish-pole-bamboo" 4 3 2 "000000000000" "111111111111" "000000000000" 4 1 2 25.46 
+"Pittosporum tobira" "Scientific" "Pittosporum tobira" "Pitosporo-Azahar de China" "japanese-pittosporum" 4 3 2 "001000000000" "000000000000" "002000000000" 0 0 1 11.38 
+"Ligustrum japonicum" "Scientific" "Ligustrum japonicum" "Aligustre del Japón-Durillo" "japanese-privet" 5 3 2 "000011000000" "000000000000" "000011000000" 0 1 3 51.35 
+"Dombeya x cayeuxii" "Scientific" "Dombeya x cayeuxii" "Dombeya" "pink-ball-dombeya" 6 3 2 "111000000000" "000000000000" "011000000000" 5 1 0 5 
+"Parkinsonia aculeata" "Scientific" "Parkinsonia aculeata" "Palo verde" "palo-verde" 8 3 2 "000001110000" "000000000000" "000001110000" 5 1 1 14.61 
+"Bougainvillea spp." "Scientific" "Bougainvillea spp." "Buganvilla" "bougainvillea" 6 4 2 "000011111110" "000000000000" "000000000000" 2 2 0 3.13 
+"Campsis radicans" "Scientific" "Campsis radicans" "Bignonia roja-Jazmín de Virginia" "trumpet-creeper" 6 4 2 "000001111000" "000000000000" "000000000000" 2 1 2 29.33 
+"Citrus aurantium" "Scientific" "Citrus aurantium" "Naranjo Amargo" "bitter-orange-seville-orange" 6 4 2 "001100000000" "110000000001" "003300000000" 4 0 1 18.79 
+"Citrus maxima" "Scientific" "Citrus maxima" "Falso Pomelo-Pampelmusa" "pommelo" 6 4 2 "001000000000" "011000000000" "002000000000" 4 1 0 5.6 
+"Citrus spp." "Scientific" "Citrus spp." "Injerto naranjo-limonero" "orange-lemon-graft" 6 4 2 "001100000000" "110000000000" "002200000000" 4 0 0 7.13 
+"Citrus x paradisi" "Scientific" "Citrus x paradisi" "Pomelo" "grapefruit" 6 4 2 "001100000000" "110000000111" "002200000000" 4 1 0 5.6 
+"Cortaderia selloana" "Scientific" "Cortaderia selloana" "Carrizo de las Pampas-Plumero" "pampas-grass" 6 4 2 "001111000000" "000000000000" "000000000000" 0 2 0 5 
+"Hedera helix" "Scientific" "Hedera helix" "Hiedra" "english-ivy-variegated-english-ivy" 6 4 2 "000000000000" "000000000000" "000000000000" 2 2 0 5 
+"Laurus nobilis" "Scientific" "Laurus nobilis" "Laurel" "laurel-tree" 6 4 2 "001100000000" "000011111000" "111111111111" 2 0 1 9.75 
+"Ligustrum lucidum" "Scientific" "Ligustrum lucidum" "Aligustre" "chinese-privet" 6 4 2 "000011100000" "000001100000" "000000000000" 4 0 1 13.21 
+"Pandorea jasminoides" "Scientific" "Pandorea jasminoides" "Bignonia Blanca" "bower-vine" 6 4 2 "000001111100" "000000000000" "000001111100" 5 1 2 29.33 
+"Wisteria sinensis" "Scientific" "Wisteria sinensis" "Glicinia" "chinese-wisteria" 6 4 2 "001111000000" "000000000000" "002222000000" 4 1 1 11.75 
+"Schinus terebinthifolia" "Scientific" "Schinus terebinthifolia" "Turbinto" "turbinto" 7 4 2 "000001111100" "110000000011" "000000000000" 4 1 1 8.52 
+"Pittosporum coriaceum" "Scientific" "Pittosporum coriaceum" "Mocano" "pittosporum-coriaceum" 8 4 2 "000111000000" "000000000000" "000111000000" 4 2 0 2.4 
+"Santalum album" "Scientific" "Santalum album" "Sándalo" "sandalo" 9 4 2 "111100000001" "000000000000" "111111111111" 4 2 2 500 
+"Diospyros kaki" "Scientific" "Diospyros kaki" "Caqui-Palo Santo" "japanese-persimmon" 10 4 2 "000000001100" "000000000110" "000000001100" 5 1 2 32.81 
+"Elaeagnus angustifolia" "Scientific" "Elaeagnus angustifolia" "Árbol del Paraíso" "arbol-del-paraiso" 10 5 2 "000111000000" "000000011000" "000111100000" 5 1 0 6.4 
+"Phyllostachys nigra" "Scientific" "Phyllostachys nigra" "Bambú Negro" "black-bamboo" 8 6 2 "000000000000" "111111111111" "000000000000" 1 1 2 25.46 
+"Annona cherimola" "Scientific" "Annona cherimola" "Chirimoyo" "cherimoya" 10 6 2 "010000000000" "000000001110" "010000000000" 5 0 2 25 
+"Handroanthus chrysanthus-H. albus" "Scientific" "Handroanthus chrysanthus-H. albus" "Lapacho amarillo-Tabebuia" "yellow-ipe" 10 6 2 "111000000001" "000000000000" "111000000001" 4 1 1 17.17 
+"Lagunaria patersonia" "Scientific" "Lagunaria patersonia" "Lagunaria-Árbol Pica-pica" "itch-tree" 10 6 2 "000011100000" "000000000000" "000000000000" 4 0 0 6.8 
+"Firmiana simplex" "Scientific" "Firmiana simplex" "Parasol chino" "parasol-chino" 12 6 2 "000001100000" "000000000110" "000000000000" 4 2 1 21.87 
+"Diospyros virginiana" "Scientific" "Diospyros virginiana" "Caqui de Virginia" "diospyros-virginiana" 15 8 2 "000011000000" "000000001110" "000011000000" 4 2 3 43.2 
+"Persea americana" "Scientific" "Persea americana" "Aguacate" "aguacate" 20 10 2 "000000110000" "000000011100" "000000011100" 5 4 1 16.57 
+"Aesculus x carnea" "Scientific" "Aesculus x carnea" "Castaño de Indias rojo" "aesculus-x-carnea" 20 10 2 "001111000000" "000000000000" "000000000000" 5 0 2 35.35 
+"Cupressus arizonica" "Scientific" "Cupressus arizonica" "Ciprés de Arizona" "arizona-cypress" 15 12 2 "000000000000" "000000000000" "111111111111" 4 1 0 2.49 
+"Pinus halepensis" "Scientific" "Pinus halepensis" "Pino carrasco" "pino-carrasco" 20 12 2 "000110000000" "000000000000" "000000000000" 5 2 0 7.17 
+"Carpinus betulus" "Scientific" "Carpinus betulus" "Carpe" "carpe" 25 12 2 "001110000000" "000000000000" "000000000000" 3 3 1 8.84 
+"Washingtonia filifera" "Scientific" "Washingtonia filifera" "Palmera Filífera-Pitchardia" "desert-fan-palm" 20 15 2 "000000000000" "000000000000" "000000000000" 5 0 0 1 
+"Casuarina equisetifolia" "Scientific" "Casuarina equisetifolia" "Casuarina" "coast-sheoak" 25 20 2 "000000000000" "000000000000" "000000000000" 5 0 2 36.43 
+"Washingtonia robusta" "Scientific" "Washingtonia robusta" "Palmera Robusta-Washingtonia Mejicana" "mexican-fan-palm" 30 25 2 "000000000000" "000000000000" "000000000000" 5 0 0 1 
+"Malvaviscus arboreus" "Scientific" "Malvaviscus arboreus" "Malvavisco" "malvaviscus-arboreus" 3 1.5 2.5 "111111111111" "000000000000" "000000000000" 4 2 1 6.8 
+"Schinus polygama" "Scientific" "Schinus polygama" "Huingán" "huingan" 4 2 2.5 "001110000000" "000001110000" "000000000000" 3 2 0 3.38 
+"Bauhinia forficata" "Scientific" "Bauhinia forficata" "Pezuña de buey" "pezuna-de-buey" 8 3 2.5 "000111100000" "000000000000" "000111100000" 4 2 1 22.7 
+"Salix spp." "Scientific" "Salix spp." "Sauce" "sauce" 12 8 2.5 "000110000000" "111111111111" "000000000000" 3 4 2 37.8 
+"Fraxinus ornus" "Scientific" "Fraxinus ornus" "Fresno de flor" "manna-ash" 20 10 2.5 "001110000000" "000000111000" "002220000000" 4 2 1 18.08 
+"Fraxinus angustifolia" "Scientific" "Fraxinus angustifolia" "Fresno de hoja pequeña" "fresno-de-hoja-pequena" 25 10 2.5 "011000000000" "000000000000" "000000000000" 4 4 1 12.86 
+"Fraxinus excelsior" "Scientific" "Fraxinus excelsior" "Fresno común" "fraxinus" 30 15 2.5 "001110000000" "000000011111" "000000000000" 3 3 1 22.13 
+"Solandra maxima" "Scientific" "Solandra maxima" "Trompetero gigante" "solandra-maxima" 10 2 3 "111111111111" "000000000000" "111111111111" 4 1 1 12.2 
+"Ficus carica" "Scientific" "Ficus carica" "Higuera" "common-fig" 4 3 3 "000000000000" "000001111000" "000000000000" 5 1 1 10.19 
+"Vigna caracalla" "Scientific" "Vigna caracalla" "Caracolillo-Caracol" "snail-vine" 4 3 3 "001111110000" "000000000000" "000000000000" 1 2 1 19.1 
+"Cercis siliquastrum" "Scientific" "Cercis siliquastrum" "Árbol de Judas-Árbol del Amor" "judas-tree" 6 4 3 "001100000000" "000000000000" "000000000000" 5 0 3 50.98 
+"Cocculus laurifolius" "Scientific" "Cocculus laurifolius" "Laureola" "laurel-leaved-snail-tree" 6 4 3 "001110000000" "000000000000" "000000000000" 4 1 3 51.35 
+"Pyrus communis" "Scientific" "Pyrus communis" "Peral" "european-pear" 6 4 3 "001110000000" "000000011110" "000000000000" 5 1 0 7.5 
+"Morus kagayamae" "Scientific" "Morus kagayamae" "Morera japonesa" "morera-japonesa" 8 4 3 "000110000000" "000011100000" "000000000000" 5 2 2 30.98 
+"Erythrina crista-galli" "Scientific" "Erythrina crista-galli" "Árbol del coral" "arbol-del-coral" 10 5 3 "001110000000" "000000000000" "000000000000" 4 2 1 20.92 
+"Albizia julibrissin" "Scientific" "Albizia julibrissin" "Acacia de Constantinopla" "acacia-de-constantinopla" 10 5 3 "000001111100" "000000000000" "000000000000" 5 2 3 44.04 
+"Acer negundo var. argenteo-variegatum" "Scientific" "Acer negundo var. argenteo-variegatum" "Arce Matizado" "ash-leaved-maple" 10 6 3 "000000000000" "000000000000" "000000000000" 4 1 2 36.03 
+"Albizia procera" "Scientific" "Albizia procera" "Albizia" "silk-tree" 10 6 3 "000001111100" "000000000000" "000000000000" 5 2 4 58.54 
+"Broussonetia papyrifera" "Scientific" "Broussonetia papyrifera" "Morera del Japón-Morera del papel" "paper-mulberry" 10 6 3 "000110000000" "000000000000" "000000000000" 4 0 3 44.17 
+"Ceratonia siliqua" "Scientific" "Ceratonia siliqua" "Algarrobo" "carob-tree" 10 6 3 "000000011110" "000000011000" "000000000000" 5 1 1 17.06 
+"Euphorbia ingens" "Scientific" "Euphorbia ingens" "Candelabro" "candelabra-tree" 10 6 3 "000000000000" "000000000000" "000000000000" 5 0 1 12.77 
+"Prunus cerasifera var. pissardii" "Scientific" "Prunus cerasifera var. pissardii" "Ciruelo Japonés pisardi" "cherry-plum" 10 6 3 "011100000000" "000000011100" "011100000000" 5 2 1 16.74 
+"Prunus dulcis" "Scientific" "Prunus dulcis" "Almendro" "almond-tree" 10 6 3 "110000000000" "000000001110" "110000000000" 5 0 1 16.74 
+"Prunus persica" "Scientific" "Prunus persica" "Melocotonero" "peach-tree" 10 6 3 "001100000000" "000111111000" "001100000000" 5 1 1 16.74 
+"Prunus cerasifera" "Scientific" "Prunus cerasifera" "Ciruelo Japonés" "prunus-cerasifera" 10 6 3 "011100000000" "000000111000" "011100000000" 5 2 1 16.74 
+"Acer negundo" "Scientific" "Acer negundo" "Arce Negundo" "arce-negundo" 10 6 3 "000000000000" "000000000000" "000000000000" 4 1 2 36.03 
+"Catalpa bignonioides" "Scientific" "Catalpa bignonioides" "Catalpa" "cigar-tree" 10 8 3 "000011000000" "000000000000" "000011000000" 5 0 2 31.57 
+"Paulownia tomentosa" "Scientific" "Paulownia tomentosa" "Paulonia" "paulownia-tomentosa" 15 8 3 "000110000000" "000000000000" "000110000000" 4 3 5 86.22 
+"Syagrus romanzoffiana" "Scientific" "Syagrus romanzoffiana" "Coco plumoso" "syagrus" 18 8 3 "000001110000" "000000000000" "000000000000" 5 2 1 40 
+"Ficus microcarpa" "Scientific" "Ficus microcarpa" "Laurel de India" "indian-laurel" 20 10 3 "000000000000" "000000000000" "000000000000" 3 1 2 31.6 
+"Ficus retusa" "Scientific" "Ficus retusa" "Laurel de India" "ficus-retusa" 20 10 3 "000000000000" "000000000000" "000000000000" 3 1 2 31.6 
+"Taxus baccata" "Scientific" "Taxus baccata" "Tejo" "english-yew" 15 12 3 "000000000000" "000000000111" "111111111111" 4 1 0 2.49 
+"Melicoccus bijugatus" "Scientific" "Melicoccus bijugatus" "Mamón-Mamoncillo" "spanish-lime" 20 15 3 "001110000000" "000000111000" "003330000000" 2 0 1 18.08 
+"Cupressus macrocarpa" "Scientific" "Cupressus macrocarpa" "Ciprés de Monterrey" "cipres-de-monterrey" 30 15 3 "111110000000" "000000000000" "111111111111" 3 1 1 11.42 
+"Araucaria angustifolia" "Scientific" "Araucaria angustifolia" "Araucaria del Brasil" "araucaria-del-brasil" 35 15 3 "000000000000" "000000000000" "000000000000" 5 3 2 30 
+"Pinus pinaster" "Scientific" "Pinus pinaster" "Pino marítimo" "pino-maritimo" 30 20 3 "001110000000" "000000001100" "111111111111" 2 1 1 18.75 
+"Taxodium distichum" "Scientific" "Taxodium distichum" "Ciprés Calvo-Ciprés de los Pantanos" "bald-cypress" 30 25 3 "000000000000" "000000000000" "001111111100" 4 2 5 89.89 
+"Eucalyptus camaldulensis" "Scientific" "Eucalyptus camaldulensis" "Eucalipto Rojo" "river-red-gum" 40 30 3 "001110000000" "000000000000" "112221111111" 5 1 4 67.14 
+"Eucalyptus globulus" "Scientific" "Eucalyptus globulus" "Eucalipto blanco" "eucalipto-blanco" 60 30 3 "000000001100" "000000000000" "111111112211" 5 4 4 63.58 
+"Bauhinia variegata-B. purpurea" "Scientific" "Bauhinia variegata-B. purpurea" "Árbol orquídea" "arbol-orquidea" 10 5 3.5 "001111000000" "000000000000" "001111000000" 5 2 1 22.7 
+"Myristica fragrans" "Scientific" "Myristica fragrans" "Árbol de la nuez moscada" "arbol-de-la-nuez-moscada" 12 5 3.5 "111111111111" "111111111111" "111111111111" 5 2 2 500 
+"Ficus rubiginosa" "Scientific" "Ficus rubiginosa" "Higuera herrumbrosa" "ficus-rubiginosa" 15 8 3.5 "000000000000" "000000000000" "000000000000" 4 2 2 33 
+"Lonicera fragrantissima" "Scientific" "Lonicera fragrantissima" "Madreselva" "winter-honeysuckle" 3 1 4 "110000000000" "000000000000" "220000000000" 2 1 2 27.03 
+"Melia azedarach" "Scientific" "Melia azedarach" "Árbol del Paraíso" "bead-tree" 12 10 4 "000111000000" "000000000000" "000222000000" 5 0 2 35.3 
+"Morus alba" "Scientific" "Morus alba" "Moral blanco-Morera blanca" "white-mulberry" 12 10 4 "001100000000" "000011000000" "001100000000" 5 2 2 30.98 
+"Morus nigra" "Scientific" "Morus nigra" "Moral negro-Morera negra" "black-mulberry" 12 10 4 "001100000000" "000111000000" "001100000000" 5 2 2 30.98 
+"Phoenix canariensis" "Scientific" "Phoenix canariensis" "Palmera Canaria" "canary-island-date-palm" 12 10 4 "000000011110" "100000000001" "000000000000" 5 0 2 27.6 
+"Olea europaea" "Scientific" "Olea europaea" "Olivo-Acebuche" "olive-tree" 15 10 4 "000111000000" "000000000111" "000000000000" 5 0 1 22.79 
+"Quercus suber" "Scientific" "Quercus suber" "Alcornoque" "quercus-suber" 20 10 4 "011111110000" "100000001111" "000000000000" 4 1 1 8.12 
+"Brachychiton populneus" "Scientific" "Brachychiton populneus" "Brachichiton-Árbol Botella" "kurrajong" 15 12 4 "000011111100" "000000000000" "000011111100" 4 1 1 15.13 
+"Fagus sylvatica" "Scientific" "Fagus sylvatica" "Haya" "european-beech" 20 15 4 "000000000000" "000000000111" "000000000000" 4 2 1 22.24 
+"Jacaranda mimosifolia" "Scientific" "Jacaranda mimosifolia" "Jacaranda" "fern-tree-jacaranda" 20 15 4 "000011000000" "000000000000" "000011000000" 4 1 2 34.28 
+"Pinus canariensis" "Scientific" "Pinus canariensis" "Pino Canario" "canary-island-pine" 20 15 4 "000000000000" "000000000000" "111111111111" 5 0 0 3.5 
+"Robinia pseudoacacia" "Scientific" "Robinia pseudoacacia" "Falsa Acacia" "black-locust" 20 15 4 "000110000000" "000000000000" "000220000000" 5 1 2 36.42 
+"Populus alba" "Scientific" "Populus alba" "Álamo blanco" "populus-alba" 30 15 4 "111100000000" "000000000000" "000000000000" 3 4 1 21.8 
+"Araucaria bidwillii" "Scientific" "Araucaria bidwillii" "Araucaria australiana" "araucaria-bidwillii" 40 15 4 "000000000000" "000000000000" "000000000000" 4 2 2 30 
+"Ginkgo biloba" "Scientific" "Ginkgo biloba" "Ginkgo" "maidenhair-tree" 25 20 4 "000000000000" "000000000000" "111111111111" 4 0 1 10.8 
+"Phoenix dactylifera" "Scientific" "Phoenix dactylifera" "Palmera Común-Palmera Datilera" "date-palm" 25 20 4 "000111000000" "000000000111" "000000000000" 5 0 2 27.6 
+"Araucaria araucana-Araucaria spp." "Scientific" "Araucaria araucana-Araucaria spp." "Araucaria" "araucaria" 50 30 4 "000000000000" "000000000000" "000000000000" 4 1 2 30 
+"Araucaria columnaris" "Scientific" "Araucaria columnaris" "Araucaria" "norfolk-island-pine" 60 40 4 "000000000000" "000000000000" "000000000000" 4 1 2 30 
+"Phoenix reclinata" "Scientific" "Phoenix reclinata" "Palmera de Senegal" "phoenix-reclinata" 15 6 5 "000111000000" "000000001110" "000000000000" 4 1 2 27.6 
+"Cocos nucifera" "Scientific" "Cocos nucifera" "Cocotero" "cocotero" 25 10 5 "111111111111" "111111111111" "000000000000" 5 0 3 51.47 
+"Ailanthus altissima" "Scientific" "Ailanthus altissima" "Ailanto-Árbol del Cielo" "tree-of-heaven" 20 15 5 "000011000000" "000000000000" "000011000000" 5 0 1 20.94 
+"Celtis australis" "Scientific" "Celtis australis" "Almez" "mediterraneam-hackberry" 20 15 5 "000000000000" "000000011000" "000000000000" 5 1 2 33.06 
+"Magnolia grandiflora" "Scientific" "Magnolia grandiflora" "Magnolio" "southern-magnolia" 20 15 5 "000111000000" "000000000000" "000222000000" 4 2 3 53.9 
+"Pinus pinea" "Scientific" "Pinus pinea" "Pino piñonero" "pino-pinonero" 30 15 5 "001110000000" "111111111111" "111111111111" 5 1 1 20.8 
+"Celtis occidentalis" "Scientific" "Celtis occidentalis" "Almez americano" "celtis-occidentalis" 30 15 5 "000010000000" "000000001111" "000000000000" 5 2 1 22.2 
+"Tilia platyphyllos" "Scientific" "Tilia platyphyllos" "Tilo de hoja grande" "tilia-platyphyllos" 30 15 5 "000011100000" "111111111111" "000011100000" 4 2 2 34.77 
+"Tilia x europaea" "Scientific" "Tilia x europaea" "Tilo común" "tilia" 30 15 5 "000011100000" "111111111111" "000011100000" 4 2 2 30.07 
+"Handroanthus heptaphyllus-H. impetiginosus" "Scientific" "Handroanthus heptaphyllus-H. impetiginosus" "Lapacho negro-Lapacho rosado" "lapacho-negro-lapacho-rosado" 35 15 5 "110000000000" "000000000000" "110000000000" 4 2 1 17.17 
+"Ficus macrophylla" "Scientific" "Ficus macrophylla" "Ficus australiano" "ficus-australiano" 40 15 5 "000111100000" "000111100000" "000000000000" 4 2 3 52.35 
+"Quercus robur" "Scientific" "Quercus robur" "Roble" "english-oak" 25 20 5 "000000000000" "000000001111" "000000000000" 5 0 1 15.12 
+"Acer pseudoplatanus" "Scientific" "Acer pseudoplatanus" "Arce Blanco-Sicomoro" "sycamore" 30 25 5 "000000000000" "000000000000" "000000000000" 4 0 1 23.74 
+"Ulmus minor" "Scientific" "Ulmus minor" "Olmo común" "field-elm" 30 25 5 "000000000000" "000000000000" "000000000000" 5 1 1 22.95 
+"Araucaria cunninghamii" "Scientific" "Araucaria cunninghamii" "Araucaria de Australia" "araucaria-cunninghamii" 60 30 5 "000000000000" "000000000000" "000000000000" 4 2 2 30 
+"Schinus molle" "Scientific" "Schinus molle" "Falso Pimentero" "falso-pimentero" 12 6 6 "011111000000" "000001111110" "000000000000" 4 2 1 19.09 
+"Phytolacca dioica" "Scientific" "Phytolacca dioica" "Ombú-Bellasombra" "ombu" 15 12 6 "000011000000" "000000000000" "000000000000" 5 0 3 52.27 
+"Tipuana tipu" "Scientific" "Tipuana tipu" "Palo Rosa" "rosewood" 15 12 6 "000001100000" "000000000000" "000000000000" 4 0 2 28.96 
+"Aesculus hippocastanum" "Scientific" "Aesculus hippocastanum" "Castaño de Indias" "horse-chesnut" 25 20 6 "000110000000" "000000000000" "000110000000" 5 0 2 35.35 
+"Quercus ilex" "Scientific" "Quercus ilex" "Encina" "encina" 20 8 8 "001110000000" "000000001111" "000000000000" 4 1 1 19.86 
+"Juglans nigra" "Scientific" "Juglans nigra" "Nogal negro" "black-walnut" 30 25 8 "000000000000" "000000001110" "000000000000" 5 2 1 21.6 
+"Ficus elastica" "Scientific" "Ficus elastica" "Gomero" "gomero" 25 10 10 "000111100000" "000000000000" "000000000000" 5 2 2 500 
+"Ceiba speciosa" "Scientific" "Ceiba speciosa" "Palo Borracho-Chorisia" "silk-floss-tree" 25 20 10 "000000011110" "000000000000" "000000011110" 5 0 3 52.92 
+"Cedrus atlantica" "Scientific" "Cedrus atlantica" "Cedro del Atlas" "cedro-del-atlas" 35 20 10 "000000000000" "000000000000" "111111111111" 4 1 3 50.65 
+"Carya illinoinensis" "Scientific" "Carya illinoinensis" "Nogal Americano-Pacanero" "pecan" 30 25 10 "000000000000" "000000001110" "000000000000" 3 2 1 24.5 
+"Cedrus deodara" "Scientific" "Cedrus deodara" "Cedro del Himalaya" "cedar" 50 30 10 "000000000000" "000000000000" "111111111111" 4 1 3 50.65 
+"Rosa banksiae" "Scientific" "Rosa banksiae" "Rosa banksiae" "rosa-banksiae" 6 1 15 "001110000000" "000000000000" "001110000000" 5 1 1 12.72 
+<EndNodes>

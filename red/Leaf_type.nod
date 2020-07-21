@@ -1,0 +1,9 @@
+<Nodes>
+ "ID(S)" "NodeType(S)" "Label(S)"
+"Simple" "Leaf_type" "Simple" 
+"Pinnada" "Leaf_type" "Pinnada" 
+"Septos" "Leaf_type" "Septos" 
+"Escuamiforme" "Leaf_type" "Escuamiforme" 
+"None" "Leaf_type" "None" 
+"Bipinnada" "Leaf_type" "Bipinnada" 
+<EndNodes>

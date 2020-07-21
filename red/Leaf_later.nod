@@ -1,0 +1,18 @@
+<Nodes>
+ "ID(S)" "NodeType(S)" "Label(S)"
+"Entero" "Leaf_later" "Entero" 
+"Serrado" "Leaf_later" "Serrado" 
+"Sinuado" "Leaf_later" "Sinuado" 
+"Crenado" "Leaf_later" "Crenado" 
+"Dentado" "Leaf_later" "Dentado" 
+"Pectinado" "Leaf_later" "Pectinado" 
+"Lobado" "Leaf_later" "Lobado" 
+"Inciso" "Leaf_later" "Inciso" 
+"Partido" "Leaf_later" "Partido" 
+"Ondulado" "Leaf_later" "Ondulado" 
+"Ciliado" "Leaf_later" "Ciliado" 
+"None" "Leaf_later" "None" 
+"Doble Serrado" "Leaf_later" "Doble Serrado" 
+"Serrulado" "Leaf_later" "Serrulado" 
+"Denticulado" "Leaf_later" "Denticulado" 
+<EndNodes>

@@ -1,0 +1,16 @@
+<Nodes>
+ "ID(S)" "NodeType(S)" "Label(S)"
+"Mata" "Canopy" "Mata" 
+"Rastrera" "Canopy" "Rastrera" 
+"Cilindrocónica" "Canopy" "Cilindrocónica" 
+"Extendida" "Canopy" "Extendida" 
+"Trepadera" "Canopy" "Trepadera" 
+"Ovoidal" "Canopy" "Ovoidal" 
+"Pendular" "Canopy" "Pendular" 
+"None" "Canopy" "None" 
+"Abanico" "Canopy" "Abanico" 
+"Cónica" "Canopy" "Cónica" 
+"Irregular" "Canopy" "Irregular" 
+"Esférica" "Canopy" "Esférica" 
+"Parasol" "Canopy" "Parasol" 
+<EndNodes>

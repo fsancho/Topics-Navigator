@@ -1,0 +1,10 @@
+<Nodes>
+ "ID(S)" "NodeType(S)" "Label(S)"
+"Planta" "Type" "Planta" 
+"Acuática" "Type" "Acuática" 
+"Enredadera" "Type" "Enredadera" 
+"Arbusto" "Type" "Arbusto" 
+"Palmera" "Type" "Palmera" 
+"Árbol" "Type" "Árbol" 
+"Otras" "Type" "Otras" 
+<EndNodes>

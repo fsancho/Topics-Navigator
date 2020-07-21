@@ -1,0 +1,2632 @@
+ "% Types of Nodes of the graph. Structure: Name color shape size"
+ "<NodesTypes>"
+ "Family" 35 "circle" 1
+ "Flower_Appearance" 125 "circle" 1
+ "Flower_Color" 15 "circle" 1
+ "Foliage_Type" 25 "circle" 1
+ "Item" 55 "circle" 1
+ "Origin" 45 "circle" 1
+ "Type" 135 "circle" 1
+ "Month" 105 "circle" 1
+ "<EndNodesTypes>"
+
+ "% Types of Edges: Name color shape thickness Type(0: Undirected, 1: Directed, 2-Hyperedge)"
+ "%   if Hyperdege: Name color shape size Type"
+ "<EdgesTypes>"
+ "familia" 5 "straight" 0 0
+ "flower_app" 5 "straight" 0 0
+ "flower_col" 5 "straight" 0 0
+ "foliage_ty" 5 "straight" 0 0
+ "origen" 5 "straight" 0 0
+ "type" 5 "straight" 0 0
+ "flower_month" 5 "circle 2" 0 2
+ "fruit_month" 5 "circle 2" 0 2
+ "aroma_month" 5 "circle 2" 0 2
+ "<EndEdgesTypes>"
+
+ "% Nodes of type: " "Family"
+ "<Nodes>"
+ "ID(X)" "NodeType(S)" "Label(S)"
+ "Acanthaceae" "Family" "Acanthaceae"
+ "Aceraceae" "Family" "Aceraceae"
+ "Adoxaceae" "Family" "Adoxaceae"
+ "Agavaceae" "Family" "Agavaceae"
+ "Aizoaceae" "Family" "Aizoaceae"
+ "Altingiaceae" "Family" "Altingiaceae"
+ "Amaranthaceae" "Family" "Amaranthaceae"
+ "Amaryllidaceae" "Family" "Amaryllidaceae"
+ "Anacardiaceae" "Family" "Anacardiaceae"
+ "Annonaceae" "Family" "Annonaceae"
+ "Apocynaceae" "Family" "Apocynaceae"
+ "Aquifoliaceae" "Family" "Aquifoliaceae"
+ "Araceae" "Family" "Araceae"
+ "Araliaceae" "Family" "Araliaceae"
+ "Araucariaceae" "Family" "Araucariaceae"
+ "Arecaceae" "Family" "Arecaceae"
+ "Asparagaceae" "Family" "Asparagaceae"
+ "Asteraceae" "Family" "Asteraceae"
+ "Balsaminaceae" "Family" "Balsaminaceae"
+ "Berberidaceae" "Family" "Berberidaceae"
+ "Betulaceae" "Family" "Betulaceae"
+ "Bignoniaceae" "Family" "Bignoniaceae"
+ "Bombacaceae" "Family" "Bombacaceae"
+ "Brassicaceae" "Family" "Brassicaceae"
+ "Bromeliaceae" "Family" "Bromeliaceae"
+ "Buddlejaceae" "Family" "Buddlejaceae"
+ "Buxaceae" "Family" "Buxaceae"
+ "Cactaceae" "Family" "Cactaceae"
+ "Caesalpiniaceae" "Family" "Caesalpiniaceae"
+ "Calycanthaceae" "Family" "Calycanthaceae"
+ "Cannabaceae" "Family" "Cannabaceae"
+ "Cannaceae" "Family" "Cannaceae"
+ "Caprifoliaceae" "Family" "Caprifoliaceae"
+ "Casuarinaceae" "Family" "Casuarinaceae"
+ "Celastraceae" "Family" "Celastraceae"
+ "Cistaceae" "Family" "Cistaceae"
+ "Convolvulaceae" "Family" "Convolvulaceae"
+ "Crassulaceae" "Family" "Crassulaceae"
+ "Cupressaceae" "Family" "Cupressaceae"
+ "Cycadaceae" "Family" "Cycadaceae"
+ "Cyperaceae" "Family" "Cyperaceae"
+ "Ebenaceae" "Family" "Ebenaceae"
+ "Elaeagnaceae" "Family" "Elaeagnaceae"
+ "Ericaceae" "Family" "Ericaceae"
+ "Euphorbiaceae" "Family" "Euphorbiaceae"
+ "Fabaceae" "Family" "Fabaceae"
+ "Fagaceae" "Family" "Fagaceae"
+ "Garryaceae" "Family" "Garryaceae"
+ "Ginkgoaceae" "Family" "Ginkgoaceae"
+ "Hippocastanaceae" "Family" "Hippocastanaceae"
+ "Hydrangeaceae" "Family" "Hydrangeaceae"
+ "Iridaceae" "Family" "Iridaceae"
+ "Juglandaceae" "Family" "Juglandaceae"
+ "Lamiaceae" "Family" "Lamiaceae"
+ "Lauraceae" "Family" "Lauraceae"
+ "Laxmanniaceae" "Family" "Laxmanniaceae"
+ "Leguminosae" "Family" "Leguminosae"
+ "Liliaceae" "Family" "Liliaceae"
+ "Lythraceae" "Family" "Lythraceae"
+ "Magnoliaceae" "Family" "Magnoliaceae"
+ "Malvaceae" "Family" "Malvaceae"
+ "Meliaceae" "Family" "Meliaceae"
+ "Melianthaceae" "Family" "Melianthaceae"
+ "Menispermaceae" "Family" "Menispermaceae"
+ "Moraceae" "Family" "Moraceae"
+ "Musaceae" "Family" "Musaceae"
+ "Myristicaceae" "Family" "Myristicaceae"
+ "Myrtaceae" "Family" "Myrtaceae"
+ "Nephrolepidaceae" "Family" "Nephrolepidaceae"
+ "Nyctaginaceae" "Family" "Nyctaginaceae"
+ "Nymphaeaceae" "Family" "Nymphaeaceae"
+ "Oleaceae" "Family" "Oleaceae"
+ "Onagraceae" "Family" "Onagraceae"
+ "Paulowniaceae" "Family" "Paulowniaceae"
+ "Pedaliaceae" "Family" "Pedaliaceae"
+ "Phytolaccaceae" "Family" "Phytolaccaceae"
+ "Pinaceae" "Family" "Pinaceae"
+ "Piperaceae" "Family" "Piperaceae"
+ "Pittosporaceae" "Family" "Pittosporaceae"
+ "Platanaceae" "Family" "Platanaceae"
+ "Plumbaginaceae" "Family" "Plumbaginaceae"
+ "Poaceae" "Family" "Poaceae"
+ "Podocarpaceae" "Family" "Podocarpaceae"
+ "Polygalaceae" "Family" "Polygalaceae"
+ "Polygonaceae" "Family" "Polygonaceae"
+ "Primulaceae" "Family" "Primulaceae"
+ "Proteaceae" "Family" "Proteaceae"
+ "Pteridaceae" "Family" "Pteridaceae"
+ "Rhamnaceae" "Family" "Rhamnaceae"
+ "Rosaceae" "Family" "Rosaceae"
+ "Rutaceae" "Family" "Rutaceae"
+ "Salicaceae" "Family" "Salicaceae"
+ "Santalaceae" "Family" "Santalaceae"
+ "Sapindaceae" "Family" "Sapindaceae"
+ "Saxifragaceae" "Family" "Saxifragaceae"
+ "Scrophulariaceae" "Family" "Scrophulariaceae"
+ "Simaroubaceae" "Family" "Simaroubaceae"
+ "Solanaceae" "Family" "Solanaceae"
+ "Strelitziaceae" "Family" "Strelitziaceae"
+ "Tamaricaceae" "Family" "Tamaricaceae"
+ "Taxaceae" "Family" "Taxaceae"
+ "Taxodiaceae" "Family" "Taxodiaceae"
+ "Ulmaceae" "Family" "Ulmaceae"
+ "Verbenaceae" "Family" "Verbenaceae"
+ "Violaceae" "Family" "Violaceae"
+ "Vitaceae" "Family" "Vitaceae"
+ "Xanthorrhoeaceae" "Family" "Xanthorrhoeaceae"
+ "Zamiaceae" "Family" "Zamiaceae"
+ "Zingiberaceae" "Family" "Zingiberaceae"
+ "<EndNodes>"
+
+ "% Nodes of type: " "Flower_Appearance"
+ "<Nodes>"
+ "ID(X)" "NodeType(S)" "Label(S)"
+ "Aparente" "Flower_Appearance" "Aparente"
+ "No aparente" "Flower_Appearance" "No aparente"
+ "<EndNodes>"
+
+ "% Nodes of type: " "Flower_Color"
+ "<Nodes>"
+ "ID(X)" "NodeType(S)" "Label(S)"
+ "Amarillo" "Flower_Color" "Amarillo"
+ "Azul" "Flower_Color" "Azul"
+ "Blanco" "Flower_Color" "Blanco"
+ "Lila" "Flower_Color" "Lila"
+ "Multicolor" "Flower_Color" "Multicolor"
+ "Naranja" "Flower_Color" "Naranja"
+ "None" "Flower_Color" "None"
+ "Rojo" "Flower_Color" "Rojo"
+ "Rosa" "Flower_Color" "Rosa"
+ "Verde" "Flower_Color" "Verde"
+ "<EndNodes>"
+
+ "% Nodes of type: " "Foliage_Type"
+ "<Nodes>"
+ "ID(X)" "NodeType(S)" "Label(S)"
+ "Caduco" "Foliage_Type" "Caduco"
+ "Perenne" "Foliage_Type" "Perenne"
+ "<EndNodes>"
+
+ "% Nodes of type: " "Item"
+ "<Nodes>"
+ "ID(X)" "NodeType(S)" "Label(S)" "Common_Name(S)" "Slug(S)" "Number(S)"
+ "Abelia x grandiflora" "Item" "Abelia x grandiflora" "Abelia" "abelia-x-grandiflora" "1"
+ "Abutilon pictum" "Item" "Abutilon pictum" "Abutilón" "chinese-lantern" "17"
+ "Acacia longifolia" "Item" "Acacia longifolia" "Mimosa dorada" "mimosa-dorada" "162"
+ "Acacia saligna" "Item" "Acacia saligna" "Acacia azul" "acacia-saligna" "28"
+ "Acanthus mollis" "Item" "Acanthus mollis" "Acanto" "acanthus" "3"
+ "Acer negundo" "Item" "Acer negundo" "Arce Negundo" "arce-negundo" "25"
+ "Acer negundo var. 'argenteo-variegatum'" "Item" "Acer negundo var. 'argenteo-variegatum'" "Arce Matizado" "ash-leaved-maple" "1"
+ "Acer pseudoplatanus" "Item" "Acer pseudoplatanus" "Arce Blanco / Sicomoro" "sycamore" "4"
+ "Acokanthera oblongifolia" "Item" "Acokanthera oblongifolia" "Laurel tóxico" "acokanthera" "4"
+ "Adiantum capillus-veneris" "Item" "Adiantum capillus-veneris" "Culantrillo de Pozo" "venus-hair-fern" "1243"
+ "Aeonium arboreum" "Item" "Aeonium arboreum" "Aeonio" "tree-aeonium" "1145"
+ "Aesculus hippocastanum" "Item" "Aesculus hippocastanum" "Castaño de Indias" "horse-chesnut" "4"
+ "Aesculus x carnea" "Item" "Aesculus x carnea" "Castaño de Indias rojo" "aesculus-x-carnea" "17"
+ "Agapanthus umbellatus" "Item" "Agapanthus umbellatus" "Agapanto" "agapanthus" "28"
+ "Agave americana" "Item" "Agave americana" "Pita" "century-plant" "2"
+ "Ailanthus altissima" "Item" "Ailanthus altissima" "Ailanto / Árbol del Cielo" "tree-of-heaven" "25"
+ "Albizia julibrissin" "Item" "Albizia julibrissin" "Acacia de Constantinopla" "acacia-de-constantinopla" "39"
+ "Albizia procera" "Item" "Albizia procera" "Albizia" "silk-tree" "1"
+ "Alcea rosea" "Item" "Alcea rosea" "Malva real / Malvarrosa" "common-hollyhock" "8"
+ "Alocasia odora / A. macrorrhizos" "Item" "Alocasia odora / A. macrorrhizos" "Colocasia / Oreja de Elefante" "giant-upright-elephant-ear" "1"
+ "Aloe maculata" "Item" "Aloe maculata" "Pita Real" "soap-aloe" "1413"
+ "Aloe vera" "Item" "Aloe vera" "Aloe" "true-aloe" "2"
+ "Aloysia citriodora" "Item" "Aloysia citriodora" "Hierbaluisa" "lemon-verbena" "158"
+ "Alpinia zerumbet" "Item" "Alpinia zerumbet" "Alpinia" "alpinia-zerumbet" "4"
+ "Ananas comosus" "Item" "Ananas comosus" "Piña" "pina" "155"
+ "Annona cherimola" "Item" "Annona cherimola" "Chirimoyo" "cherimoya" "307"
+ "Araucaria angustifolia" "Item" "Araucaria angustifolia" "Araucaria del Brasil" "araucaria-del-brasil" "2454"
+ "Araucaria araucana / Araucaria spp." "Item" "Araucaria araucana / Araucaria spp." "Araucaria" "araucaria" "117"
+ "Araucaria bidwillii" "Item" "Araucaria bidwillii" "Araucaria australiana" "araucaria-bidwillii" "5"
+ "Araucaria columnaris" "Item" "Araucaria columnaris" "Araucaria" "norfolk-island-pine" "125"
+ "Araucaria cunninghamii" "Item" "Araucaria cunninghamii" "Araucaria de Australia" "araucaria-cunninghamii" "2394"
+ "Arbutus unedo" "Item" "Arbutus unedo" "Madroño" "strawberry-tree" "8"
+ "Archontophoenix alexandrae" "Item" "Archontophoenix alexandrae" "Palma Alejandra" "palma-alejandra" "135"
+ "Asparagus aethiopicus" "Item" "Asparagus aethiopicus" "Esparraguera africana" "esparraguera-plumosa" "74"
+ "Asparagus densiflorus" "Item" "Asparagus densiflorus" "Esparraguera cola de zorro" "esparraguera-cola-de-zorro" "2"
+ "Asparagus setaceus" "Item" "Asparagus setaceus" "Esparraguera plumosa" "lace-fern" "32"
+ "Aspidistra spp." "Item" "Aspidistra spp." "Pilistra" "aspidistra" "432"
+ "Aucuba japonica" "Item" "Aucuba japonica" "Laurel moteado" "laurel-moteado" "40"
+ "Bambuseae (tribu)" "Item" "Bambuseae (tribu)" "Bambú" "bambu" "1147"
+ "Bauhinia forficata" "Item" "Bauhinia forficata" "Pezuña de buey" "pezuna-de-buey" "1163"
+ "Bauhinia variegata / B. purpurea" "Item" "Bauhinia variegata / B. purpurea" "Árbol orquídea" "arbol-orquidea" "1"
+ "Beaucarnea recurvata" "Item" "Beaucarnea recurvata" "Nolina / Pata de Elefante" "elephants-foot" "28"
+ "Berberis x chenaultii" "Item" "Berberis x chenaultii" "Berberis chenaultii" "berberis-chenaultii" "151"
+ "Bergenia crassifolia" "Item" "Bergenia crassifolia" "Begoña de Invierno" "leather-bergenia" "6"
+ "Bougainvillea spp." "Item" "Bougainvillea spp." "Buganvilla" "bougainvillea" "4"
+ "Brachychiton acerifolius" "Item" "Brachychiton acerifolius" "Árbol de fuego" "arbol-de-fuego" "3"
+ "Brachychiton populneus" "Item" "Brachychiton populneus" "Brachichiton / Árbol Botella" "kurrajong" "138"
+ "Broussonetia papyrifera" "Item" "Broussonetia papyrifera" "Morera del Japón / Morera del papel" "paper-mulberry" "1"
+ "Brugmansia arborea" "Item" "Brugmansia arborea" "Floripondio" "datura-arborea" "2"
+ "Brugmansia suaveolens" "Item" "Brugmansia suaveolens" "Datura" "angels-trumpet" "2"
+ "Buddleya madagascariensis" "Item" "Buddleya madagascariensis" "Arbusto de las mariposas" "buddleya-madagascariensis" "1"
+ "Butia capitata" "Item" "Butia capitata" "Palmera de la Jalea" "palmera-de-la-jalea" "27"
+ "Buxus balearica" "Item" "Buxus balearica" "Boj balear" "buxus-balearica" "1"
+ "Buxus sempervirens" "Item" "Buxus sempervirens" "Boj" "box" "1"
+ "Caesalpinia gilliesii" "Item" "Caesalpinia gilliesii" "Ave del paraíso" "ave-del-paraiso" "14"
+ "Callistemon spp." "Item" "Callistemon spp." "Limpiatubos/Escobillón rojo" "limpiatubos" "37"
+ "Campsis radicans" "Item" "Campsis radicans" "Bignonia roja / Jazmín de Virginia" "trumpet-creeper" "9"
+ "Canna spp." "Item" "Canna spp." "Achira" "indian-shot" "14"
+ "Carex pendula" "Item" "Carex pendula" "Carex" "carex" "1"
+ "Carpinus betulus" "Item" "Carpinus betulus" "Carpe" "carpe" "1"
+ "Carya illinoinensis" "Item" "Carya illinoinensis" "Nogal Americano / Pacanero" "pecan" "15"
+ "Cascabela thevetia" "Item" "Cascabela thevetia" "Campanilla Amarilla" "yellow-oleander" "7"
+ "Casuarina equisetifolia" "Item" "Casuarina equisetifolia" "Casuarina" "coast-sheoak" "5"
+ "Catalpa bignonioides" "Item" "Catalpa bignonioides" "Catalpa" "cigar-tree" "9"
+ "Cedrus atlantica" "Item" "Cedrus atlantica" "Cedro del Atlas" "cedro-del-atlas" "11"
+ "Cedrus deodara" "Item" "Cedrus deodara" "Cedro del Himalaya" "cedar" "2"
+ "Ceiba speciosa" "Item" "Ceiba speciosa" "Palo Borracho / Chorisia" "silk-floss-tree" "11"
+ "Celosia plumosa" "Item" "Celosia plumosa" "Amaranto plumoso" "amaranto-plumoso" "11"
+ "Celtis australis" "Item" "Celtis australis" "Almez" "mediterraneam-hackberry" "3"
+ "Celtis occidentalis" "Item" "Celtis occidentalis" "Almez americano" "celtis-occidentalis" "9"
+ "Centaurea cineraria" "Item" "Centaurea cineraria" "Centáurea" "velvet-centaurea" "38"
+ "Ceratonia siliqua" "Item" "Ceratonia siliqua" "Algarrobo" "carob-tree" "4"
+ "Cercis siliquastrum" "Item" "Cercis siliquastrum" "Árbol de Judas / Árbol del Amor" "judas-tree" "5"
+ "Cestrum elegans" "Item" "Cestrum elegans" "Coralito" "red-cestrum" "22"
+ "Cestrum fasciculatum" "Item" "Cestrum fasciculatum" "Galán rojo" "cestrum-fasciculatum" "145"
+ "Cestrum nocturnum" "Item" "Cestrum nocturnum" "Dama de Noche" "lady-of-the-night" "275"
+ "Chaenomeles japonica" "Item" "Chaenomeles japonica" "Membrillero de flor" "chaenomeles-japonica" "313"
+ "Chaenomeles speciosa" "Item" "Chaenomeles speciosa" "Membrillero Japonés" "chinese-flowering-quince" "1"
+ "Chamaedorea elegans" "Item" "Chamaedorea elegans" "Caña Elegante / Palmera de Salón" "parlour-palm" "2"
+ "Chamaedorea seifrizii" "Item" "Chamaedorea seifrizii" "Palma bambú" "chamaedorea-seifrizii" "2"
+ "Chamaerops humilis" "Item" "Chamaerops humilis" "Palmito" "mediterranean-dwarf-palm" "27"
+ "Chasmanthe aethiopica" "Item" "Chasmanthe aethiopica" "Lirio rojo" "chasmanthe-aethiopica" "28"
+ "Chimonanthus praecox" "Item" "Chimonanthus praecox" "Macasar" "wintersweet" "127"
+ "Chlorophytum comosum" "Item" "Chlorophytum comosum" "Cinta" "spider-plant" "43"
+ "Cinnamomum camphora" "Item" "Cinnamomum camphora" "Alcanforero" "alcanforero" "16"
+ "Cinnamomum cassia / C. verum" "Item" "Cinnamomum cassia / C. verum" "Canelero" "canelero" "226"
+ "Cistus albidus" "Item" "Cistus albidus" "Jara blanca" "cistus-albidus" "134"
+ "Citrus aurantium" "Item" "Citrus aurantium" "Naranjo Amargo" "bitter-orange-seville-orange" "4207"
+ "Citrus limetta" "Item" "Citrus limetta" "Lima / Lima Dulce" "sweet-lime" "53"
+ "Citrus maxima" "Item" "Citrus maxima" "Falso Pomelo / Pampelmusa" "pommelo" "12"
+ "Citrus myrtifolia" "Item" "Citrus myrtifolia" "Naranjo Moruno" "myrtle-leaved-orange-tree" "74"
+ "Citrus reticulata" "Item" "Citrus reticulata" "Mandarino" "mandarine" "1"
+ "Citrus spp." "Item" "Citrus spp." "Injerto naranjo/limonero" "orange-lemon-graft" "2"
+ "Citrus x limon" "Item" "Citrus x limon" "Limonero" "lemon" "25"
+ "Citrus x paradisi" "Item" "Citrus x paradisi" "Pomelo" "grapefruit" "1642"
+ "Citrus x sinensis" "Item" "Citrus x sinensis" "Naranjo Dulce" "sweet-orange" "1"
+ "Clerodendrum bungei" "Item" "Clerodendrum bungei" "Clerodendro" "glory-bower" "26"
+ "Clivia miniata" "Item" "Clivia miniata" "Clivia" "natal-lily" "40"
+ "Cocculus laurifolius" "Item" "Cocculus laurifolius" "Laureola" "laurel-leaved-snail-tree" "181"
+ "Cocos nucifera" "Item" "Cocos nucifera" "Cocotero" "cocotero" "1"
+ "Cordyline fruticosa" "Item" "Cordyline fruticosa" "Dracena" "good-luck-plant" "306"
+ "Cortaderia selloana" "Item" "Cortaderia selloana" "Carrizo de las Pampas / Plumero" "pampas-grass" "1"
+ "Cotoneaster spp." "Item" "Cotoneaster spp." "Cotoneaster" "cotoneaster" "4810"
+ "Crataegus monogyna" "Item" "Crataegus monogyna" "Majuelo" "crataegus-monogyna" "42"
+ "Cuphea hyssopifolia" "Item" "Cuphea hyssopifolia" "Cufea" "elfin-herb" "8"
+ "Cupressus arizonica" "Item" "Cupressus arizonica" "Ciprés de Arizona" "arizona-cypress" "3"
+ "Cupressus macrocarpa" "Item" "Cupressus macrocarpa" "Ciprés de Monterrey" "cipres-de-monterrey" "59"
+ "Cupressus sempervirens" "Item" "Cupressus sempervirens" "Ciprés" "mediterranean-cypress" "392"
+ "Cycas circinalis" "Item" "Cycas circinalis" "Cica elegante" "cycas-circinalis" "1"
+ "Cycas revoluta" "Item" "Cycas revoluta" "Cica" "king-sago-palm" "1063"
+ "Cyperus alternifolius / C. involucratus" "Item" "Cyperus alternifolius / C. involucratus" "Paraguas / Paragüitas" "umbrella-papyrus" "5"
+ "Cyperus papyrus" "Item" "Cyperus papyrus" "Papiro" "papyrus" "78"
+ "Diospyros kaki" "Item" "Diospyros kaki" "Caqui / Palo Santo" "japanese-persimmon" "30"
+ "Diospyros virginiana" "Item" "Diospyros virginiana" "Caqui de Virginia" "diospyros-virginiana" "116"
+ "Dombeya x cayeuxii" "Item" "Dombeya x cayeuxii" "Dombeya" "pink-ball-dombeya" "9"
+ "Dracaena draco" "Item" "Dracaena draco" "Drago" "drago" "431"
+ "Drosanthemum floribundum" "Item" "Drosanthemum floribundum" "Rocío rosa" "rocio-rosa" "83"
+ "Duranta repens" "Item" "Duranta repens" "Duranta" "golden-dewdrop" "5869"
+ "Elaeagnus angustifolia" "Item" "Elaeagnus angustifolia" "Árbol del Paraíso" "arbol-del-paraiso" "34"
+ "Elaeagnus pungens" "Item" "Elaeagnus pungens" "Eleagno" "eleagno" "1"
+ "Elaeagnus x ebbingei" "Item" "Elaeagnus x ebbingei" "Eleagno" "elaeagnus" "19"
+ "Encephalartos horridus" "Item" "Encephalartos horridus" "Cica azul del Cabo" "encephalartos" "37"
+ "Eriobotrya japonica" "Item" "Eriobotrya japonica" "Níspero" "japanese-medlar" "100"
+ "Erythrina crista-galli" "Item" "Erythrina crista-galli" "Árbol del coral" "arbol-del-coral" "740"
+ "Eucalyptus camaldulensis" "Item" "Eucalyptus camaldulensis" "Eucalipto Rojo" "river-red-gum" "2"
+ "Eucalyptus globulus" "Item" "Eucalyptus globulus" "Eucalipto blanco" "eucalipto-blanco" "770"
+ "Euonymus japonicus" "Item" "Euonymus japonicus" "Bonetero / Evónimo" "japanese-euonymus" "85"
+ "Euphorbia ingens" "Item" "Euphorbia ingens" "Candelabro" "candelabra-tree" "611"
+ "Euphorbia pulcherrima" "Item" "Euphorbia pulcherrima" "Flor de Pascua / Pascuero" "poinsettia" "20"
+ "Fagus sylvatica" "Item" "Fagus sylvatica" "Haya" "european-beech" "6"
+ "Feijoa sellowiana" "Item" "Feijoa sellowiana" "Feijoa" "feijoa" "290"
+ "Ficus benjamina" "Item" "Ficus benjamina" "Ficus benjamina" "ficus-benjamina" "2"
+ "Ficus carica" "Item" "Ficus carica" "Higuera" "common-fig" "72"
+ "Ficus elastica" "Item" "Ficus elastica" "Gomero" "gomero" "96"
+ "Ficus macrophylla" "Item" "Ficus macrophylla" "Ficus australiano" "ficus-australiano" "29"
+ "Ficus microcarpa" "Item" "Ficus microcarpa" "Laurel de India" "indian-laurel" "3"
+ "Ficus pumila" "Item" "Ficus pumila" "Ficus trepador" "ficus-pumila" "34"
+ "Ficus retusa" "Item" "Ficus retusa" "Laurel de India" "ficus-retusa" "6277"
+ "Ficus rubiginosa" "Item" "Ficus rubiginosa" "Higuera herrumbrosa" "ficus-rubiginosa" "34"
+ "Firmiana simplex" "Item" "Firmiana simplex" "Parasol chino" "parasol-chino" "1"
+ "Fraxinus angustifolia" "Item" "Fraxinus angustifolia" "Fresno de hoja pequeña" "fresno-de-hoja-pequena" "4"
+ "Fraxinus excelsior" "Item" "Fraxinus excelsior" "Fresno común" "fraxinus" "4"
+ "Fraxinus ornus" "Item" "Fraxinus ornus" "Fresno de flor" "manna-ash" "7"
+ "Gaura lindheimeri" "Item" "Gaura lindheimeri" "Gaura" "gaura" "4"
+ "Ginkgo biloba" "Item" "Ginkgo biloba" "Ginkgo" "maidenhair-tree" "21"
+ "Gleditsia triacanthos" "Item" "Gleditsia triacanthos" "Acacia de tres espinas" "acacia-de-tres-espinas" "2"
+ "Grevillea robusta" "Item" "Grevillea robusta" "Roble dorado" "pino-de-oro" "25"
+ "Handroanthus chrysanthus / H. albus" "Item" "Handroanthus chrysanthus / H. albus" "Lapacho amarillo / Tabebuia" "yellow-ipe" "5"
+ "Handroanthus heptaphyllus / H. impetiginosus" "Item" "Handroanthus heptaphyllus / H. impetiginosus" "Lapacho negro / Lapacho rosado" "lapacho-negro-lapacho-rosado" "20"
+ "Hedera helix" "Item" "Hedera helix" "Hiedra" "english-ivy-variegated-english-ivy" "134"
+ "Hemerocallis spp." "Item" "Hemerocallis spp." "Hemerocalis" "hemerocallis" "3"
+ "Hibiscus mutabilis" "Item" "Hibiscus mutabilis" "Amoraluzo" "cotton-rosemallow" "19"
+ "Hibiscus rosa-sinensis" "Item" "Hibiscus rosa-sinensis" "Pacífico / Rosa de China" "chinese-hibiscus" "12"
+ "Hibiscus syriacus" "Item" "Hibiscus syriacus" "Rosa de Siria / Altea" "rose-mallow" "209"
+ "Hibiscus syriacus cv. 'White'" "Item" "Hibiscus syriacus cv. 'White'" "Granado Blanco" "white-mallow" "2"
+ "Howea forsteriana" "Item" "Howea forsteriana" "Kentia" "kentia" "2"
+ "Ilex crenata" "Item" "Ilex crenata" "Acebo japonés" "ilex-crenata" "328"
+ "Impatiens hawkeri" "Item" "Impatiens hawkeri" "Alegría de Guinea" "alegria-de-guinea" "17"
+ "Ipomoea spp." "Item" "Ipomoea spp." "Ipomoea" "ipomoea" "207"
+ "Iris germanica" "Item" "Iris germanica" "Lirio" "german-iris" "1"
+ "Jacaranda mimosifolia" "Item" "Jacaranda mimosifolia" "Jacaranda" "fern-tree-jacaranda" "1"
+ "Jasminum azoricum" "Item" "Jasminum azoricum" "Jazmín de las Azores" "jasminum-azoricum" "11"
+ "Jasminum grandiflorum" "Item" "Jasminum grandiflorum" "Jazmín real / Jazmín de España" "jazmin-real-jazmin-de-espana" "14"
+ "Jasminum humile" "Item" "Jasminum humile" "Jazmín italiano" "jazmin-italiano" "15"
+ "Jasminum mesnyi" "Item" "Jasminum mesnyi" "Jazmín Amarillo" "primrose-jasmine-yellow-jasmine" "39331"
+ "Jasminum officinale" "Item" "Jasminum officinale" "Jazmín / Jazmín común" "jasmine-pink-jasmine" "2"
+ "Juglans nigra" "Item" "Juglans nigra" "Nogal negro" "black-walnut" "4"
+ "Justicia adhatoda" "Item" "Justicia adhatoda" "Justicia" "malabar-nut" "56"
+ "Justicia carnea" "Item" "Justicia carnea" "Justicia Americana  / Jacobinia" "jacobinia" "90"
+ "Koelreuteria paniculata" "Item" "Koelreuteria paniculata" "Árbol de los farolillos" "arbol-de-los-farolillos" "7"
+ "Lagerstroemia indica" "Item" "Lagerstroemia indica" "Árbol de Júpiter" "crape-myrtle" "8"
+ "Lagunaria patersonia" "Item" "Lagunaria patersonia" "Lagunaria / Árbol Pica-pica" "itch-tree" "199"
+ "Lantana camara" "Item" "Lantana camara" "Banderitas / Confite" "west-indian-lantana" "8"
+ "Lantana montevidensis" "Item" "Lantana montevidensis" "Lantana rastrera" "lantana-montevidensis" "18"
+ "Laurus nobilis" "Item" "Laurus nobilis" "Laurel" "laurel-tree" "99"
+ "Lavandula angustifolia" "Item" "Lavandula angustifolia" "Espliego / Lavanda" "english-lavender" "18"
+ "Leucaena leucocephala" "Item" "Leucaena leucocephala" "Guaje / Aromo blanco" "faux-acacia-cassie-blanc" "109"
+ "Ligustrum japonicum" "Item" "Ligustrum japonicum" "Aligustre del Japón / Durillo" "japanese-privet" "747"
+ "Ligustrum lucidum" "Item" "Ligustrum lucidum" "Aligustre" "chinese-privet" "71"
+ "Ligustrum ovalifolium" "Item" "Ligustrum ovalifolium" "Ligustrina" "ligustrum-ovalifolium" "303"
+ "Ligustrum sinense" "Item" "Ligustrum sinense" "Ligustrina" "ligustrum-sinense" "45"
+ "Liquidambar styraciflua" "Item" "Liquidambar styraciflua" "Liquidámbar americano" "liquidambar-americano" "6"
+ "Livistona chinensis" "Item" "Livistona chinensis" "Latania" "chinese-fan-palm" "11"
+ "Lonicera fragrantissima" "Item" "Lonicera fragrantissima" "Madreselva" "winter-honeysuckle" "41"
+ "Lonicera japonica" "Item" "Lonicera japonica" "Madreselva del Japón" "madreselva-del-japon" "43"
+ "Lycianthes rantonnetii" "Item" "Lycianthes rantonnetii" "Solano azul" "lycianthes-rantonnei" "49"
+ "Magnolia grandiflora" "Item" "Magnolia grandiflora" "Magnolio" "southern-magnolia" "34"
+ "Malus domestica" "Item" "Malus domestica" "Manzano" "manzano" "1"
+ "Malvaviscus arboreus" "Item" "Malvaviscus arboreus" "Malvavisco" "malvaviscus-arboreus" "3"
+ "Matthiola incana" "Item" "Matthiola incana" "Alhelí" "stock" "62"
+ "Melia azedarach" "Item" "Melia azedarach" "Árbol del Paraíso" "bead-tree" "2"
+ "Melianthus major" "Item" "Melianthus major" "Flor de miel" "melianthus" "4"
+ "Melicoccus bijugatus" "Item" "Melicoccus bijugatus" "Mamón / Mamoncillo" "spanish-lime" "8"
+ "Mespilus germanica" "Item" "Mespilus germanica" "Níspero europeo" "neflier" "17"
+ "Mirabilis jalapa" "Item" "Mirabilis jalapa" "Dondiego de Noche" "four-oclock-flower" "57"
+ "Monstera deliciosa" "Item" "Monstera deliciosa" "Costilla de Adán" "monstera-deliciosa" "9"
+ "Montanoa bipinnatifida" "Item" "Montanoa bipinnatifida" "Aralia de flor / Margaritero" "tree-daisy" "1002"
+ "Morus alba" "Item" "Morus alba" "Moral blanco / Morera blanca" "white-mulberry" "5"
+ "Morus kagayamae" "Item" "Morus kagayamae" "Morera japonesa" "morera-japonesa" "4"
+ "Morus nigra" "Item" "Morus nigra" "Moral negro / Morera negra" "black-mulberry" "63"
+ "Muehlenbeckia complexa" "Item" "Muehlenbeckia complexa" "Enredadera de Alambre" "maidenhair-vine" "102"
+ "Muehlenbeckia platyclados" "Item" "Muehlenbeckia platyclados" "Helecho Basto" "tapeworm-plant" "8"
+ "Musa acuminata" "Item" "Musa acuminata" "Plátano malayo" "platano-malayo" "598"
+ "Musa x paradisiaca" "Item" "Musa x paradisiaca" "Bananero" "banana" "2"
+ "Myoporum tenuifolium" "Item" "Myoporum tenuifolium" "Transparente" "naio" "1"
+ "Myristica fragrans" "Item" "Myristica fragrans" "Árbol de la nuez moscada" "arbol-de-la-nuez-moscada" "1"
+ "Myrsine africana" "Item" "Myrsine africana" "Boj africano" "boj-africano" "9"
+ "Myrtus communis" "Item" "Myrtus communis" "Arrayán / Mirto" "myrtle" "5"
+ "Nandina domestica" "Item" "Nandina domestica" "Nandina / Bambú Sagrado" "sacred-bamboo" "15"
+ "Narcissus spp." "Item" "Narcissus spp." "Narciso" "narcissus" "8"
+ "Nephrolepis spp." "Item" "Nephrolepis spp." "Helecho / Nephrolepis" "nephrolepis" "116"
+ "Nerium oleander" "Item" "Nerium oleander" "Adelfa" "oleander" "131"
+ "Nuphar rubrodisca" "Item" "Nuphar rubrodisca" "Nenúfar amarillo" "nuphar-rubrodisca" "6722"
+ "Nymphaea alba" "Item" "Nymphaea alba" "Nenúfar blanco" "white-lotus" "17"
+ "Olea europaea" "Item" "Olea europaea" "Olivo / Acebuche" "olive-tree" "1"
+ "Opuntia spp." "Item" "Opuntia spp." "Higuera chumba" "opuntia" "5"
+ "Pandorea jasminoides" "Item" "Pandorea jasminoides" "Bignonia Blanca" "bower-vine" "93"
+ "Parkinsonia aculeata" "Item" "Parkinsonia aculeata" "Palo verde" "palo-verde" "3520"
+ "Paulownia tomentosa" "Item" "Paulownia tomentosa" "Paulonia" "paulownia-tomentosa" "742"
+ "Pennisetum setaceum" "Item" "Pennisetum setaceum" "Plumacho" "pennisetum-setaceum" "1"
+ "Peperomia obtusifolia" "Item" "Peperomia obtusifolia" "Peperomia obtusifolia" "peperomia-obtusifolia" "74"
+ "Persea americana" "Item" "Persea americana" "Aguacate" "aguacate" "130"
+ "Philadelphus coronarius" "Item" "Philadelphus coronarius" "Celinda / Melinda" "celinda-melinda" "5"
+ "Philadelphus coronarius / Deutzia scabra" "Item" "Philadelphus coronarius / Deutzia scabra" "Celinda y Melinda / Celinda de Espiga" "sweet-mock-orange-fuzzy-deutzia" "1"
+ "Phoenix canariensis" "Item" "Phoenix canariensis" "Palmera Canaria" "canary-island-date-palm" "47"
+ "Phoenix dactylifera" "Item" "Phoenix dactylifera" "Palmera Común / Palmera Datilera" "date-palm" "2"
+ "Phoenix reclinata" "Item" "Phoenix reclinata" "Palmera de Senegal" "phoenix-reclinata" "2406"
+ "Phormium tenax" "Item" "Phormium tenax" "Lino de Nueva Zelanda / Formio" "phormium-tenax" "97"
+ "Photinia glabra" "Item" "Photinia glabra" "Fotinia de hoja roja" "photinia-glabra" "114"
+ "Photinia serratifolia" "Item" "Photinia serratifolia" "Fotinia" "chinese-photinia" "130"
+ "Photinia x fraseri" "Item" "Photinia x fraseri" "Fotinia fraseri" "fotinia-fraseri" "2"
+ "Phragmites australis" "Item" "Phragmites australis" "Carrizo" "carrizo" "1"
+ "Phyllostachys aurea" "Item" "Phyllostachys aurea" "Bambú Amarillo" "fish-pole-bamboo" "16"
+ "Phyllostachys nigra" "Item" "Phyllostachys nigra" "Bambú Negro" "black-bamboo" "13363"
+ "Phytolacca dioica" "Item" "Phytolacca dioica" "Ombú / Bellasombra" "ombu" "2"
+ "Pinus canariensis" "Item" "Pinus canariensis" "Pino Canario" "canary-island-pine" "2"
+ "Pinus halepensis" "Item" "Pinus halepensis" "Pino carrasco" "pino-carrasco" "746"
+ "Pinus pinaster" "Item" "Pinus pinaster" "Pino marítimo" "pino-maritimo" "1"
+ "Pinus pinea" "Item" "Pinus pinea" "Pino piñonero" "pino-pinonero" "26"
+ "Piper longum" "Item" "Piper longum" "Pimentero largo" "pimentero-largo" "1"
+ "Piper nigrum" "Item" "Piper nigrum" "Pimentero" "pimentero" "29"
+ "Pistacia lentiscus" "Item" "Pistacia lentiscus" "Lentisco" "pistacia-lentiscus" "1"
+ "Pittosporum coriaceum" "Item" "Pittosporum coriaceum" "Mocano" "pittosporum-coriaceum" "771"
+ "Pittosporum tenuifolium" "Item" "Pittosporum tenuifolium" "Pitosporo" "pittosporum-tenuifolium" "2047"
+ "Pittosporum tobira" "Item" "Pittosporum tobira" "Pitosporo / Azahar de China" "japanese-pittosporum" "1"
+ "Platanus orientalis" "Item" "Platanus orientalis" "Plátano de Paseo" "platano-de-paseo" "1"
+ "Platanus x hispanica" "Item" "Platanus x hispanica" "Plátano de sombra" "platano-de-sombra" "17"
+ "Platycladus orientalis" "Item" "Platycladus orientalis" "Tuya / Árbol de la vida" "oriental-arborvitae" "8"
+ "Plumbago auriculata" "Item" "Plumbago auriculata" "Celestina / Jazmín Azul" "blue-plumbago" "97"
+ "Podocarpus neriifolius" "Item" "Podocarpus neriifolius" "Podocarpo hojas de adelfa" "podocarpus-1" "7"
+ "Podranea ricasoliana" "Item" "Podranea ricasoliana" "Bignonia rosa" "podranea" "1"
+ "Polygala myrtifolia" "Item" "Polygala myrtifolia" "Lechera del Cabo" "lechera-del-cabo" "2"
+ "Populus alba" "Item" "Populus alba" "Álamo blanco" "populus-alba" "9"
+ "Populus nigra" "Item" "Populus nigra" "Álamo negro" "alamo-negro" "1"
+ "Prunus cerasifera" "Item" "Prunus cerasifera" "Ciruelo Japonés" "prunus-cerasifera" "39"
+ "Prunus cerasifera var. 'pissardii'" "Item" "Prunus cerasifera var. 'pissardii'" "\"Ciruelo Japonés pisardi\"\"\"\"\"" "cherry-plum" "43"
+ "Prunus domestica" "Item" "Prunus domestica" "Ciruelo" "ciruelo" "3"
+ "Prunus dulcis" "Item" "Prunus dulcis" "Almendro" "almond-tree" "96"
+ "Prunus persica" "Item" "Prunus persica" "Melocotonero" "peach-tree" "26"
+ "Pseudosasa japonica" "Item" "Pseudosasa japonica" "Bambú japonés" "pseudosasa-japonica" "33"
+ "Psidium guajava" "Item" "Psidium guajava" "Guayabero" "guayabero" "3448"
+ "Punica granatum" "Item" "Punica granatum" "Granado" "pomegranate" "10"
+ "Pyracantha coccinea" "Item" "Pyracantha coccinea" "Espino de fuego" "pyracantha" "37"
+ "Pyrostegia venusta" "Item" "Pyrostegia venusta" "Bignonia de Invierno" "flame-vine-orange-trumpet" "1"
+ "Pyrus calleryana" "Item" "Pyrus calleryana" "Peral de flor" "peral-de-flor" "16"
+ "Pyrus communis" "Item" "Pyrus communis" "Peral" "european-pear" "65"
+ "Quercus ilex" "Item" "Quercus ilex" "Encina" "encina" "43"
+ "Quercus robur" "Item" "Quercus robur" "Roble" "english-oak" "4"
+ "Quercus suber" "Item" "Quercus suber" "Alcornoque" "quercus-suber" "1"
+ "Rhamnus alaternus" "Item" "Rhamnus alaternus" "Aladierno" "rhammus-alaternus" "547"
+ "Rhapis excelsa" "Item" "Rhapis excelsa" "Palmerita china" "palmerita-china" "1"
+ "Ricinus communis" "Item" "Ricinus communis" "Ricino" "castor-oil-plant" "841"
+ "Robinia pseudoacacia" "Item" "Robinia pseudoacacia" "Falsa Acacia" "black-locust" "152"
+ "Rosa banksiae" "Item" "Rosa banksiae" "Rosa banksiae" "rosa-banksiae" "3"
+ "Rosa spp." "Item" "Rosa spp." "Rosal" "rose" "357"
+ "Rosmarinus officinalis" "Item" "Rosmarinus officinalis" "Romero" "rosemary" "218"
+ "Rubus ulmifolius" "Item" "Rubus ulmifolius" "Zarzamora" "rubus-ulmifolius" "341"
+ "Ruscus spp." "Item" "Ruscus spp." "Rusco" "jews-myrtle" "9"
+ "Russelia equisetiformis" "Item" "Russelia equisetiformis" "Lágrimas de Cupido" "russelia-equisetiformis" "49"
+ "Sabal minor" "Item" "Sabal minor" "Sabal enano" "sabal-minor" "31"
+ "Salix spp." "Item" "Salix spp." "Sauce" "sauce" "2"
+ "Salvia microphylla" "Item" "Salvia microphylla" "Salvia rosa" "salvia-rosa" "834"
+ "Salvia officinalis" "Item" "Salvia officinalis" "Salvia" "sage" "47"
+ "Santalum album" "Item" "Santalum album" "Sándalo" "sandalo" "5523"
+ "Santolina chamaecyparissus" "Item" "Santolina chamaecyparissus" "Abrótano hembra" "abrotano-hembra-manzanilla-te-de-aragon" "7616"
+ "Schefflera actinophylla" "Item" "Schefflera actinophylla" "Schefflera actinophylla" "schefflera-actinophylla" "272"
+ "Schefflera arboricola" "Item" "Schefflera arboricola" "Cheflera / Seflera" "umbrella-tree" "627"
+ "Schinus molle" "Item" "Schinus molle" "Falso Pimentero" "falso-pimentero" "2731"
+ "Schinus polygama" "Item" "Schinus polygama" "Huingán" "huingan" "502"
+ "Schinus terebinthifolia" "Item" "Schinus terebinthifolia" "Turbinto" "turbinto" "17"
+ "Semiarundinaria fastuosa" "Item" "Semiarundinaria fastuosa" "Bambú" "bamboo" "2"
+ "Senecio kleinia" "Item" "Senecio kleinia" "Verode / Vero de Canarias" "verode" "1"
+ "Senecio lineatus" "Item" "Senecio lineatus" "Senecio lineatus" "senecio-lineatus" "19"
+ "Senecio petasitis" "Item" "Senecio petasitis" "Platanillo" "velvet-groundsel" "635"
+ "Sesamum indicum" "Item" "Sesamum indicum" "Ajonjolí" "ajonjoli" "273"
+ "Sinapis alba" "Item" "Sinapis alba" "Mostaza blanca" "mostaza-blanca" "4"
+ "Solandra maxima" "Item" "Solandra maxima" "Trompetero gigante" "solandra-maxima" "486"
+ "Solanum bonariense" "Item" "Solanum bonariense" "Tomatillo" "solanum-bonariense" "1048"
+ "Spiraea cantoniensis" "Item" "Spiraea cantoniensis" "Espirea" "reeves-spirea" "96"
+ "Strelitzia alba" "Item" "Strelitzia alba" "Strelitzia alba" "strelitzia-alba" "18"
+ "Strelitzia reginae" "Item" "Strelitzia reginae" "Flor del Paraíso" "bird-of-paradise" "17"
+ "Styphnolobium japonicum" "Item" "Styphnolobium japonicum" "Sófora / Acacia del Japón" "acacia-del-japon" "9"
+ "Syagrus romanzoffiana" "Item" "Syagrus romanzoffiana" "Coco plumoso" "syagrus" "87"
+ "Syzygium aromaticum" "Item" "Syzygium aromaticum" "Árbol del Clavo" "arbol-del-clavo" "42"
+ "Tagetes spp." "Item" "Tagetes spp." "Clavel Moro / Damasquino" "marigold" "152"
+ "Tamarix gallica" "Item" "Tamarix gallica" "Taray" "taray" "66"
+ "Taxodium distichum" "Item" "Taxodium distichum" "Ciprés Calvo / Ciprés de los Pantanos" "bald-cypress" "73"
+ "Taxus baccata" "Item" "Taxus baccata" "Tejo" "english-yew" "1"
+ "Tecoma capensis" "Item" "Tecoma capensis" "Bignonia del Cabo" "cape-honeysuckle" "3"
+ "Tetraclinis articulata" "Item" "Tetraclinis articulata" "Araar" "tetraclinis-articulata" "176"
+ "Tetrastigma voinerianum" "Item" "Tetrastigma voinerianum" "Vinca / Vid de Adorno" "chestnut-vine" "1"
+ "Teucrium fruticans" "Item" "Teucrium fruticans" "Olivilla" "olivilla" "607"
+ "Thuja occidentalis" "Item" "Thuja occidentalis" "Tuya del Canadá" "thuja-occidentalis" "199"
+ "Thuja plicata" "Item" "Thuja plicata" "Tuya gigante" "tuya-gigante" "4"
+ "Tilia platyphyllos" "Item" "Tilia platyphyllos" "Tilo de hoja grande" "tilia-platyphyllos" "2"
+ "Tilia x europaea" "Item" "Tilia x europaea" "Tilo común" "tilia" "249"
+ "Tipuana tipu" "Item" "Tipuana tipu" "Palo Rosa" "rosewood" "15"
+ "Trachycarpus fortunei" "Item" "Trachycarpus fortunei" "Palmera de Fortune / Palmito de la China" "chusan-palm" "1"
+ "Tulbaghia violacea" "Item" "Tulbaghia violacea" "Tulbagia / Ajo silvestre" "tulbagia-ajo-silvestre" "4"
+ "Ulmus glabra" "Item" "Ulmus glabra" "Olmo de montaña" "olmo-de-montana" "18"
+ "Ulmus minor" "Item" "Ulmus minor" "Olmo común" "field-elm" "379"
+ "Ulmus pumila" "Item" "Ulmus pumila" "Olmo de Siberia" "olmo-de-siberia" "378"
+ "Umbilicus rupestris" "Item" "Umbilicus rupestris" "Ombligo de Venus" "navelwort" "4698"
+ "Viburnum odoratissimum" "Item" "Viburnum odoratissimum" "Viburno dulce" "viburnum-odoratissimum" "95"
+ "Viburnum opulus" "Item" "Viburnum opulus" "Viburno Bola de Nieve / Mundillo" "guelder-rose" "5"
+ "Viburnum suspensum" "Item" "Viburnum suspensum" "Viburno" "sandanqua-viburnum" "7"
+ "Viburnum tinus" "Item" "Viburnum tinus" "Durillo de flor" "eve-price-laurestine" "126"
+ "Vigna caracalla" "Item" "Vigna caracalla" "Caracolillo / Caracol" "snail-vine" "193"
+ "Vinca spp." "Item" "Vinca spp." "Vincapervinca / Hierba doncella" "bigleaf-periwinkle" "264"
+ "Viola odorata" "Item" "Viola odorata" "Violeta" "wood-violet" "2"
+ "Vitex agnus-castus" "Item" "Vitex agnus-castus" "Sauzgatillo / Arbusto de la Pimienta" "chasteberry" "368"
+ "Vitis vinifera / Vitis spp." "Item" "Vitis vinifera / Vitis spp." "Parra / Vid" "vine" "3"
+ "Washingtonia filifera" "Item" "Washingtonia filifera" "Palmera Filífera / Pitchardia" "desert-fan-palm" "1678"
+ "Washingtonia robusta" "Item" "Washingtonia robusta" "Palmera Robusta / Washingtonia Mejicana" "mexican-fan-palm" "291"
+ "Wisteria sinensis" "Item" "Wisteria sinensis" "Glicinia" "chinese-wisteria" "37"
+ "Yucca aloifolia" "Item" "Yucca aloifolia" "Yuca Pinchona / Bayoneta española" "spanish-bayonet" "146"
+ "Yucca elephantipes" "Item" "Yucca elephantipes" "Yuca Péndula / Yuca Robusta" "blue-stem-yucca" "46"
+ "Yucca gloriosa" "Item" "Yucca gloriosa" "Daga española / Yuca brillante" "yucca-gloriosa" "2"
+ "Zantedeschia aethiopica" "Item" "Zantedeschia aethiopica" "Cala" "arum-lily" "134"
+ "Zingiber spp." "Item" "Zingiber spp." "Jengibre" "jengibre" "6"
+ "Zinnia elegans" "Item" "Zinnia elegans" "Cinia" "cinia" "2"
+ "Ziziphus zizyphus" "Item" "Ziziphus zizyphus" "Azufaifo" "jujube" "78"
+ "<EndNodes>"
+
+ "% Nodes of type: " "Origin"
+ "<Nodes>"
+ "ID(X)" "NodeType(S)" "Label(S)"
+ "Africano" "Origin" "Africano"
+ "Americano" "Origin" "Americano"
+ "Europeo/Mediterráneo" "Origin" "Europeo/Mediterráneo"
+ "Oceanía" "Origin" "Oceanía"
+ "Oriental/Asiático" "Origin" "Oriental/Asiático"
+ "<EndNodes>"
+
+ "% Nodes of type: " "Type"
+ "<Nodes>"
+ "ID(X)" "NodeType(S)" "Label(S)"
+ "Acuática" "Type" "Acuática"
+ "Arbusto" "Type" "Arbusto"
+ "Enredadera" "Type" "Enredadera"
+ "Otras" "Type" "Otras"
+ "Palmera" "Type" "Palmera"
+ "Planta" "Type" "Planta"
+ "Árbol" "Type" "Árbol"
+ "<EndNodes>"
+
+ "% Nodes of type: " "Month"
+ "<Nodes>"
+ "ID(X)" "NodeType(S)" "Label(S)"
+ "Apr" "Month" "Apr"
+ "Aug" "Month" "Sep"
+ "Dec" "Month" "Dec"
+ "Feb" "Month" "Feb"
+ "Jan" "Month" "Jan"
+ "Jun" "Month" "Jul"
+ "Mar" "Month" "Mar"
+ "May" "Month" "May"
+ "Nov" "Month" "Nov"
+ "Oct" "Month" "Oct"
+ "<EndNodes>"
+
+ "% Edges & HyperEdges of the graph. Edges of type:" "familia"
+ "<Edges>"
+ "ID-List(X)" "EdgeType(S)" "multiplicity"
+ ["Apocynaceae" "Cascabela thevetia"] "familia" 1
+ ["Euphorbia ingens" "Euphorbiaceae"] "familia" 1
+ ["Asparagaceae" "Aspidistra spp."] "familia" 1
+ ["Musa x paradisiaca" "Musaceae"] "familia" 1
+ ["Canna spp." "Cannaceae"] "familia" 1
+ ["Berberidaceae" "Nandina domestica"] "familia" 1
+ ["Piper longum" "Piperaceae"] "familia" 1
+ ["Olea europaea" "Oleaceae"] "familia" 1
+ ["Cupressaceae" "Tetraclinis articulata"] "familia" 1
+ ["Arecaceae" "Washingtonia robusta"] "familia" 1
+ ["Celastraceae" "Euonymus japonicus"] "familia" 1
+ ["Ficus retusa" "Moraceae"] "familia" 1
+ ["Ananas comosus" "Bromeliaceae"] "familia" 1
+ ["Acokanthera oblongifolia" "Apocynaceae"] "familia" 1
+ ["Citrus myrtifolia" "Rutaceae"] "familia" 1
+ ["Arecaceae" "Chamaedorea elegans"] "familia" 1
+ ["Caprifoliaceae" "Viburnum opulus"] "familia" 1
+ ["Fabaceae" "Tipuana tipu"] "familia" 1
+ ["Hibiscus rosa-sinensis" "Malvaceae"] "familia" 1
+ ["Bergenia crassifolia" "Saxifragaceae"] "familia" 1
+ ["Cupressaceae" "Cupressus sempervirens"] "familia" 1
+ ["Adoxaceae" "Viburnum odoratissimum"] "familia" 1
+ ["Arecaceae" "Butia capitata"] "familia" 1
+ ["Agapanthus umbellatus" "Amaryllidaceae"] "familia" 1
+ ["Myrsine africana" "Primulaceae"] "familia" 1
+ ["Hemerocallis spp." "Xanthorrhoeaceae"] "familia" 1
+ ["Agavaceae" "Yucca elephantipes"] "familia" 1
+ ["Buddlejaceae" "Buddleya madagascariensis"] "familia" 1
+ ["Acanthaceae" "Acanthus mollis"] "familia" 1
+ ["Asparagaceae" "Asparagus setaceus"] "familia" 1
+ ["Acanthaceae" "Justicia adhatoda"] "familia" 1
+ ["Mespilus germanica" "Rosaceae"] "familia" 1
+ ["Araliaceae" "Hedera helix"] "familia" 1
+ ["Hibiscus syriacus" "Malvaceae"] "familia" 1
+ ["Ficus pumila" "Moraceae"] "familia" 1
+ ["Arecaceae" "Sabal minor"] "familia" 1
+ ["Firmiana simplex" "Malvaceae"] "familia" 1
+ ["Cannabaceae" "Celtis australis"] "familia" 1
+ ["Amaryllidaceae" "Clivia miniata"] "familia" 1
+ ["Chaenomeles japonica" "Rosaceae"] "familia" 1
+ ["Brachychiton acerifolius" "Malvaceae"] "familia" 1
+ ["Elaeagnaceae" "Elaeagnus x ebbingei"] "familia" 1
+ ["Bignoniaceae" "Jacaranda mimosifolia"] "familia" 1
+ ["Asteraceae" "Santolina chamaecyparissus"] "familia" 1
+ ["Jasminum grandiflorum" "Oleaceae"] "familia" 1
+ ["Cestrum nocturnum" "Solanaceae"] "familia" 1
+ ["Cercis siliquastrum" "Fabaceae"] "familia" 1
+ ["Russelia equisetiformis" "Scrophulariaceae"] "familia" 1
+ ["Musa acuminata" "Musaceae"] "familia" 1
+ ["Agavaceae" "Dracaena draco"] "familia" 1
+ ["Prunus domestica" "Rosaceae"] "familia" 1
+ ["Encephalartos horridus" "Zamiaceae"] "familia" 1
+ ["Cactaceae" "Opuntia spp."] "familia" 1
+ ["Citrus spp." "Rutaceae"] "familia" 1
+ ["Myrtaceae" "Myrtus communis"] "familia" 1
+ ["Leguminosae" "Leucaena leucocephala"] "familia" 1
+ ["Grevillea robusta" "Proteaceae"] "familia" 1
+ ["Asparagaceae" "Beaucarnea recurvata"] "familia" 1
+ ["Acer pseudoplatanus" "Aceraceae"] "familia" 1
+ ["Diospyros virginiana" "Ebenaceae"] "familia" 1
+ ["Casuarina equisetifolia" "Casuarinaceae"] "familia" 1
+ ["Moraceae" "Morus kagayamae"] "familia" 1
+ ["Verbenaceae" "Vitex agnus-castus"] "familia" 1
+ ["Nuphar rubrodisca" "Nymphaeaceae"] "familia" 1
+ ["Calycanthaceae" "Chimonanthus praecox"] "familia" 1
+ ["Araucaria cunninghamii" "Araucariaceae"] "familia" 1
+ ["Citrus x limon" "Rutaceae"] "familia" 1
+ ["Fraxinus ornus" "Oleaceae"] "familia" 1
+ ["Ficus macrophylla" "Moraceae"] "familia" 1
+ ["Tetrastigma voinerianum" "Vitaceae"] "familia" 1
+ ["Lamiaceae" "Salvia microphylla"] "familia" 1
+ ["Betulaceae" "Carpinus betulus"] "familia" 1
+ ["Brugmansia arborea" "Solanaceae"] "familia" 1
+ ["Araliaceae" "Schefflera arboricola"] "familia" 1
+ ["Citrus x paradisi" "Rutaceae"] "familia" 1
+ ["Apocynaceae" "Vinca spp."] "familia" 1
+ ["Anacardiaceae" "Schinus terebinthifolia"] "familia" 1
+ ["Arecaceae" "Chamaedorea seifrizii"] "familia" 1
+ ["Agave americana" "Asparagaceae"] "familia" 1
+ ["Myrtaceae" "Psidium guajava"] "familia" 1
+ ["Muehlenbeckia complexa" "Polygonaceae"] "familia" 1
+ ["Prunus persica" "Rosaceae"] "familia" 1
+ ["Fabaceae" "Wisteria sinensis"] "familia" 1
+ ["Fabaceae" "Robinia pseudoacacia"] "familia" 1
+ ["Asteraceae" "Tagetes spp."] "familia" 1
+ ["Hydrangeaceae" "Philadelphus coronarius / Deutzia scabra"] "familia" 1
+ ["Broussonetia papyrifera" "Moraceae"] "familia" 1
+ ["Lamiaceae" "Salvia officinalis"] "familia" 1
+ ["Anacardiaceae" "Schinus molle"] "familia" 1
+ ["Brugmansia suaveolens" "Solanaceae"] "familia" 1
+ ["Solanaceae" "Solanum bonariense"] "familia" 1
+ ["Adiantum capillus-veneris" "Pteridaceae"] "familia" 1
+ ["Cyperaceae" "Cyperus alternifolius / C. involucratus"] "familia" 1
+ ["Amaranthaceae" "Celosia plumosa"] "familia" 1
+ ["Euphorbia pulcherrima" "Euphorbiaceae"] "familia" 1
+ ["Alocasia odora / A. macrorrhizos" "Araceae"] "familia" 1
+ ["Lamiaceae" "Teucrium fruticans"] "familia" 1
+ ["Bougainvillea spp." "Nyctaginaceae"] "familia" 1
+ ["Malvaceae" "Tilia platyphyllos"] "familia" 1
+ ["Myrtaceae" "Syzygium aromaticum"] "familia" 1
+ ["Cortaderia selloana" "Poaceae"] "familia" 1
+ ["Araucaria columnaris" "Araucariaceae"] "familia" 1
+ ["Pittosporaceae" "Pittosporum tobira"] "familia" 1
+ ["Eucalyptus globulus" "Myrtaceae"] "familia" 1
+ ["Chlorophytum comosum" "Liliaceae"] "familia" 1
+ ["Fabaceae" "Vigna caracalla"] "familia" 1
+ ["Duranta repens" "Verbenaceae"] "familia" 1
+ ["Aizoaceae" "Drosanthemum floribundum"] "familia" 1
+ ["Cupressaceae" "Thuja plicata"] "familia" 1
+ ["Malus domestica" "Rosaceae"] "familia" 1
+ ["Pittosporaceae" "Pittosporum coriaceum"] "familia" 1
+ ["Cupressaceae" "Thuja occidentalis"] "familia" 1
+ ["Buxaceae" "Buxus sempervirens"] "familia" 1
+ ["Moraceae" "Morus nigra"] "familia" 1
+ ["Pinaceae" "Pinus pinaster"] "familia" 1
+ ["Abutilon pictum" "Malvaceae"] "familia" 1
+ ["Acacia saligna" "Fabaceae"] "familia" 1
+ ["Agavaceae" "Yucca gloriosa"] "familia" 1
+ ["Cotoneaster spp." "Rosaceae"] "familia" 1
+ ["Cycadaceae" "Cycas circinalis"] "familia" 1
+ ["Carex pendula" "Cyperaceae"] "familia" 1
+ ["Elaeagnaceae" "Elaeagnus pungens"] "familia" 1
+ ["Arecaceae" "Trachycarpus fortunei"] "familia" 1
+ ["Myoporum tenuifolium" "Scrophulariaceae"] "familia" 1
+ ["Anacardiaceae" "Schinus polygama"] "familia" 1
+ ["Phormium tenax" "Xanthorrhoeaceae"] "familia" 1
+ ["Fagaceae" "Quercus ilex"] "familia" 1
+ ["Aquifoliaceae" "Ilex crenata"] "familia" 1
+ ["Cyperaceae" "Cyperus papyrus"] "familia" 1
+ ["Cinnamomum cassia / C. verum" "Lauraceae"] "familia" 1
+ ["Ficus benjamina" "Moraceae"] "familia" 1
+ ["Hydrangeaceae" "Philadelphus coronarius"] "familia" 1
+ ["Malvaceae" "Malvaviscus arboreus"] "familia" 1
+ ["Acacia longifolia" "Fabaceae"] "familia" 1
+ ["Asteraceae" "Zinnia elegans"] "familia" 1
+ ["Zingiber spp." "Zingiberaceae"] "familia" 1
+ ["Ligustrum japonicum" "Oleaceae"] "familia" 1
+ ["Rosaceae" "Rubus ulmifolius"] "familia" 1
+ ["Balsaminaceae" "Impatiens hawkeri"] "familia" 1
+ ["Lythraceae" "Punica granatum"] "familia" 1
+ ["Agavaceae" "Yucca aloifolia"] "familia" 1
+ ["Bignoniaceae" "Campsis radicans"] "familia" 1
+ ["Nephrolepidaceae" "Nephrolepis spp."] "familia" 1
+ ["Araucaria araucana / Araucaria spp." "Araucariaceae"] "familia" 1
+ ["Ulmaceae" "Ulmus pumila"] "familia" 1
+ ["Cinnamomum camphora" "Lauraceae"] "familia" 1
+ ["Cupressaceae" "Cupressus macrocarpa"] "familia" 1
+ ["Poaceae" "Semiarundinaria fastuosa"] "familia" 1
+ ["Bambuseae (tribu)" "Poaceae"] "familia" 1
+ ["Poaceae" "Pseudosasa japonica"] "familia" 1
+ ["Gaura lindheimeri" "Onagraceae"] "familia" 1
+ ["Phyllostachys nigra" "Poaceae"] "familia" 1
+ ["Adoxaceae" "Viburnum tinus"] "familia" 1
+ ["Polygala myrtifolia" "Polygalaceae"] "familia" 1
+ ["Acanthaceae" "Justicia carnea"] "familia" 1
+ ["Bauhinia variegata / B. purpurea" "Fabaceae"] "familia" 1
+ ["Jasminum officinale" "Oleaceae"] "familia" 1
+ ["Arecaceae" "Cocos nucifera"] "familia" 1
+ ["Podocarpaceae" "Podocarpus neriifolius"] "familia" 1
+ ["Jasminum humile" "Oleaceae"] "familia" 1
+ ["Convolvulaceae" "Ipomoea spp."] "familia" 1
+ ["Lantana camara" "Verbenaceae"] "familia" 1
+ ["Rosaceae" "Spiraea cantoniensis"] "familia" 1
+ ["Ficus microcarpa" "Moraceae"] "familia" 1
+ ["Fabaceae" "Styphnolobium japonicum"] "familia" 1
+ ["Araceae" "Zantedeschia aethiopica"] "familia" 1
+ ["Cestrum fasciculatum" "Solanaceae"] "familia" 1
+ ["Crataegus monogyna" "Rosaceae"] "familia" 1
+ ["Peperomia obtusifolia" "Piperaceae"] "familia" 1
+ ["Asteraceae" "Senecio kleinia"] "familia" 1
+ ["Strelitzia alba" "Strelitziaceae"] "familia" 1
+ ["Anacardiaceae" "Pistacia lentiscus"] "familia" 1
+ ["Bignoniaceae" "Handroanthus heptaphyllus / H. impetiginosus"] "familia" 1
+ ["Asteraceae" "Centaurea cineraria"] "familia" 1
+ ["Eucalyptus camaldulensis" "Myrtaceae"] "familia" 1
+ ["Arecaceae" "Phoenix reclinata"] "familia" 1
+ ["Fraxinus angustifolia" "Oleaceae"] "familia" 1
+ ["Santalaceae" "Santalum album"] "familia" 1
+ ["Aucuba japonica" "Garryaceae"] "familia" 1
+ ["Aloe vera" "Xanthorrhoeaceae"] "familia" 1
+ ["Araucaria bidwillii" "Araucariaceae"] "familia" 1
+ ["Cannabaceae" "Celtis occidentalis"] "familia" 1
+ ["Fagaceae" "Quercus suber"] "familia" 1
+ ["Crassulaceae" "Umbilicus rupestris"] "familia" 1
+ ["Ulmaceae" "Ulmus glabra"] "familia" 1
+ ["Koelreuteria paniculata" "Sapindaceae"] "familia" 1
+ ["Hibiscus mutabilis" "Malvaceae"] "familia" 1
+ ["Lauraceae" "Persea americana"] "familia" 1
+ ["Ailanthus altissima" "Simaroubaceae"] "familia" 1
+ ["Cupressaceae" "Platycladus orientalis"] "familia" 1
+ ["Melicoccus bijugatus" "Sapindaceae"] "familia" 1
+ ["Asteraceae" "Senecio petasitis"] "familia" 1
+ ["Lagerstroemia indica" "Lythraceae"] "familia" 1
+ ["Prunus cerasifera" "Rosaceae"] "familia" 1
+ ["Asparagaceae" "Ruscus spp."] "familia" 1
+ ["Salicaceae" "Salix spp."] "familia" 1
+ ["Photinia x fraseri" "Rosaceae"] "familia" 1
+ ["Lagunaria patersonia" "Malvaceae"] "familia" 1
+ ["Iris germanica" "Liliaceae"] "familia" 1
+ ["Caesalpiniaceae" "Gleditsia triacanthos"] "familia" 1
+ ["Magnolia grandiflora" "Magnoliaceae"] "familia" 1
+ ["Fabaceae" "Parkinsonia aculeata"] "familia" 1
+ ["Lamiaceae" "Rosmarinus officinalis"] "familia" 1
+ ["Cocculus laurifolius" "Menispermaceae"] "familia" 1
+ ["Feijoa sellowiana" "Myrtaceae"] "familia" 1
+ ["Prunus dulcis" "Rosaceae"] "familia" 1
+ ["Ligustrum ovalifolium" "Oleaceae"] "familia" 1
+ ["Taxaceae" "Taxus baccata"] "familia" 1
+ ["Moraceae" "Morus alba"] "familia" 1
+ ["Juglandaceae" "Juglans nigra"] "familia" 1
+ ["Pinaceae" "Pinus canariensis"] "familia" 1
+ ["Tamaricaceae" "Tamarix gallica"] "familia" 1
+ ["Acer negundo" "Sapindaceae"] "familia" 1
+ ["Asteraceae" "Senecio lineatus"] "familia" 1
+ ["Platanaceae" "Platanus orientalis"] "familia" 1
+ ["Arecaceae" "Chamaerops humilis"] "familia" 1
+ ["Bignoniaceae" "Tecoma capensis"] "familia" 1
+ ["Bignoniaceae" "Pandorea jasminoides"] "familia" 1
+ ["Caprifoliaceae" "Lonicera fragrantissima"] "familia" 1
+ ["Pyracantha coccinea" "Rosaceae"] "familia" 1
+ ["Ficus rubiginosa" "Moraceae"] "familia" 1
+ ["Altingiaceae" "Liquidambar styraciflua"] "familia" 1
+ ["Albizia julibrissin" "Fabaceae"] "familia" 1
+ ["Cedrus deodara" "Pinaceae"] "familia" 1
+ ["Aloe maculata" "Xanthorrhoeaceae"] "familia" 1
+ ["Pittosporaceae" "Pittosporum tenuifolium"] "familia" 1
+ ["Paulownia tomentosa" "Paulowniaceae"] "familia" 1
+ ["Melianthaceae" "Melianthus major"] "familia" 1
+ ["Rosa spp." "Rosaceae"] "familia" 1
+ ["Ligustrum sinense" "Oleaceae"] "familia" 1
+ ["Alcea rosea" "Malvaceae"] "familia" 1
+ ["Citrus aurantium" "Rutaceae"] "familia" 1
+ ["Fagaceae" "Quercus robur"] "familia" 1
+ ["Ficus carica" "Moraceae"] "familia" 1
+ ["Prunus cerasifera var. 'pissardii'" "Rosaceae"] "familia" 1
+ ["Arecaceae" "Phoenix canariensis"] "familia" 1
+ ["Myristica fragrans" "Myristicaceae"] "familia" 1
+ ["Bignoniaceae" "Podranea ricasoliana"] "familia" 1
+ ["Annona cherimola" "Annonaceae"] "familia" 1
+ ["Cordyline fruticosa" "Laxmanniaceae"] "familia" 1
+ ["Citrus x sinensis" "Rutaceae"] "familia" 1
+ ["Callistemon spp." "Myrtaceae"] "familia" 1
+ ["Photinia serratifolia" "Rosaceae"] "familia" 1
+ ["Strelitzia reginae" "Strelitziaceae"] "familia" 1
+ ["Cedrus atlantica" "Pinaceae"] "familia" 1
+ ["Populus alba" "Salicaceae"] "familia" 1
+ ["Viola odorata" "Violaceae"] "familia" 1
+ ["Arbutus unedo" "Ericaceae"] "familia" 1
+ ["Pinaceae" "Pinus pinea"] "familia" 1
+ ["Aloysia citriodora" "Verbenaceae"] "familia" 1
+ ["Carya illinoinensis" "Juglandaceae"] "familia" 1
+ ["Lamiaceae" "Lavandula angustifolia"] "familia" 1
+ ["Aesculus x carnea" "Sapindaceae"] "familia" 1
+ ["Citrus maxima" "Rutaceae"] "familia" 1
+ ["Rosa banksiae" "Rosaceae"] "familia" 1
+ ["Brassicaceae" "Sinapis alba"] "familia" 1
+ ["Jasminum mesnyi" "Oleaceae"] "familia" 1
+ ["Malvaceae" "Tilia x europaea"] "familia" 1
+ ["Apocynaceae" "Nerium oleander"] "familia" 1
+ ["Acer negundo var. 'argenteo-variegatum'" "Sapindaceae"] "familia" 1
+ ["Abelia x grandiflora" "Caprifoliaceae"] "familia" 1
+ ["Lycianthes rantonnetii" "Solanaceae"] "familia" 1
+ ["Aesculus hippocastanum" "Hippocastanaceae"] "familia" 1
+ ["Arecaceae" "Livistona chinensis"] "familia" 1
+ ["Chasmanthe aethiopica" "Iridaceae"] "familia" 1
+ ["Chaenomeles speciosa" "Rosaceae"] "familia" 1
+ ["Citrus reticulata" "Rutaceae"] "familia" 1
+ ["Amaryllidaceae" "Tulbaghia violacea"] "familia" 1
+ ["Cuphea hyssopifolia" "Lythraceae"] "familia" 1
+ ["Muehlenbeckia platyclados" "Polygonaceae"] "familia" 1
+ ["Ficus elastica" "Moraceae"] "familia" 1
+ ["Caesalpinia gilliesii" "Fabaceae"] "familia" 1
+ ["Melia azedarach" "Meliaceae"] "familia" 1
+ ["Piper nigrum" "Piperaceae"] "familia" 1
+ ["Eriobotrya japonica" "Rosaceae"] "familia" 1
+ ["Lantana montevidensis" "Verbenaceae"] "familia" 1
+ ["Araucaria angustifolia" "Araucariaceae"] "familia" 1
+ ["Taxodiaceae" "Taxodium distichum"] "familia" 1
+ ["Brassicaceae" "Matthiola incana"] "familia" 1
+ ["Lauraceae" "Laurus nobilis"] "familia" 1
+ ["Fagaceae" "Fagus sylvatica"] "familia" 1
+ ["Alpinia zerumbet" "Zingiberaceae"] "familia" 1
+ ["Albizia procera" "Fabaceae"] "familia" 1
+ ["Dombeya x cayeuxii" "Malvaceae"] "familia" 1
+ ["Asparagaceae" "Asparagus densiflorus"] "familia" 1
+ ["Cycadaceae" "Cycas revoluta"] "familia" 1
+ ["Arecaceae" "Rhapis excelsa"] "familia" 1
+ ["Diospyros kaki" "Ebenaceae"] "familia" 1
+ ["Erythrina crista-galli" "Fabaceae"] "familia" 1
+ ["Asteraceae" "Montanoa bipinnatifida"] "familia" 1
+ ["Caprifoliaceae" "Lonicera japonica"] "familia" 1
+ ["Elaeagnaceae" "Elaeagnus angustifolia"] "familia" 1
+ ["Solanaceae" "Solandra maxima"] "familia" 1
+ ["Cestrum elegans" "Solanaceae"] "familia" 1
+ ["Phragmites australis" "Poaceae"] "familia" 1
+ ["Bombacaceae" "Ceiba speciosa"] "familia" 1
+ ["Araliaceae" "Schefflera actinophylla"] "familia" 1
+ ["Caprifoliaceae" "Viburnum suspensum"] "familia" 1
+ ["Phytolacca dioica" "Phytolaccaceae"] "familia" 1
+ ["Archontophoenix alexandrae" "Arecaceae"] "familia" 1
+ ["Pyrus calleryana" "Rosaceae"] "familia" 1
+ ["Araceae" "Monstera deliciosa"] "familia" 1
+ ["Ulmaceae" "Ulmus minor"] "familia" 1
+ ["Aeonium arboreum" "Crassulaceae"] "familia" 1
+ ["Arecaceae" "Howea forsteriana"] "familia" 1
+ ["Photinia glabra" "Rosaceae"] "familia" 1
+ ["Jasminum azoricum" "Oleaceae"] "familia" 1
+ ["Asparagaceae" "Asparagus aethiopicus"] "familia" 1
+ ["Cupressaceae" "Cupressus arizonica"] "familia" 1
+ ["Mirabilis jalapa" "Nyctaginaceae"] "familia" 1
+ ["Pinaceae" "Pinus halepensis"] "familia" 1
+ ["Clerodendrum bungei" "Lamiaceae"] "familia" 1
+ ["Arecaceae" "Washingtonia filifera"] "familia" 1
+ ["Pedaliaceae" "Sesamum indicum"] "familia" 1
+ ["Fraxinus excelsior" "Oleaceae"] "familia" 1
+ ["Bignoniaceae" "Handroanthus chrysanthus / H. albus"] "familia" 1
+ ["Amaryllidaceae" "Narcissus spp."] "familia" 1
+ ["Cistaceae" "Cistus albidus"] "familia" 1
+ ["Pyrus communis" "Rosaceae"] "familia" 1
+ ["Arecaceae" "Phoenix dactylifera"] "familia" 1
+ ["Platanaceae" "Platanus x hispanica"] "familia" 1
+ ["Pennisetum setaceum" "Poaceae"] "familia" 1
+ ["Plumbaginaceae" "Plumbago auriculata"] "familia" 1
+ ["Berberidaceae" "Berberis x chenaultii"] "familia" 1
+ ["Nymphaea alba" "Nymphaeaceae"] "familia" 1
+ ["Phyllostachys aurea" "Poaceae"] "familia" 1
+ ["Buxaceae" "Buxus balearica"] "familia" 1
+ ["Rhamnaceae" "Ziziphus zizyphus"] "familia" 1
+ ["Brachychiton populneus" "Malvaceae"] "familia" 1
+ ["Ligustrum lucidum" "Oleaceae"] "familia" 1
+ ["Bignoniaceae" "Catalpa bignonioides"] "familia" 1
+ ["Hibiscus syriacus cv. 'White'" "Malvaceae"] "familia" 1
+ ["Rhamnaceae" "Rhamnus alaternus"] "familia" 1
+ ["Euphorbiaceae" "Ricinus communis"] "familia" 1
+ ["Ceratonia siliqua" "Fabaceae"] "familia" 1
+ ["Bignoniaceae" "Pyrostegia venusta"] "familia" 1
+ ["Bauhinia forficata" "Fabaceae"] "familia" 1
+ ["Populus nigra" "Salicaceae"] "familia" 1
+ ["Citrus limetta" "Rutaceae"] "familia" 1
+ ["Ginkgo biloba" "Ginkgoaceae"] "familia" 1
+ ["Arecaceae" "Syagrus romanzoffiana"] "familia" 1
+ ["Vitaceae" "Vitis vinifera / Vitis spp."] "familia" 1
+ "<EndEdges>"
+
+ "% Edges & HyperEdges of the graph. Edges of type:" "flower_app"
+ "<Edges>"
+ "ID-List(X)" "EdgeType(S)" "multiplicity"
+ ["No aparente" "Washingtonia robusta"] "flower_app" 1
+ ["Aparente" "Viburnum suspensum"] "flower_app" 1
+ ["Aparente" "Ricinus communis"] "flower_app" 1
+ ["Aparente" "Musa x paradisiaca"] "flower_app" 1
+ ["No aparente" "Semiarundinaria fastuosa"] "flower_app" 1
+ ["Aparente" "Tagetes spp."] "flower_app" 1
+ ["Aparente" "Sinapis alba"] "flower_app" 1
+ ["Aparente" "Hibiscus syriacus cv. 'White'"] "flower_app" 1
+ ["No aparente" "Schinus polygama"] "flower_app" 1
+ ["No aparente" "Quercus ilex"] "flower_app" 1
+ ["Elaeagnus pungens" "No aparente"] "flower_app" 1
+ ["Aparente" "Chaenomeles speciosa"] "flower_app" 1
+ ["Aparente" "Pistacia lentiscus"] "flower_app" 1
+ ["Aparente" "Clerodendrum bungei"] "flower_app" 1
+ ["Aparente" "Musa acuminata"] "flower_app" 1
+ ["Aparente" "Chasmanthe aethiopica"] "flower_app" 1
+ ["Aparente" "Vitex agnus-castus"] "flower_app" 1
+ ["Aparente" "Photinia serratifolia"] "flower_app" 1
+ ["Aparente" "Citrus maxima"] "flower_app" 1
+ ["Ficus macrophylla" "No aparente"] "flower_app" 1
+ ["Aparente" "Crataegus monogyna"] "flower_app" 1
+ ["Aparente" "Pyracantha coccinea"] "flower_app" 1
+ ["Gleditsia triacanthos" "No aparente"] "flower_app" 1
+ ["No aparente" "Vitis vinifera / Vitis spp."] "flower_app" 1
+ ["No aparente" "Pinus pinaster"] "flower_app" 1
+ ["Aparente" "Punica granatum"] "flower_app" 1
+ ["Asparagus setaceus" "No aparente"] "flower_app" 1
+ ["Aparente" "Taxus baccata"] "flower_app" 1
+ ["Aparente" "Teucrium fruticans"] "flower_app" 1
+ ["Aparente" "Impatiens hawkeri"] "flower_app" 1
+ ["Aloe maculata" "Aparente"] "flower_app" 1
+ ["Aparente" "Wisteria sinensis"] "flower_app" 1
+ ["No aparente" "Quercus robur"] "flower_app" 1
+ ["No aparente" "Pittosporum tenuifolium"] "flower_app" 1
+ ["Aparente" "Myrtus communis"] "flower_app" 1
+ ["Aparente" "Prunus domestica"] "flower_app" 1
+ ["Aeonium arboreum" "Aparente"] "flower_app" 1
+ ["Aparente" "Morus alba"] "flower_app" 1
+ ["No aparente" "Thuja occidentalis"] "flower_app" 1
+ ["No aparente" "Tetraclinis articulata"] "flower_app" 1
+ ["Aparente" "Encephalartos horridus"] "flower_app" 1
+ ["No aparente" "Ulmus glabra"] "flower_app" 1
+ ["Aparente" "Magnolia grandiflora"] "flower_app" 1
+ ["Aparente" "Jasminum grandiflorum"] "flower_app" 1
+ ["Aparente" "Citrus spp."] "flower_app" 1
+ ["Adiantum capillus-veneris" "No aparente"] "flower_app" 1
+ ["Aparente" "Zantedeschia aethiopica"] "flower_app" 1
+ ["Aparente" "Citrus x sinensis"] "flower_app" 1
+ ["Aparente" "Rosa banksiae"] "flower_app" 1
+ ["Aparente" "Dracaena draco"] "flower_app" 1
+ ["Aparente" "Malvaviscus arboreus"] "flower_app" 1
+ ["Livistona chinensis" "No aparente"] "flower_app" 1
+ ["Aparente" "Viburnum opulus"] "flower_app" 1
+ ["Aparente" "Ruscus spp."] "flower_app" 1
+ ["Acer negundo" "No aparente"] "flower_app" 1
+ ["Aparente" "Diospyros virginiana"] "flower_app" 1
+ ["Aparente" "Strelitzia alba"] "flower_app" 1
+ ["Aparente" "Phoenix reclinata"] "flower_app" 1
+ ["No aparente" "Rhapis excelsa"] "flower_app" 1
+ ["Brachychiton acerifolius" "None"] "flower_app" 1
+ ["Aparente" "Nerium oleander"] "flower_app" 1
+ ["Acer negundo var. 'argenteo-variegatum'" "No aparente"] "flower_app" 1
+ ["Eucalyptus globulus" "No aparente"] "flower_app" 1
+ ["Aparente" "Myoporum tenuifolium"] "flower_app" 1
+ ["Aparente" "Opuntia spp."] "flower_app" 1
+ ["Aparente" "Philadelphus coronarius"] "flower_app" 1
+ ["Aparente" "Pyrus calleryana"] "flower_app" 1
+ ["Aparente" "Malus domestica"] "flower_app" 1
+ ["Aparente" "Aucuba japonica"] "flower_app" 1
+ ["Aparente" "Trachycarpus fortunei"] "flower_app" 1
+ ["Aparente" "Berberis x chenaultii"] "flower_app" 1
+ ["Aparente" "Salvia officinalis"] "flower_app" 1
+ ["No aparente" "Schefflera arboricola"] "flower_app" 1
+ ["Aparente" "Erythrina crista-galli"] "flower_app" 1
+ ["Aparente" "Cestrum fasciculatum"] "flower_app" 1
+ ["Aparente" "Arbutus unedo"] "flower_app" 1
+ ["Aparente" "Russelia equisetiformis"] "flower_app" 1
+ ["Aparente" "Carex pendula"] "flower_app" 1
+ ["Aparente" "Elaeagnus angustifolia"] "flower_app" 1
+ ["Chamaerops humilis" "No aparente"] "flower_app" 1
+ ["No aparente" "Taxodium distichum"] "flower_app" 1
+ ["Aparente" "Handroanthus chrysanthus / H. albus"] "flower_app" 1
+ ["Cyperus papyrus" "No aparente"] "flower_app" 1
+ ["Acokanthera oblongifolia" "Aparente"] "flower_app" 1
+ ["Laurus nobilis" "No aparente"] "flower_app" 1
+ ["Aparente" "Santolina chamaecyparissus"] "flower_app" 1
+ ["Aparente" "Spiraea cantoniensis"] "flower_app" 1
+ ["Aparente" "Citrus aurantium"] "flower_app" 1
+ ["Aparente" "Tipuana tipu"] "flower_app" 1
+ ["Aparente" "Plumbago auriculata"] "flower_app" 1
+ ["Aparente" "Jacaranda mimosifolia"] "flower_app" 1
+ ["None" "Tilia x europaea"] "flower_app" 1
+ ["Aparente" "Paulownia tomentosa"] "flower_app" 1
+ ["Aparente" "Cestrum nocturnum"] "flower_app" 1
+ ["Aparente" "Matthiola incana"] "flower_app" 1
+ ["Aparente" "Justicia carnea"] "flower_app" 1
+ ["No aparente" "Quercus suber"] "flower_app" 1
+ ["Aparente" "Narcissus spp."] "flower_app" 1
+ ["Aparente" "Ligustrum lucidum"] "flower_app" 1
+ ["Aparente" "Koelreuteria paniculata"] "flower_app" 1
+ ["Aparente" "Jasminum azoricum"] "flower_app" 1
+ ["Cedrus deodara" "No aparente"] "flower_app" 1
+ ["Aparente" "Cistus albidus"] "flower_app" 1
+ ["Aparente" "Yucca gloriosa"] "flower_app" 1
+ ["Aparente" "Justicia adhatoda"] "flower_app" 1
+ ["None" "Tilia platyphyllos"] "flower_app" 1
+ ["No aparente" "Salix spp."] "flower_app" 1
+ ["Aparente" "Ceiba speciosa"] "flower_app" 1
+ ["Aparente" "Canna spp."] "flower_app" 1
+ ["Aparente" "Psidium guajava"] "flower_app" 1
+ ["Ficus carica" "No aparente"] "flower_app" 1
+ ["Liquidambar styraciflua" "No aparente"] "flower_app" 1
+ ["Aparente" "Nuphar rubrodisca"] "flower_app" 1
+ ["Aparente" "Hibiscus syriacus"] "flower_app" 1
+ ["Abutilon pictum" "Aparente"] "flower_app" 1
+ ["No aparente" "Piper longum"] "flower_app" 1
+ ["Araucaria bidwillii" "No aparente"] "flower_app" 1
+ ["No aparente" "Platycladus orientalis"] "flower_app" 1
+ ["Aparente" "Phoenix dactylifera"] "flower_app" 1
+ ["Aparente" "Grevillea robusta"] "flower_app" 1
+ ["Aesculus x carnea" "Aparente"] "flower_app" 1
+ ["Aparente" "Dombeya x cayeuxii"] "flower_app" 1
+ ["Aparente" "Phormium tenax"] "flower_app" 1
+ ["Acacia longifolia" "Aparente"] "flower_app" 1
+ ["No aparente" "Phyllostachys aurea"] "flower_app" 1
+ ["Aparente" "Rubus ulmifolius"] "flower_app" 1
+ ["Euphorbia ingens" "No aparente"] "flower_app" 1
+ ["Aparente" "Sesamum indicum"] "flower_app" 1
+ ["Aparente" "Feijoa sellowiana"] "flower_app" 1
+ ["Aparente" "Buddleya madagascariensis"] "flower_app" 1
+ ["Alocasia odora / A. macrorrhizos" "Aparente"] "flower_app" 1
+ ["Aparente" "Asparagus densiflorus"] "flower_app" 1
+ ["Aparente" "Pennisetum setaceum"] "flower_app" 1
+ ["Aparente" "Photinia glabra"] "flower_app" 1
+ ["Aparente" "Rosmarinus officinalis"] "flower_app" 1
+ ["No aparente" "Pinus pinea"] "flower_app" 1
+ ["Agave americana" "Aparente"] "flower_app" 1
+ ["No aparente" "Ulmus minor"] "flower_app" 1
+ ["Aparente" "Melianthus major"] "flower_app" 1
+ ["Cupressus arizonica" "No aparente"] "flower_app" 1
+ ["Carya illinoinensis" "No aparente"] "flower_app" 1
+ ["Cedrus atlantica" "No aparente"] "flower_app" 1
+ ["Casuarina equisetifolia" "No aparente"] "flower_app" 1
+ ["Ficus elastica" "No aparente"] "flower_app" 1
+ ["Acer pseudoplatanus" "No aparente"] "flower_app" 1
+ ["No aparente" "Peperomia obtusifolia"] "flower_app" 1
+ ["Aparente" "Lavandula angustifolia"] "flower_app" 1
+ ["Aparente" "Chaenomeles japonica"] "flower_app" 1
+ ["Aparente" "Rosa spp."] "flower_app" 1
+ ["No aparente" "Olea europaea"] "flower_app" 1
+ ["No aparente" "Pinus canariensis"] "flower_app" 1
+ ["Araucaria columnaris" "No aparente"] "flower_app" 1
+ ["Cupressus sempervirens" "No aparente"] "flower_app" 1
+ ["Aparente" "Montanoa bipinnatifida"] "flower_app" 1
+ ["Aparente" "Cascabela thevetia"] "flower_app" 1
+ ["Aparente" "Schinus terebinthifolia"] "flower_app" 1
+ ["No aparente" "Photinia x fraseri"] "flower_app" 1
+ ["Myrsine africana" "No aparente"] "flower_app" 1
+ ["Aparente" "Citrus myrtifolia"] "flower_app" 1
+ ["Aparente" "Prunus cerasifera"] "flower_app" 1
+ ["Aparente" "Cestrum elegans"] "flower_app" 1
+ ["No aparente" "Senecio kleinia"] "flower_app" 1
+ ["Aparente" "Viburnum tinus"] "flower_app" 1
+ ["Aparente" "Monstera deliciosa"] "flower_app" 1
+ ["Cocos nucifera" "No aparente"] "flower_app" 1
+ ["Abelia x grandiflora" "Aparente"] "flower_app" 1
+ ["Aparente" "Yucca elephantipes"] "flower_app" 1
+ ["None" "Populus alba"] "flower_app" 1
+ ["None" "Syagrus romanzoffiana"] "flower_app" 1
+ ["Aparente" "Pandorea jasminoides"] "flower_app" 1
+ ["Aparente" "Tulbaghia violacea"] "flower_app" 1
+ ["Araucaria angustifolia" "No aparente"] "flower_app" 1
+ ["Aparente" "Senecio lineatus"] "flower_app" 1
+ ["Morus kagayamae" "No aparente"] "flower_app" 1
+ ["Aparente" "Hibiscus mutabilis"] "flower_app" 1
+ ["No aparente" "Thuja plicata"] "flower_app" 1
+ ["Aparente" "Gaura lindheimeri"] "flower_app" 1
+ ["Aparente" "Cotoneaster spp."] "flower_app" 1
+ ["Buxus sempervirens" "No aparente"] "flower_app" 1
+ ["Elaeagnus x ebbingei" "No aparente"] "flower_app" 1
+ ["Aparente" "Pittosporum tobira"] "flower_app" 1
+ ["Aparente" "Zinnia elegans"] "flower_app" 1
+ ["Aparente" "Citrus x limon"] "flower_app" 1
+ ["No aparente" "Piper nigrum"] "flower_app" 1
+ ["Ailanthus altissima" "Aparente"] "flower_app" 1
+ ["Aparente" "Lagerstroemia indica"] "flower_app" 1
+ ["Aparente" "Butia capitata"] "flower_app" 1
+ ["Aparente" "Syzygium aromaticum"] "flower_app" 1
+ ["Aparente" "Caesalpinia gilliesii"] "flower_app" 1
+ ["Aparente" "Chlorophytum comosum"] "flower_app" 1
+ ["Aloe vera" "Aparente"] "flower_app" 1
+ ["None" "Pittosporum coriaceum"] "flower_app" 1
+ ["Aparente" "Ligustrum japonicum"] "flower_app" 1
+ ["Aparente" "Lycianthes rantonnetii"] "flower_app" 1
+ ["Melicoccus bijugatus" "No aparente"] "flower_app" 1
+ ["Aparente" "Celosia plumosa"] "flower_app" 1
+ ["Aparente" "Diospyros kaki"] "flower_app" 1
+ ["Aparente" "Hibiscus rosa-sinensis"] "flower_app" 1
+ ["Aparente" "Cercis siliquastrum"] "flower_app" 1
+ ["Annona cherimola" "No aparente"] "flower_app" 1
+ ["No aparente" "Schinus molle"] "flower_app" 1
+ ["Aparente" "Archontophoenix alexandrae"] "flower_app" 1
+ ["Aparente" "Robinia pseudoacacia"] "flower_app" 1
+ ["Aparente" "Sabal minor"] "flower_app" 1
+ ["No aparente" "Rhamnus alaternus"] "flower_app" 1
+ ["Aparente" "Lantana camara"] "flower_app" 1
+ ["Celtis occidentalis" "No aparente"] "flower_app" 1
+ ["Aparente" "Strelitzia reginae"] "flower_app" 1
+ ["Aparente" "Jasminum officinale"] "flower_app" 1
+ ["Aparente" "Cordyline fruticosa"] "flower_app" 1
+ ["Agapanthus umbellatus" "Aparente"] "flower_app" 1
+ ["Cinnamomum cassia / C. verum" "No aparente"] "flower_app" 1
+ ["No aparente" "Phyllostachys nigra"] "flower_app" 1
+ ["Aparente" "Vigna caracalla"] "flower_app" 1
+ ["Aparente" "Vinca spp."] "flower_app" 1
+ ["Aparente" "Philadelphus coronarius / Deutzia scabra"] "flower_app" 1
+ ["Chamaedorea seifrizii" "No aparente"] "flower_app" 1
+ ["No aparente" "Tetrastigma voinerianum"] "flower_app" 1
+ ["Aparente" "Bergenia crassifolia"] "flower_app" 1
+ ["Carpinus betulus" "No aparente"] "flower_app" 1
+ ["Aparente" "Solanum bonariense"] "flower_app" 1
+ ["Cycas revoluta" "No aparente"] "flower_app" 1
+ ["Cyperus alternifolius / C. involucratus" "No aparente"] "flower_app" 1
+ ["Aparente" "Ipomoea spp."] "flower_app" 1
+ ["Aparente" "Podranea ricasoliana"] "flower_app" 1
+ ["Fraxinus excelsior" "No aparente"] "flower_app" 1
+ ["Aparente" "Cuphea hyssopifolia"] "flower_app" 1
+ ["Aparente" "Phragmites australis"] "flower_app" 1
+ ["Aparente" "Beaucarnea recurvata"] "flower_app" 1
+ ["Fagus sylvatica" "No aparente"] "flower_app" 1
+ ["Ananas comosus" "Aparente"] "flower_app" 1
+ ["No aparente" "Ziziphus zizyphus"] "flower_app" 1
+ ["Aparente" "Citrus x paradisi"] "flower_app" 1
+ ["Aparente" "Citrus limetta"] "flower_app" 1
+ ["Aparente" "Clivia miniata"] "flower_app" 1
+ ["No aparente" "Zingiber spp."] "flower_app" 1
+ ["No aparente" "Platanus orientalis"] "flower_app" 1
+ ["Aparente" "Parkinsonia aculeata"] "flower_app" 1
+ ["Acacia saligna" "Aparente"] "flower_app" 1
+ ["Aparente" "Eriobotrya japonica"] "flower_app" 1
+ ["Myristica fragrans" "No aparente"] "flower_app" 1
+ ["Albizia procera" "Aparente"] "flower_app" 1
+ ["Aparente" "Polygala myrtifolia"] "flower_app" 1
+ ["Muehlenbeckia platyclados" "No aparente"] "flower_app" 1
+ ["Aparente" "Duranta repens"] "flower_app" 1
+ ["Alcea rosea" "Aparente"] "flower_app" 1
+ ["Aparente" "Hemerocallis spp."] "flower_app" 1
+ ["Aparente" "Lagunaria patersonia"] "flower_app" 1
+ ["Acanthus mollis" "Aparente"] "flower_app" 1
+ ["Albizia julibrissin" "Aparente"] "flower_app" 1
+ ["Ginkgo biloba" "No aparente"] "flower_app" 1
+ ["Aparente" "Citrus reticulata"] "flower_app" 1
+ ["Aparente" "Howea forsteriana"] "flower_app" 1
+ ["Aparente" "Brugmansia arborea"] "flower_app" 1
+ ["Aparente" "Prunus cerasifera var. 'pissardii'"] "flower_app" 1
+ ["Aparente" "Viburnum odoratissimum"] "flower_app" 1
+ ["No aparente" "Pinus halepensis"] "flower_app" 1
+ ["No aparente" "Persea americana"] "flower_app" 1
+ ["Aparente" "Jasminum humile"] "flower_app" 1
+ ["Aparente" "Muehlenbeckia complexa"] "flower_app" 1
+ ["Aparente" "Euphorbia pulcherrima"] "flower_app" 1
+ ["No aparente" "Umbilicus rupestris"] "flower_app" 1
+ ["Aparente" "Handroanthus heptaphyllus / H. impetiginosus"] "flower_app" 1
+ ["Aparente" "Prunus persica"] "flower_app" 1
+ ["Aparente" "Yucca aloifolia"] "flower_app" 1
+ ["Aparente" "Ceratonia siliqua"] "flower_app" 1
+ ["Aparente" "Chimonanthus praecox"] "flower_app" 1
+ ["No aparente" "Platanus x hispanica"] "flower_app" 1
+ ["Euonymus japonicus" "No aparente"] "flower_app" 1
+ ["Aesculus hippocastanum" "Aparente"] "flower_app" 1
+ ["Aparente" "Schefflera actinophylla"] "flower_app" 1
+ ["Araucaria araucana / Araucaria spp." "No aparente"] "flower_app" 1
+ ["Aparente" "Solandra maxima"] "flower_app" 1
+ ["Juglans nigra" "No aparente"] "flower_app" 1
+ ["Aparente" "Viola odorata"] "flower_app" 1
+ ["No aparente" "Washingtonia filifera"] "flower_app" 1
+ ["No aparente" "Populus nigra"] "flower_app" 1
+ ["Aparente" "Pyrostegia venusta"] "flower_app" 1
+ ["Araucaria cunninghamii" "No aparente"] "flower_app" 1
+ ["Ficus benjamina" "No aparente"] "flower_app" 1
+ ["Ficus retusa" "No aparente"] "flower_app" 1
+ ["Chamaedorea elegans" "No aparente"] "flower_app" 1
+ ["Aparente" "Santalum album"] "flower_app" 1
+ ["Aparente" "Campsis radicans"] "flower_app" 1
+ ["Aparente" "Callistemon spp."] "flower_app" 1
+ ["Aparente" "Pyrus communis"] "flower_app" 1
+ ["Aparente" "Tecoma capensis"] "flower_app" 1
+ ["Aparente" "Bauhinia variegata / B. purpurea"] "flower_app" 1
+ ["Aparente" "Asparagus aethiopicus"] "flower_app" 1
+ ["Cupressus macrocarpa" "No aparente"] "flower_app" 1
+ ["Aparente" "Centaurea cineraria"] "flower_app" 1
+ ["Aparente" "Mirabilis jalapa"] "flower_app" 1
+ ["Aparente" "Tamarix gallica"] "flower_app" 1
+ ["Aparente" "Senecio petasitis"] "flower_app" 1
+ ["Ficus microcarpa" "No aparente"] "flower_app" 1
+ ["Aparente" "Jasminum mesnyi"] "flower_app" 1
+ ["Aparente" "Mespilus germanica"] "flower_app" 1
+ ["Cocculus laurifolius" "No aparente"] "flower_app" 1
+ ["Aparente" "Firmiana simplex"] "flower_app" 1
+ ["Eucalyptus camaldulensis" "No aparente"] "flower_app" 1
+ ["Aparente" "Melia azedarach"] "flower_app" 1
+ ["Aparente" "Nandina domestica"] "flower_app" 1
+ ["Aloysia citriodora" "Aparente"] "flower_app" 1
+ ["No aparente" "Ulmus pumila"] "flower_app" 1
+ ["Aparente" "Catalpa bignonioides"] "flower_app" 1
+ ["Cinnamomum camphora" "No aparente"] "flower_app" 1
+ ["Aparente" "Salvia microphylla"] "flower_app" 1
+ ["Alpinia zerumbet" "Aparente"] "flower_app" 1
+ ["Aparente" "Morus nigra"] "flower_app" 1
+ ["Celtis australis" "No aparente"] "flower_app" 1
+ ["Aparente" "Aspidistra spp."] "flower_app" 1
+ ["Cycas circinalis" "No aparente"] "flower_app" 1
+ ["Aparente" "Leucaena leucocephala"] "flower_app" 1
+ ["Aparente" "Lantana montevidensis"] "flower_app" 1
+ ["Ficus pumila" "No aparente"] "flower_app" 1
+ ["Aparente" "Cortaderia selloana"] "flower_app" 1
+ ["Aparente" "Fraxinus ornus"] "flower_app" 1
+ ["Aparente" "Bougainvillea spp."] "flower_app" 1
+ ["Aparente" "Bauhinia forficata"] "flower_app" 1
+ ["Broussonetia papyrifera" "No aparente"] "flower_app" 1
+ ["Aparente" "Brachychiton populneus"] "flower_app" 1
+ ["Aparente" "Ligustrum ovalifolium"] "flower_app" 1
+ ["Aparente" "Drosanthemum floribundum"] "flower_app" 1
+ ["Aparente" "Prunus dulcis"] "flower_app" 1
+ ["Aparente" "Phoenix canariensis"] "flower_app" 1
+ ["Aparente" "Styphnolobium japonicum"] "flower_app" 1
+ ["Buxus balearica" "No aparente"] "flower_app" 1
+ ["Aparente" "Brugmansia suaveolens"] "flower_app" 1
+ ["Aparente" "Nymphaea alba"] "flower_app" 1
+ ["Aparente" "Ligustrum sinense"] "flower_app" 1
+ ["Aparente" "Lonicera japonica"] "flower_app" 1
+ ["Fraxinus angustifolia" "No aparente"] "flower_app" 1
+ ["Hedera helix" "No aparente"] "flower_app" 1
+ ["Aparente" "Lonicera fragrantissima"] "flower_app" 1
+ ["Aparente" "Iris germanica"] "flower_app" 1
+ ["Aparente" "Phytolacca dioica"] "flower_app" 1
+ "<EndEdges>"
+
+ "% Edges & HyperEdges of the graph. Edges of type:" "flower_col"
+ "<Edges>"
+ "ID-List(X)" "EdgeType(S)" "multiplicity"
+ ["Blanco" "Leucaena leucocephala"] "flower_col" 1
+ ["Blanco" "Cestrum nocturnum"] "flower_col" 1
+ ["Adiantum capillus-veneris" "None"] "flower_col" 1
+ ["Blanco" "Fraxinus angustifolia"] "flower_col" 1
+ ["Acer pseudoplatanus" "None"] "flower_col" 1
+ ["Blanco" "Citrus aurantium"] "flower_col" 1
+ ["Blanco" "Sabal minor"] "flower_col" 1
+ ["Amarillo" "Diospyros virginiana"] "flower_col" 1
+ ["Blanco" "Justicia adhatoda"] "flower_col" 1
+ ["None" "Tetraclinis articulata"] "flower_col" 1
+ ["Blanco" "Euonymus japonicus"] "flower_col" 1
+ ["Cotoneaster spp." "Rosa"] "flower_col" 1
+ ["Feijoa sellowiana" "Rosa"] "flower_col" 1
+ ["Blanco" "Hibiscus syriacus cv. 'White'"] "flower_col" 1
+ ["Musa x paradisiaca" "Rojo"] "flower_col" 1
+ ["Naranja" "Strelitzia reginae"] "flower_col" 1
+ ["None" "Washingtonia robusta"] "flower_col" 1
+ ["Nerium oleander" "Rosa"] "flower_col" 1
+ ["Rojo" "Schefflera actinophylla"] "flower_col" 1
+ ["Blanco" "Morus alba"] "flower_col" 1
+ ["Amarillo" "Pittosporum coriaceum"] "flower_col" 1
+ ["Aesculus hippocastanum" "Blanco"] "flower_col" 1
+ ["Aesculus x carnea" "Rojo"] "flower_col" 1
+ ["Campsis radicans" "Rojo"] "flower_col" 1
+ ["None" "Pinus pinaster"] "flower_col" 1
+ ["Hibiscus syriacus" "Multicolor"] "flower_col" 1
+ ["Blanco" "Ligustrum lucidum"] "flower_col" 1
+ ["Lila" "Vitex agnus-castus"] "flower_col" 1
+ ["Amarillo" "Gleditsia triacanthos"] "flower_col" 1
+ ["Lila" "Viola odorata"] "flower_col" 1
+ ["Celtis occidentalis" "None"] "flower_col" 1
+ ["Blanco" "Nymphaea alba"] "flower_col" 1
+ ["Amarillo" "Santolina chamaecyparissus"] "flower_col" 1
+ ["Cupressus macrocarpa" "Verde"] "flower_col" 1
+ ["Chamaedorea elegans" "None"] "flower_col" 1
+ ["Blanco" "Ficus macrophylla"] "flower_col" 1
+ ["Amarillo" "Nuphar rubrodisca"] "flower_col" 1
+ ["Celosia plumosa" "Multicolor"] "flower_col" 1
+ ["Blanco" "Myoporum tenuifolium"] "flower_col" 1
+ ["Blanco" "Fraxinus excelsior"] "flower_col" 1
+ ["Podranea ricasoliana" "Rosa"] "flower_col" 1
+ ["Lila" "Tulbaghia violacea"] "flower_col" 1
+ ["Acacia longifolia" "Amarillo"] "flower_col" 1
+ ["Lila" "Vinca spp."] "flower_col" 1
+ ["Cistus albidus" "Rosa"] "flower_col" 1
+ ["Agapanthus umbellatus" "Lila"] "flower_col" 1
+ ["None" "Taxodium distichum"] "flower_col" 1
+ ["None" "Zingiber spp."] "flower_col" 1
+ ["Azul" "Plumbago auriculata"] "flower_col" 1
+ ["Cyperus papyrus" "None"] "flower_col" 1
+ ["Blanco" "Carpinus betulus"] "flower_col" 1
+ ["None" "Ziziphus zizyphus"] "flower_col" 1
+ ["Cupressus arizonica" "None"] "flower_col" 1
+ ["Rojo" "Russelia equisetiformis"] "flower_col" 1
+ ["Amarillo" "Pistacia lentiscus"] "flower_col" 1
+ ["Blanco" "Cinnamomum camphora"] "flower_col" 1
+ ["Asparagus setaceus" "Blanco"] "flower_col" 1
+ ["Azul" "Iris germanica"] "flower_col" 1
+ ["Broussonetia papyrifera" "None"] "flower_col" 1
+ ["Amarillo" "Butia capitata"] "flower_col" 1
+ ["Blanco" "Phragmites australis"] "flower_col" 1
+ ["Lila" "Polygala myrtifolia"] "flower_col" 1
+ ["None" "Platanus orientalis"] "flower_col" 1
+ ["Rosa" "Rubus ulmifolius"] "flower_col" 1
+ ["Amarillo" "Cycas revoluta"] "flower_col" 1
+ ["Cuphea hyssopifolia" "Lila"] "flower_col" 1
+ ["Cestrum fasciculatum" "Rojo"] "flower_col" 1
+ ["Ginkgo biloba" "None"] "flower_col" 1
+ ["Prunus cerasifera" "Rosa"] "flower_col" 1
+ ["Matthiola incana" "Multicolor"] "flower_col" 1
+ ["Aloe maculata" "Rojo"] "flower_col" 1
+ ["Erythrina crista-galli" "Rojo"] "flower_col" 1
+ ["Agave americana" "Amarillo"] "flower_col" 1
+ ["Alpinia zerumbet" "Blanco"] "flower_col" 1
+ ["Blanco" "Robinia pseudoacacia"] "flower_col" 1
+ ["Araucaria columnaris" "None"] "flower_col" 1
+ ["Blanco" "Yucca gloriosa"] "flower_col" 1
+ ["Lila" "Vigna caracalla"] "flower_col" 1
+ ["Blanco" "Pyracantha coccinea"] "flower_col" 1
+ ["Blanco" "Citrus spp."] "flower_col" 1
+ ["None" "Phyllostachys nigra"] "flower_col" 1
+ ["Blanco" "Psidium guajava"] "flower_col" 1
+ ["Lantana montevidensis" "Rosa"] "flower_col" 1
+ ["Blanco" "Diospyros kaki"] "flower_col" 1
+ ["Blanco" "Myrtus communis"] "flower_col" 1
+ ["Naranja" "Tecoma capensis"] "flower_col" 1
+ ["Acokanthera oblongifolia" "Blanco"] "flower_col" 1
+ ["Blanco" "Peperomia obtusifolia"] "flower_col" 1
+ ["Amarillo" "Taxus baccata"] "flower_col" 1
+ ["Justicia carnea" "Rosa"] "flower_col" 1
+ ["Blanco" "Citrus myrtifolia"] "flower_col" 1
+ ["Rojo" "Santalum album"] "flower_col" 1
+ ["None" "Platycladus orientalis"] "flower_col" 1
+ ["Blanco" "Lonicera fragrantissima"] "flower_col" 1
+ ["Amarillo" "Syagrus romanzoffiana"] "flower_col" 1
+ ["Amarillo" "Chimonanthus praecox"] "flower_col" 1
+ ["Blanco" "Citrus reticulata"] "flower_col" 1
+ ["Blanco" "Nandina domestica"] "flower_col" 1
+ ["Blanco" "Eriobotrya japonica"] "flower_col" 1
+ ["Blanco" "Citrus x limon"] "flower_col" 1
+ ["Musa acuminata" "Rojo"] "flower_col" 1
+ ["Blanco" "Schinus terebinthifolia"] "flower_col" 1
+ ["Hedera helix" "None"] "flower_col" 1
+ ["Canna spp." "Naranja"] "flower_col" 1
+ ["Araucaria araucana / Araucaria spp." "None"] "flower_col" 1
+ ["Amarillo" "Senecio lineatus"] "flower_col" 1
+ ["Blanco" "Eucalyptus camaldulensis"] "flower_col" 1
+ ["Amarillo" "Rhamnus alaternus"] "flower_col" 1
+ ["Blanco" "Prunus dulcis"] "flower_col" 1
+ ["None" "Podocarpus neriifolius"] "flower_col" 1
+ ["Blanco" "Mespilus germanica"] "flower_col" 1
+ ["Blanco" "Cinnamomum cassia / C. verum"] "flower_col" 1
+ ["Blanco" "Viburnum odoratissimum"] "flower_col" 1
+ ["None" "Platanus x hispanica"] "flower_col" 1
+ ["Blanco" "Yucca aloifolia"] "flower_col" 1
+ ["Amarillo" "Solandra maxima"] "flower_col" 1
+ ["Amarillo" "Jasminum mesnyi"] "flower_col" 1
+ ["None" "Vitis vinifera / Vitis spp."] "flower_col" 1
+ ["Blanco" "Jasminum grandiflorum"] "flower_col" 1
+ ["Lagunaria patersonia" "Rosa"] "flower_col" 1
+ ["Ailanthus altissima" "Amarillo"] "flower_col" 1
+ ["Amarillo" "Tilia platyphyllos"] "flower_col" 1
+ ["Ricinus communis" "Rosa"] "flower_col" 1
+ ["Cyperus alternifolius / C. involucratus" "None"] "flower_col" 1
+ ["Blanco" "Crataegus monogyna"] "flower_col" 1
+ ["Bambuseae (tribu)" "None"] "flower_col" 1
+ ["Brachychiton populneus" "Rosa"] "flower_col" 1
+ ["Fagus sylvatica" "None"] "flower_col" 1
+ ["Amarillo" "Caesalpinia gilliesii"] "flower_col" 1
+ ["Blanco" "Citrus limetta"] "flower_col" 1
+ ["Amarillo" "Lonicera japonica"] "flower_col" 1
+ ["Amarillo" "Elaeagnus angustifolia"] "flower_col" 1
+ ["Araucaria cunninghamii" "None"] "flower_col" 1
+ ["Hibiscus rosa-sinensis" "Rojo"] "flower_col" 1
+ ["Acer negundo var. 'argenteo-variegatum'" "None"] "flower_col" 1
+ ["Phormium tenax" "Rojo"] "flower_col" 1
+ ["Amarillo" "Centaurea cineraria"] "flower_col" 1
+ ["None" "Tetrastigma voinerianum"] "flower_col" 1
+ ["Albizia julibrissin" "Rosa"] "flower_col" 1
+ ["Blanco" "Styphnolobium japonicum"] "flower_col" 1
+ ["Blanco" "Zantedeschia aethiopica"] "flower_col" 1
+ ["None" "Quercus robur"] "flower_col" 1
+ ["Ficus carica" "None"] "flower_col" 1
+ ["None" "Washingtonia filifera"] "flower_col" 1
+ ["Amarillo" "Handroanthus chrysanthus / H. albus"] "flower_col" 1
+ ["Amarillo" "Tilia x europaea"] "flower_col" 1
+ ["Liquidambar styraciflua" "Verde"] "flower_col" 1
+ ["None" "Pinus canariensis"] "flower_col" 1
+ ["Blanco" "Jasminum azoricum"] "flower_col" 1
+ ["Chaenomeles japonica" "Rojo"] "flower_col" 1
+ ["Laurus nobilis" "None"] "flower_col" 1
+ ["Amarillo" "Myristica fragrans"] "flower_col" 1
+ ["Rosa" "Syzygium aromaticum"] "flower_col" 1
+ ["Pennisetum setaceum" "Rojo"] "flower_col" 1
+ ["Chaenomeles speciosa" "Rojo"] "flower_col" 1
+ ["Cedrus atlantica" "None"] "flower_col" 1
+ ["Malvaviscus arboreus" "Rojo"] "flower_col" 1
+ ["Blanco" "Sesamum indicum"] "flower_col" 1
+ ["Lila" "Lycianthes rantonnetii"] "flower_col" 1
+ ["None" "Umbilicus rupestris"] "flower_col" 1
+ ["None" "Quercus ilex"] "flower_col" 1
+ ["Blanco" "Malus domestica"] "flower_col" 1
+ ["Euphorbia ingens" "None"] "flower_col" 1
+ ["Alocasia odora / A. macrorrhizos" "Blanco"] "flower_col" 1
+ ["Drosanthemum floribundum" "Rosa"] "flower_col" 1
+ ["None" "Ulmus pumila"] "flower_col" 1
+ ["Blanco" "Brugmansia suaveolens"] "flower_col" 1
+ ["Nephrolepis spp." "None"] "flower_col" 1
+ ["Blanco" "Ficus benjamina"] "flower_col" 1
+ ["Blanco" "Buxus sempervirens"] "flower_col" 1
+ ["Amarillo" "Cascabela thevetia"] "flower_col" 1
+ ["Rosa" "Salvia microphylla"] "flower_col" 1
+ ["Albizia procera" "Amarillo"] "flower_col" 1
+ ["Chamaerops humilis" "None"] "flower_col" 1
+ ["Amarillo" "Schinus polygama"] "flower_col" 1
+ ["Bauhinia forficata" "Blanco"] "flower_col" 1
+ ["Duranta repens" "Lila"] "flower_col" 1
+ ["Blanco" "Morus nigra"] "flower_col" 1
+ ["Impatiens hawkeri" "Rosa"] "flower_col" 1
+ ["Blanco" "Magnolia grandiflora"] "flower_col" 1
+ ["Muehlenbeckia platyclados" "Rosa"] "flower_col" 1
+ ["None" "Thuja occidentalis"] "flower_col" 1
+ ["Ceiba speciosa" "Rosa"] "flower_col" 1
+ ["Blanco" "Prunus persica"] "flower_col" 1
+ ["Blanco" "Monstera deliciosa"] "flower_col" 1
+ ["Blanco" "Strelitzia alba"] "flower_col" 1
+ ["Araucaria bidwillii" "None"] "flower_col" 1
+ ["Gaura lindheimeri" "Rosa"] "flower_col" 1
+ ["Amarillo" "Populus alba"] "flower_col" 1
+ ["Prunus cerasifera var. 'pissardii'" "Rosa"] "flower_col" 1
+ ["Blanco" "Montanoa bipinnatifida"] "flower_col" 1
+ ["Lagerstroemia indica" "Rosa"] "flower_col" 1
+ ["Archontophoenix alexandrae" "Blanco"] "flower_col" 1
+ ["Lila" "Melia azedarach"] "flower_col" 1
+ ["Melicoccus bijugatus" "None"] "flower_col" 1
+ ["None" "Semiarundinaria fastuosa"] "flower_col" 1
+ ["Blanco" "Pittosporum tobira"] "flower_col" 1
+ ["Chasmanthe aethiopica" "Naranja"] "flower_col" 1
+ ["Blanco" "Pyrus communis"] "flower_col" 1
+ ["Cocos nucifera" "None"] "flower_col" 1
+ ["Handroanthus heptaphyllus / H. impetiginosus" "Rosa"] "flower_col" 1
+ ["Rosa" "Tamarix gallica"] "flower_col" 1
+ ["Clivia miniata" "Naranja"] "flower_col" 1
+ ["Amarillo" "Ruscus spp."] "flower_col" 1
+ ["Blanco" "Olea europaea"] "flower_col" 1
+ ["Aloe vera" "Amarillo"] "flower_col" 1
+ ["Blanco" "Elaeagnus pungens"] "flower_col" 1
+ ["Amarillo" "Phoenix dactylifera"] "flower_col" 1
+ ["Blanco" "Yucca elephantipes"] "flower_col" 1
+ ["Blanco" "Brugmansia arborea"] "flower_col" 1
+ ["Amarillo" "Senecio petasitis"] "flower_col" 1
+ ["Amarillo" "Parkinsonia aculeata"] "flower_col" 1
+ ["Aeonium arboreum" "Amarillo"] "flower_col" 1
+ ["Melianthus major" "Rojo"] "flower_col" 1
+ ["Blanco" "Phytolacca dioica"] "flower_col" 1
+ ["None" "Piper longum"] "flower_col" 1
+ ["Blanco" "Dracaena draco"] "flower_col" 1
+ ["Lila" "Solanum bonariense"] "flower_col" 1
+ ["Lantana camara" "Multicolor"] "flower_col" 1
+ ["Blanco" "Citrus x sinensis"] "flower_col" 1
+ ["Lila" "Teucrium fruticans"] "flower_col" 1
+ ["Blanco" "Viburnum opulus"] "flower_col" 1
+ ["Blanco" "Viburnum suspensum"] "flower_col" 1
+ ["Lila" "Salvia officinalis"] "flower_col" 1
+ ["Amarillo" "Carex pendula"] "flower_col" 1
+ ["Blanco" "Ligustrum japonicum"] "flower_col" 1
+ ["Amarillo" "Quercus suber"] "flower_col" 1
+ ["Amarillo" "Tipuana tipu"] "flower_col" 1
+ ["None" "Thuja plicata"] "flower_col" 1
+ ["Brachychiton acerifolius" "Rojo"] "flower_col" 1
+ ["None" "Senecio kleinia"] "flower_col" 1
+ ["Lavandula angustifolia" "Lila"] "flower_col" 1
+ ["Beaucarnea recurvata" "Blanco"] "flower_col" 1
+ ["None" "Phyllostachys aurea"] "flower_col" 1
+ ["Blanco" "Philadelphus coronarius"] "flower_col" 1
+ ["Cordyline fruticosa" "Rojo"] "flower_col" 1
+ ["Celtis australis" "None"] "flower_col" 1
+ ["Blanco" "Viburnum tinus"] "flower_col" 1
+ ["Blanco" "Pandorea jasminoides"] "flower_col" 1
+ ["Blanco" "Philadelphus coronarius / Deutzia scabra"] "flower_col" 1
+ ["None" "Ulmus glabra"] "flower_col" 1
+ ["Blanco" "Howea forsteriana"] "flower_col" 1
+ ["Hibiscus mutabilis" "Rosa"] "flower_col" 1
+ ["Blanco" "Citrus maxima"] "flower_col" 1
+ ["Asparagus densiflorus" "Blanco"] "flower_col" 1
+ ["Amarillo" "Muehlenbeckia complexa"] "flower_col" 1
+ ["Callistemon spp." "Rojo"] "flower_col" 1
+ ["Amarillo" "Cocculus laurifolius"] "flower_col" 1
+ ["Populus nigra" "Verde"] "flower_col" 1
+ ["Abelia x grandiflora" "Blanco"] "flower_col" 1
+ ["Cercis siliquastrum" "Rosa"] "flower_col" 1
+ ["Dombeya x cayeuxii" "Rosa"] "flower_col" 1
+ ["Blanco" "Citrus x paradisi"] "flower_col" 1
+ ["Aloysia citriodora" "Rosa"] "flower_col" 1
+ ["Blanco" "Ligustrum sinense"] "flower_col" 1
+ ["Blanco" "Pyrus calleryana"] "flower_col" 1
+ ["Araucaria angustifolia" "Verde"] "flower_col" 1
+ ["Amarillo" "Sinapis alba"] "flower_col" 1
+ ["Jacaranda mimosifolia" "Lila"] "flower_col" 1
+ ["Cedrus deodara" "None"] "flower_col" 1
+ ["Lila" "Rosmarinus officinalis"] "flower_col" 1
+ ["Amarillo" "Persea americana"] "flower_col" 1
+ ["Amarillo" "Arbutus unedo"] "flower_col" 1
+ ["Abutilon pictum" "Naranja"] "flower_col" 1
+ ["Cupressus sempervirens" "None"] "flower_col" 1
+ ["Blanco" "Photinia glabra"] "flower_col" 1
+ ["Blanco" "Prunus domestica"] "flower_col" 1
+ ["Ficus retusa" "None"] "flower_col" 1
+ ["Amarillo" "Buddleya madagascariensis"] "flower_col" 1
+ ["Juglans nigra" "None"] "flower_col" 1
+ ["Lila" "Wisteria sinensis"] "flower_col" 1
+ ["Ceratonia siliqua" "Rojo"] "flower_col" 1
+ ["Cestrum elegans" "Rojo"] "flower_col" 1
+ ["Amarillo" "Salix spp."] "flower_col" 1
+ ["None" "Pinus pinea"] "flower_col" 1
+ ["Amarillo" "Schinus molle"] "flower_col" 1
+ ["Amarillo" "Phoenix reclinata"] "flower_col" 1
+ ["Amarillo" "Rosa banksiae"] "flower_col" 1
+ ["Multicolor" "Rosa spp."] "flower_col" 1
+ ["Carya illinoinensis" "None"] "flower_col" 1
+ ["Amarillo" "Firmiana simplex"] "flower_col" 1
+ ["Alcea rosea" "Rosa"] "flower_col" 1
+ ["Bougainvillea spp." "Rosa"] "flower_col" 1
+ ["Multicolor" "Zinnia elegans"] "flower_col" 1
+ ["Morus kagayamae" "None"] "flower_col" 1
+ ["Blanco" "Jasminum officinale"] "flower_col" 1
+ ["Punica granatum" "Rojo"] "flower_col" 1
+ ["Amarillo" "Myrsine africana"] "flower_col" 1
+ ["Eucalyptus globulus" "Verde"] "flower_col" 1
+ ["None" "Ulmus minor"] "flower_col" 1
+ ["Acer negundo" "None"] "flower_col" 1
+ ["Amarillo" "Grevillea robusta"] "flower_col" 1
+ ["Pittosporum tenuifolium" "Rojo"] "flower_col" 1
+ ["Asparagus aethiopicus" "Blanco"] "flower_col" 1
+ ["Ficus rubiginosa" "None"] "flower_col" 1
+ ["Chamaedorea seifrizii" "Naranja"] "flower_col" 1
+ ["Ficus elastica" "None"] "flower_col" 1
+ ["Aucuba japonica" "Rosa"] "flower_col" 1
+ ["Blanco" "Narcissus spp."] "flower_col" 1
+ ["Amarillo" "Jasminum humile"] "flower_col" 1
+ ["Blanco" "Fraxinus ornus"] "flower_col" 1
+ ["Acacia saligna" "Amarillo"] "flower_col" 1
+ ["Hemerocallis spp." "Multicolor"] "flower_col" 1
+ ["Blanco" "Piper nigrum"] "flower_col" 1
+ ["Blanco" "Buxus balearica"] "flower_col" 1
+ ["Ilex crenata" "None"] "flower_col" 1
+ ["Amarillo" "Berberis x chenaultii"] "flower_col" 1
+ ["Amarillo" "Pinus halepensis"] "flower_col" 1
+ ["Amarillo" "Opuntia spp."] "flower_col" 1
+ ["None" "Schefflera arboricola"] "flower_col" 1
+ ["Blanco" "Spiraea cantoniensis"] "flower_col" 1
+ ["Clerodendrum bungei" "Lila"] "flower_col" 1
+ ["Amarillo" "Koelreuteria paniculata"] "flower_col" 1
+ ["Amarillo" "Cycas circinalis"] "flower_col" 1
+ ["Blanco" "Phoenix canariensis"] "flower_col" 1
+ ["Lila" "Paulownia tomentosa"] "flower_col" 1
+ ["Pyrostegia venusta" "Rojo"] "flower_col" 1
+ ["Ipomoea spp." "Multicolor"] "flower_col" 1
+ ["Amarillo" "Annona cherimola"] "flower_col" 1
+ ["Blanco" "Ligustrum ovalifolium"] "flower_col" 1
+ ["Ananas comosus" "Rosa"] "flower_col" 1
+ ["Ficus microcarpa" "None"] "flower_col" 1
+ ["Encephalartos horridus" "Naranja"] "flower_col" 1
+ ["Blanco" "Photinia x fraseri"] "flower_col" 1
+ ["Blanco" "Cortaderia selloana"] "flower_col" 1
+ ["None" "Trachycarpus fortunei"] "flower_col" 1
+ ["None" "Pseudosasa japonica"] "flower_col" 1
+ ["Amarillo" "Elaeagnus x ebbingei"] "flower_col" 1
+ ["Bergenia crassifolia" "Rosa"] "flower_col" 1
+ ["Euphorbia pulcherrima" "Rojo"] "flower_col" 1
+ ["Rhapis excelsa" "Verde"] "flower_col" 1
+ ["Casuarina equisetifolia" "None"] "flower_col" 1
+ ["Blanco" "Chlorophytum comosum"] "flower_col" 1
+ ["Bauhinia variegata / B. purpurea" "Rosa"] "flower_col" 1
+ ["Acanthus mollis" "Blanco"] "flower_col" 1
+ ["Livistona chinensis" "None"] "flower_col" 1
+ ["Amarillo" "Tagetes spp."] "flower_col" 1
+ ["Aspidistra spp." "Rojo"] "flower_col" 1
+ ["Blanco" "Catalpa bignonioides"] "flower_col" 1
+ ["Blanco" "Photinia serratifolia"] "flower_col" 1
+ ["Mirabilis jalapa" "Multicolor"] "flower_col" 1
+ ["Amarillo" "Ficus pumila"] "flower_col" 1
+ "<EndEdges>"
+
+ "% Edges & HyperEdges of the graph. Edges of type:" "foliage_ty"
+ "<Edges>"
+ "ID-List(X)" "EdgeType(S)" "multiplicity"
+ ["Cotoneaster spp." "Perenne"] "foliage_ty" 1
+ ["Howea forsteriana" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Juglans nigra"] "foliage_ty" 1
+ ["Acacia saligna" "Perenne"] "foliage_ty" 1
+ ["Acanthus mollis" "Perenne"] "foliage_ty" 1
+ ["Impatiens hawkeri" "Perenne"] "foliage_ty" 1
+ ["Cupressus arizonica" "Perenne"] "foliage_ty" 1
+ ["Grevillea robusta" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Teucrium fruticans"] "foliage_ty" 1
+ ["Ficus rubiginosa" "Perenne"] "foliage_ty" 1
+ ["Cistus albidus" "Perenne"] "foliage_ty" 1
+ ["Cuphea hyssopifolia" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Viola odorata"] "foliage_ty" 1
+ ["Buddleya madagascariensis" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Santolina chamaecyparissus"] "foliage_ty" 1
+ ["Caduco" "Viburnum opulus"] "foliage_ty" 1
+ ["Hibiscus syriacus" "Perenne"] "foliage_ty" 1
+ ["Jasminum officinale" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Pinus pinaster"] "foliage_ty" 1
+ ["Perenne" "Salvia officinalis"] "foliage_ty" 1
+ ["Caduco" "Ficus carica"] "foliage_ty" 1
+ ["Caduco" "Ulmus glabra"] "foliage_ty" 1
+ ["Buxus sempervirens" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Tilia x europaea"] "foliage_ty" 1
+ ["Caduco" "Parkinsonia aculeata"] "foliage_ty" 1
+ ["Caduco" "Ulmus minor"] "foliage_ty" 1
+ ["Caduco" "Lonicera japonica"] "foliage_ty" 1
+ ["Caduco" "Fraxinus angustifolia"] "foliage_ty" 1
+ ["Abelia x grandiflora" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Schinus terebinthifolia"] "foliage_ty" 1
+ ["Perenne" "Rosa banksiae"] "foliage_ty" 1
+ ["Canna spp." "Perenne"] "foliage_ty" 1
+ ["Archontophoenix alexandrae" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Pittosporum tobira"] "foliage_ty" 1
+ ["Brugmansia arborea" "Caduco"] "foliage_ty" 1
+ ["Caduco" "Paulownia tomentosa"] "foliage_ty" 1
+ ["Ficus elastica" "Perenne"] "foliage_ty" 1
+ ["Aloe vera" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Viburnum odoratissimum"] "foliage_ty" 1
+ ["Euphorbia ingens" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Tetraclinis articulata"] "foliage_ty" 1
+ ["Cinnamomum cassia / C. verum" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Podocarpus neriifolius"] "foliage_ty" 1
+ ["Cestrum elegans" "Perenne"] "foliage_ty" 1
+ ["Nerium oleander" "Perenne"] "foliage_ty" 1
+ ["Bougainvillea spp." "Perenne"] "foliage_ty" 1
+ ["Perenne" "Phyllostachys aurea"] "foliage_ty" 1
+ ["Perenne" "Tagetes spp."] "foliage_ty" 1
+ ["Perenne" "Vinca spp."] "foliage_ty" 1
+ ["Bergenia crassifolia" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Yucca gloriosa"] "foliage_ty" 1
+ ["Perenne" "Pyracantha coccinea"] "foliage_ty" 1
+ ["Caduco" "Prunus cerasifera"] "foliage_ty" 1
+ ["Ananas comosus" "Perenne"] "foliage_ty" 1
+ ["Lantana camara" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Podranea ricasoliana"] "foliage_ty" 1
+ ["Magnolia grandiflora" "Perenne"] "foliage_ty" 1
+ ["Caesalpinia gilliesii" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Schefflera arboricola"] "foliage_ty" 1
+ ["Gaura lindheimeri" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Piper nigrum"] "foliage_ty" 1
+ ["Perenne" "Photinia glabra"] "foliage_ty" 1
+ ["Caduco" "Ceiba speciosa"] "foliage_ty" 1
+ ["Perenne" "Piper longum"] "foliage_ty" 1
+ ["Caduco" "Clerodendrum bungei"] "foliage_ty" 1
+ ["Nephrolepis spp." "Perenne"] "foliage_ty" 1
+ ["Caduco" "Prunus dulcis"] "foliage_ty" 1
+ ["Perenne" "Syzygium aromaticum"] "foliage_ty" 1
+ ["Agapanthus umbellatus" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Chasmanthe aethiopica"] "foliage_ty" 1
+ ["Perenne" "Solandra maxima"] "foliage_ty" 1
+ ["Caduco" "Platanus x hispanica"] "foliage_ty" 1
+ ["Perenne" "Phormium tenax"] "foliage_ty" 1
+ ["Nymphaea alba" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Pseudosasa japonica"] "foliage_ty" 1
+ ["Caduco" "Pyrus calleryana"] "foliage_ty" 1
+ ["Muehlenbeckia complexa" "Perenne"] "foliage_ty" 1
+ ["Acacia longifolia" "Perenne"] "foliage_ty" 1
+ ["Asparagus setaceus" "Perenne"] "foliage_ty" 1
+ ["Dracaena draco" "Perenne"] "foliage_ty" 1
+ ["Alocasia odora / A. macrorrhizos" "Perenne"] "foliage_ty" 1
+ ["Hibiscus mutabilis" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Celtis occidentalis"] "foliage_ty" 1
+ ["Agave americana" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Rhapis excelsa"] "foliage_ty" 1
+ ["Chlorophytum comosum" "Perenne"] "foliage_ty" 1
+ ["Malvaviscus arboreus" "Perenne"] "foliage_ty" 1
+ ["Acer negundo var. 'argenteo-variegatum'" "Caduco"] "foliage_ty" 1
+ ["Caduco" "Celosia plumosa"] "foliage_ty" 1
+ ["Abutilon pictum" "Perenne"] "foliage_ty" 1
+ ["Hibiscus syriacus cv. 'White'" "Perenne"] "foliage_ty" 1
+ ["Ilex crenata" "Perenne"] "foliage_ty" 1
+ ["Bauhinia variegata / B. purpurea" "Caduco"] "foliage_ty" 1
+ ["Perenne" "Phoenix canariensis"] "foliage_ty" 1
+ ["Monstera deliciosa" "Perenne"] "foliage_ty" 1
+ ["Alcea rosea" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Phoenix dactylifera"] "foliage_ty" 1
+ ["Caduco" "Fraxinus excelsior"] "foliage_ty" 1
+ ["Clivia miniata" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Jacaranda mimosifolia"] "foliage_ty" 1
+ ["Melicoccus bijugatus" "Perenne"] "foliage_ty" 1
+ ["Ligustrum japonicum" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Melia azedarach"] "foliage_ty" 1
+ ["Ficus macrophylla" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Solanum bonariense"] "foliage_ty" 1
+ ["Caduco" "Gleditsia triacanthos"] "foliage_ty" 1
+ ["Perenne" "Ricinus communis"] "foliage_ty" 1
+ ["Beaucarnea recurvata" "Perenne"] "foliage_ty" 1
+ ["Cycas circinalis" "Perenne"] "foliage_ty" 1
+ ["Drosanthemum floribundum" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Trachycarpus fortunei"] "foliage_ty" 1
+ ["Citrus maxima" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Quercus robur"] "foliage_ty" 1
+ ["Caduco" "Populus alba"] "foliage_ty" 1
+ ["Livistona chinensis" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Pistacia lentiscus"] "foliage_ty" 1
+ ["Ficus benjamina" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Yucca elephantipes"] "foliage_ty" 1
+ ["Caduco" "Morus alba"] "foliage_ty" 1
+ ["Perenne" "Phoenix reclinata"] "foliage_ty" 1
+ ["Caduco" "Chaenomeles japonica"] "foliage_ty" 1
+ ["Iris germanica" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Rosa spp."] "foliage_ty" 1
+ ["Caduco" "Handroanthus chrysanthus / H. albus"] "foliage_ty" 1
+ ["Perenne" "Pinus pinea"] "foliage_ty" 1
+ ["Perenne" "Quercus suber"] "foliage_ty" 1
+ ["Casuarina equisetifolia" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Malus domestica"] "foliage_ty" 1
+ ["Perenne" "Pittosporum tenuifolium"] "foliage_ty" 1
+ ["Cocos nucifera" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Platanus orientalis"] "foliage_ty" 1
+ ["Leucaena leucocephala" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Strelitzia reginae"] "foliage_ty" 1
+ ["Cedrus atlantica" "Perenne"] "foliage_ty" 1
+ ["Duranta repens" "Perenne"] "foliage_ty" 1
+ ["Elaeagnus x ebbingei" "Perenne"] "foliage_ty" 1
+ ["Citrus limetta" "Perenne"] "foliage_ty" 1
+ ["Bambuseae (tribu)" "Perenne"] "foliage_ty" 1
+ ["Carex pendula" "Perenne"] "foliage_ty" 1
+ ["Aucuba japonica" "Perenne"] "foliage_ty" 1
+ ["Albizia julibrissin" "Caduco"] "foliage_ty" 1
+ ["Laurus nobilis" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Taxus baccata"] "foliage_ty" 1
+ ["Perenne" "Washingtonia robusta"] "foliage_ty" 1
+ ["Citrus aurantium" "Perenne"] "foliage_ty" 1
+ ["Buxus balearica" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Diospyros virginiana"] "foliage_ty" 1
+ ["Caduco" "Liquidambar styraciflua"] "foliage_ty" 1
+ ["Citrus myrtifolia" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Schefflera actinophylla"] "foliage_ty" 1
+ ["Butia capitata" "Perenne"] "foliage_ty" 1
+ ["Cascabela thevetia" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Tetrastigma voinerianum"] "foliage_ty" 1
+ ["Caduco" "Crataegus monogyna"] "foliage_ty" 1
+ ["Caduco" "Fraxinus ornus"] "foliage_ty" 1
+ ["Perenne" "Phyllostachys nigra"] "foliage_ty" 1
+ ["Asparagus aethiopicus" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Senecio lineatus"] "foliage_ty" 1
+ ["Caduco" "Morus kagayamae"] "foliage_ty" 1
+ ["Caduco" "Erythrina crista-galli"] "foliage_ty" 1
+ ["Musa acuminata" "Perenne"] "foliage_ty" 1
+ ["Araucaria araucana / Araucaria spp." "Perenne"] "foliage_ty" 1
+ ["Myristica fragrans" "Perenne"] "foliage_ty" 1
+ ["Eucalyptus camaldulensis" "Perenne"] "foliage_ty" 1
+ ["Dombeya x cayeuxii" "Perenne"] "foliage_ty" 1
+ ["Broussonetia papyrifera" "Caduco"] "foliage_ty" 1
+ ["Aloysia citriodora" "Caduco"] "foliage_ty" 1
+ ["Alpinia zerumbet" "Perenne"] "foliage_ty" 1
+ ["Nuphar rubrodisca" "Perenne"] "foliage_ty" 1
+ ["Mirabilis jalapa" "Perenne"] "foliage_ty" 1
+ ["Opuntia spp." "Perenne"] "foliage_ty" 1
+ ["Araucaria bidwillii" "Perenne"] "foliage_ty" 1
+ ["Cycas revoluta" "Perenne"] "foliage_ty" 1
+ ["Lycianthes rantonnetii" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Prunus domestica"] "foliage_ty" 1
+ ["Perenne" "Yucca aloifolia"] "foliage_ty" 1
+ ["Citrus spp." "Perenne"] "foliage_ty" 1
+ ["Perenne" "Washingtonia filifera"] "foliage_ty" 1
+ ["Citrus x sinensis" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Firmiana simplex"] "foliage_ty" 1
+ ["Caduco" "Chimonanthus praecox"] "foliage_ty" 1
+ ["Ipomoea spp." "Perenne"] "foliage_ty" 1
+ ["Perenne" "Pinus canariensis"] "foliage_ty" 1
+ ["Caduco" "Elaeagnus angustifolia"] "foliage_ty" 1
+ ["Perenne" "Rubus ulmifolius"] "foliage_ty" 1
+ ["Chamaedorea elegans" "Perenne"] "foliage_ty" 1
+ ["Cocculus laurifolius" "Perenne"] "foliage_ty" 1
+ ["Ligustrum sinense" "Perenne"] "foliage_ty" 1
+ ["Elaeagnus pungens" "Perenne"] "foliage_ty" 1
+ ["Araucaria cunninghamii" "Perenne"] "foliage_ty" 1
+ ["Pandorea jasminoides" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Polygala myrtifolia"] "foliage_ty" 1
+ ["Cupressus macrocarpa" "Perenne"] "foliage_ty" 1
+ ["Acer pseudoplatanus" "Caduco"] "foliage_ty" 1
+ ["Lavandula angustifolia" "Perenne"] "foliage_ty" 1
+ ["Cedrus deodara" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Pinus halepensis"] "foliage_ty" 1
+ ["Matthiola incana" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Pittosporum coriaceum"] "foliage_ty" 1
+ ["Perenne" "Rosmarinus officinalis"] "foliage_ty" 1
+ ["Acer negundo" "Caduco"] "foliage_ty" 1
+ ["Caduco" "Carpinus betulus"] "foliage_ty" 1
+ ["Perenne" "Pyrostegia venusta"] "foliage_ty" 1
+ ["Arbutus unedo" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Fagus sylvatica"] "foliage_ty" 1
+ ["Perenne" "Semiarundinaria fastuosa"] "foliage_ty" 1
+ ["Ficus pumila" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Sesamum indicum"] "foliage_ty" 1
+ ["Perenne" "Zinnia elegans"] "foliage_ty" 1
+ ["Caduco" "Diospyros kaki"] "foliage_ty" 1
+ ["Ficus retusa" "Perenne"] "foliage_ty" 1
+ ["Aeonium arboreum" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Tecoma capensis"] "foliage_ty" 1
+ ["Perenne" "Russelia equisetiformis"] "foliage_ty" 1
+ ["Caduco" "Spiraea cantoniensis"] "foliage_ty" 1
+ ["Jasminum mesnyi" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Robinia pseudoacacia"] "foliage_ty" 1
+ ["Caduco" "Phragmites australis"] "foliage_ty" 1
+ ["Brugmansia suaveolens" "Caduco"] "foliage_ty" 1
+ ["Justicia carnea" "Perenne"] "foliage_ty" 1
+ ["Nandina domestica" "Perenne"] "foliage_ty" 1
+ ["Hemerocallis spp." "Perenne"] "foliage_ty" 1
+ ["Perenne" "Strelitzia alba"] "foliage_ty" 1
+ ["Caduco" "Taxodium distichum"] "foliage_ty" 1
+ ["Aesculus x carnea" "Caduco"] "foliage_ty" 1
+ ["Muehlenbeckia platyclados" "Perenne"] "foliage_ty" 1
+ ["Euonymus japonicus" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Lagerstroemia indica"] "foliage_ty" 1
+ ["Ceratonia siliqua" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Philadelphus coronarius"] "foliage_ty" 1
+ ["Asparagus densiflorus" "Perenne"] "foliage_ty" 1
+ ["Albizia procera" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Wisteria sinensis"] "foliage_ty" 1
+ ["Caduco" "Ziziphus zizyphus"] "foliage_ty" 1
+ ["Caduco" "Ulmus pumila"] "foliage_ty" 1
+ ["Caduco" "Celtis australis"] "foliage_ty" 1
+ ["Musa x paradisiaca" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Phytolacca dioica"] "foliage_ty" 1
+ ["Caduco" "Handroanthus heptaphyllus / H. impetiginosus"] "foliage_ty" 1
+ ["Perenne" "Tulbaghia violacea"] "foliage_ty" 1
+ ["Caduco" "Pyrus communis"] "foliage_ty" 1
+ ["Myrtus communis" "Perenne"] "foliage_ty" 1
+ ["Hibiscus rosa-sinensis" "Perenne"] "foliage_ty" 1
+ ["Cordyline fruticosa" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Salix spp."] "foliage_ty" 1
+ ["Perenne" "Thuja plicata"] "foliage_ty" 1
+ ["Caduco" "Styphnolobium japonicum"] "foliage_ty" 1
+ ["Cortaderia selloana" "Perenne"] "foliage_ty" 1
+ ["Callistemon spp." "Perenne"] "foliage_ty" 1
+ ["Perenne" "Quercus ilex"] "foliage_ty" 1
+ ["Perenne" "Viburnum tinus"] "foliage_ty" 1
+ ["Myrsine africana" "Perenne"] "foliage_ty" 1
+ ["Cinnamomum camphora" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Zantedeschia aethiopica"] "foliage_ty" 1
+ ["Caduco" "Chaenomeles speciosa"] "foliage_ty" 1
+ ["Chamaedorea seifrizii" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Populus nigra"] "foliage_ty" 1
+ ["Hedera helix" "Perenne"] "foliage_ty" 1
+ ["Encephalartos horridus" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Philadelphus coronarius / Deutzia scabra"] "foliage_ty" 1
+ ["Aspidistra spp." "Perenne"] "foliage_ty" 1
+ ["Ligustrum ovalifolium" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Ruscus spp."] "foliage_ty" 1
+ ["Brachychiton acerifolius" "Caduco"] "foliage_ty" 1
+ ["Perenne" "Psidium guajava"] "foliage_ty" 1
+ ["Pennisetum setaceum" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Tilia platyphyllos"] "foliage_ty" 1
+ ["Annona cherimola" "Caduco"] "foliage_ty" 1
+ ["Aesculus hippocastanum" "Caduco"] "foliage_ty" 1
+ ["Bauhinia forficata" "Caduco"] "foliage_ty" 1
+ ["Perenne" "Thuja occidentalis"] "foliage_ty" 1
+ ["Berberis x chenaultii" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Senecio petasitis"] "foliage_ty" 1
+ ["Jasminum grandiflorum" "Perenne"] "foliage_ty" 1
+ ["Citrus x paradisi" "Perenne"] "foliage_ty" 1
+ ["Brachychiton populneus" "Perenne"] "foliage_ty" 1
+ ["Narcissus spp." "Perenne"] "foliage_ty" 1
+ ["Cestrum fasciculatum" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Zingiber spp."] "foliage_ty" 1
+ ["Caduco" "Lonicera fragrantissima"] "foliage_ty" 1
+ ["Perenne" "Umbilicus rupestris"] "foliage_ty" 1
+ ["Caduco" "Cercis siliquastrum"] "foliage_ty" 1
+ ["Perenne" "Schinus polygama"] "foliage_ty" 1
+ ["Caduco" "Eriobotrya japonica"] "foliage_ty" 1
+ ["Peperomia obtusifolia" "Perenne"] "foliage_ty" 1
+ ["Melianthus major" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Salvia microphylla"] "foliage_ty" 1
+ ["Perenne" "Photinia x fraseri"] "foliage_ty" 1
+ ["Ailanthus altissima" "Caduco"] "foliage_ty" 1
+ ["Eucalyptus globulus" "Perenne"] "foliage_ty" 1
+ ["Jasminum azoricum" "Perenne"] "foliage_ty" 1
+ ["Lantana montevidensis" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Vitis vinifera / Vitis spp."] "foliage_ty" 1
+ ["Myoporum tenuifolium" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Photinia serratifolia"] "foliage_ty" 1
+ ["Ficus microcarpa" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Ginkgo biloba"] "foliage_ty" 1
+ ["Perenne" "Platycladus orientalis"] "foliage_ty" 1
+ ["Perenne" "Sabal minor"] "foliage_ty" 1
+ ["Justicia adhatoda" "Perenne"] "foliage_ty" 1
+ ["Citrus x limon" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Viburnum suspensum"] "foliage_ty" 1
+ ["Cupressus sempervirens" "Perenne"] "foliage_ty" 1
+ ["Citrus reticulata" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Rhamnus alaternus"] "foliage_ty" 1
+ ["Perenne" "Schinus molle"] "foliage_ty" 1
+ ["Jasminum humile" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Catalpa bignonioides"] "foliage_ty" 1
+ ["Caduco" "Carya illinoinensis"] "foliage_ty" 1
+ ["Caduco" "Punica granatum"] "foliage_ty" 1
+ ["Euphorbia pulcherrima" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Tamarix gallica"] "foliage_ty" 1
+ ["Araucaria columnaris" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Morus nigra"] "foliage_ty" 1
+ ["Aloe maculata" "Perenne"] "foliage_ty" 1
+ ["Chamaerops humilis" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Koelreuteria paniculata"] "foliage_ty" 1
+ ["Perenne" "Persea americana"] "foliage_ty" 1
+ ["Perenne" "Senecio kleinia"] "foliage_ty" 1
+ ["Cyperus papyrus" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Syagrus romanzoffiana"] "foliage_ty" 1
+ ["Perenne" "Sinapis alba"] "foliage_ty" 1
+ ["Perenne" "Santalum album"] "foliage_ty" 1
+ ["Centaurea cineraria" "Perenne"] "foliage_ty" 1
+ ["Montanoa bipinnatifida" "Perenne"] "foliage_ty" 1
+ ["Adiantum capillus-veneris" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Prunus cerasifera var. 'pissardii'"] "foliage_ty" 1
+ ["Ligustrum lucidum" "Perenne"] "foliage_ty" 1
+ ["Olea europaea" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Vigna caracalla"] "foliage_ty" 1
+ ["Caduco" "Vitex agnus-castus"] "foliage_ty" 1
+ ["Lagunaria patersonia" "Perenne"] "foliage_ty" 1
+ ["Acokanthera oblongifolia" "Perenne"] "foliage_ty" 1
+ ["Cestrum nocturnum" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Tipuana tipu"] "foliage_ty" 1
+ ["Araucaria angustifolia" "Perenne"] "foliage_ty" 1
+ ["Feijoa sellowiana" "Perenne"] "foliage_ty" 1
+ ["Perenne" "Plumbago auriculata"] "foliage_ty" 1
+ ["Cyperus alternifolius / C. involucratus" "Perenne"] "foliage_ty" 1
+ ["Caduco" "Campsis radicans"] "foliage_ty" 1
+ ["Caduco" "Prunus persica"] "foliage_ty" 1
+ ["Caduco" "Mespilus germanica"] "foliage_ty" 1
+ "<EndEdges>"
+
+ "% Edges & HyperEdges of the graph. Edges of type:" "origen"
+ "<Edges>"
+ "ID-List(X)" "EdgeType(S)" "multiplicity"
+ ["Europeo/Mediterráneo" "Mespilus germanica"] "origen" 1
+ ["Jasminum grandiflorum" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Yucca gloriosa"] "origen" 1
+ ["Oriental/Asiático" "Platycladus orientalis"] "origen" 1
+ ["Americano" "Monstera deliciosa"] "origen" 1
+ ["Americano" "Solanum bonariense"] "origen" 1
+ ["Africano" "Plumbago auriculata"] "origen" 1
+ ["Berberis x chenaultii" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Photinia x fraseri"] "origen" 1
+ ["Europeo/Mediterráneo" "Ulmus minor"] "origen" 1
+ ["Cordyline fruticosa" "Oriental/Asiático"] "origen" 1
+ ["Oriental/Asiático" "Rosa spp."] "origen" 1
+ ["Aeonium arboreum" "Africano"] "origen" 1
+ ["Europeo/Mediterráneo" "Rubus ulmifolius"] "origen" 1
+ ["Brachychiton acerifolius" "Oceanía"] "origen" 1
+ ["Citrus spp." "Oriental/Asiático"] "origen" 1
+ ["Americano" "Vigna caracalla"] "origen" 1
+ ["Americano" "Juglans nigra"] "origen" 1
+ ["Americano" "Mirabilis jalapa"] "origen" 1
+ ["Citrus x limon" "Oriental/Asiático"] "origen" 1
+ ["Europeo/Mediterráneo" "Prunus cerasifera var. 'pissardii'"] "origen" 1
+ ["Oriental/Asiático" "Zingiber spp."] "origen" 1
+ ["Americano" "Diospyros virginiana"] "origen" 1
+ ["Americano" "Cupressus arizonica"] "origen" 1
+ ["Hemerocallis spp." "Oriental/Asiático"] "origen" 1
+ ["Muehlenbeckia complexa" "Oceanía"] "origen" 1
+ ["Europeo/Mediterráneo" "Narcissus spp."] "origen" 1
+ ["Agave americana" "Americano"] "origen" 1
+ ["Livistona chinensis" "Oriental/Asiático"] "origen" 1
+ ["Oceanía" "Schefflera arboricola"] "origen" 1
+ ["Ficus carica" "Oriental/Asiático"] "origen" 1
+ ["Cedrus deodara" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Erythrina crista-galli"] "origen" 1
+ ["Europeo/Mediterráneo" "Tetraclinis articulata"] "origen" 1
+ ["Oriental/Asiático" "Rhapis excelsa"] "origen" 1
+ ["Europeo/Mediterráneo" "Matthiola incana"] "origen" 1
+ ["Americano" "Sabal minor"] "origen" 1
+ ["Americano" "Leucaena leucocephala"] "origen" 1
+ ["Africano" "Pittosporum coriaceum"] "origen" 1
+ ["Araucaria columnaris" "Oceanía"] "origen" 1
+ ["Europeo/Mediterráneo" "Fagus sylvatica"] "origen" 1
+ ["Koelreuteria paniculata" "Oriental/Asiático"] "origen" 1
+ ["Ligustrum ovalifolium" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Parkinsonia aculeata"] "origen" 1
+ ["Americano" "Hibiscus mutabilis"] "origen" 1
+ ["Acer pseudoplatanus" "Europeo/Mediterráneo"] "origen" 1
+ ["Diospyros kaki" "Oriental/Asiático"] "origen" 1
+ ["Aesculus x carnea" "Europeo/Mediterráneo"] "origen" 1
+ ["Muehlenbeckia platyclados" "Oceanía"] "origen" 1
+ ["Americano" "Melicoccus bijugatus"] "origen" 1
+ ["Americano" "Schinus polygama"] "origen" 1
+ ["Americano" "Yucca elephantipes"] "origen" 1
+ ["Africano" "Jasminum azoricum"] "origen" 1
+ ["Africano" "Cyperus alternifolius / C. involucratus"] "origen" 1
+ ["Oriental/Asiático" "Sesamum indicum"] "origen" 1
+ ["Alpinia zerumbet" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Ceiba speciosa"] "origen" 1
+ ["Europeo/Mediterráneo" "Quercus robur"] "origen" 1
+ ["Broussonetia papyrifera" "Oriental/Asiático"] "origen" 1
+ ["Musa x paradisiaca" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Gaura lindheimeri"] "origen" 1
+ ["Europeo/Mediterráneo" "Nerium oleander"] "origen" 1
+ ["Americano" "Opuntia spp."] "origen" 1
+ ["Lagunaria patersonia" "Oceanía"] "origen" 1
+ ["Celosia plumosa" "Oriental/Asiático"] "origen" 1
+ ["Centaurea cineraria" "Europeo/Mediterráneo"] "origen" 1
+ ["Oriental/Asiático" "Piper nigrum"] "origen" 1
+ ["Eucalyptus camaldulensis" "Oceanía"] "origen" 1
+ ["Hibiscus rosa-sinensis" "Oriental/Asiático"] "origen" 1
+ ["Europeo/Mediterráneo" "Fraxinus angustifolia"] "origen" 1
+ ["Acer negundo" "Americano"] "origen" 1
+ ["Lonicera japonica" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Syagrus romanzoffiana"] "origen" 1
+ ["Oriental/Asiático" "Ulmus pumila"] "origen" 1
+ ["Melia azedarach" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Cestrum fasciculatum"] "origen" 1
+ ["Africano" "Asparagus setaceus"] "origen" 1
+ ["Alcea rosea" "Oriental/Asiático"] "origen" 1
+ ["Cupressus sempervirens" "Europeo/Mediterráneo"] "origen" 1
+ ["Elaeagnus angustifolia" "Oriental/Asiático"] "origen" 1
+ ["Europeo/Mediterráneo" "Fraxinus excelsior"] "origen" 1
+ ["Europeo/Mediterráneo" "Umbilicus rupestris"] "origen" 1
+ ["Africano" "Tulbaghia violacea"] "origen" 1
+ ["Crataegus monogyna" "Europeo/Mediterráneo"] "origen" 1
+ ["Oriental/Asiático" "Spiraea cantoniensis"] "origen" 1
+ ["Ficus microcarpa" "Oriental/Asiático"] "origen" 1
+ ["Europeo/Mediterráneo" "Fraxinus ornus"] "origen" 1
+ ["Americano" "Pandorea jasminoides"] "origen" 1
+ ["Europeo/Mediterráneo" "Prunus cerasifera"] "origen" 1
+ ["Oriental/Asiático" "Semiarundinaria fastuosa"] "origen" 1
+ ["Americano" "Chamaedorea seifrizii"] "origen" 1
+ ["Ficus macrophylla" "Oceanía"] "origen" 1
+ ["Ligustrum lucidum" "Oriental/Asiático"] "origen" 1
+ ["Ceratonia siliqua" "Europeo/Mediterráneo"] "origen" 1
+ ["Americano" "Handroanthus chrysanthus / H. albus"] "origen" 1
+ ["Americano" "Tipuana tipu"] "origen" 1
+ ["Oceanía" "Schefflera actinophylla"] "origen" 1
+ ["Africano" "Pennisetum setaceum"] "origen" 1
+ ["Africano" "Chasmanthe aethiopica"] "origen" 1
+ ["Albizia procera" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Lantana camara"] "origen" 1
+ ["Oriental/Asiático" "Zantedeschia aethiopica"] "origen" 1
+ ["Americano" "Butia capitata"] "origen" 1
+ ["Eucalyptus globulus" "Oceanía"] "origen" 1
+ ["Europeo/Mediterráneo" "Ruscus spp."] "origen" 1
+ ["Americano" "Nephrolepis spp."] "origen" 1
+ ["Americano" "Euphorbia pulcherrima"] "origen" 1
+ ["Europeo/Mediterráneo" "Sinapis alba"] "origen" 1
+ ["Citrus aurantium" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Caesalpinia gilliesii"] "origen" 1
+ ["Archontophoenix alexandrae" "Oceanía"] "origen" 1
+ ["Europeo/Mediterráneo" "Pinus halepensis"] "origen" 1
+ ["Acokanthera oblongifolia" "Africano"] "origen" 1
+ ["Europeo/Mediterráneo" "Nymphaea alba"] "origen" 1
+ ["Europeo/Mediterráneo" "Salvia officinalis"] "origen" 1
+ ["Oriental/Asiático" "Viburnum odoratissimum"] "origen" 1
+ ["Oriental/Asiático" "Vitis vinifera / Vitis spp."] "origen" 1
+ ["Citrus x sinensis" "Oriental/Asiático"] "origen" 1
+ ["Araucaria bidwillii" "Oceanía"] "origen" 1
+ ["Oceanía" "Phormium tenax"] "origen" 1
+ ["Morus kagayamae" "Oriental/Asiático"] "origen" 1
+ ["Oriental/Asiático" "Prunus persica"] "origen" 1
+ ["Carex pendula" "Europeo/Mediterráneo"] "origen" 1
+ ["Americano" "Senecio petasitis"] "origen" 1
+ ["Oriental/Asiático" "Pyrus calleryana"] "origen" 1
+ ["Americano" "Cupressus macrocarpa"] "origen" 1
+ ["Aucuba japonica" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Russelia equisetiformis"] "origen" 1
+ ["Americano" "Schinus molle"] "origen" 1
+ ["Africano" "Chlorophytum comosum"] "origen" 1
+ ["Americano" "Bougainvillea spp."] "origen" 1
+ ["Africano" "Senecio kleinia"] "origen" 1
+ ["Hibiscus syriacus" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Montanoa bipinnatifida"] "origen" 1
+ ["Ligustrum japonicum" "Oriental/Asiático"] "origen" 1
+ ["Cycas circinalis" "Oriental/Asiático"] "origen" 1
+ ["Africano" "Tecoma capensis"] "origen" 1
+ ["Oriental/Asiático" "Pseudosasa japonica"] "origen" 1
+ ["Oriental/Asiático" "Photinia glabra"] "origen" 1
+ ["Europeo/Mediterráneo" "Tilia platyphyllos"] "origen" 1
+ ["Europeo/Mediterráneo" "Myrtus communis"] "origen" 1
+ ["Carpinus betulus" "Europeo/Mediterráneo"] "origen" 1
+ ["Citrus x paradisi" "Oceanía"] "origen" 1
+ ["Ficus rubiginosa" "Oceanía"] "origen" 1
+ ["Araucaria cunninghamii" "Oceanía"] "origen" 1
+ ["Africano" "Polygala myrtifolia"] "origen" 1
+ ["Jasminum humile" "Oriental/Asiático"] "origen" 1
+ ["Lonicera fragrantissima" "Oriental/Asiático"] "origen" 1
+ ["Oriental/Asiático" "Pittosporum tobira"] "origen" 1
+ ["Americano" "Beaucarnea recurvata"] "origen" 1
+ ["Oriental/Asiático" "Punica granatum"] "origen" 1
+ ["Americano" "Ipomoea spp."] "origen" 1
+ ["Impatiens hawkeri" "Oceanía"] "origen" 1
+ ["Brachychiton populneus" "Oceanía"] "origen" 1
+ ["Buxus balearica" "Europeo/Mediterráneo"] "origen" 1
+ ["Europeo/Mediterráneo" "Prunus domestica"] "origen" 1
+ ["Africano" "Podranea ricasoliana"] "origen" 1
+ ["Americano" "Tagetes spp."] "origen" 1
+ ["Jasminum officinale" "Oriental/Asiático"] "origen" 1
+ ["Africano" "Phoenix canariensis"] "origen" 1
+ ["Americano" "Yucca aloifolia"] "origen" 1
+ ["Albizia julibrissin" "Oriental/Asiático"] "origen" 1
+ ["Oriental/Asiático" "Phyllostachys nigra"] "origen" 1
+ ["Americano" "Psidium guajava"] "origen" 1
+ ["Americano" "Nuphar rubrodisca"] "origen" 1
+ ["Acanthus mollis" "Oriental/Asiático"] "origen" 1
+ ["Abelia x grandiflora" "Oriental/Asiático"] "origen" 1
+ ["Ficus retusa" "Oriental/Asiático"] "origen" 1
+ ["Morus nigra" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Taxodium distichum"] "origen" 1
+ ["Africano" "Strelitzia alba"] "origen" 1
+ ["Africano" "Pinus canariensis"] "origen" 1
+ ["Americano" "Cestrum nocturnum"] "origen" 1
+ ["Europeo/Mediterráneo" "Taxus baccata"] "origen" 1
+ ["Africano" "Strelitzia reginae"] "origen" 1
+ ["Americano" "Duranta repens"] "origen" 1
+ ["Europeo/Mediterráneo" "Iris germanica"] "origen" 1
+ ["Oriental/Asiático" "Viburnum suspensum"] "origen" 1
+ ["Aloysia citriodora" "Americano"] "origen" 1
+ ["Americano" "Robinia pseudoacacia"] "origen" 1
+ ["Clerodendrum bungei" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Canna spp."] "origen" 1
+ ["Alocasia odora / A. macrorrhizos" "Oriental/Asiático"] "origen" 1
+ ["Cocculus laurifolius" "Oriental/Asiático"] "origen" 1
+ ["Bambuseae (tribu)" "Oriental/Asiático"] "origen" 1
+ ["Europeo/Mediterráneo" "Phoenix dactylifera"] "origen" 1
+ ["Europeo/Mediterráneo" "Tilia x europaea"] "origen" 1
+ ["Europeo/Mediterráneo" "Viburnum tinus"] "origen" 1
+ ["Europeo/Mediterráneo" "Vitex agnus-castus"] "origen" 1
+ ["Americano" "Peperomia obtusifolia"] "origen" 1
+ ["Americano" "Pyrostegia venusta"] "origen" 1
+ ["Cedrus atlantica" "Europeo/Mediterráneo"] "origen" 1
+ ["Chaenomeles speciosa" "Oriental/Asiático"] "origen" 1
+ ["Ficus pumila" "Oriental/Asiático"] "origen" 1
+ ["Europeo/Mediterráneo" "Ziziphus zizyphus"] "origen" 1
+ ["Oriental/Asiático" "Piper longum"] "origen" 1
+ ["Europeo/Mediterráneo" "Pinus pinea"] "origen" 1
+ ["Africano" "Melianthus major"] "origen" 1
+ ["Oriental/Asiático" "Phyllostachys aurea"] "origen" 1
+ ["Acer negundo var. 'argenteo-variegatum'" "Americano"] "origen" 1
+ ["Myoporum tenuifolium" "Oceanía"] "origen" 1
+ ["Americano" "Liquidambar styraciflua"] "origen" 1
+ ["Africano" "Dombeya x cayeuxii"] "origen" 1
+ ["Euonymus japonicus" "Oriental/Asiático"] "origen" 1
+ ["Oriental/Asiático" "Prunus dulcis"] "origen" 1
+ ["Americano" "Schinus terebinthifolia"] "origen" 1
+ ["Callistemon spp." "Oceanía"] "origen" 1
+ ["Ligustrum sinense" "Oriental/Asiático"] "origen" 1
+ ["Oriental/Asiático" "Photinia serratifolia"] "origen" 1
+ ["Europeo/Mediterráneo" "Viburnum opulus"] "origen" 1
+ ["Africano" "Asparagus aethiopicus"] "origen" 1
+ ["Africano" "Buddleya madagascariensis"] "origen" 1
+ ["Bauhinia variegata / B. purpurea" "Oriental/Asiático"] "origen" 1
+ ["Acacia longifolia" "Oceanía"] "origen" 1
+ ["Oriental/Asiático" "Styphnolobium japonicum"] "origen" 1
+ ["Europeo/Mediterráneo" "Quercus ilex"] "origen" 1
+ ["Africano" "Asparagus densiflorus"] "origen" 1
+ ["Europeo/Mediterráneo" "Pyracantha coccinea"] "origen" 1
+ ["Americano" "Salvia microphylla"] "origen" 1
+ ["Oceanía" "Pittosporum tenuifolium"] "origen" 1
+ ["Americano" "Campsis radicans"] "origen" 1
+ ["Oriental/Asiático" "Santalum album"] "origen" 1
+ ["Casuarina equisetifolia" "Oceanía"] "origen" 1
+ ["Americano" "Catalpa bignonioides"] "origen" 1
+ ["Oriental/Asiático" "Paulownia tomentosa"] "origen" 1
+ ["Aloe vera" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Araucaria araucana / Araucaria spp."] "origen" 1
+ ["Eriobotrya japonica" "Oriental/Asiático"] "origen" 1
+ ["Cycas revoluta" "Oriental/Asiático"] "origen" 1
+ ["Europeo/Mediterráneo" "Quercus suber"] "origen" 1
+ ["Oriental/Asiático" "Trachycarpus fortunei"] "origen" 1
+ ["Arbutus unedo" "Europeo/Mediterráneo"] "origen" 1
+ ["Cotoneaster spp." "Oriental/Asiático"] "origen" 1
+ ["Americano" "Gleditsia triacanthos"] "origen" 1
+ ["Hibiscus syriacus cv. 'White'" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Lantana montevidensis"] "origen" 1
+ ["Europeo/Mediterráneo" "Malus domestica"] "origen" 1
+ ["Americano" "Phytolacca dioica"] "origen" 1
+ ["Ailanthus altissima" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Bauhinia forficata"] "origen" 1
+ ["Americano" "Persea americana"] "origen" 1
+ ["Oriental/Asiático" "Rosa banksiae"] "origen" 1
+ ["Europeo/Mediterráneo" "Pinus pinaster"] "origen" 1
+ ["Howea forsteriana" "Oceanía"] "origen" 1
+ ["Adiantum capillus-veneris" "Europeo/Mediterráneo"] "origen" 1
+ ["Africano" "Senecio lineatus"] "origen" 1
+ ["Abutilon pictum" "Americano"] "origen" 1
+ ["Elaeagnus pungens" "Oriental/Asiático"] "origen" 1
+ ["Citrus reticulata" "Oriental/Asiático"] "origen" 1
+ ["Oriental/Asiático" "Podocarpus neriifolius"] "origen" 1
+ ["Europeo/Mediterráneo" "Rosmarinus officinalis"] "origen" 1
+ ["Oriental/Asiático" "Syzygium aromaticum"] "origen" 1
+ ["Celtis australis" "Europeo/Mediterráneo"] "origen" 1
+ ["Americano" "Thuja plicata"] "origen" 1
+ ["Africano" "Phoenix reclinata"] "origen" 1
+ ["Americano" "Solandra maxima"] "origen" 1
+ ["Americano" "Thuja occidentalis"] "origen" 1
+ ["Africano" "Myrsine africana"] "origen" 1
+ ["Africano" "Encephalartos horridus"] "origen" 1
+ ["Ginkgo biloba" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Lycianthes rantonnetii"] "origen" 1
+ ["Morus alba" "Oriental/Asiático"] "origen" 1
+ ["Ilex crenata" "Oriental/Asiático"] "origen" 1
+ ["Europeo/Mediterráneo" "Hedera helix"] "origen" 1
+ ["Americano" "Araucaria angustifolia"] "origen" 1
+ ["Africano" "Euphorbia ingens"] "origen" 1
+ ["Europeo/Mediterráneo" "Viola odorata"] "origen" 1
+ ["Europeo/Mediterráneo" "Tamarix gallica"] "origen" 1
+ ["Citrus myrtifolia" "Oriental/Asiático"] "origen" 1
+ ["Africano" "Drosanthemum floribundum"] "origen" 1
+ ["Justicia adhatoda" "Oriental/Asiático"] "origen" 1
+ ["Ficus benjamina" "Oriental/Asiático"] "origen" 1
+ ["Europeo/Mediterráneo" "Vinca spp."] "origen" 1
+ ["Cocos nucifera" "Oceanía"] "origen" 1
+ ["Buxus sempervirens" "Europeo/Mediterráneo"] "origen" 1
+ ["Myristica fragrans" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Magnolia grandiflora"] "origen" 1
+ ["Africano" "Dracaena draco"] "origen" 1
+ ["Acacia saligna" "Oceanía"] "origen" 1
+ ["Europeo/Mediterráneo" "Pyrus communis"] "origen" 1
+ ["Americano" "Jacaranda mimosifolia"] "origen" 1
+ ["Grevillea robusta" "Oceanía"] "origen" 1
+ ["Europeo/Mediterráneo" "Populus nigra"] "origen" 1
+ ["Lagerstroemia indica" "Oriental/Asiático"] "origen" 1
+ ["Citrus limetta" "Oriental/Asiático"] "origen" 1
+ ["Europeo/Mediterráneo" "Santolina chamaecyparissus"] "origen" 1
+ ["Americano" "Chamaedorea elegans"] "origen" 1
+ ["Ficus elastica" "Oriental/Asiático"] "origen" 1
+ ["Aspidistra spp." "Oriental/Asiático"] "origen" 1
+ ["Elaeagnus x ebbingei" "Oriental/Asiático"] "origen" 1
+ ["Jasminum mesnyi" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Annona cherimola"] "origen" 1
+ ["Americano" "Washingtonia filifera"] "origen" 1
+ ["Europeo/Mediterráneo" "Pistacia lentiscus"] "origen" 1
+ ["Africano" "Clivia miniata"] "origen" 1
+ ["Chimonanthus praecox" "Oriental/Asiático"] "origen" 1
+ ["Cinnamomum cassia / C. verum" "Oriental/Asiático"] "origen" 1
+ ["Citrus maxima" "Oceanía"] "origen" 1
+ ["Americano" "Cortaderia selloana"] "origen" 1
+ ["Oriental/Asiático" "Tetrastigma voinerianum"] "origen" 1
+ ["Aesculus hippocastanum" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Handroanthus heptaphyllus / H. impetiginosus"] "origen" 1
+ ["Americano" "Brugmansia arborea"] "origen" 1
+ ["Europeo/Mediterráneo" "Populus alba"] "origen" 1
+ ["Nandina domestica" "Oriental/Asiático"] "origen" 1
+ ["Europeo/Mediterráneo" "Laurus nobilis"] "origen" 1
+ ["Europeo/Mediterráneo" "Phragmites australis"] "origen" 1
+ ["Oriental/Asiático" "Wisteria sinensis"] "origen" 1
+ ["Africano" "Aloe maculata"] "origen" 1
+ ["Americano" "Cuphea hyssopifolia"] "origen" 1
+ ["Africano" "Agapanthus umbellatus"] "origen" 1
+ ["Firmiana simplex" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Cascabela thevetia"] "origen" 1
+ ["Cinnamomum camphora" "Oriental/Asiático"] "origen" 1
+ ["Europeo/Mediterráneo" "Ulmus glabra"] "origen" 1
+ ["Oriental/Asiático" "Salix spp."] "origen" 1
+ ["Bergenia crassifolia" "Oriental/Asiático"] "origen" 1
+ ["Europeo/Mediterráneo" "Platanus orientalis"] "origen" 1
+ ["Europeo/Mediterráneo" "Philadelphus coronarius / Deutzia scabra"] "origen" 1
+ ["Americano" "Malvaviscus arboreus"] "origen" 1
+ ["Americano" "Justicia carnea"] "origen" 1
+ ["Chaenomeles japonica" "Oriental/Asiático"] "origen" 1
+ ["Cercis siliquastrum" "Europeo/Mediterráneo"] "origen" 1
+ ["Americano" "Ananas comosus"] "origen" 1
+ ["Europeo/Mediterráneo" "Philadelphus coronarius"] "origen" 1
+ ["Chamaerops humilis" "Europeo/Mediterráneo"] "origen" 1
+ ["Europeo/Mediterráneo" "Olea europaea"] "origen" 1
+ ["Musa acuminata" "Oriental/Asiático"] "origen" 1
+ ["Americano" "Zinnia elegans"] "origen" 1
+ ["Americano" "Cestrum elegans"] "origen" 1
+ ["Europeo/Mediterráneo" "Lavandula angustifolia"] "origen" 1
+ ["Africano" "Ricinus communis"] "origen" 1
+ ["Americano" "Washingtonia robusta"] "origen" 1
+ ["Europeo/Mediterráneo" "Rhamnus alaternus"] "origen" 1
+ ["Cistus albidus" "Europeo/Mediterráneo"] "origen" 1
+ ["Cyperus papyrus" "Europeo/Mediterráneo"] "origen" 1
+ ["Europeo/Mediterráneo" "Platanus x hispanica"] "origen" 1
+ ["Americano" "Celtis occidentalis"] "origen" 1
+ ["Americano" "Carya illinoinensis"] "origen" 1
+ ["Americano" "Brugmansia suaveolens"] "origen" 1
+ ["Europeo/Mediterráneo" "Teucrium fruticans"] "origen" 1
+ ["Americano" "Feijoa sellowiana"] "origen" 1
+ "<EndEdges>"
+
+ "% Edges & HyperEdges of the graph. Edges of type:" "type"
+ "<Edges>"
+ "ID-List(X)" "EdgeType(S)" "multiplicity"
+ ["Arbusto" "Rhamnus alaternus"] "type" 1
+ ["Araucaria bidwillii" "Árbol"] "type" 1
+ ["Quercus suber" "Árbol"] "type" 1
+ ["Arbusto" "Arbutus unedo"] "type" 1
+ ["Tipuana tipu" "Árbol"] "type" 1
+ ["Prunus cerasifera var. 'pissardii'" "Árbol"] "type" 1
+ ["Planta" "Vinca spp."] "type" 1
+ ["Ailanthus altissima" "Árbol"] "type" 1
+ ["Arbusto" "Ilex crenata"] "type" 1
+ ["Lagerstroemia indica" "Árbol"] "type" 1
+ ["Arbusto" "Caesalpinia gilliesii"] "type" 1
+ ["Acuática" "Cyperus papyrus"] "type" 1
+ ["Arbusto" "Nerium oleander"] "type" 1
+ ["Palmera" "Trachycarpus fortunei"] "type" 1
+ ["Planta" "Zingiber spp."] "type" 1
+ ["Palmera" "Yucca elephantipes"] "type" 1
+ ["Arbusto" "Rosmarinus officinalis"] "type" 1
+ ["Arbusto" "Viburnum opulus"] "type" 1
+ ["Arbusto" "Cestrum fasciculatum"] "type" 1
+ ["Araucaria araucana / Araucaria spp." "Árbol"] "type" 1
+ ["Palmera" "Syagrus romanzoffiana"] "type" 1
+ ["Arbusto" "Brugmansia arborea"] "type" 1
+ ["Planta" "Zinnia elegans"] "type" 1
+ ["Dracaena draco" "Árbol"] "type" 1
+ ["Planta" "Senecio lineatus"] "type" 1
+ ["Enredadera" "Ipomoea spp."] "type" 1
+ ["Butia capitata" "Palmera"] "type" 1
+ ["Juglans nigra" "Árbol"] "type" 1
+ ["Platanus orientalis" "Árbol"] "type" 1
+ ["Citrus reticulata" "Árbol"] "type" 1
+ ["Thuja occidentalis" "Árbol"] "type" 1
+ ["Enredadera" "Podranea ricasoliana"] "type" 1
+ ["Planta" "Yucca aloifolia"] "type" 1
+ ["Ulmus glabra" "Árbol"] "type" 1
+ ["Cinnamomum camphora" "Árbol"] "type" 1
+ ["Ulmus pumila" "Árbol"] "type" 1
+ ["Enredadera" "Jasminum officinale"] "type" 1
+ ["Pyrus calleryana" "Árbol"] "type" 1
+ ["Planta" "Senecio petasitis"] "type" 1
+ ["Parkinsonia aculeata" "Árbol"] "type" 1
+ ["Enredadera" "Jasminum grandiflorum"] "type" 1
+ ["Arbusto" "Philadelphus coronarius / Deutzia scabra"] "type" 1
+ ["Punica granatum" "Árbol"] "type" 1
+ ["Melia azedarach" "Árbol"] "type" 1
+ ["Arbusto" "Chaenomeles japonica"] "type" 1
+ ["Arbusto" "Philadelphus coronarius"] "type" 1
+ ["Iris germanica" "Planta"] "type" 1
+ ["Syzygium aromaticum" "Árbol"] "type" 1
+ ["Planta" "Polygala myrtifolia"] "type" 1
+ ["Mirabilis jalapa" "Planta"] "type" 1
+ ["Eucalyptus camaldulensis" "Árbol"] "type" 1
+ ["Cinnamomum cassia / C. verum" "Árbol"] "type" 1
+ ["Phyllostachys aurea" "Planta"] "type" 1
+ ["Palmera" "Phoenix canariensis"] "type" 1
+ ["Campsis radicans" "Enredadera"] "type" 1
+ ["Ficus macrophylla" "Árbol"] "type" 1
+ ["Cercis siliquastrum" "Árbol"] "type" 1
+ ["Eucalyptus globulus" "Árbol"] "type" 1
+ ["Malus domestica" "Árbol"] "type" 1
+ ["Arbusto" "Myrtus communis"] "type" 1
+ ["Cascabela thevetia" "Árbol"] "type" 1
+ ["Arbusto" "Pistacia lentiscus"] "type" 1
+ ["Enredadera" "Piper longum"] "type" 1
+ ["Arbusto" "Aucuba japonica"] "type" 1
+ ["Taxus baccata" "Árbol"] "type" 1
+ ["Enredadera" "Jasminum humile"] "type" 1
+ ["Eriobotrya japonica" "Árbol"] "type" 1
+ ["Cocos nucifera" "Palmera"] "type" 1
+ ["Morus kagayamae" "Árbol"] "type" 1
+ ["Arbusto" "Cistus albidus"] "type" 1
+ ["Podocarpus neriifolius" "Árbol"] "type" 1
+ ["Prunus persica" "Árbol"] "type" 1
+ ["Liquidambar styraciflua" "Árbol"] "type" 1
+ ["Koelreuteria paniculata" "Árbol"] "type" 1
+ ["Musa acuminata" "Planta"] "type" 1
+ ["Asparagus densiflorus" "Planta"] "type" 1
+ ["Planta" "Santolina chamaecyparissus"] "type" 1
+ ["Ulmus minor" "Árbol"] "type" 1
+ ["Enredadera" "Pandorea jasminoides"] "type" 1
+ ["Enredadera" "Solandra maxima"] "type" 1
+ ["Prunus dulcis" "Árbol"] "type" 1
+ ["Schinus polygama" "Árbol"] "type" 1
+ ["Abutilon pictum" "Arbusto"] "type" 1
+ ["Planta" "Zantedeschia aethiopica"] "type" 1
+ ["Arbusto" "Buxus balearica"] "type" 1
+ ["Acanthus mollis" "Planta"] "type" 1
+ ["Nephrolepis spp." "Planta"] "type" 1
+ ["Quercus ilex" "Árbol"] "type" 1
+ ["Araucaria angustifolia" "Árbol"] "type" 1
+ ["Arbusto" "Justicia carnea"] "type" 1
+ ["Citrus spp." "Árbol"] "type" 1
+ ["Aesculus hippocastanum" "Árbol"] "type" 1
+ ["Arbusto" "Russelia equisetiformis"] "type" 1
+ ["Handroanthus heptaphyllus / H. impetiginosus" "Árbol"] "type" 1
+ ["Arbusto" "Pittosporum coriaceum"] "type" 1
+ ["Planta" "Spiraea cantoniensis"] "type" 1
+ ["Arbusto" "Chaenomeles speciosa"] "type" 1
+ ["Enredadera" "Hedera helix"] "type" 1
+ ["Citrus limetta" "Árbol"] "type" 1
+ ["Opuntia spp." "Otras"] "type" 1
+ ["Planta" "Pyrostegia venusta"] "type" 1
+ ["Enredadera" "Jasminum mesnyi"] "type" 1
+ ["Cycas revoluta" "Palmera"] "type" 1
+ ["Citrus x paradisi" "Árbol"] "type" 1
+ ["Psidium guajava" "Árbol"] "type" 1
+ ["Mespilus germanica" "Árbol"] "type" 1
+ ["Musa x paradisiaca" "Planta"] "type" 1
+ ["Enredadera" "Piper nigrum"] "type" 1
+ ["Enredadera" "Muehlenbeckia complexa"] "type" 1
+ ["Aloe vera" "Planta"] "type" 1
+ ["Pyrus communis" "Árbol"] "type" 1
+ ["Arbusto" "Hibiscus syriacus"] "type" 1
+ ["Ziziphus zizyphus" "Árbol"] "type" 1
+ ["Bambuseae (tribu)" "Planta"] "type" 1
+ ["Palmera" "Phoenix reclinata"] "type" 1
+ ["Carpinus betulus" "Árbol"] "type" 1
+ ["Arbusto" "Pittosporum tenuifolium"] "type" 1
+ ["Arbusto" "Hibiscus syriacus cv. 'White'"] "type" 1
+ ["Schinus molle" "Árbol"] "type" 1
+ ["Schefflera actinophylla" "Árbol"] "type" 1
+ ["Ficus benjamina" "Árbol"] "type" 1
+ ["Planta" "Senecio kleinia"] "type" 1
+ ["Drosanthemum floribundum" "Planta"] "type" 1
+ ["Beaucarnea recurvata" "Palmera"] "type" 1
+ ["Clivia miniata" "Planta"] "type" 1
+ ["Cocculus laurifolius" "Árbol"] "type" 1
+ ["Salix spp." "Árbol"] "type" 1
+ ["Enredadera" "Rosa banksiae"] "type" 1
+ ["Acer pseudoplatanus" "Árbol"] "type" 1
+ ["Planta" "Solanum bonariense"] "type" 1
+ ["Lantana montevidensis" "Planta"] "type" 1
+ ["Arbusto" "Tamarix gallica"] "type" 1
+ ["Cyperus alternifolius / C. involucratus" "Planta"] "type" 1
+ ["Hemerocallis spp." "Planta"] "type" 1
+ ["Melicoccus bijugatus" "Árbol"] "type" 1
+ ["Fraxinus ornus" "Árbol"] "type" 1
+ ["Palmera" "Washingtonia filifera"] "type" 1
+ ["Arbusto" "Pittosporum tobira"] "type" 1
+ ["Prunus cerasifera" "Árbol"] "type" 1
+ ["Planta" "Tulbaghia violacea"] "type" 1
+ ["Adiantum capillus-veneris" "Planta"] "type" 1
+ ["Ficus microcarpa" "Árbol"] "type" 1
+ ["Arbusto" "Hibiscus rosa-sinensis"] "type" 1
+ ["Citrus aurantium" "Árbol"] "type" 1
+ ["Arbusto" "Pyracantha coccinea"] "type" 1
+ ["Pennisetum setaceum" "Planta"] "type" 1
+ ["Araucaria columnaris" "Árbol"] "type" 1
+ ["Pinus canariensis" "Árbol"] "type" 1
+ ["Palmera" "Washingtonia robusta"] "type" 1
+ ["Bauhinia variegata / B. purpurea" "Árbol"] "type" 1
+ ["Arbusto" "Justicia adhatoda"] "type" 1
+ ["Photinia serratifolia" "Árbol"] "type" 1
+ ["Peperomia obtusifolia" "Planta"] "type" 1
+ ["Arbusto" "Ligustrum sinense"] "type" 1
+ ["Grevillea robusta" "Árbol"] "type" 1
+ ["Bougainvillea spp." "Enredadera"] "type" 1
+ ["Nandina domestica" "Planta"] "type" 1
+ ["Dombeya x cayeuxii" "Árbol"] "type" 1
+ ["Elaeagnus angustifolia" "Árbol"] "type" 1
+ ["Brachychiton populneus" "Árbol"] "type" 1
+ ["Erythrina crista-galli" "Árbol"] "type" 1
+ ["Planta" "Umbilicus rupestris"] "type" 1
+ ["Impatiens hawkeri" "Planta"] "type" 1
+ ["Acer negundo var. 'argenteo-variegatum'" "Árbol"] "type" 1
+ ["Arbusto" "Myoporum tenuifolium"] "type" 1
+ ["Casuarina equisetifolia" "Árbol"] "type" 1
+ ["Ceratonia siliqua" "Árbol"] "type" 1
+ ["Asparagus aethiopicus" "Planta"] "type" 1
+ ["Arbusto" "Callistemon spp."] "type" 1
+ ["Arbusto" "Clerodendrum bungei"] "type" 1
+ ["Handroanthus chrysanthus / H. albus" "Árbol"] "type" 1
+ ["Arbusto" "Buxus sempervirens"] "type" 1
+ ["Howea forsteriana" "Palmera"] "type" 1
+ ["Ficus elastica" "Árbol"] "type" 1
+ ["Arbusto" "Viburnum tinus"] "type" 1
+ ["Arbusto" "Chimonanthus praecox"] "type" 1
+ ["Alcea rosea" "Planta"] "type" 1
+ ["Ligustrum lucidum" "Árbol"] "type" 1
+ ["Pinus pinea" "Árbol"] "type" 1
+ ["Morus alba" "Árbol"] "type" 1
+ ["Paulownia tomentosa" "Árbol"] "type" 1
+ ["Agapanthus umbellatus" "Planta"] "type" 1
+ ["Planta" "Yucca gloriosa"] "type" 1
+ ["Brachychiton acerifolius" "Árbol"] "type" 1
+ ["Cortaderia selloana" "Planta"] "type" 1
+ ["Centaurea cineraria" "Planta"] "type" 1
+ ["Duranta repens" "Árbol"] "type" 1
+ ["Arbusto" "Leucaena leucocephala"] "type" 1
+ ["Taxodium distichum" "Árbol"] "type" 1
+ ["Acacia saligna" "Arbusto"] "type" 1
+ ["Fraxinus excelsior" "Árbol"] "type" 1
+ ["Catalpa bignonioides" "Árbol"] "type" 1
+ ["Bergenia crassifolia" "Planta"] "type" 1
+ ["Phytolacca dioica" "Árbol"] "type" 1
+ ["Jacaranda mimosifolia" "Árbol"] "type" 1
+ ["Chamaedorea elegans" "Palmera"] "type" 1
+ ["Tetraclinis articulata" "Árbol"] "type" 1
+ ["Olea europaea" "Árbol"] "type" 1
+ ["Firmiana simplex" "Árbol"] "type" 1
+ ["Arbusto" "Hibiscus mutabilis"] "type" 1
+ ["Fagus sylvatica" "Árbol"] "type" 1
+ ["Arbusto" "Rosa spp."] "type" 1
+ ["Chamaedorea seifrizii" "Palmera"] "type" 1
+ ["Myristica fragrans" "Árbol"] "type" 1
+ ["Muehlenbeckia platyclados" "Planta"] "type" 1
+ ["Ficus carica" "Árbol"] "type" 1
+ ["Albizia procera" "Árbol"] "type" 1
+ ["Arbusto" "Buddleya madagascariensis"] "type" 1
+ ["Lagunaria patersonia" "Árbol"] "type" 1
+ ["Arbusto" "Ligustrum ovalifolium"] "type" 1
+ ["Palmera" "Rhapis excelsa"] "type" 1
+ ["Planta" "Strelitzia alba"] "type" 1
+ ["Arbusto" "Viburnum suspensum"] "type" 1
+ ["Cordyline fruticosa" "Planta"] "type" 1
+ ["Styphnolobium japonicum" "Árbol"] "type" 1
+ ["Celosia plumosa" "Planta"] "type" 1
+ ["Arbusto" "Euphorbia pulcherrima"] "type" 1
+ ["Narcissus spp." "Planta"] "type" 1
+ ["Ficus rubiginosa" "Árbol"] "type" 1
+ ["Ginkgo biloba" "Árbol"] "type" 1
+ ["Montanoa bipinnatifida" "Planta"] "type" 1
+ ["Euphorbia ingens" "Planta"] "type" 1
+ ["Aspidistra spp." "Planta"] "type" 1
+ ["Planta" "Tagetes spp."] "type" 1
+ ["Matthiola incana" "Planta"] "type" 1
+ ["Cupressus arizonica" "Árbol"] "type" 1
+ ["Planta" "Tetrastigma voinerianum"] "type" 1
+ ["Livistona chinensis" "Palmera"] "type" 1
+ ["Planta" "Semiarundinaria fastuosa"] "type" 1
+ ["Palmera" "Sabal minor"] "type" 1
+ ["Cupressus macrocarpa" "Árbol"] "type" 1
+ ["Agave americana" "Planta"] "type" 1
+ ["Arbusto" "Elaeagnus x ebbingei"] "type" 1
+ ["Broussonetia papyrifera" "Árbol"] "type" 1
+ ["Robinia pseudoacacia" "Árbol"] "type" 1
+ ["Arbusto" "Elaeagnus pungens"] "type" 1
+ ["Archontophoenix alexandrae" "Palmera"] "type" 1
+ ["Celtis occidentalis" "Árbol"] "type" 1
+ ["Gleditsia triacanthos" "Árbol"] "type" 1
+ ["Arbusto" "Crataegus monogyna"] "type" 1
+ ["Arbusto" "Schefflera arboricola"] "type" 1
+ ["Lycianthes rantonnetii" "Planta"] "type" 1
+ ["Asparagus setaceus" "Planta"] "type" 1
+ ["Arbusto" "Viburnum odoratissimum"] "type" 1
+ ["Citrus x limon" "Árbol"] "type" 1
+ ["Persea americana" "Árbol"] "type" 1
+ ["Arbusto" "Plumbago auriculata"] "type" 1
+ ["Arbusto" "Salvia microphylla"] "type" 1
+ ["Albizia julibrissin" "Árbol"] "type" 1
+ ["Enredadera" "Vitis vinifera / Vitis spp."] "type" 1
+ ["Tilia platyphyllos" "Árbol"] "type" 1
+ ["Arbusto" "Brugmansia suaveolens"] "type" 1
+ ["Arbusto" "Myrsine africana"] "type" 1
+ ["Planta" "Ricinus communis"] "type" 1
+ ["Santalum album" "Árbol"] "type" 1
+ ["Cestrum elegans" "Enredadera"] "type" 1
+ ["Planta" "Viola odorata"] "type" 1
+ ["Chlorophytum comosum" "Planta"] "type" 1
+ ["Citrus maxima" "Árbol"] "type" 1
+ ["Laurus nobilis" "Árbol"] "type" 1
+ ["Tilia x europaea" "Árbol"] "type" 1
+ ["Phormium tenax" "Planta"] "type" 1
+ ["Arbusto" "Berberis x chenaultii"] "type" 1
+ ["Planta" "Sesamum indicum"] "type" 1
+ ["Planta" "Salvia officinalis"] "type" 1
+ ["Arbusto" "Platycladus orientalis"] "type" 1
+ ["Chasmanthe aethiopica" "Planta"] "type" 1
+ ["Arbusto" "Euonymus japonicus"] "type" 1
+ ["Planta" "Ruscus spp."] "type" 1
+ ["Alocasia odora / A. macrorrhizos" "Planta"] "type" 1
+ ["Cupressus sempervirens" "Árbol"] "type" 1
+ ["Gaura lindheimeri" "Planta"] "type" 1
+ ["Arbusto" "Malvaviscus arboreus"] "type" 1
+ ["Canna spp." "Planta"] "type" 1
+ ["Citrus myrtifolia" "Árbol"] "type" 1
+ ["Enredadera" "Jasminum azoricum"] "type" 1
+ ["Cedrus atlantica" "Árbol"] "type" 1
+ ["Planta" "Pseudosasa japonica"] "type" 1
+ ["Enredadera" "Ficus pumila"] "type" 1
+ ["Arbusto" "Lavandula angustifolia"] "type" 1
+ ["Quercus robur" "Árbol"] "type" 1
+ ["Arbusto" "Photinia x fraseri"] "type" 1
+ ["Bauhinia forficata" "Árbol"] "type" 1
+ ["Aesculus x carnea" "Árbol"] "type" 1
+ ["Araucaria cunninghamii" "Árbol"] "type" 1
+ ["Pinus halepensis" "Árbol"] "type" 1
+ ["Pinus pinaster" "Árbol"] "type" 1
+ ["Arbusto" "Lantana camara"] "type" 1
+ ["Carya illinoinensis" "Árbol"] "type" 1
+ ["Encephalartos horridus" "Palmera"] "type" 1
+ ["Enredadera" "Tecoma capensis"] "type" 1
+ ["Arbusto" "Lonicera fragrantissima"] "type" 1
+ ["Phragmites australis" "Planta"] "type" 1
+ ["Fraxinus angustifolia" "Árbol"] "type" 1
+ ["Melianthus major" "Planta"] "type" 1
+ ["Annona cherimola" "Árbol"] "type" 1
+ ["Platanus x hispanica" "Árbol"] "type" 1
+ ["Phyllostachys nigra" "Planta"] "type" 1
+ ["Cuphea hyssopifolia" "Planta"] "type" 1
+ ["Planta" "Sinapis alba"] "type" 1
+ ["Arbusto" "Photinia glabra"] "type" 1
+ ["Enredadera" "Rubus ulmifolius"] "type" 1
+ ["Arbusto" "Cotoneaster spp."] "type" 1
+ ["Planta" "Wisteria sinensis"] "type" 1
+ ["Morus nigra" "Árbol"] "type" 1
+ ["Populus nigra" "Árbol"] "type" 1
+ ["Citrus x sinensis" "Árbol"] "type" 1
+ ["Arbusto" "Teucrium fruticans"] "type" 1
+ ["Ceiba speciosa" "Árbol"] "type" 1
+ ["Feijoa sellowiana" "Árbol"] "type" 1
+ ["Abelia x grandiflora" "Arbusto"] "type" 1
+ ["Ligustrum japonicum" "Árbol"] "type" 1
+ ["Diospyros kaki" "Árbol"] "type" 1
+ ["Magnolia grandiflora" "Árbol"] "type" 1
+ ["Carex pendula" "Planta"] "type" 1
+ ["Chamaerops humilis" "Palmera"] "type" 1
+ ["Aloe maculata" "Planta"] "type" 1
+ ["Cycas circinalis" "Palmera"] "type" 1
+ ["Thuja plicata" "Árbol"] "type" 1
+ ["Populus alba" "Árbol"] "type" 1
+ ["Prunus domestica" "Árbol"] "type" 1
+ ["Aeonium arboreum" "Planta"] "type" 1
+ ["Enredadera" "Lonicera japonica"] "type" 1
+ ["Celtis australis" "Árbol"] "type" 1
+ ["Acer negundo" "Árbol"] "type" 1
+ ["Planta" "Strelitzia reginae"] "type" 1
+ ["Planta" "Vitex agnus-castus"] "type" 1
+ ["Planta" "Vigna caracalla"] "type" 1
+ ["Acuática" "Nymphaea alba"] "type" 1
+ ["Acuática" "Nuphar rubrodisca"] "type" 1
+ ["Monstera deliciosa" "Planta"] "type" 1
+ ["Diospyros virginiana" "Árbol"] "type" 1
+ ["Palmera" "Phoenix dactylifera"] "type" 1
+ ["Acacia longifolia" "Árbol"] "type" 1
+ ["Arbusto" "Cestrum nocturnum"] "type" 1
+ ["Ficus retusa" "Árbol"] "type" 1
+ ["Acokanthera oblongifolia" "Arbusto"] "type" 1
+ ["Cedrus deodara" "Árbol"] "type" 1
+ ["Schinus terebinthifolia" "Árbol"] "type" 1
+ ["Ananas comosus" "Planta"] "type" 1
+ ["Aloysia citriodora" "Planta"] "type" 1
+ ["Alpinia zerumbet" "Planta"] "type" 1
+ "<EndEdges>"
+
+ "% Edges & HyperEdges of the graph. Edges of type:" "flower_month"
+ "<Edges>"
+ "ID-List(X)" "EdgeType(S)" "multiplicity"
